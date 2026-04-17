@@ -1,0 +1,63 @@
+{
+  "id": 29,
+  "title": "The Flinch",
+  "source_text": "Vivekachudamani — Narrative Series",
+  "story_reference": "Based on story-002-the-rope-and-the-snake.md, scene: the disciple sees the snake in the dark and grabs the Guru's arm",
+  "verse_reference": "Verse 199 (rope-snake analogy)",
+  "duration": "60 seconds",
+  "hook": "He saw a snake in the dark. His body believed it before his mind could speak. His heart was already racing.",
+  "script": [
+    {
+      "time": "0-5s",
+      "visual": "Dusk. A narrow forest path. Shot from low, from the ground. Copper light bleeding through trees. Two sets of feet walking.",
+      "voiceover": "They were walking along the river at dusk. The sun was going down.",
+      "text_overlay": ""
+    },
+    {
+      "time": "5-15s",
+      "visual": "Follow shot of the two walking. The Guru a few steps ahead, white cloth catching the last light. The path narrows. Shadows pool between roots.",
+      "voiceover": "The old man moved the way men move who have walked a path ten thousand times. The disciple followed. His mind was still loud.",
+      "text_overlay": ""
+    },
+    {
+      "time": "15-22s",
+      "visual": "Abrupt shift in sound — a single low note, almost subsonic. The camera sees, before the disciple does, something coiled in the leaves. Thick-bodied. Patterned. Motionless.",
+      "voiceover": "Then the disciple saw it.",
+      "text_overlay": ""
+    },
+    {
+      "time": "22-30s",
+      "visual": "Extreme close-up: the coil. Then the disciple's face — a full-body flinch. Heart pounding. He grabs the Guru's arm, hard. His breathing goes ragged.",
+      "voiceover": "His body reacted before his mind could. Heart slamming. Breath catching. Feet stumbling back.",
+      "text_overlay": ""
+    },
+    {
+      "time": "30-38s",
+      "visual": "The disciple points, hand shaking. 'Stop — there. A snake.' The Guru does not flinch. The Guru looks. Long beat.",
+      "voiceover": "'Stop,' he said. 'A snake.'",
+      "text_overlay": ""
+    },
+    {
+      "time": "38-48s",
+      "visual": "Without a word, the Guru walks forward, bends down, picks it up. The camera sees what the disciple now sees. It is a rope. Frayed. Old. Someone tied a boat to a tree upstream once.",
+      "voiceover": "The old man did not flinch. He walked forward. He bent down. He picked it up.",
+      "text_overlay": ""
+    },
+    {
+      "time": "48-56s",
+      "visual": "Close on the disciple's face. The adrenaline drains. His hands are still shaking. He exhales, hollow and foolish. The Guru holds the rope, quiet.",
+      "voiceover": "The Guru said: 'Feel your heart. It is still racing, yes?' The disciple nodded. 'From what?'",
+      "text_overlay": ""
+    },
+    {
+      "time": "56-60s",
+      "visual": "Hold on the rope in the Guru's open palm. Black frame. One word.",
+      "voiceover": "'There was no snake. There was never a snake.'",
+      "text_overlay": "māyā"
+    }
+  ],
+  "cta": "Scene three. The body was terrified. The mind was certain. Nothing that caused the fear existed.",
+  "caption": "He saw a snake. His heart raced. His hands shook. Adrenaline flooded his body.\n\nIt was a rope.\n\nThe Vivekachudamani uses this image to explain Māyā — the force that makes the nervous system react, completely, to something that was never there.\n\nHow much of what you are afraid of right now falls into the same category?\n\nmāyā",
+  "music_suggestion": "Diegetic only at the start — footsteps, distant water, forest ambience. A single sub-bass note enters at 15s, just below audibility, and sits there for 15 seconds. When the Guru picks it up, the note cuts — dead silence — for four seconds. Then a single sustained cello enters, unresolved, for the closing image.",
+  "casting_notes": "Two characters: The Seeker (mid-30s to 40s, modern-dressed in simple linen now, no longer corporate — he has been at the ashram a week) and The Guru (older, economy of movement, does not startle). The scene needs a real rope — coiled, frayed, about the thickness of a pond snake — and shooting at actual dusk, not simulated. If actors unavailable: shoot in first-person POV, hands only, with footsteps and breath as the primary soundtrack."
+}

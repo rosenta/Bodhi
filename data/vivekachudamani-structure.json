@@ -1,0 +1,1848 @@
+{
+  "title": "Vivekachudamani - Complete Structural Map",
+  "author": "Adi Shankaracharya",
+  "total_verses": 580,
+  "narrative_arc": "A disciple crushed by existential suffering approaches a realized guru on the banks of a river. Through systematic teaching, the guru strips away every false identity -- body, senses, mind, intellect, even bliss -- until only the Self remains. The disciple awakens, sings his realization, and the guru blesses him. The liberated one walks free.",
+  "dramatic_structure": "Four-act structure: Crisis (1-71), Deconstruction (72-370), Recognition (371-520), Liberation (521-580)",
+  "title_sequence_as_compressed_teaching": "Read only the section titles in order and you receive the entire teaching in compressed form: Begin with reverence (Mangalacharan). Understand the stakes (Brahmanishtha ka Mahatva). Learn the method (Jnanopalabdhi ka Upaya). Check your readiness (Adhikari Nirupanam). Build the four foundations (Sadhana Chatushtaya). Approach the teacher (Gurupasatti). Receive assurance (Upadesha Vidhi). Ask the real questions (Prashna Nirupanam). Accept responsibility (Sva-prayatna ki Pradhanta). Strip the body (Sthula Sharira). Strip the senses (Das Indriyan). Strip the mind (Manomaya Kosha). Strip the intellect (Vijnanamaya Kosha). Strip even bliss (Anandamaya Kosha). See what remains (Atmasvarupa Nirupanam). Contemplate unity (Mahavakya Vichara). Practice identity (Brahma Bhavana). Destroy vasanas. Slay the ego. Enter samadhi. Wake up (Bodhopalabdhi). Walk free (Shishya ki Vidai).",
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "Invocation (Mangalacharan)",
+      "title_hindi": "मंगलाचरण",
+      "title_meaning": "Every sacred text begins with invocation -- this teaches that wisdom cannot be approached casually. You must first create a sacred container. The very first verse is not information but orientation: it tells you that what follows requires reverence, not intellect alone.",
+      "title_sanskrit_significance": "Mangala = auspicious, acharan = conduct/beginning. The very first act is to invoke auspiciousness -- teaching that attitude precedes knowledge. In the Vedantic tradition, no teaching begins without acknowledging the lineage and the grace that makes understanding possible.",
+      "title_as_instruction": "Before seeking truth, pause. Create reverence. The quality of your seeking determines what you find.",
+      "verse_range": [
+        1,
+        1
+      ],
+      "verse_count": 1,
+      "summary": "Shankara opens with a prostration to his guru Govindapada, who is described as the embodiment of supreme bliss and the goal of all Vedantic conclusions, yet beyond the reach of ordinary knowledge. This single verse establishes the entire framework: liberation comes through a living teacher, not mere study.",
+      "narrative_role": "Prologue -- sets the sacred container. Like a filmmaker's dedication before the story begins.",
+      "emotional_arc": "Reverence, humility, setting intention",
+      "key_concepts": [
+        "guru-bhakti",
+        "Vedanta-siddhanta",
+        "parama-ananda",
+        "sadguru"
+      ],
+      "connection_to_next": "Having bowed to the teacher who embodies the destination, Shankara now establishes why this journey matters at all -- the staggering rarity of the opportunity.",
+      "connection_to_previous": null,
+      "modern_parallel": "Like the opening frame of a documentary that shows you where the story ends before taking you back to the beginning -- you glimpse the destination (supreme bliss through a teacher) before the crisis even begins."
+    },
+    {
+      "section_number": 2,
+      "title": "The Importance of Devotion to Brahman",
+      "title_hindi": "ब्रह्मनिष्ठाका महत्त्व",
+      "title_meaning": "Before any technique is taught, the text establishes WHY -- devotion to ultimate reality is the most important thing a human can do. The title announces that this is not philosophy for entertainment but a matter of existential urgency across lifetimes.",
+      "title_sanskrit_significance": "Brahma-nishtha = steadfast devotion to Brahman. Nishtha implies unwavering commitment -- not casual interest but life-orienting dedication. The compound word itself demands that Brahman become the axis around which your entire existence revolves.",
+      "title_as_instruction": "Make the search for truth your highest priority. Everything else is secondary. Ask yourself: what am I actually devoted to?",
+      "verse_range": [
+        2,
+        5
+      ],
+      "verse_count": 4,
+      "summary": "Human birth is impossibly rare. Rarer still is the desire for liberation. Rarest of all is the triad: human birth, burning desire for freedom, and the shelter of a great soul. Anyone who squanders this opportunity is committing spiritual suicide. These verses create volcanic urgency.",
+      "narrative_role": "The Wake-Up Call -- establishes stakes. This is not casual philosophy; it is a matter of life and death across lifetimes.",
+      "emotional_arc": "Urgency, awe at the rarity of this moment, fear of squandering it",
+      "key_concepts": [
+        "nara-janma-durlabha",
+        "mumukshutva",
+        "mahapurusha-samshraya",
+        "atma-ha"
+      ],
+      "connection_to_next": "Having established WHY this matters, Shankara must now show HOW -- what is the actual method?",
+      "connection_to_previous": "The invocation honored the teacher; now we learn why finding such a teacher is cosmically rare.",
+      "modern_parallel": "Like a doctor telling a patient: 'You have a rare condition. The treatment exists, but most people never seek it. You are one of the few who walked into this office. Do not waste this.'"
+    },
+    {
+      "section_number": 3,
+      "title": "The Means to Knowledge",
+      "title_hindi": "ज्ञानोपलब्धिका उपाय",
+      "title_meaning": "The title reveals that knowledge is not automatic -- it requires a specific means. Shankara is saying: there is a method, and most of what you think is the method is not. Before showing the right path, he must demolish the wrong ones.",
+      "title_sanskrit_significance": "Jnana = knowledge, upalabdhi = attainment/acquisition, upaya = means/method. The compound insists that self-knowledge is not accidental but requires a precise methodology -- inquiry (vichara), not ritual, action, or scholarship.",
+      "title_as_instruction": "Stop assuming your current spiritual practice will automatically lead to truth. Ask honestly: is my method capable of revealing reality, or is it just making me feel better?",
+      "verse_range": [
+        6,
+        13
+      ],
+      "verse_count": 8,
+      "summary": "No amount of ritual, worship, action, or learning can substitute for direct self-knowledge. Action purifies the mind but cannot reveal Reality. The rope-snake analogy appears: just as careful investigation reveals the rope was never a snake, inquiry alone reveals the Self. External practices -- bathing, charity, even pranayama -- cannot produce this realization.",
+      "narrative_role": "Clearing the ground -- demolishing false paths before revealing the true one.",
+      "emotional_arc": "Sobering disillusionment with familiar spiritual methods, dawning clarity about inquiry",
+      "key_concepts": [
+        "atma-aikya-bodha",
+        "karma vs jnana",
+        "rajju-sarpa (rope-snake)",
+        "vichara",
+        "chitta-shuddhi"
+      ],
+      "connection_to_next": "Having established that inquiry is the only path, the question becomes: who is qualified for this inquiry?",
+      "connection_to_previous": "The urgency has been established (section 2). Now the false remedies are eliminated to focus the seeker's energy.",
+      "modern_parallel": "Like a startup founder realizing that hustle culture, networking events, and motivational podcasts will never substitute for actually building the product. Only the work of building reveals the truth."
+    },
+    {
+      "section_number": 4,
+      "title": "Qualifications of the Seeker",
+      "title_hindi": "अधिकारिनिरूपण",
+      "title_meaning": "Not everyone is ready for this teaching. The title itself is a filter -- it asks: are you qualified? Have you done the preparatory work? By naming qualifications before giving the teaching, Shankara is saying that readiness is not optional but structural.",
+      "title_sanskrit_significance": "Adhikari = one who has the right/qualification. Nirupana = determination/ascertainment. The text insists on readiness before revelation. In Sanskrit tradition, adhikara is not elitism but protection -- unripe fruit forced open is bitter.",
+      "title_as_instruction": "Before you seek the highest truth, honestly assess: am I ready? Have I cultivated the discipline and dispassion required? Readiness is not a barrier -- it is the foundation.",
+      "verse_range": [
+        14,
+        17
+      ],
+      "verse_count": 4,
+      "summary": "Not everyone is ready. The qualified seeker must be intelligent, learned, skilled in reasoning, endowed with viveka (discrimination between eternal and transient), vairagya (dispassion), the six virtues (shama, dama, etc.), and mumukshutva (burning desire for liberation). This is the admission criteria.",
+      "narrative_role": "Gate-keeping -- the teaching is precious and demands readiness. This filters casual tourists from genuine pilgrims.",
+      "emotional_arc": "Self-assessment, honest reckoning with one's own readiness",
+      "key_concepts": [
+        "adhikari",
+        "viveka",
+        "vairagya",
+        "shama-dama-shatkasampatti",
+        "mumukshutva"
+      ],
+      "connection_to_next": "Having named the four qualifications in brief, Shankara now defines each one in detail.",
+      "connection_to_previous": "We know the path (inquiry) and the stakes (cosmic rarity). Now: who can walk this path?",
+      "modern_parallel": "Like the prerequisites for a graduate program -- you cannot just show up. You need intellectual capacity, emotional maturity, the right motivation, and demonstrated commitment."
+    },
+    {
+      "section_number": 5,
+      "title": "The Four Prerequisites (Sadhana Chatushtaya)",
+      "title_hindi": "साधन-चतुष्टय",
+      "title_meaning": "The title tells you there are exactly four prerequisites -- not three, not five. This precision teaches that spiritual preparation is not vague but structured. Each prerequisite is a muscle that must be developed before the real work can begin.",
+      "title_sanskrit_significance": "Sadhana = spiritual practice/means, chatushtaya = fourfold. The four are viveka (discrimination), vairagya (dispassion), shat-sampatti (six virtues), and mumukshutva (burning desire for liberation). The word 'sadhana' implies that these are not theoretical but practiced.",
+      "title_as_instruction": "Examine your inner toolkit. Do you have discrimination, dispassion, inner discipline, and a genuine burning for freedom? If any is weak, strengthen it before proceeding.",
+      "verse_range": [
+        18,
+        31
+      ],
+      "verse_count": 14,
+      "summary": "Shankara unpacks the four prerequisites in detail. Viveka: 'Brahman is real, the world is appearance.' Vairagya: disgust toward all transient pleasures from body to Brahmaloka. Shama through Samadhana: the six disciplines. Mumukshutva: burning desire to break free. Without intense vairagya and mumukshutva, the other virtues are mirages in a desert.",
+      "narrative_role": "The Training Montage -- these are the muscles the seeker must build before the real work begins.",
+      "emotional_arc": "Determination, discipline, a growing hunger for freedom",
+      "key_concepts": [
+        "nitya-anitya-vastu-viveka",
+        "vairagya",
+        "shama",
+        "dama",
+        "uparati",
+        "titiksha",
+        "shraddha",
+        "samadhana",
+        "mumukshutva",
+        "bhakti as self-inquiry"
+      ],
+      "connection_to_next": "The seeker is now ready. The next step is approaching the guru -- the most vulnerable and courageous act in the entire text.",
+      "connection_to_previous": "The qualifications were listed; now they are fully defined. The seeker can measure himself against the standard.",
+      "modern_parallel": "Like the training arc in every hero's journey -- the protagonist must develop specific capacities before facing the real challenge."
+    },
+    {
+      "section_number": 6,
+      "title": "Approaching the Guru and the Method of Questioning",
+      "title_hindi": "गुरूपसत्ति और प्रश्नविधि",
+      "title_meaning": "The title reveals two things simultaneously: you must approach a teacher, and you must know how to ask. The act of seeking a guru is itself a teaching -- it requires the death of the ego's claim to self-sufficiency. And the method of questioning determines what you receive.",
+      "title_sanskrit_significance": "Guru = the one who removes darkness (gu = darkness, ru = remover). Upasatti = approaching with reverence. Prashna-vidhi = the method/protocol of questioning. Sanskrit tradition holds that the right question, asked with the right attitude, already contains half the answer.",
+      "title_as_instruction": "Surrender your pride and approach someone who knows. But also: learn to ask the right questions. A poorly formed question gets a surface answer. A question born from genuine anguish opens the door to transformation.",
+      "verse_range": [
+        32,
+        40
+      ],
+      "verse_count": 9,
+      "summary": "The qualified seeker approaches a guru who is sinless, free from desire, calm like fire without fuel, an ocean of causeless compassion. The disciple's plea is heart-wrenching: 'I am burning in the forest fire of samsara, terrified of death. I know no other refuge.' The guru is compared to spring -- simply by existing, he transforms everything around him.",
+      "narrative_role": "The Inciting Incident -- the desperate seeker meets the teacher. This is the point of no return.",
+      "emotional_arc": "Desperation, surrender, vulnerability, the first flicker of hope",
+      "key_concepts": [
+        "guru-lakshana",
+        "shrotriya",
+        "brahma-nishtha",
+        "ahetuka-daya",
+        "sharanagati",
+        "bhava-arnava"
+      ],
+      "connection_to_next": "The guru sees the disciple's sincerity and begins to teach -- but first, he must give reassurance.",
+      "connection_to_previous": "All preparation (sections 2-5) was for this moment: the seeker has built the vessel; now he places it at the guru's feet to be filled.",
+      "modern_parallel": "Like entering a therapist's office for the first time and saying: 'I cannot do this alone anymore. Please help me.' The vulnerability of admitting you are lost is the beginning of being found."
+    },
+    {
+      "section_number": 7,
+      "title": "The Method of Teaching (Upadesha Vidhi)",
+      "title_hindi": "उपदेश-विधि",
+      "title_meaning": "The title teaches that there IS a method to truth -- it is not random grace or accident. The guru does not simply radiate wisdom; he has a structured approach. This tells the seeker: trust the process, there is a science to awakening.",
+      "title_sanskrit_significance": "Upadesha = instruction/teaching (upa = near, desha = pointing). Vidhi = method/prescribed procedure. The word upadesha literally means 'pointing near' -- the teacher does not give you truth but points you toward it. Vidhi implies that this pointing follows a rigorous protocol.",
+      "title_as_instruction": "Trust that there is a proven method. Others have walked this path before you. You are not inventing the wheel -- you are being handed the map drawn by those who completed the journey.",
+      "verse_range": [
+        41,
+        47
+      ],
+      "verse_count": 7,
+      "summary": "The guru gives fearlessness: 'Fear not! There IS a way -- the same path the ancient sages walked. I will show it to you.' Inquiry into Vedantic truth produces supreme knowledge which permanently destroys samsaric suffering. The root cause is identified: ignorance, and the fire of discriminative knowledge will burn it root and all.",
+      "narrative_role": "The Promise -- the guru pledges to guide the disciple through.",
+      "emotional_arc": "Relief flooding through terror, the birth of trust, the first deep breath",
+      "key_concepts": [
+        "abhaya",
+        "vedanta-vichara",
+        "shraddha-bhakti-dhyana-yoga",
+        "ajnana as root cause",
+        "viveka-bodha-agni"
+      ],
+      "connection_to_next": "With the promise made, the disciple now formulates his questions.",
+      "connection_to_previous": "The disciple's cry of despair (section 6) is answered with the guru's promise of deliverance.",
+      "modern_parallel": "Like a surgeon telling a terrified patient: 'I have done this before. Others have survived. Here is exactly what we will do. Trust the process.'"
+    },
+    {
+      "section_number": 8,
+      "title": "The Disciple's Questions (Prashna Nirupanam)",
+      "title_hindi": "प्रश्न-निरूपण",
+      "title_meaning": "The title teaches that the right questions are as important as the right answers. The disciple's seven questions become the entire syllabus. This means: before you can receive the teaching, you must articulate your confusion with precision.",
+      "title_sanskrit_significance": "Prashna = question (from prach, 'to ask'). Nirupana = determination/formulation. In Vedantic tradition, a well-formed question (prashna) is itself a sign of readiness -- it shows the student has thought deeply enough to name what they do not know.",
+      "title_as_instruction": "Name your confusion precisely. What exactly do you not understand? The clarity of your question determines the depth of the answer you can receive.",
+      "verse_range": [
+        48,
+        51
+      ],
+      "verse_count": 4,
+      "summary": "The disciple asks seven foundational questions: What is bondage? How did it arise? How does it persist? How is one freed? What is the not-Self? What is the Supreme Self? How does one discriminate between them? The guru praises these as sutras.",
+      "narrative_role": "The Agenda -- the disciple's questions create the roadmap for the entire teaching.",
+      "emotional_arc": "Clarity emerging from confusion, the courage to name what you do not know",
+      "key_concepts": [
+        "bandha",
+        "moksha",
+        "anatma",
+        "paramatma",
+        "viveka"
+      ],
+      "connection_to_next": "The guru praises the disciple and then begins the systematic teaching.",
+      "connection_to_previous": "The guru's promise (section 7) created safety; now the disciple can articulate his confusion with precision.",
+      "modern_parallel": "Like a patient who finally says: 'What exactly is wrong with me? How did this happen? What is the cure?' -- the right questions are half the diagnosis."
+    },
+    {
+      "section_number": 9,
+      "title": "Praise of the Disciple",
+      "title_hindi": "शिष्य-प्रशंसा",
+      "title_meaning": "The title teaches that the guru's first response is not information but validation. Before any technique is given, the student must know they are seen and honored. Recognition from the teacher is itself a transformative act.",
+      "title_sanskrit_significance": "Shishya = disciple (from shish, 'to learn/discipline'). Prashansa = praise/commendation. The guru's praise is not flattery but diagnosis -- it recognizes the student's sincerity as the essential qualification that cannot be taught.",
+      "title_as_instruction": "Know that your sincerity is already an achievement. The fact that you are asking is proof that something in you is already awake. Let this recognition strengthen you for the difficult work ahead.",
+      "verse_range": [
+        52,
+        52
+      ],
+      "verse_count": 1,
+      "summary": "The guru tells the disciple: 'You are blessed, you are fulfilled, your entire lineage is purified -- because you wish to break the bondage of ignorance and become Brahman.' This is the guru recognizing that sincerity has already begun the transformation.",
+      "narrative_role": "Validation -- the guru mirrors back to the disciple what the disciple cannot yet see in himself.",
+      "emotional_arc": "Encouragement, the warmth of being truly seen",
+      "key_concepts": [
+        "krita-kritya",
+        "avidya-bandha-mukti",
+        "brahmi-bhava"
+      ],
+      "connection_to_next": "After praising the disciple, the guru immediately emphasizes that no one else can do the work for you.",
+      "connection_to_previous": "The disciple asked with sincerity (section 8); the guru now honors that sincerity before laying out the demanding path.",
+      "modern_parallel": "Like a mentor saying: 'The fact that you are asking this question proves you already have what it takes. Now comes the hard part.'"
+    },
+    {
+      "section_number": 10,
+      "title": "The Primacy of Self-Effort",
+      "title_hindi": "स्व-प्रयत्नकी प्रधानता",
+      "title_meaning": "The title is a radical statement of empowerment: YOUR effort is primary, not the guru's grace, not scripture, not ritual. The word 'primacy' (pradhanta) means self-effort is not one factor among many -- it is THE factor. No one can liberate you but yourself.",
+      "title_sanskrit_significance": "Sva = self, prayatna = effort/exertion, pradhanta = primacy/supremacy. The compound insists that even in a tradition of guru-devotion, the locus of transformation is the individual's own striving. This prevents spiritual dependency.",
+      "title_as_instruction": "Stop waiting for grace, for the right teacher, for the right moment. The work is yours. No one can eat on your behalf and expect you to be nourished. Begin now, with what you have.",
+      "verse_range": [
+        53,
+        57
+      ],
+      "verse_count": 5,
+      "summary": "Sons can pay a father's debts, but no one can remove another's bondage. Medicine works only when the patient takes it. The moon's form can be known only through one's own eyes. Self-knowledge requires self-effort -- no proxy, no shortcut, no vicarious liberation.",
+      "narrative_role": "The Responsibility Transfer -- the guru empowers the disciple by making clear that agency lies within.",
+      "emotional_arc": "Sobering empowerment, the weight of radical self-responsibility",
+      "key_concepts": [
+        "sva-prayatna",
+        "kshudha-analogy",
+        "aushadha-analogy",
+        "chandra-analogy"
+      ],
+      "connection_to_next": "Self-effort is paramount, but effort directed at what? The guru shows that only self-knowledge leads to liberation.",
+      "connection_to_previous": "The praise (section 9) could breed complacency; this section immediately counterbalances it with the demand for personal effort.",
+      "modern_parallel": "Like a therapist saying: 'I can guide you, but I cannot do the inner work for you. No one can eat on your behalf and expect you to be nourished.'"
+    },
+    {
+      "section_number": 11,
+      "title": "The Importance of Self-Knowledge",
+      "title_hindi": "आत्मज्ञानका महत्त्व",
+      "title_meaning": "The title declares that among all forms of knowledge, self-knowledge holds a unique and supreme position. It is not one subject among many -- it is the only knowledge that ends suffering permanently. Everything else is useful but ultimately insufficient.",
+      "title_sanskrit_significance": "Atma = Self, jnana = knowledge, mahatva = greatness/importance. Atma-jnana is not information about the Self but direct recognition AS the Self. Mahatva elevates it above all other pursuits -- scholarly, ritual, yogic, or devotional.",
+      "title_as_instruction": "Among everything you could learn in a lifetime, prioritize knowing yourself. Not your personality, not your history -- your actual nature. This one knowledge makes all other knowledge complete.",
+      "verse_range": [
+        58,
+        63
+      ],
+      "verse_count": 6,
+      "summary": "Liberation does not come through yoga, Sankhya, karma, or learning -- only through direct knowledge of Brahman-Atman identity. A beautiful vina entertains but does not confer sovereignty. The snake-bite of ignorance has only one antidote: the medicine of Brahma-jnana.",
+      "narrative_role": "Stripping False Refuges -- every substitute for direct knowledge is eliminated.",
+      "emotional_arc": "The discomfort of having every crutch removed, followed by radical simplification",
+      "key_concepts": [
+        "brahma-atma-ekatva-bodha",
+        "shabda-jala as maha-aranya",
+        "ajnana-sarpa",
+        "brahma-jnana-aushadha"
+      ],
+      "connection_to_next": "Knowing that only direct experience works, the guru stresses that mere words about Brahman are not enough.",
+      "connection_to_previous": "Self-effort (section 10) must be directed specifically at self-knowledge, not at yoga or scholarship.",
+      "modern_parallel": "Like realizing that reading every book on swimming will never teach you to swim. You must get in the water."
+    },
+    {
+      "section_number": 12,
+      "title": "The Necessity of Direct Experience",
+      "title_hindi": "अपरोक्षानुभवकी आवश्यकता",
+      "title_meaning": "The title teaches that words about truth are not truth itself. You must HAVE the experience, not merely understand the concept. The word 'necessity' (avashyakta) means this is not optional -- without direct experience, all philosophy is theater.",
+      "title_sanskrit_significance": "Aparoksha = not indirect, i.e., direct/immediate. Anubhava = experience/realization. Avashyakta = necessity. Aparoksha-anubhava is the technical Vedantic term for non-mediated knowing -- knowing that does not pass through the intellect but IS the Self recognizing itself.",
+      "title_as_instruction": "Stop collecting concepts about reality and start tasting it. Reading the menu is not eating the meal. The map is essential but it is not the territory. Seek the direct experience.",
+      "verse_range": [
+        64,
+        67
+      ],
+      "verse_count": 4,
+      "summary": "Merely saying 'Brahman' does not liberate, just as saying 'medicine' does not cure. The buried treasure is found only by digging, not by talking about it. Shravana, manana, and nididhyasana are the method.",
+      "narrative_role": "The Anti-Intellectualism Warning -- philosophy without practice is theater.",
+      "emotional_arc": "Impatience with mere talk, hunger for the real thing",
+      "key_concepts": [
+        "aparoksha-anubhava",
+        "shabda vs anubhuti",
+        "shravanam-mananam-nididhyasanam",
+        "nidhana-analogy"
+      ],
+      "connection_to_next": "The guru reviews the disciple's questions and declares the systematic teaching will now begin.",
+      "connection_to_previous": "Self-knowledge (section 11) must not remain theoretical; it requires hearing, reflecting, and meditating.",
+      "modern_parallel": "Like the difference between reading about a country and actually traveling there. Maps are essential but they are not the territory."
+    },
+    {
+      "section_number": 13,
+      "title": "Review of the Questions (Prashna Vichara)",
+      "title_hindi": "प्रश्न-विचार",
+      "title_meaning": "The title teaches that before diving deep, you must see the whole terrain. The guru pauses to review the questions and outline the entire curriculum. This is the pedagogy of orientation -- you learn better when you know where you are going.",
+      "title_sanskrit_significance": "Prashna = question, vichara = investigation/reflection. The word vichara here means not just 'thinking about' but 'deeply investigating' -- the guru does not dismiss the questions but honors them by showing how the entire teaching will address each one systematically.",
+      "title_as_instruction": "Before plunging into any deep inquiry, step back and see the whole map. Know the beginning, the middle, and the end. Orientation prevents confusion during the difficult middle passages.",
+      "verse_range": [
+        68,
+        71
+      ],
+      "verse_count": 4,
+      "summary": "The guru commends the disciple's question as concise yet profound. 'Listen with full attention. By hearing this, you will be freed at once.' He outlines the curriculum: dispassion, disciplines, renunciation, shravana-manana-dhyana, nirvikalpa state, and nirvana.",
+      "narrative_role": "The Curriculum Overview -- the guru shows the entire map before the deep dive.",
+      "emotional_arc": "Anticipation, readiness, the calm before the deep dive",
+      "key_concepts": [
+        "sutra-praya",
+        "vairagya",
+        "shravana-manana-dhyana",
+        "nirvikalpa",
+        "nirvana-sukha"
+      ],
+      "connection_to_next": "The overview complete, the guru begins the actual teaching with the discrimination between Self and not-Self.",
+      "connection_to_previous": "All preparatory material (sections 1-12) is complete. The formal teaching begins.",
+      "modern_parallel": "Like the table of contents of a transformative course -- you see the entire journey laid out before committing to each step."
+    },
+    {
+      "section_number": 14,
+      "title": "Description of the Gross Body",
+      "title_hindi": "स्थूल शरीरका वर्णन",
+      "title_meaning": "The title signals the beginning of deconstruction. The fact that the guru starts with the GROSS body -- the most obvious layer -- teaches that liberation begins with the nearest, most tangible identification. You must start where you are, not where you wish to be.",
+      "title_sanskrit_significance": "Sthula = gross/physical, sharira = body (from shri, 'to decay'). Varnana = description/analysis. The word sharira itself contains the teaching -- it means 'that which decays.' By naming the body's nature in its very name, Sanskrit reveals that impermanence is the body's defining characteristic.",
+      "title_as_instruction": "Begin your inquiry with the most obvious thing: your body. Look at it honestly. Describe it without sentiment. The first step to freedom is seeing the prison clearly.",
+      "verse_range": [
+        72,
+        78
+      ],
+      "verse_count": 7,
+      "summary": "The guru begins the deconstruction. The gross body is made of seven tissues, organized into limbs, the locus of 'I and mine.' It arises from five gross elements through past karma. Its operating state is waking consciousness. It is like a householder's dwelling.",
+      "narrative_role": "First Layer of Deconstruction -- the outermost shell of false identity.",
+      "emotional_arc": "Clinical detachment beginning to replace identification, slight discomfort at objectifying the body",
+      "key_concepts": [
+        "sthula-sharira",
+        "sapta-dhatu",
+        "panchikarana",
+        "jagrat-avastha",
+        "deha as griha"
+      ],
+      "connection_to_next": "Having described the body's structure, the guru now examines what makes it dangerous: sensory entrapment.",
+      "connection_to_previous": "The curriculum promised Atma-Anatma-Viveka (section 13); the dissection begins with the grossest layer.",
+      "modern_parallel": "Like an anatomy class where you learn the structure of the body before studying its diseases."
+    },
+    {
+      "section_number": 15,
+      "title": "Condemnation of Sense Objects",
+      "title_hindi": "विषय-निन्दा",
+      "title_meaning": "The title is deliberately harsh -- 'condemnation' (ninda), not 'analysis.' This teaches that intellectual understanding of sense-danger is insufficient; you need emotional revulsion. The five senses must be experienced as dangerous, not merely understood as distracting.",
+      "title_sanskrit_significance": "Vishaya = sense objects (from vish, 'to pervade/poison' -- the Sanskrit root connects sense-objects with poison). Ninda = condemnation/censure. The etymological link between vishaya (objects) and visha (poison) is no accident -- Sanskrit itself warns that what attracts the senses is toxic.",
+      "title_as_instruction": "Do not merely understand that sense-addiction is harmful. Feel the danger. Each sense is a hook that has killed countless beings. Your smartphone, your pleasures, your comforts -- see them as the traps they are.",
+      "verse_range": [
+        78,
+        84
+      ],
+      "verse_count": 7,
+      "summary": "The five-animals verse: each destroyed by ONE sense. Humans are enslaved by ALL FIVE. Sense objects are more poisonous than cobra venom. Only the sword of dispassion can cut the crocodile of craving.",
+      "narrative_role": "Motivation for Dispassion -- vivid metaphors to create revulsion toward sensory addiction.",
+      "emotional_arc": "Visceral shock, recognition of one's own addictions, fierce determination",
+      "key_concepts": [
+        "pancha-vishaya",
+        "kuranga-matanga-patanga-mina-bhringa",
+        "vishaya as visha",
+        "vairagya-asi"
+      ],
+      "connection_to_next": "Having shown why sense attachment is deadly, the guru specifically addresses attachment to the body.",
+      "connection_to_previous": "The gross body (section 14) operates through senses; now their danger is laid bare.",
+      "modern_parallel": "Like a documentary about social media addiction showing how each platform targets a different neurological reward pathway."
+    },
+    {
+      "section_number": 16,
+      "title": "Condemnation of Body-Attachment",
+      "title_hindi": "देहासक्तिकी निन्दा",
+      "title_meaning": "The title narrows the target from sense-objects generally to the body specifically. Attachment to the body is singled out because it is the root of all other attachments. Every desire ultimately traces back to 'I am this body.'",
+      "title_sanskrit_significance": "Deha = body (from dih, 'to smear/anoint'). Asakti = attachment/clinging. Ninda = condemnation. Deha-asakti is the technical term for the most fundamental misidentification -- taking the body to be the Self. The guru condemns it because it is the single deepest habit of consciousness.",
+      "title_as_instruction": "Notice how deeply you identify with your body. Every fear of death, every vanity, every physical craving flows from this one root. Question it: are you the body, or are you aware of the body?",
+      "verse_range": [
+        85,
+        88
+      ],
+      "verse_count": 4,
+      "summary": "Nourishing the body while neglecting self-knowledge is like grasping a crocodile to cross a river. Body-attachment is the great death of the seeker. Conquer delusion regarding body, spouse, and children.",
+      "narrative_role": "Deepening the Warning -- from general sense-danger to specific body-identification.",
+      "emotional_arc": "Darkly humorous recognition, the beginning of disidentification with the body",
+      "key_concepts": [
+        "deha-asakti",
+        "moha as maha-mrityu",
+        "graha-analogy (crocodile)"
+      ],
+      "connection_to_next": "Having condemned body-attachment conceptually, the guru now dissects the body anatomically.",
+      "connection_to_previous": "Sense-condemnation (section 15) targeted external objects; now the target is the body itself.",
+      "modern_parallel": "Like realizing that your obsession with biohacking and gym selfies is a sophisticated avoidance of the question: who lives inside this body?"
+    },
+    {
+      "section_number": 17,
+      "title": "The Gross Body (Anatomical Analysis)",
+      "title_hindi": "स्थूल शरीर",
+      "title_meaning": "The title signals a shift from philosophical condemnation to anatomical dissection. After telling you the body is not-Self, the guru now SHOWS you, tissue by tissue. This is teaching through visceral experience, not abstract argument.",
+      "title_sanskrit_significance": "Sthula = gross, sharira = body. Unlike the earlier 'description' (varnana, section 14), this section performs an anatomical analysis -- listing skin, flesh, blood, bone, marrow, and waste. The purpose is not medical but contemplative: to make the body strange enough that you stop identifying with it.",
+      "title_as_instruction": "Look at your body the way a surgeon does: as tissue, bone, and fluid. Not with disgust, but with honesty. When you see what it actually is, 'I am this body' becomes absurd.",
+      "verse_range": [
+        89,
+        93
+      ],
+      "verse_count": 5,
+      "summary": "The body is filled with skin, flesh, blood, sinews, fat, marrow, bones, urine, and feces. It is born, ages, and dies. It has states, rules, worship and insult. This is the thing you call 'I'?",
+      "narrative_role": "Anatomical Disenchantment -- making the body strange through honest seeing.",
+      "emotional_arc": "Mild revulsion, the beginning of 'I am not this'",
+      "key_concepts": [
+        "sthula-sharira-dharmah",
+        "janma-jara-marana",
+        "avastha-bheda"
+      ],
+      "connection_to_next": "The body is established as not-Self. Now the guru turns to the ten senses.",
+      "connection_to_previous": "Body-attachment was condemned (section 16); now the body is dissected to make condemnation visceral.",
+      "modern_parallel": "Like viewing your own MRI scan -- suddenly the body becomes an object, a machine, rather than 'you.'"
+    },
+    {
+      "section_number": 18,
+      "title": "The Ten Sense Organs",
+      "title_hindi": "दस इन्द्रियाँ",
+      "title_meaning": "The title teaches that the senses are instruments, not identity. By counting them -- exactly ten -- the guru transforms them from 'parts of me' to 'tools I use.' You are not your eyes; you USE your eyes.",
+      "title_sanskrit_significance": "Dasha = ten, indriya = sense organ (from Indra, lord of the senses). Jnana-indriya = knowledge-senses (hearing, touch, sight, taste, smell), karma-indriya = action-senses (speech, hands, feet, excretion, reproduction). The systematic enumeration transforms intimate experience into objective catalogue.",
+      "title_as_instruction": "List your senses as you would list tools in a workshop. The hammer is not the carpenter. Your ears, eyes, and hands are instruments -- not you. Begin to experience the difference.",
+      "verse_range": [
+        94,
+        94
+      ],
+      "verse_count": 1,
+      "summary": "The five organs of knowledge and five organs of action are enumerated. Knowledge organs bring information in; action organs execute outward.",
+      "narrative_role": "Cataloguing the Instruments -- the ten senses are tools, not the Self.",
+      "emotional_arc": "Systematic detachment, intellectual clarity",
+      "key_concepts": [
+        "pancha-jnanendriya",
+        "pancha-karmendriya"
+      ],
+      "connection_to_next": "Behind the senses lies the inner instrument -- the mind in its four aspects.",
+      "connection_to_previous": "The body (section 17) has been established as not-Self; now its instruments are similarly catalogued.",
+      "modern_parallel": "Like listing the input devices (camera, microphone) and output devices (speakers, motors) of a robot."
+    },
+    {
+      "section_number": 19,
+      "title": "The Fourfold Inner Instrument",
+      "title_hindi": "अन्तःकरणचतुष्टय",
+      "title_meaning": "The title reveals that the mind is not one thing but four functions of a single instrument. This is revolutionary: most people assume 'I think, therefore I am.' But the title says: even your thinking apparatus is an instrument with four modes -- none of which is you.",
+      "title_sanskrit_significance": "Antahkarana = inner instrument (antah = inner, karana = instrument). Chatushtaya = fourfold. The four functions are manas (doubting mind), buddhi (deciding intellect), ahamkara (I-sense), and chitta (memory/desire). Calling the mind an 'instrument' immediately separates it from the one who uses it.",
+      "title_as_instruction": "Notice that your mind doubts, decides, remembers, and claims ownership -- but you are aware of all four activities. The instrument is not the musician. Who is using your inner instrument?",
+      "verse_range": [
+        95,
+        96
+      ],
+      "verse_count": 2,
+      "summary": "The antahkarana is named by its four functions: Manas, Buddhi, Ahamkara, and Chitta. One organ, four modes of operation.",
+      "narrative_role": "Mapping the Inner Terrain -- before showing what is beyond the mind, the guru maps the mind's architecture.",
+      "emotional_arc": "Growing fascination with inner machinery",
+      "key_concepts": [
+        "antahkarana-chatushtaya",
+        "manas",
+        "buddhi",
+        "ahamkara",
+        "chitta"
+      ],
+      "connection_to_next": "The five pranas are examined next -- the vital energies that animate the system.",
+      "connection_to_previous": "External senses (section 18) are interfaces; now the internal processor is mapped.",
+      "modern_parallel": "Like understanding your smartphone has a CPU (buddhi), RAM (chitta), user interface (manas), and a persistent user profile (ahamkara). None of these are you."
+    },
+    {
+      "section_number": 20,
+      "title": "The Five Vital Airs",
+      "title_hindi": "पंचप्राण",
+      "title_meaning": "The title teaches that even the life-force -- the most intimate bodily experience -- is not you. Breathing, hunger, energy -- these feel like 'me' at the deepest level, yet they are merely five functions of prana. The deconstruction goes deeper than most seekers expect.",
+      "title_sanskrit_significance": "Pancha = five, prana = vital air/life-force (from pra-an, 'to breathe forth'). The five are prana (inhalation), apana (exhalation/elimination), vyana (circulation), udana (ascending force), and samana (digestion/assimilation). Naming them as 'properties' of air -- not of Self -- is the teaching.",
+      "title_as_instruction": "Your breath, your hunger, your vital energy -- these are functions of air moving through a body, not functions of 'you.' Can you notice the life-force without claiming it as your identity?",
+      "verse_range": [
+        97,
+        97
+      ],
+      "verse_count": 1,
+      "summary": "Prana differentiates into five functions -- prana, apana, vyana, udana, samana -- like gold taking different forms.",
+      "narrative_role": "Completing the Anatomy -- the pranas are the energetic layer, subtler than the senses.",
+      "emotional_arc": "Deepening awareness of layers within layers",
+      "key_concepts": [
+        "pancha-prana",
+        "suvarna-analogy"
+      ],
+      "connection_to_next": "All these components assemble into the subtle body.",
+      "connection_to_previous": "Body, senses, mind, and now the life-force -- the full inventory of the not-Self.",
+      "modern_parallel": "Like understanding the electrical system of a house -- essential for operation but not the homeowner."
+    },
+    {
+      "section_number": 21,
+      "title": "The Subtle Body",
+      "title_hindi": "सूक्ष्म शरीर",
+      "title_meaning": "The title teaches that beyond the visible body lies a subtler body -- the carrier of dreams, memories, tendencies, and karma. You survive the death of the gross body because this subtle body migrates. Yet even this is not you.",
+      "title_sanskrit_significance": "Sukshma = subtle, sharira = body. Also called linga-deha (the body that is a 'mark' or signature of the individual) and puryashtaka (the city of eight components). The subtle body is beginningless and carries vasanas (latent impressions) across lifetimes -- yet it too is an adjunct, not the Self.",
+      "title_as_instruction": "Recognize that your personality, your habits, your dream-world, and your unconscious patterns form a body more intimate than the physical one. Even this is not you. It is a vehicle -- what is the driver?",
+      "verse_range": [
+        98,
+        101
+      ],
+      "verse_count": 4,
+      "summary": "The subtle body consists of seventeen components. It carries vasanas, causes experience of karma-fruits, and is the beginningless adjunct of the Self. Its state is dream-consciousness. The Self is entirely untouched by it.",
+      "narrative_role": "Second Layer of Deconstruction -- subtler than the gross body, more insidious because less visible.",
+      "emotional_arc": "Recognition that even the dream-world is not 'me'",
+      "key_concepts": [
+        "sukshma-sharira",
+        "linga-deha",
+        "puryashtaka",
+        "svapna-avastha",
+        "vasana",
+        "sakshi",
+        "asanga"
+      ],
+      "connection_to_next": "The subtle body's components need further examination.",
+      "connection_to_previous": "All individual components (sections 18-20) are now assembled into one coherent structure.",
+      "modern_parallel": "Like understanding that your 'personality' is itself a constructed vehicle, not the driver."
+    },
+    {
+      "section_number": 22,
+      "title": "Properties of Prana",
+      "title_hindi": "प्राणके धर्म",
+      "title_meaning": "The title teaches that even the most basic biological functions -- breathing, hunger, thirst -- belong to prana, not to you. This is disidentification at the cellular level: nothing the body does is something 'you' do.",
+      "title_sanskrit_significance": "Prana = vital force, dharma = properties/characteristics. Dharma here means 'that which belongs to' -- breathing, yawning, hunger, and thirst are dharmas (properties) of prana, not of the witnessing Self. This precise attribution is the method of neti-neti in action.",
+      "title_as_instruction": "When you are hungry, notice: hunger belongs to the body's energy system, not to awareness. When you are tired, notice: fatigue belongs to prana. Slowly withdraw the 'I' from every bodily function.",
+      "verse_range": [
+        102,
+        104
+      ],
+      "verse_count": 3,
+      "summary": "Breathing, yawning, hunger, and thirst are prana's properties, not the Self's. The eyes' blindness belongs to the eyes, not to the seer.",
+      "narrative_role": "Detailed Disidentification -- each body-function is attributed to its actual source.",
+      "emotional_arc": "Relief as layer after layer is removed from the self-concept",
+      "key_concepts": [
+        "prana-dharma",
+        "kshudha-pipasa",
+        "indriya-dosha vs atma-dosha"
+      ],
+      "connection_to_next": "The ego -- the deepest case of mistaken identity -- is examined next.",
+      "connection_to_previous": "The subtle body was described (section 21); now its energetic component is shown to be not-Self.",
+      "modern_parallel": "Like realizing your exhaustion and appetite belong to your biology, not to 'you.'"
+    },
+    {
+      "section_number": 23,
+      "title": "The Ego (Ahamkara)",
+      "title_hindi": "अहंकार",
+      "title_meaning": "The title names the deepest and most persistent case of mistaken identity. The ego -- the 'I-maker' -- is not a thing but a process: the continuous act of claiming 'I am this, this is mine.' Naming it is the first step to seeing through it.",
+      "title_sanskrit_significance": "Ahamkara = the I-maker (aham = I, kara = maker/doer). It is not a fixed entity but a dynamic process of identification -- the continuous activity of consciousness claiming to be something limited. The word itself reveals that the 'I' is manufactured, not discovered.",
+      "title_as_instruction": "Watch the ego in action. Every time you think 'I am tired,' 'I am smart,' 'this is mine' -- that is ahamkara manufacturing a false identity. The one who watches this process is not the process itself.",
+      "verse_range": [
+        105,
+        107
+      ],
+      "verse_count": 3,
+      "summary": "The antahkarana maintains the identification 'I' through reflected consciousness. This ego is the doer, the enjoyer, the claimer. Pleasure and pain are its properties, not the Self's.",
+      "narrative_role": "Identifying the Enemy -- the ego is named as the core mechanism of bondage.",
+      "emotional_arc": "'The thing I call me is actually a reflection, not the light itself'",
+      "key_concepts": [
+        "ahamkara",
+        "abhimana",
+        "karta-bhokta",
+        "tri-guna",
+        "sukha-duhkha as ahamkara-dharma"
+      ],
+      "connection_to_next": "Having identified the ego, the guru reveals that all love is actually self-love.",
+      "connection_to_previous": "Pranas were shown to be not-Self (section 22); now the ego itself is exposed.",
+      "modern_parallel": "Like discovering that the 'self' you present on social media is not you but a construct running on borrowed light."
+    },
+    {
+      "section_number": 24,
+      "title": "The Self-Referential Nature of Love",
+      "title_hindi": "प्रेमकी आत्मार्थता",
+      "title_meaning": "The title contains one of the most profound insights in world philosophy: all love is self-love. You do not love objects for their sake but because they reflect your own bliss-nature back to you. This reorients the entire spiritual search from outward to inward.",
+      "title_sanskrit_significance": "Prema = love, atma-arthata = self-referentiality (for the sake of the Self). The Brihadaranyaka Upanishad's teaching is distilled here: 'Not for the sake of the husband is the husband dear, but for the sake of the Self.' Every desire is a homing signal pointing back to your own nature.",
+      "title_as_instruction": "Notice what you love most deeply. Then ask: do I love this thing, or do I love the expanded sense of self it gives me? Follow every desire back to its source -- you will find yourself.",
+      "verse_range": [
+        108,
+        109
+      ],
+      "verse_count": 2,
+      "summary": "Objects are loved for the sake of the Self, not for themselves. The Self alone is the most beloved. The Self is supreme bliss.",
+      "narrative_role": "The Philosophical Pivot -- from anatomy to ontology. Every desire points back to the Self.",
+      "emotional_arc": "'Everything I have ever loved, I loved because it gave me a glimpse of my own nature'",
+      "key_concepts": [
+        "atma-priyatama",
+        "atma-arthatva of priti",
+        "paramananda"
+      ],
+      "connection_to_next": "If the Self is what we truly love, what obscures it? Maya is examined next.",
+      "connection_to_previous": "The ego was a false center (section 23); now the true center -- Self as beloved -- is glimpsed.",
+      "modern_parallel": "Like realizing you love your partner not for who they are but for the expanded sense of self they give you."
+    },
+    {
+      "section_number": 25,
+      "title": "Description of Maya",
+      "title_hindi": "माया-निरूपण",
+      "title_meaning": "The title announces the unveiling of the cosmic mechanism of illusion. Maya is not merely 'the world is not real' -- it is the specific power that makes the unreal appear real and the real appear hidden. Understanding Maya is understanding how you got lost.",
+      "title_sanskrit_significance": "Maya = that which measures/limits the immeasurable (from ma, 'to measure'). Nirupana = description/ascertainment. Maya is Brahman's own creative power -- neither separate from Brahman nor identical to it. It is anirvachaniya (indescribable) -- not real, not unreal, but the very mechanism of appearance.",
+      "title_as_instruction": "Recognize that the world as you perceive it is not a lie but a misperception -- like seeing a snake where there is only a rope. The question is not 'is the world real?' but 'am I seeing it correctly?'",
+      "verse_range": [
+        110,
+        112
+      ],
+      "verse_count": 3,
+      "summary": "Maya is the beginningless, indescribable power of the Lord, composed of three gunas. It is neither real nor unreal. It projects the entire world from Brahman.",
+      "narrative_role": "Naming the Cosmic Obstacle -- the deeper force that creates and sustains the illusion.",
+      "emotional_arc": "Awe mixed with unease",
+      "key_concepts": [
+        "maya",
+        "anirvachaniya",
+        "tri-guna",
+        "avyakta",
+        "karya-anumiti"
+      ],
+      "connection_to_next": "Maya operates through three gunas; these are now examined one by one.",
+      "connection_to_previous": "The body-mind-ego complex has been catalogued (sections 14-24); now its ultimate cause is revealed.",
+      "modern_parallel": "Like discovering the operating system running beneath all your applications -- you cannot see it directly but its effects are everywhere."
+    },
+    {
+      "section_number": 26,
+      "title": "Rajas (The Guna of Activity)",
+      "title_hindi": "रजोगुण",
+      "title_meaning": "The title isolates one of Maya's three engines: rajas, the guna of restless activity. By naming it separately, the guru teaches that your compulsive doing -- the inability to sit still, the endless desire and anger -- has a specific source that can be identified and transcended.",
+      "title_sanskrit_significance": "Rajas = the guna of passion/activity (from ranj, 'to be colored/excited'). Rajas is the vikshepa-shakti -- the projecting power that throws consciousness outward into compulsive action. Desire, anger, greed, pride, and jealousy are its children.",
+      "title_as_instruction": "Identify the restless energy in yourself. The craving, the ambition, the irritation, the jealousy -- these are not 'you' but the coloring of rajas. Name it when you feel it: 'This is rajas, not me.'",
+      "verse_range": [
+        113,
+        114
+      ],
+      "verse_count": 2,
+      "summary": "The projecting power belongs to rajas. Desire, anger, greed, pride, jealousy -- these are rajas's qualities. It drives the soul into compulsive action and is the cause of bondage.",
+      "narrative_role": "Dissecting Maya's Engine Room -- rajas is the fuel of restless doing.",
+      "emotional_arc": "Recognition of one's own restless patterns",
+      "key_concepts": [
+        "rajas",
+        "vikshepa-shakti",
+        "kama-krodha-lobha-dambha-matsarya"
+      ],
+      "connection_to_next": "If rajas drives action, tamas obscures clarity -- examined next.",
+      "connection_to_previous": "Maya (section 25) was defined; now its active component is isolated.",
+      "modern_parallel": "Like understanding that the restless energy driving your to-do list, your ambition, and your FOMO all come from a single source."
+    },
+    {
+      "section_number": 27,
+      "title": "Tamas (The Guna of Inertia)",
+      "title_hindi": "तमोगुण",
+      "title_meaning": "The title names the most dangerous of the three gunas -- not because tamas is the most active, but because it is the most invisible. Tamas does not just deceive you; it hides the fact that you are being deceived. It is ignorance unaware of itself.",
+      "title_sanskrit_significance": "Tamas = darkness/inertia (from tam, 'to be exhausted/dark'). Tamas is the avarana-shakti -- the covering power that veils the Self. Its qualities are ignorance, laziness, dullness, sleep, and confusion. Crucially, tamas prevents you from even noticing that something is hidden.",
+      "title_as_instruction": "Ask yourself: what am I not seeing? Tamas is not obvious -- it manifests as 'I already know this,' as boredom with spiritual practice, as the refusal to look deeper. The greatest darkness is the one you do not notice.",
+      "verse_range": [
+        115,
+        119
+      ],
+      "verse_count": 5,
+      "summary": "Tamas is the covering power -- the root cause of samsara. Its qualities: ignorance, laziness, dullness, sleep, carelessness. Even a wise person, once gripped by tamas, cannot see clearly.",
+      "narrative_role": "Naming the Deepest Obscuration -- tamas hides the very fact that something is hidden.",
+      "emotional_arc": "A creeping recognition: 'I have been asleep and did not know it'",
+      "key_concepts": [
+        "tamas",
+        "avarana-shakti",
+        "abhavana",
+        "viparita-bhavana",
+        "pramada",
+        "mudhatva"
+      ],
+      "connection_to_next": "After the destructive gunas, sattva -- the enabling guna -- is examined.",
+      "connection_to_previous": "Rajas projects (section 26); tamas conceals. Together they trap the soul.",
+      "modern_parallel": "Like scrolling through your phone for three hours without realizing time has passed. Tamas hides the fact that you have been deceived."
+    },
+    {
+      "section_number": 28,
+      "title": "Sattva (The Guna of Clarity)",
+      "title_hindi": "सत्त्वगुण",
+      "title_meaning": "The title offers hope after two sections of darkness. Sattva -- clarity, purity, luminosity -- is the guna that enables liberation. Not all of Maya is your enemy; one face of it is your ally. But even sattva must ultimately be transcended.",
+      "title_sanskrit_significance": "Sattva = being/existence/purity (from sat, 'truth/being'). In its mixed form (with rajas and tamas), sattva produces virtues. In its pure form, it becomes transparent to the Self. Sattva does not create liberation but creates the conditions in which liberation can be recognized.",
+      "title_as_instruction": "Cultivate clarity, contentment, and inner calm -- these are sattva's gifts. But know that even these beautiful qualities are not the destination. They are the clean window through which you see the light -- not the light itself.",
+      "verse_range": [
+        120,
+        121
+      ],
+      "verse_count": 2,
+      "summary": "Mixed sattva produces virtues. Pure sattva produces serenity, self-experience, supreme peace, and abidance in the Self. Through pure sattva, the seeker attains eternal bliss.",
+      "narrative_role": "The Exception -- after two dark gunas, sattva offers hope.",
+      "emotional_arc": "Relief and aspiration",
+      "key_concepts": [
+        "sattva",
+        "mishra-sattva",
+        "shuddha-sattva",
+        "atma-anubhava",
+        "parama-shanti"
+      ],
+      "connection_to_next": "All three gunas belong to the causal body, examined next.",
+      "connection_to_previous": "Rajas (section 26) and tamas (section 27) trap; sattva liberates. Maya's three faces are complete.",
+      "modern_parallel": "Like discovering that among your mind's many programs, there is one -- clarity itself -- that can debug all the others."
+    },
+    {
+      "section_number": 29,
+      "title": "The Causal Body",
+      "title_hindi": "कारण-शरीर",
+      "title_meaning": "The title names the deepest and most hidden body -- the seedbed of all illusion. While the gross body is visible and the subtle body is felt, the causal body is pure unknowing. It is the root that must be pulled up for the tree of suffering to die.",
+      "title_sanskrit_significance": "Karana = cause, sharira = body. The causal body is beginningless ignorance (avidya) itself -- not a structured body but the formless seed from which the subtle and gross bodies sprout. It manifests as the blankness of deep sleep, where consciousness exists but knows nothing.",
+      "title_as_instruction": "Recognize that beneath your thoughts and even beneath your unconscious patterns, there is a fundamental not-knowing -- a blankness that has been with you since before memory. This is the final veil. Even this is not you.",
+      "verse_range": [
+        122,
+        125
+      ],
+      "verse_count": 4,
+      "summary": "The causal body is beginningless ignorance itself. Its state is deep sleep. This is the final sheath that must be penetrated.",
+      "narrative_role": "Third and Deepest Layer -- the causal body is the subtlest veil, the very root of illusion.",
+      "emotional_arc": "A sense of reaching the bottom layer, combined with the recognition that even deep sleep is not liberation",
+      "key_concepts": [
+        "karana-sharira",
+        "avidya",
+        "anadi",
+        "anirvachaniya",
+        "sushupti-avastha"
+      ],
+      "connection_to_next": "Having catalogued all three bodies, the guru formally defines what is not-Self.",
+      "connection_to_previous": "Gross body (section 14-17), subtle body (section 21), and now the causal body -- the complete triptych of not-Self.",
+      "modern_parallel": "Like realizing that beneath your conscious and unconscious patterns, there is a deeper layer of not-knowing that has been running the show since before you can remember."
+    },
+    {
+      "section_number": 30,
+      "title": "Description of the Not-Self",
+      "title_hindi": "अनात्म-निरूपण",
+      "title_meaning": "The title is a grand summary: everything catalogued so far -- body, senses, prana, mind, ego, gunas, three bodies -- receives a single verdict: NOT-SELF. This is the neti-neti method in its totality, a sweeping negation that leaves nothing but awareness standing.",
+      "title_sanskrit_significance": "Anatma = not-Self (an = not, atma = Self). Nirupana = description/determination. The prefix 'an' performs the entire operation of negation. Everything perceivable, conceivable, and experienceable falls under anatma. What remains when anatma is removed is atma.",
+      "title_as_instruction": "Take everything you have ever called 'me' -- your body, your emotions, your intellect, your memories, your personality -- and place it on the 'not-Self' side. What is left? That which cannot be placed anywhere because it is the one doing the placing.",
+      "verse_range": [
+        126,
+        128
+      ],
+      "verse_count": 3,
+      "summary": "Everything catalogued -- body, senses, pranas, mind, ego, all modifications -- is not-Self. From Brahma down to a blade of grass, everything perceived is unreal.",
+      "narrative_role": "The Grand Summary of Not-Self -- a definitive 'none of this is you.'",
+      "emotional_arc": "Vertigo as the entire world is declared not-Self, mixed with strange freedom",
+      "key_concepts": [
+        "anatma",
+        "maya-karyam",
+        "a-brahma-stamba-paryantam",
+        "mithya"
+      ],
+      "connection_to_next": "Having established everything that is NOT the Self, the guru must now positively describe what the Self IS.",
+      "connection_to_previous": "All three bodies and their components have been catalogued and rejected.",
+      "modern_parallel": "Like a sculptor who has chipped away everything that is not the statue. The form emerges by radical subtraction."
+    },
+    {
+      "section_number": 31,
+      "title": "Description of the Self",
+      "title_hindi": "आत्म-निरूपण",
+      "title_meaning": "After exhaustive negation, the title announces: now we point at what IS. The Self is not discovered by adding something new but by recognizing what remains when everything false has been removed. The title marks the shift from subtraction to recognition.",
+      "title_sanskrit_significance": "Atma = Self (from an, 'to breathe' -- the Self is the very life of life). Nirupana = determination/description. Unlike anatma-nirupana which catalogs what the Self is NOT, atma-nirupana points to what the Self IS: the witness, the unchanging, the self-luminous awareness that knows all states without being any state.",
+      "title_as_instruction": "After setting aside everything that changes, look at what remains. Not a void -- but the awareness that witnessed every change. That which was present in every experience but was none of them. THAT is what you are.",
+      "verse_range": [
+        129,
+        136
+      ],
+      "verse_count": 8,
+      "summary": "The Self is the witness of the three states, distinct from the five sheaths, pure awareness. It never changes. When the body is destroyed, the Self remains -- like the sky inside a pot when the pot breaks.",
+      "narrative_role": "The First Positive Teaching -- after systematic negation, the guru points directly at what remains.",
+      "emotional_arc": "Wonder, recognition, a deep stillness -- 'THIS is what I am?'",
+      "key_concepts": [
+        "sakshi",
+        "tri-avastha-sakshi",
+        "pancha-kosha-vilakshana",
+        "kutastha",
+        "akasha-ghata-analogy"
+      ],
+      "connection_to_next": "The Self has been pointed at; now the mechanism that hides it (superimposition) is explained.",
+      "connection_to_previous": "The not-Self was catalogued (section 30); now the Self is revealed by contrast.",
+      "modern_parallel": "Like finally seeing the movie screen after spending your entire life absorbed in the images projected on it."
+    },
+    {
+      "section_number": 32,
+      "title": "Superimposition (Adhyasa)",
+      "title_hindi": "अध्यास",
+      "title_meaning": "The title names the exact mechanism of all suffering: superimposition. You project the Self's qualities onto the body and the body's qualities onto the Self. This single error creates the entire world of bondage. Understanding the mechanism is half the cure.",
+      "title_sanskrit_significance": "Adhyasa = superimposition (adhi = upon, as = to throw). It is the fundamental cognitive error where one thing is mistaken for another -- like seeing silver in an oyster shell. Shankara's Adhyasa Bhashya (introduction to the Brahma Sutras) identifies this as the root of all philosophical and spiritual error.",
+      "title_as_instruction": "Notice how you constantly superimpose: you project permanence onto impermanent things, consciousness onto inert matter, and limitation onto the limitless Self. Every time you say 'I am tired' or 'I am afraid,' you are superimposing body-properties onto awareness.",
+      "verse_range": [
+        137,
+        144
+      ],
+      "verse_count": 8,
+      "summary": "Superimposition is the mechanism of bondage -- Self's properties attributed to not-Self and vice versa. Due to tamas, one sees what is not there. Due to rajas, one projects false attributes. The oyster-silver metaphor illustrates the error.",
+      "narrative_role": "Diagnosing the Disease -- adhyasa is the exact mechanism of suffering.",
+      "emotional_arc": "The 'aha' of seeing the exact mechanism: 'So THAT is how I got trapped!'",
+      "key_concepts": [
+        "adhyasa",
+        "anyonya-adhyasa",
+        "avarana-shakti",
+        "vikshepa-shakti",
+        "shukti-rajata"
+      ],
+      "connection_to_next": "The covering and projecting powers of Maya are now examined in detail.",
+      "connection_to_previous": "The Self was positively described (section 31); now the mechanism that hides it is explained.",
+      "modern_parallel": "Like understanding that your anxiety is not caused by reality but by confusing what you ARE with what you EXPERIENCE."
+    },
+    {
+      "section_number": 33,
+      "title": "Avarana-Shakti and Vikshepa-Shakti (Covering and Projecting Powers)",
+      "title_hindi": "आवरणशक्ति और विक्षेपशक्ति",
+      "title_meaning": "The title dissects Maya's two engines with surgical precision. One power covers the truth (avarana); the other projects illusion in its place (vikshepa). Together they create the complete machinery of delusion. Naming them separately teaches that ignorance operates in two distinct phases.",
+      "title_sanskrit_significance": "Avarana = covering/veiling (from avri, 'to cover'). Vikshepa = projection/throwing forth (from vi-kship, 'to scatter'). Avarana first hides Brahman; then vikshepa projects the phenomenal world onto the hidden screen. Like darkness first concealing the rope, then imagination projecting the snake.",
+      "title_as_instruction": "Recognize two distinct operations in your own delusion: first, you forget your true nature (avarana); then, upon that forgetting, you project a false identity and a false world (vikshepa). Address the covering first -- remembrance dissolves projection.",
+      "verse_range": [
+        145,
+        148
+      ],
+      "verse_count": 4,
+      "summary": "The covering power veils the Self. The projecting power throws the soul into becoming. Together they create the tree of samsara: ignorance is the seed, body-identification the sprout, desire the leaves, suffering the fruit. The soul is the bird eating bitter fruit.",
+      "narrative_role": "The Master Metaphor -- the tree of samsara maps every element of suffering to its source.",
+      "emotional_arc": "A mixture of horror and clarity -- seeing the entire machine of suffering in a single image",
+      "key_concepts": [
+        "avarana-shakti",
+        "vikshepa-shakti",
+        "samsara-vriksha",
+        "avidya as bija",
+        "duhkha as phala",
+        "jiva as khaga"
+      ],
+      "connection_to_next": "Having mapped the disease, the guru asks: what is the cure? The sword of discrimination.",
+      "connection_to_previous": "Adhyasa was the mechanism (section 32); avarana and vikshepa are its two engines.",
+      "modern_parallel": "Like a systems diagram showing how one root error cascades through identity, desire, action, and consequence to produce every form of suffering."
+    },
+    {
+      "section_number": 34,
+      "title": "Discrimination Between Self and Not-Self (Atma-Anatma Viveka)",
+      "title_hindi": "आत्मानात्म-विवेक",
+      "title_meaning": "The title announces the central practice of the entire text: learning to distinguish Self from not-Self. This is not a single insight but an ongoing discipline of seeing through each layer of false identification. The five-sheath analysis begins here.",
+      "title_sanskrit_significance": "Atma = Self, anatma = not-Self, viveka = discrimination. This compound is the text's own name in condensed form (Vivekachudamani = the crest-jewel of viveka). The discrimination is not abstract philosophy but a direct contemplative practice -- examining each sheath and recognizing 'this is not me.'",
+      "title_as_instruction": "Begin the practice now: in every experience, ask 'Is this me, or is this something I am aware of?' Whatever you can observe is not you. Keep going until you find what cannot be objectified.",
+      "verse_range": [
+        149,
+        153
+      ],
+      "verse_count": 5,
+      "summary": "The bondage cannot be cut by weapons or fire -- only by the sword of discriminative wisdom. The guru introduces the five-sheath analysis: the Self is hidden by five sheaths like water beneath duckweed. Remove the duckweed and the pure water appears.",
+      "narrative_role": "The Method Revealed -- the actual cutting begins with the five-sheath analysis.",
+      "emotional_arc": "Fierce hope -- there IS a weapon that works, and the method begins",
+      "key_concepts": [
+        "viveka-vijnana-mahasi",
+        "pancha-kosha",
+        "shaivala-analogy",
+        "pratyag-atman"
+      ],
+      "connection_to_next": "The first sheath -- annamaya kosha -- is examined and rejected.",
+      "connection_to_previous": "The tree of samsara (section 33) was the disease; the sword of viveka is the remedy.",
+      "modern_parallel": "Like discovering that the only tool that can deprogram conditioning is your own discernment, activated by someone you trust."
+    },
+    {
+      "section_number": 35,
+      "title": "The Food Sheath (Annamaya Kosha)",
+      "title_hindi": "अन्नमय कोश",
+      "title_meaning": "The title names the first and outermost sheath -- the body made of food. By calling it 'food-sheath,' Shankara strips it of dignity: your body is food that has temporarily taken a shape and will return to being food. You cannot be something this transient.",
+      "title_sanskrit_significance": "Anna = food, maya = made of/consisting of (not to be confused with Maya the illusion), kosha = sheath/covering. The body is literally anna-maya -- 'food-formed.' Born from food, sustained by food, it becomes food for other beings upon death. The name itself is the teaching: you are not your food-body.",
+      "title_as_instruction": "Contemplate: this body was food yesterday, is a temporary form today, and will be food tomorrow. Can you be something that is entirely borrowed and entirely returned? Release your grip on the physical body.",
+      "verse_range": [
+        154,
+        164
+      ],
+      "verse_count": 11,
+      "summary": "The physical body, born of food, sustained by food, destined to become food. It did not exist before birth and will not exist after death. It is inert matter. The Self cannot be this.",
+      "narrative_role": "First Sheath Removed -- the most obvious layer of false identity is stripped away.",
+      "emotional_arc": "Disidentification deepening -- 'I am not this body' becomes felt",
+      "key_concepts": [
+        "annamaya kosha",
+        "anna-vikara",
+        "asthira",
+        "jada",
+        "drishya"
+      ],
+      "connection_to_next": "If not the physical body, perhaps the vital energy? The prana-sheath is examined next.",
+      "connection_to_previous": "The five-sheath method was announced (section 34); the first sheath is now peeled away.",
+      "modern_parallel": "Like a scientist concluding: this is a collection of atoms that were elsewhere yesterday and will be elsewhere tomorrow. Nothing here is permanent enough to be 'you.'"
+    },
+    {
+      "section_number": 36,
+      "title": "The Vital Sheath (Pranamaya Kosha)",
+      "title_hindi": "प्राणमय कोश",
+      "title_meaning": "The title names the second sheath -- the energy body. Most people, having intellectually detached from the physical body, still identify with their vitality: 'I am energetic' or 'I am exhausted.' This sheath must also be seen through.",
+      "title_sanskrit_significance": "Prana = vital energy, maya = consisting of, kosha = sheath. The prana-maya kosha is composed of the five vital airs and the five organs of action. It animates the food-sheath but is itself a modification of air (vayu-vikara) -- inert, dependent, and unconscious of itself.",
+      "title_as_instruction": "When you feel energized or depleted, recognize: this is the prana-sheath fluctuating, not 'you' fluctuating. Your vitality rises and falls like weather. The sky is not the weather.",
+      "verse_range": [
+        165,
+        166
+      ],
+      "verse_count": 2,
+      "summary": "Pranas combined with the five action-organs form the vital sheath. It animates the food-sheath but is a modification of air, entering and exiting the body. Not the Self.",
+      "narrative_role": "Second Sheath Removed.",
+      "emotional_arc": "Surprise that even life-force is not 'me'",
+      "key_concepts": [
+        "pranamaya kosha",
+        "vayu-vikara",
+        "jada"
+      ],
+      "connection_to_next": "If not the body or life-force, perhaps the mind?",
+      "connection_to_previous": "The food sheath was rejected (section 35); the inward progression continues.",
+      "modern_parallel": "Like distinguishing between the electricity powering a computer and the user of the computer."
+    },
+    {
+      "section_number": 37,
+      "title": "The Mental Sheath (Manomaya Kosha)",
+      "title_hindi": "मनोमय कोश",
+      "title_meaning": "The title names the sheath where most of humanity lives: the mind. This is the most psychologically confrontational section, because 'I am my thoughts and feelings' is the deepest and most cherished identification for most people. The title itself is a challenge: your mind is a sheath, not your Self.",
+      "title_sanskrit_significance": "Manas = mind (from man, 'to think'). Maya = consisting of, kosha = sheath. The manomaya kosha is the thinking-feeling layer -- the generator of 'I' and 'mine,' the engine of desire, the creator of the entire subjective world. Yet it has beginning and end, changes constantly, and can be observed -- so it cannot be the observer.",
+      "title_as_instruction": "Your thoughts, emotions, desires, and fears are not you -- they are the mental sheath. The proof: you can watch them. Whatever you can watch is not you. Rest in the watcher.",
+      "verse_range": [
+        167,
+        183
+      ],
+      "verse_count": 17,
+      "summary": "Mind with the five knowledge-senses constitutes the manomaya kosha. It generates 'I' and 'mine,' creates distinctions, drives desires. When tainted by rajas, it creates bondage; when purified, it enables liberation. Yet even purified mind is not the Self.",
+      "narrative_role": "The Deepest Psychological Confrontation -- most people's self-concept lives here.",
+      "emotional_arc": "'If I am not even my thoughts and feelings, what am I?'",
+      "key_concepts": [
+        "manomaya kosha",
+        "sankalpa-vikalpa",
+        "ahankara-mamakara",
+        "rajas causes bondage",
+        "shuddha-manas enables freedom"
+      ],
+      "connection_to_next": "The intellectual sheath (vijnanamaya) is examined next.",
+      "connection_to_previous": "Body (section 35) and prana (section 36) were rejected; now the mind itself is on the table.",
+      "modern_parallel": "Like the moment in therapy when you realize: 'I am not my anxiety. I am the one HAVING the anxiety.'"
+    },
+    {
+      "section_number": 38,
+      "title": "The Intellectual Sheath (Vijnanamaya Kosha)",
+      "title_hindi": "विज्ञानमय कोश",
+      "title_meaning": "The title names the most dangerous impersonator: the intellect-sheath. The buddhi that discriminates, decides, and 'knows' looks so much like the Self that even advanced seekers mistake it for the real thing. This is the wolf in sheep's clothing -- the sheath that most convincingly pretends to be you.",
+      "title_sanskrit_significance": "Vijnana = discriminative knowledge (vi-jnana = special/discerning knowledge). Maya = consisting of, kosha = sheath. The vijnanamaya kosha is buddhi combined with the five knowledge-senses. It shines with reflected consciousness (chid-abhasa) -- which is precisely why it is so convincing an impostor. The light you see in the intellect is borrowed, not its own.",
+      "title_as_instruction": "Even the part of you that 'gets' this teaching -- the discriminating intellect -- is not you. It too is a sheath, reflecting light from a deeper source. Do not stop at understanding. The understander itself must be transcended.",
+      "verse_range": [
+        184,
+        206
+      ],
+      "verse_count": 23,
+      "summary": "Buddhi with the five knowledge-senses forms the vijnanamaya kosha. It is the agent, the one who 'decides.' It shines with reflected consciousness and appears to be the Self -- the most dangerous impersonator. Yet it too is not the Self.",
+      "narrative_role": "The Subtlest and Most Dangerous Impersonator -- rejecting the intellect is the hardest act of discrimination.",
+      "emotional_arc": "Maximum vertigo -- if even the intellect is not me, then WHO is inquiring?",
+      "key_concepts": [
+        "vijnanamaya kosha",
+        "kartr-bhava",
+        "chid-abhasa",
+        "jiva",
+        "pratibimba"
+      ],
+      "connection_to_next": "How does liberation happen if even the intellect is not-Self?",
+      "connection_to_previous": "The mental sheath was rejected (section 37); now its more refined counterpart is also rejected.",
+      "modern_parallel": "Like the final twist in a mystery where the detective realizes the investigator himself was the prime suspect."
+    },
+    {
+      "section_number": 39,
+      "title": "The Detachment of Self from Its Adjuncts",
+      "title_hindi": "आत्माकी उपाधिसे असंगता",
+      "title_meaning": "The title teaches a critical principle: the Self is never actually affected by any of its adjuncts. No matter how deep the identification, the Self remains untouched -- like the sun unaffected by the clouds that seem to cover it. This is not a goal to achieve but a fact to recognize.",
+      "title_sanskrit_significance": "Atma = Self, upadhi = adjunct/limiting condition (upa = near, a-dha = to place). Asangata = non-attachment/non-contact. Upadhi is anything superimposed near the Self that makes it appear limited. Asangata means the Self never actually touches or is modified by any upadhi -- the contact is only apparent.",
+      "title_as_instruction": "No matter what has happened to you -- no matter what suffering, what conditioning, what confusion -- your essential nature has never been damaged. The screen was never burned by the fire in the movie. Rest in this untouchability.",
+      "verse_range": [
+        207,
+        210
+      ],
+      "verse_count": 4,
+      "summary": "Just as the sun appears to move when clouds drift but is actually stationary, the Self appears to take on adjuncts' qualities while remaining untouched.",
+      "narrative_role": "Stabilizing the Insight -- after vertiginous rejection of the intellect, the guru reassures.",
+      "emotional_arc": "A settling calm after the vertigo",
+      "key_concepts": [
+        "upadhi",
+        "asanga",
+        "meghavat-surya",
+        "kutastha"
+      ],
+      "connection_to_next": "With the Self's independence established, the practical question arises: how does liberation happen?",
+      "connection_to_previous": "All five sheaths have been rejected; now the Self's untouchability is reaffirmed.",
+      "modern_parallel": "Like understanding that the movie screen is never burned by the fire in the film."
+    },
+    {
+      "section_number": 40,
+      "title": "How Does Liberation Happen?",
+      "title_hindi": "मुक्ति कैसे होगी?",
+      "title_meaning": "The title poses the most practical question in the entire text: HOW does liberation actually happen? Not what it is, not why it matters, but the specific mechanism. The answer -- dissolution of the false ego-identification -- is deceptively simple and infinitely demanding.",
+      "title_sanskrit_significance": "Mukti = liberation (from much, 'to release'). Kaisi = how. The question form in the title itself teaches that liberation is not mysterious but has a specific, understandable mechanism: the removal of jiva-bhava (the false sense of being a limited individual). When the superimposition is removed, the Self shines on its own.",
+      "title_as_instruction": "Stop mystifying liberation. It happens through a specific mechanism: the dissolution of false identification. Every time you catch yourself identifying with something impermanent and release that identification, you are practicing liberation.",
+      "verse_range": [
+        211,
+        214
+      ],
+      "verse_count": 4,
+      "summary": "Liberation is the dissolution of false identification with the ego. When superimposition is removed through knowledge, the Self shines on its own. The guru points to the 'I-I' pulsation persisting through all three states.",
+      "narrative_role": "The Practical Bridge -- from theory to experiential recognition.",
+      "emotional_arc": "Excitement of being given a direct experiential pointer",
+      "key_concepts": [
+        "jiva-bhava-nivritti",
+        "aham-aham-sphurana",
+        "tri-avastha-sakshi"
+      ],
+      "connection_to_next": "Self-knowledge is identified as the sole means of liberation.",
+      "connection_to_previous": "The Self's independence was established (section 39); now practical liberation is addressed.",
+      "modern_parallel": "Like being told: 'The signal you are looking for has been running in the background your entire life.'"
+    },
+    {
+      "section_number": 41,
+      "title": "Self-Knowledge as the Sole Means of Liberation",
+      "title_hindi": "आत्मज्ञान ही मुक्तिका उपाय है",
+      "title_meaning": "The title makes the most radical claim of the entire text: self-knowledge is not just the best means to liberation -- it is the ONLY means. Everything else -- yoga, ritual, charity, austerity -- is at best preparatory. This is not arrogance but precision: only the exact remedy cures the exact disease.",
+      "title_sanskrit_significance": "Atma-jnana = self-knowledge, hi = indeed/certainly (emphatic particle), mukti ka upaya = the means to liberation. The word 'hi' makes this categorical, not suggestive. Na anyah pantha -- there is no other path.",
+      "title_as_instruction": "Accept this with full gravity: there is exactly one exit from suffering, and it is knowing your own true nature. Not improving yourself, not accumulating merit, not perfecting your practice -- but knowing what you actually are.",
+      "verse_range": [
+        215,
+        224
+      ],
+      "verse_count": 10,
+      "summary": "There is no other path to freedom than knowledge of one's true nature. The wise one becomes free from sorrow, full of bliss, fearless. 'There is NO other path.'",
+      "narrative_role": "The Categorical Imperative -- all escape routes are definitively sealed.",
+      "emotional_arc": "Fierce clarity, 'nowhere to run but inward'",
+      "key_concepts": [
+        "atma-jnana",
+        "vishoka",
+        "ananda-ghana",
+        "na anyah pantha"
+      ],
+      "connection_to_next": "The final sheath -- the bliss-sheath -- must also be rejected.",
+      "connection_to_previous": "Liberation's mechanism was outlined (section 40); now its exclusivity is hammered home.",
+      "modern_parallel": "Like a doctor saying: 'There is exactly one treatment for this condition. Everything else is palliative.'"
+    },
+    {
+      "section_number": 42,
+      "title": "The Bliss Sheath (Anandamaya Kosha)",
+      "title_hindi": "आनन्दमय कोश",
+      "title_meaning": "The title names the final and most seductive sheath: bliss itself. The greatest trap on the spiritual path is mistaking an experience of bliss for liberation. This section teaches that even bliss -- even the most sublime spiritual experience -- is still a sheath, still not you.",
+      "title_sanskrit_significance": "Ananda = bliss, maya = consisting of, kosha = sheath. The anandamaya kosha manifests most fully in deep sleep and in moments of fulfilled desire. Its three grades -- priya (pleasure at contact), moda (enjoyment during contact), and pramoda (satisfaction after contact) -- prove it is conditional and variable, not the unconditioned bliss of the Self.",
+      "title_as_instruction": "Do not mistake peak experiences for enlightenment. The bliss of deep meditation, of fulfilled desire, of deep sleep -- all of these are experiences happening to awareness, not awareness itself. Let go of even bliss to find what is beyond it.",
+      "verse_range": [
+        225,
+        228
+      ],
+      "verse_count": 4,
+      "summary": "The bliss-sheath manifests in deep sleep, experienced as priya, moda, and pramoda. But even this is not the Self: it is conditioned, variable, dependent on merit.",
+      "narrative_role": "The Final Sheath Removed -- the most seductive trap because bliss FEELS like liberation.",
+      "emotional_arc": "The most counterintuitive moment: even bliss must be let go",
+      "key_concepts": [
+        "anandamaya kosha",
+        "priya-moda-pramoda",
+        "tamo-guna-prabhava"
+      ],
+      "connection_to_next": "All five sheaths rejected. The disciple asks: 'What then IS the Self?'",
+      "connection_to_previous": "The intellectual sheath (section 38) was the most dangerous impersonator; the bliss sheath is the most seductive.",
+      "modern_parallel": "Like realizing that even your peak experiences -- flow states, deep meditation highs -- are still experiences happening TO awareness, not awareness itself."
+    },
+    {
+      "section_number": 43,
+      "title": "Questions About the Nature of Self",
+      "title_hindi": "आत्मस्वरूपविषयक प्रश्न",
+      "title_meaning": "The title captures the most vulnerable moment in the entire teaching: the disciple, having been stripped of every identification, now stands in bewilderment asking 'What IS the Self?' This confusion is not failure -- it is the exact doorway. The title teaches that not-knowing is the precondition for true knowing.",
+      "title_sanskrit_significance": "Atma-svarupa = the essential nature of the Self, vishayaka = regarding/concerning, prashna = question. The disciple's question arises from genuine aporia (philosophical bewilderment) -- having negated everything, what remains? This bewilderment is itself the opening through which direct recognition occurs.",
+      "title_as_instruction": "When you have honestly let go of every identity and stand in genuine bewilderment -- 'I do not know what I am' -- you are closer to truth than you have ever been. Do not flee this emptiness. It is the womb of recognition.",
+      "verse_range": [
+        229,
+        235
+      ],
+      "verse_count": 7,
+      "summary": "The disciple asks in perplexity: 'If none of these is the Self, what remains?' The guru answers by pointing to the self-luminous awareness that remains when all sheaths are negated.",
+      "narrative_role": "The Critical Turning Point -- the disciple's confusion is the exact doorway to recognition.",
+      "emotional_arc": "Genuine bewilderment that becomes the opening for grace",
+      "key_concepts": [
+        "neti-neti",
+        "pancha-kosha-vilakshana",
+        "svayam-prakasha"
+      ],
+      "connection_to_next": "The guru gives the positive, definitive description of the Self's nature.",
+      "connection_to_previous": "Five sheaths rejected (sections 35-42); the disciple's bewilderment is the necessary result.",
+      "modern_parallel": "Like the dark night of the soul in every hero's journey: everything believed has shattered, and the hero stands in the void asking 'Who am I?'"
+    },
+    {
+      "section_number": 44,
+      "title": "Description of the True Self (Atmasvarupa Nirupanam)",
+      "title_hindi": "आत्मस्वरूप-निरूपण",
+      "title_meaning": "The title announces the most important section of the entire text: the positive description of what you actually are. After many sections of preparation, negation, and analysis, the guru finally points directly at the Self. This is the destination the whole journey has been leading toward.",
+      "title_sanskrit_significance": "Atma-svarupa = the Self's essential nature (sva = own, rupa = form). Nirupana = description/determination. Svarupa means not 'form' in the physical sense but 'own nature' -- what the Self is when nothing is superimposed upon it: sat-chit-ananda (existence-consciousness-bliss), self-luminous, non-dual, eternal.",
+      "title_as_instruction": "Listen with your whole being: you are not the body, not the mind, not the intellect, not even bliss. You are the self-luminous awareness in which all of these appear. Not the wave but the ocean. Not the image but the screen. This is not something to become -- it is what you already are.",
+      "verse_range": [
+        236,
+        262
+      ],
+      "verse_count": 27,
+      "summary": "The central teaching. The Self is: the witness of the three states; the eternal 'I-I' pulsation; self-luminous pure awareness; sat-chit-ananda; beyond name and form; one without a second. This is the longest positive description of the Self in the text.",
+      "narrative_role": "The Revelation -- the climactic teaching of the text.",
+      "emotional_arc": "Awe, recognition, coming home to something never lost",
+      "key_concepts": [
+        "sat-chit-ananda",
+        "svayam-prakasha",
+        "sakshi",
+        "nirguna",
+        "advitiya",
+        "nitya",
+        "shuddha",
+        "buddha",
+        "mukta"
+      ],
+      "connection_to_next": "The Self having been described, its relationship to the world must be addressed.",
+      "connection_to_previous": "The disciple's perplexity (section 43) is answered with the fullest positive description possible.",
+      "modern_parallel": "Like finally touching the bedrock sense of 'I exist, I am aware, I am whole' beneath all stories and identities."
+    },
+    {
+      "section_number": 45,
+      "title": "Unity of Brahman and the World",
+      "title_hindi": "ब्रह्म और जगत्की एकता",
+      "title_meaning": "The title resolves the apparent contradiction between the Self and the world. If the Self is all there is, what about the world? The answer is not that the world disappears but that it is recognized as Brahman appearing in form -- like waves recognized as ocean. The world is not denied; it is reclassified.",
+      "title_sanskrit_significance": "Brahma = the absolute reality, jagat = the world (from gam, 'to move' -- the world is 'that which is in constant motion'). Ekata = oneness/unity. The title asserts that Brahman and the world are not two separate realities but one reality appearing in two modes -- like clay and pot, ocean and wave, gold and ornament.",
+      "title_as_instruction": "Stop fighting the world. It is not your enemy -- it is Brahman itself in disguise. When you see through the disguise, the world remains but your relationship with it is transformed. You see the gold in every ornament.",
+      "verse_range": [
+        263,
+        268
+      ],
+      "verse_count": 6,
+      "summary": "The world is not separate from Brahman -- like pot from clay, waves from ocean, ornaments from gold. Whatever is superimposed is ultimately its substratum.",
+      "narrative_role": "Resolving the World-Problem -- the duality between Self and world dissolves.",
+      "emotional_arc": "Sudden expansion -- the world is not an enemy but Brahman misperceived",
+      "key_concepts": [
+        "brahma-jagat-aikya",
+        "adhishthana",
+        "vivarta",
+        "ghata-mrit",
+        "taranga-samudra"
+      ],
+      "connection_to_next": "The mahavakyas -- the scriptural method for realizing unity -- are now taught.",
+      "connection_to_previous": "The Self was described as infinite and non-dual (section 44); now the apparent 'other' is resolved.",
+      "modern_parallel": "Like realizing that every wave is just the ocean in a temporary shape."
+    },
+    {
+      "section_number": 46,
+      "title": "The Great Sentences (Mahavakya Vichara)",
+      "title_hindi": "महावाक्य-विचार",
+      "title_meaning": "The title names the hermeneutical key to Vedantic scripture: the great sentences (mahavakyas) and the method of interpreting them. 'Tat Tvam Asi' (That Thou Art) sounds paradoxical -- how can the limited individual be the infinite Absolute? The title teaches that there is a precise method for resolving this paradox.",
+      "title_sanskrit_significance": "Mahavakya = great sentence (maha = great, vakya = sentence). Vichara = investigation/contemplation. The four mahavakyas -- Tat Tvam Asi, Aham Brahmasmi, Prajnanam Brahma, Ayam Atma Brahma -- are the distilled essence of the Upanishads. Jahat-ajahat-lakshana is the method of retaining the essential meaning while discarding incidental limitations.",
+      "title_as_instruction": "When you hear 'You are That' -- do not dismiss it as absurd and do not accept it superficially. Use the method: drop the limiting adjuncts from both 'you' (the limited individual) and 'That' (the cosmic absolute). What remains on both sides is identical. Contemplate this until it becomes direct seeing.",
+      "verse_range": [
+        269,
+        283
+      ],
+      "verse_count": 15,
+      "summary": "The guru explains jahat-ajahat-lakshana to reconcile 'Tat Tvam Asi.' Individual and cosmic consciousness are one when limiting adjuncts are removed. Hundreds of mahavakyas point to the same truth.",
+      "narrative_role": "The Hermeneutical Key -- showing HOW to understand scripture's most radical claim.",
+      "emotional_arc": "Intellectual delight as the paradox resolves",
+      "key_concepts": [
+        "tat-tvam-asi",
+        "mahavakya",
+        "jahat-ajahat-lakshana",
+        "bhaga-tyaga-lakshana",
+        "jiva-brahma-aikya"
+      ],
+      "connection_to_next": "Understanding established, the guru instructs the practice of Brahma-bhavana.",
+      "connection_to_previous": "World-Brahman unity was established (section 45); now the scriptural methodology is given.",
+      "modern_parallel": "Like learning the interpretive key that unlocks a coded message. Without it, 'you are that' sounds absurd; with it, everything falls into place."
+    },
+    {
+      "section_number": 47,
+      "title": "Meditation on Brahman (Brahma Bhavana)",
+      "title_hindi": "ब्रह्म-भावना",
+      "title_meaning": "The title marks the transition from understanding to practice. Brahma-bhavana is not affirmation or positive thinking -- it is the sustained contemplation 'I am Brahman' until the contemplator dissolves into what is contemplated. Theory becomes transformation.",
+      "title_sanskrit_significance": "Brahma = Brahman (the absolute reality), bhavana = contemplation/cultivation/dwelling in (from bhu, 'to become/be'). Bhavana is deeper than thinking -- it means to make something your being, to dwell in it so completely that the distinction between meditator and meditated-upon disappears.",
+      "title_as_instruction": "Sit quietly and contemplate: 'I am not the body, not the mind, not the ego. I am the infinite, self-luminous awareness -- Brahman itself.' This is not self-hypnosis. It is aligning your attention with what has always been true.",
+      "verse_range": [
+        284,
+        297
+      ],
+      "verse_count": 14,
+      "summary": "A sustained guided contemplation: 'I am Brahman. I am not the body, senses, pranas, or ego. I am pure, infinite consciousness.' Verse after verse is a pointer for direct seeing.",
+      "narrative_role": "The Practice Given -- the transition from understanding to transformative practice.",
+      "emotional_arc": "Deep absorption, the beginning of actual self-recognition",
+      "key_concepts": [
+        "brahma-bhavana",
+        "aham-brahma-asmi",
+        "neti-neti practice",
+        "hridaya-dhyana"
+      ],
+      "connection_to_next": "With the practice established, the guru addresses vasanas that pull the mind back.",
+      "connection_to_previous": "Mahavakya analysis (section 46) gave understanding; now it becomes practice.",
+      "modern_parallel": "Like the difference between understanding you are not your anxiety and actually sitting in meditation letting go of each identification."
+    },
+    {
+      "section_number": 48,
+      "title": "Abandonment of Latent Desires (Vasana Tyaga)",
+      "title_hindi": "वासना-त्याग",
+      "title_meaning": "The title names the greatest practical obstacle on the path: latent desires that pull the mind back into identification even after insight arises. Understanding is not enough; the deep grooves of habit must be actively abandoned. This is where philosophy becomes warfare.",
+      "title_sanskrit_significance": "Vasana = latent desire/tendency (from vas, 'to dwell/remain'). Tyaga = abandonment/renunciation. Vasanas are the residual impressions left by past experiences -- they dwell in the unconscious and spontaneously activate patterns of desire and aversion. Tyaga here means not suppression but starving them through non-engagement.",
+      "title_as_instruction": "After understanding, do not relax. Your old patterns will try to reassert themselves. Every time a habitual desire arises, recognize it as a vasana -- a ghost from the past, not a present reality. Starve it with non-attention. This is the real battle.",
+      "verse_range": [
+        298,
+        318
+      ],
+      "verse_count": 21,
+      "summary": "Even after understanding arises, vasanas pull the mind back. The chain reaction of liberation: cessation of action leads to cessation of thinking, which dissolves vasanas -- and THAT is jivanmukti. This section addresses every form of residual attachment.",
+      "narrative_role": "The Battle Plan -- understanding is not enough; the old patterns must be starved.",
+      "emotional_arc": "Determined effort, oscillation between clarity and falling back, discipline of persistence",
+      "key_concepts": [
+        "vasana-tyaga",
+        "kriya-nasha",
+        "chitta-nasha",
+        "vasana-kshaya",
+        "jivanmukti"
+      ],
+      "connection_to_next": "The guru explains adhyasa-nirasa -- systematic removal of superimposition.",
+      "connection_to_previous": "Brahma-bhavana (section 47) is the practice; vasana-tyaga addresses the main obstacle.",
+      "modern_parallel": "Like knowing you need to quit an addiction versus actually going through withdrawal."
+    },
+    {
+      "section_number": 49,
+      "title": "Removal of Superimposition (Adhyasa Nirasa)",
+      "title_hindi": "अध्यास-निरास",
+      "title_meaning": "The title names the exact mechanism of all suffering: superimposition. You project the Self's qualities onto the body and the body's qualities onto the Self. This single error creates the entire world of bondage. Understanding the mechanism is half the cure.",
+      "title_sanskrit_significance": "Adhyasa = superimposition (adhi = upon, as = to throw). It is the fundamental cognitive error where one thing is mistaken for another -- like seeing silver in an oyster shell. Shankara's Adhyasa Bhashya (introduction to the Brahma Sutras) identifies this as the root of all philosophical and spiritual error.",
+      "title_as_instruction": "Notice how you constantly superimpose: you project permanence onto impermanent things, consciousness onto inert matter, and limitation onto the limitless Self. Every time you say 'I am tired' or 'I am afraid,' you are superimposing body-properties onto awareness.",
+      "verse_range": [
+        319,
+        334
+      ],
+      "verse_count": 16,
+      "summary": "A detailed practical protocol for removing superimposition through sustained self-abidance. Use rajas to overcome tamas, sattva to overcome rajas. Let prarabdha sustain the body while you remain still. 'By Tat Tvam Asi, remove your superimposition. Do not rest until it is thoroughly gone.'",
+      "narrative_role": "The Intensive Practice -- the meditation retreat section of the text.",
+      "emotional_arc": "Relentless determination, breakthrough moments alternating with resistance",
+      "key_concepts": [
+        "adhyasa-nirasa",
+        "atma-nishtha",
+        "prarabdha",
+        "vasana-traya",
+        "kartritva-tyaga"
+      ],
+      "connection_to_next": "The guru addresses the most subtle identification: the 'I' of the ego.",
+      "connection_to_previous": "Vasana-tyaga (section 48) named the enemy; adhyasa-nirasa provides the complete tactical manual.",
+      "modern_parallel": "Like a daily journaling practice asking: 'Where am I still confusing my role with who I actually am?' -- done relentlessly."
+    },
+    {
+      "section_number": 50,
+      "title": "Analysis of the 'I' (Aham-Padartha Nirupanam)",
+      "title_hindi": "अहंपदार्थ-निरूपण",
+      "title_meaning": "The title asks the most fundamental question possible: what does 'I' actually refer to? Not 'who am I' in the biographical sense, but what is the referent of the word 'I'? This is the subtlest discrimination in the entire text -- the hair-thin line between the real 'I' and the false 'I.'",
+      "title_sanskrit_significance": "Aham = I, padartha = the referent/meaning of a word (pada = word, artha = meaning). Nirupana = determination. The analysis asks: when you say 'I,' are you referring to the ego (which appears and disappears) or to the witness-consciousness (which persists through all states)? This seemingly academic question has the power to destroy all bondage.",
+      "title_as_instruction": "Ask yourself with piercing attention: what do I ACTUALLY refer to when I say 'I'? Not the body, which you can observe. Not the mind, which you can watch. Not the ego, which disappears in deep sleep. The real 'I' is the witness that was present in every experience you have ever had.",
+      "verse_range": [
+        335,
+        340
+      ],
+      "verse_count": 6,
+      "summary": "The true 'I' is not the ego (which is fleeting and observable) but the eternal witness of the ego. The reflected consciousness masquerades as the Self but is not it.",
+      "narrative_role": "Philosophical Precision -- operating on the subtlest level.",
+      "emotional_arc": "A knife-edge of attention -- the distinction is hair-thin but everything depends on it",
+      "key_concepts": [
+        "aham-padartha",
+        "ahamkara-sakshi",
+        "nitya-satta",
+        "chidabhasa vs chit"
+      ],
+      "connection_to_next": "The pseudo-I (ego) must now be specifically condemned and attacked.",
+      "connection_to_previous": "Adhyasa-nirasa targeted superimposition generally (section 49); now the most fundamental superimposition is examined.",
+      "modern_parallel": "Like the moment in meditation when you notice that even 'the meditator' can be observed -- and therefore is not the final observer."
+    },
+    {
+      "section_number": 51,
+      "title": "Condemnation of the Ego (Ahamkara Ninda)",
+      "title_hindi": "अहंकार-निन्दा",
+      "title_meaning": "The title is martial: the ego is not analyzed but CONDEMNED. This is deliberate -- by this point in the text, the seeker must not merely understand the ego but develop fierce opposition to it. The ego is the final enemy, and it is named as such with full emotional force.",
+      "title_sanskrit_significance": "Ahamkara = ego/I-maker, ninda = condemnation/censure. The guru uses ninda (the same word used for condemning sense-objects in section 15) because intellectual understanding of the ego is insufficient -- emotional conviction is needed. The ego is compared to a serpent, an eclipse, and a disease -- three metaphors of mortal danger.",
+      "title_as_instruction": "Treat the ego not as an interesting psychological phenomenon but as the singular obstacle to your freedom. It is a poisonous serpent guarding the treasure. Do not negotiate with it. Do not try to improve it. Slay it with the sword of knowledge.",
+      "verse_range": [
+        341,
+        361
+      ],
+      "verse_count": 21,
+      "summary": "The ego is savaged: a poisonous serpent guarding Brahma-ananda's treasure, an eclipse darkening the Self-moon, a disease preventing liberation. 'Slay this enemy with the sword of knowledge.' Even after being cut down, the ego revives if nourished by even a single thought.",
+      "narrative_role": "The Final Battle -- the ego is identified as THE singular obstacle.",
+      "emotional_arc": "Battle-fury, fierce resolve",
+      "key_concepts": [
+        "ahamkara as sarpa",
+        "ahamkara as Rahu",
+        "ahamkara as roga",
+        "viveka-vijnana-khadga"
+      ],
+      "connection_to_next": "Practical strategies for preventing ego's revival.",
+      "connection_to_previous": "The true 'I' was distinguished from the ego (section 50); now the ego is destroyed.",
+      "modern_parallel": "Like a cancer surgeon explaining that even a single remaining cell can cause recurrence. The ego is not managed -- it must be completely uprooted."
+    },
+    {
+      "section_number": 52,
+      "title": "Renunciation of Action, Thought, and Desire",
+      "title_hindi": "क्रिया, चिन्ता और वासनाका त्याग",
+      "title_meaning": "The title names three things that must be renounced in sequence: compulsive action, obsessive thought, and latent desire. This chain is the complete prescription for liberation -- not as a single act of heroic renunciation but as a progressive stilling.",
+      "title_sanskrit_significance": "Kriya = action, chinta = thought/worry, vasana = latent desire, tyaga = abandonment. The chain is precise: kriya-nasha (cessation of compulsive action) leads to chitta-nasha (cessation of obsessive thinking), which leads to vasana-kshaya (dissolution of latent tendencies). This IS jivanmukti -- liberation while alive.",
+      "title_as_instruction": "First, stop acting compulsively. Then, the mind will slow down. Then, the deep tendencies will dissolve. You cannot jump to the end -- work the sequence. Each stage makes the next possible.",
+      "verse_range": [
+        362,
+        374
+      ],
+      "verse_count": 13,
+      "summary": "The chain of liberation: cessation of action leads to mental stillness, which exhausts vasanas. This IS jivanmukti. The duckweed metaphor: even a wise person turning from inquiry is instantly covered again. Constant vigilance required.",
+      "narrative_role": "The Maintenance Manual -- how to sustain the victory.",
+      "emotional_arc": "Sober determination, understanding that freedom requires eternal vigilance",
+      "key_concepts": [
+        "kriya-nasha",
+        "chitta-nasha",
+        "vasana-kshaya = moksha",
+        "shaivala analogy"
+      ],
+      "connection_to_next": "The two wings needed for sustained flight: vairagya and jnana.",
+      "connection_to_previous": "The ego was slain (section 51); now the threat of its revival is addressed.",
+      "modern_parallel": "Like an addiction recovery program emphasizing: relapse can happen in a single moment of inattention."
+    },
+    {
+      "section_number": 53,
+      "title": "Condemnation of Carelessness (Pramada Ninda)",
+      "title_hindi": "प्रमाद-निन्दा",
+      "title_meaning": "The title delivers the most urgent warning in the text: carelessness (pramada) is death. Not metaphorical death -- spiritual death. After everything the seeker has achieved, a single moment of inattention can undo it all. This is the guru shouting: STAY AWAKE.",
+      "title_sanskrit_significance": "Pramada = carelessness/heedlessness (pra = forward/away, mada = intoxication). Ninda = condemnation. Pramada is not mere laziness but a specific form of spiritual negligence -- turning away from self-inquiry when it matters most. The Katha Upanishad declares: 'Arise! Awake! Having attained your boon, understand it!' Pramada is the refusal to stay awake.",
+      "title_as_instruction": "After insight, the greatest danger is complacency. Do not assume your realization is permanent until it is unshakeable. The moment you stop paying attention, the old patterns return. Vigilance is not a phase -- it is a permanent stance.",
+      "verse_range": [
+        375,
+        386
+      ],
+      "verse_count": 12,
+      "summary": "Dispassion and knowledge are two wings -- without both, no one can fly. 'Pramada is death.' The dropped-ball analogy: one who falls from self-abidance cascades downward rapidly. There is no greater death for the wise than carelessness.",
+      "narrative_role": "The Warning Sign -- placed after the climactic teaching to prevent complacency.",
+      "emotional_arc": "Alarm, holy fear, recommitment to vigilance",
+      "key_concepts": [
+        "pramada = mrityu",
+        "vairagya-jnana as two wings",
+        "patita-kanduka analogy"
+      ],
+      "connection_to_next": "Rejection of the unreal -- the practical application of vigilance.",
+      "connection_to_previous": "Sustained practice was described (section 52); now its greatest threat is named.",
+      "modern_parallel": "Like a surgeon saying after successful operation: 'If you go back to old habits, you will be back on this table in a year.'"
+    },
+    {
+      "section_number": 54,
+      "title": "Rejection of the Unreal (Asat Parihara)",
+      "title_hindi": "असत्-परिहार",
+      "title_meaning": "The title names the practical counterpart to carelessness: active rejection of what is unreal. It is not enough to understand that the world is appearance; you must actively turn away from it moment by moment. This is neti-neti as a daily practice.",
+      "title_sanskrit_significance": "Asat = unreal/non-existent, parihara = avoidance/abandonment. Asat-parihara is the practical application of viveka: having discriminated the real from the unreal, you must now actively disengage from the unreal. This is not world-denial but world-transparency -- seeing through appearance to substratum.",
+      "title_as_instruction": "In each moment, recognize what is asat (impermanent, dependent, changing) and release your grip on it. This does not mean abandoning your life but changing your relationship with it: from 'this is real' to 'this is appearance.'",
+      "verse_range": [
+        387,
+        398
+      ],
+      "verse_count": 12,
+      "summary": "Firmly established Brahma-nishtha alone removes suffering. Dwelling on sense objects feeds ignorance. As long as one identifies with the corpse-like body, one remains subject to birth, death, and disease. When one recognizes the Self as pure and immovable, one becomes free.",
+      "narrative_role": "Practical Renunciation -- turning philosophy into moment-by-moment living.",
+      "emotional_arc": "Clarity hardening into resolve",
+      "key_concepts": [
+        "asat-parihara",
+        "brahma-nishtha",
+        "shava-akara vs shiva-akara"
+      ],
+      "connection_to_next": "With the unreal rejected, the guru prescribes the positive practice of self-abidance.",
+      "connection_to_previous": "Pramada was condemned (section 53); now the positive action is specified.",
+      "modern_parallel": "Like a recovering addict learning to actively avoid triggers rather than just understanding addiction."
+    },
+    {
+      "section_number": 55,
+      "title": "The Discipline of Self-Abidance",
+      "title_hindi": "आत्मनिष्ठाका विधान",
+      "title_meaning": "The title prescribes not a single meditation session but a discipline -- a vidhana (systematic practice) of continuous self-abidance. Atma-nishtha is not something you do for an hour each morning; it is the reorganization of your entire life around the recognition of Self.",
+      "title_sanskrit_significance": "Atma-nishtha = firm establishment in the Self (nishtha = devoted/fixed, from ni-stha, 'to stand firm'). Vidhana = discipline/prescribed method/injunction. The title prescribes atma-nishtha as a vidhana -- a formal spiritual injunction, as binding as any Vedic command. This is not a suggestion but a requirement.",
+      "title_as_instruction": "Make self-abidance your constant practice. Not occasional meditation but continuous return to the awareness that you are. Let every distraction become a reminder. Let every forgetting become a cue to remember. This is the discipline.",
+      "verse_range": [
+        399,
+        416
+      ],
+      "verse_count": 18,
+      "summary": "Unbroken self-abidance is prescribed. Avarana must be destroyed through knowledge first; then vikshepa can be conquered. Samadhi is prescribed for establishing the non-dual vision.",
+      "narrative_role": "The Advanced Practice -- upgrading from basic discrimination to sustained samadhi.",
+      "emotional_arc": "Deepening commitment, transition from effort to absorption",
+      "key_concepts": [
+        "atma-nishtha",
+        "avarana-nivritti first",
+        "drishya-vilaya",
+        "samadhi"
+      ],
+      "connection_to_next": "The guru explains the substratum (adhishthana) of all appearance.",
+      "connection_to_previous": "The unreal was rejected (section 54); now abiding in the real is systematically taught.",
+      "modern_parallel": "Like transitioning from CBT (identifying thought patterns) to sustained meditation (resting in awareness itself)."
+    },
+    {
+      "section_number": 56,
+      "title": "Description of the Substratum",
+      "title_hindi": "अधिष्ठान-निरूपण",
+      "title_meaning": "The title reveals the ontological ground of liberation: the substratum (adhishthana) that underlies all appearance. Just as the rope underlies the illusory snake, Brahman underlies the apparent world. When you know the substratum, the superimposition dissolves on its own.",
+      "title_sanskrit_significance": "Adhishthana = substratum/ground/basis (adhi = upon/over, sthana = standing place). Nirupana = description. In Vedantic epistemology, every error has a substratum: the rope is the adhishthana of the snake-illusion. Self-knowledge works because it reveals the adhishthana that was always present beneath the superimposed world.",
+      "title_as_instruction": "In every experience, look for what supports it. Beneath every thought is awareness. Beneath every object is existence. Beneath every joy is bliss. The substratum is always Brahman -- learn to see it.",
+      "verse_range": [
+        417,
+        424
+      ],
+      "verse_count": 8,
+      "summary": "When Self-knowledge arises, ignorance is destroyed along with its effects. Like a rope correctly seen dispels the snake. All modifications of prakriti are unreal. Only the substratum is real.",
+      "narrative_role": "Ontological Grounding -- WHY self-knowledge works.",
+      "emotional_arc": "Intellectual satisfaction, the ground becoming solid",
+      "key_concepts": [
+        "adhishthana",
+        "rajju-sarpa-nivartana",
+        "prakriti-vikara as asatya"
+      ],
+      "connection_to_next": "With the substratum established, the guru teaches samadhi.",
+      "connection_to_previous": "Self-abidance was prescribed (section 55); now its philosophical basis is given.",
+      "modern_parallel": "Like understanding that the ground beneath a building is not affected by what happens inside the building."
+    },
+    {
+      "section_number": 57,
+      "title": "Description of Samadhi",
+      "title_hindi": "समाधि-निरूपण",
+      "title_meaning": "The title names the peak practice of the entire text: samadhi, the thought-free absorption in non-dual reality. Everything prior was preparation for this. Samadhi is not a special state to be attained but the natural condition when all false identifications are removed.",
+      "title_sanskrit_significance": "Samadhi = complete absorption (sam = together/complete, a-dha = to place). Nirupana = description. Samadhi literally means 'placing together completely' -- the merging of the knower with the known. Nirvikalpa samadhi (thought-free absorption) is distinguished from savikalpa samadhi (absorption with subtle distinction) -- only the former is complete.",
+      "title_as_instruction": "All your practice has been leading here: the complete dissolution of the subject-object divide. In samadhi, there is no meditator and no object of meditation -- only awareness, undivided and complete. Practice until the boundary between 'I' and 'Brahman' dissolves.",
+      "verse_range": [
+        425,
+        452
+      ],
+      "verse_count": 28,
+      "summary": "Samadhi is non-dual Self-realization. Nirvikalpa samadhi -- thought-free absorption in Brahman. External senses, mind, and ego must all be dissolved into the Self. Greater than shravana and manana combined. The direct means of nirvikalpa brahma-jnana.",
+      "narrative_role": "The Peak Practice -- the culminating meditation technique.",
+      "emotional_arc": "Profound inwardness, dissolution of subject-object duality",
+      "key_concepts": [
+        "nirvikalpa samadhi",
+        "shanto dantah",
+        "vasana-granthi-nasha",
+        "atma-sakshatakara"
+      ],
+      "connection_to_next": "The guru describes what sustains samadhi: supreme dispassion.",
+      "connection_to_previous": "Self-abidance (section 55) was the general practice; samadhi is its perfected form.",
+      "modern_parallel": "Like the difference between watching a river and becoming the water."
+    },
+    {
+      "section_number": 58,
+      "title": "Description of Supreme Dispassion",
+      "title_hindi": "वैराग्य-निरूपण",
+      "title_meaning": "The title teaches that samadhi without dispassion is impossible. Supreme dispassion (param vairagya) is not mere indifference but the total withdrawal of investment from everything that is not the Self. It is the fuel without which the fire of samadhi cannot sustain itself.",
+      "title_sanskrit_significance": "Vairagya = dispassion (vi = without/away, raga = attachment/color). Nirupana = description. Vairagya literally means 'without coloring' -- the mind is no longer colored by desire for external or internal objects. Supreme vairagya (param or atyanta vairagya) extends even to subtle internal attachments, including attachment to spiritual experiences.",
+      "title_as_instruction": "Examine what you are still holding onto -- not just material things but subtle attachments: the desire to be recognized as spiritual, the craving for peak experiences, the attachment to being the one who 'gets it.' Release them all. Samadhi requires total emptiness.",
+      "verse_range": [
+        453,
+        464
+      ],
+      "verse_count": 12,
+      "summary": "Supreme dispassion is the sine qua non of samadhi. External and internal attachment must both be conquered. Vairagya leads to samadhi, samadhi to stable knowledge, knowledge to vasana-kshaya, vasana-kshaya IS jivanmukti.",
+      "narrative_role": "The Support System -- samadhi needs dispassion as fire needs dry wood.",
+      "emotional_arc": "Deepening willingness to let go of everything",
+      "key_concepts": [
+        "atyanta-vairagya",
+        "vairagya-samadhi-jnana-kshaya-mukti chain"
+      ],
+      "connection_to_next": "The guru gives specific meditation instructions.",
+      "connection_to_previous": "Samadhi was described (section 57); dispassion is its fuel.",
+      "modern_parallel": "Like realizing that the ability to meditate deeply depends on your willingness to not care about what you leave behind."
+    },
+    {
+      "section_number": 59,
+      "title": "Method of Meditation",
+      "title_hindi": "ध्यान-विधि",
+      "title_meaning": "The title provides what every sincere seeker needs: specific, precise instructions for how to meditate. After the philosophical framework, the guru now gives exact coordinates: where to place attention, what to let go of, what to notice.",
+      "title_sanskrit_significance": "Dhyana = meditation (from dhyai, 'to contemplate/think of'). Vidhi = method/prescribed procedure. Dhyana-vidhi is a formal meditation protocol -- not vague 'sitting in silence' but a precise technique: fix awareness on the self-luminous witness in the vijnanamaya kosha, withdraw from all adjuncts, and rest as the unbroken awareness.",
+      "title_as_instruction": "Sit. Fix your attention on the witness-awareness that shines in the space behind all thought. See the body as a pot; see yourself as the sky within it. Every time attention wanders to an object, return to the subject. This is the method.",
+      "verse_range": [
+        465,
+        475
+      ],
+      "verse_count": 11,
+      "summary": "Fix awareness on the self-luminous witness. Withdraw from all adjuncts. Know yourself as unbroken consciousness pervading all states.",
+      "narrative_role": "The Meditation Manual -- precise instructions for the sitting practice.",
+      "emotional_arc": "Focused inward attention, growing taste of self-recognition",
+      "key_concepts": [
+        "dhyana-vidhi",
+        "svayam-jyoti-sakshi",
+        "ghata-akasha meditation"
+      ],
+      "connection_to_next": "From meditation method to seeing reality correctly: atma-drishti.",
+      "connection_to_previous": "Vairagya was the fuel (section 58); now the specific technique is given.",
+      "modern_parallel": "Like being given the exact GPS coordinates after hours looking at the general map."
+    },
+    {
+      "section_number": 60,
+      "title": "The Vision of the Self",
+      "title_hindi": "आत्म-दृष्टि",
+      "title_meaning": "The title names what happens when meditation ripens into permanent seeing: atma-drishti, the vision of the Self in all things. This is not a mystical experience but a perceptual revolution -- you literally see everything as the Self, the way you now see everything as 'physical matter.'",
+      "title_sanskrit_significance": "Atma = Self, drishti = vision/seeing (from drish, 'to see'). Atma-drishti is the non-dual vision where the seer recognizes the Self as the reality of every seen object. It is the direct experiential counterpart to the philosophical teaching of advaita -- not understanding oneness but SEEING oneness.",
+      "title_as_instruction": "Practice seeing the Self everywhere. In every face, see awareness looking back at you. In every object, see existence presenting itself. This is not imagination -- it is the most accurate perception possible. Train your vision until the world becomes transparent.",
+      "verse_range": [
+        476,
+        495
+      ],
+      "verse_count": 20,
+      "summary": "Having withdrawn from all adjuncts, see the Self as infinite, undivided, non-dual reality. Space is one despite appearing divided by pots. The world is Brahman -- seen through direct vision, not belief.",
+      "narrative_role": "The New Eyes -- the disciple is taught to see completely differently.",
+      "emotional_arc": "Expanding vision, the world becoming transparent, ecstasy of non-dual seeing",
+      "key_concepts": [
+        "atma-drishti",
+        "sarvatmatva",
+        "ghata-akasha-aikya",
+        "advaita-darshana"
+      ],
+      "connection_to_next": "The guru teaches the sublation (badha) of the phenomenal world.",
+      "connection_to_previous": "Meditation technique (section 59) was the practice; atma-drishti is the result.",
+      "modern_parallel": "Like putting on glasses that let you see through solid walls -- the furniture is still there, but you see through it to the space containing it all."
+    },
+    {
+      "section_number": 61,
+      "title": "Sublation of the Phenomenal World",
+      "title_hindi": "प्रपंचका बाध",
+      "title_meaning": "The title announces the dissolution of the phenomenal world -- not its physical destruction but its epistemological sublation. Just as the dream-world is 'sublated' upon waking (it does not disappear but is recognized as never having been independently real), so the waking world is sublated upon Self-knowledge.",
+      "title_sanskrit_significance": "Prapancha = the phenomenal world (pra-panch, 'to spread out' -- the world is 'that which is spread out' before consciousness). Badha = sublation/cancellation. In Vedantic logic, badha is the technical term for the cancellation of a previously held belief upon the arrival of corrective knowledge. The snake is 'sublated' when the rope is seen.",
+      "title_as_instruction": "Do not try to destroy the world or escape it. Instead, recognize its dependent nature: it exists only as an appearance in consciousness, like a dream exists only in the mind of the dreamer. This recognition IS sublation -- the world remains but its independent reality is cancelled.",
+      "verse_range": [
+        496,
+        508
+      ],
+      "verse_count": 13,
+      "summary": "The superimposed world resolves into its substratum through direct knowledge, like dream resolving upon waking. The wise understand superimposition through substrate-analysis.",
+      "narrative_role": "The World Dissolves -- not physically but epistemologically.",
+      "emotional_arc": "The final letting go, a great lightness",
+      "key_concepts": [
+        "prapancha-badha",
+        "adhyasta-vastu-nivritti",
+        "rajju-sarpa-nyaya"
+      ],
+      "connection_to_next": "With the world sublated, the guru gives final contemplation instructions.",
+      "connection_to_previous": "Atma-drishti revealed the Self (section 60); now the phenomenal world is formally resolved.",
+      "modern_parallel": "Like waking from a dream and realizing the entire dream world was a projection of your own consciousness."
+    },
+    {
+      "section_number": 62,
+      "title": "The Discipline of Self-Contemplation",
+      "title_hindi": "आत्म-चिन्तनका विधान",
+      "title_meaning": "The title prescribes the final meditation discipline: continuous self-contemplation (atma-chintana). This is not occasional reflection but the sustained, unbroken contemplation of the Self that leads to permanent establishment. The word 'vidhana' (discipline) means this is non-negotiable.",
+      "title_sanskrit_significance": "Atma = Self, chintana = contemplation/reflection (from chint, 'to think'). Vidhana = discipline/injunction. Atma-chintana is the sustained dwelling of attention on the Self -- not as an object to be thought about but as the subject to be recognized in every moment. The vidhana (formal prescription) makes this the concluding practice instruction.",
+      "title_as_instruction": "Make self-contemplation your constant companion. In sitting meditation and in daily life, return again and again to the awareness 'I am.' Not as a thought but as a recognition. This is the final instruction: contemplate the Self ceaselessly.",
+      "verse_range": [
+        509,
+        517
+      ],
+      "verse_count": 9,
+      "summary": "Meditate on the Self in your heart. In samadhi, the wise directly experience infinite, non-dual Brahman. 'Contemplate the Self ceaselessly, and you will never again fall into samsara.'",
+      "narrative_role": "The Final Instructions -- the guru's last direct meditation teachings.",
+      "emotional_arc": "Deep absorption, the very threshold of realization",
+      "key_concepts": [
+        "atma-chintana",
+        "hridaya-dhyana",
+        "samadhi-anubhava"
+      ],
+      "connection_to_next": "The guru addresses what happens after awakening.",
+      "connection_to_previous": "The world was sublated (section 61); now the disciple abides in what remains.",
+      "modern_parallel": "Like the final instruction before solo flight: 'Trust the process. Keep your attention here. You will not fall.'"
+    },
+    {
+      "section_number": 63,
+      "title": "Disregard for the Visible",
+      "title_hindi": "दृश्यकी उपेक्षा",
+      "title_meaning": "The title teaches the liberated person's natural relationship with the visible world: not hatred or avoidance but simple disregard (upeksha). The awakened one does not fight the world -- they are simply no longer interested in it as an independent reality, the way you lose interest in a dream upon waking.",
+      "title_sanskrit_significance": "Drishya = the visible/seen (from drish, 'to see'). Upeksha = disregard/equanimous overlooking (upa = near, iksha = seeing). Upeksha is not aversion but the natural disinterest that arises when something is seen through. It is the equanimity of one who knows that the visible world is an appearance in the Self.",
+      "title_as_instruction": "You do not need to reject the world. Simply see through it. When you know the movie is a movie, you do not need to leave the theater -- you simply stop being frightened by the villain. Let the visible world be, while resting as the awareness in which it appears.",
+      "verse_range": [
+        518,
+        525
+      ],
+      "verse_count": 8,
+      "summary": "The knower of Self pays no attention to the visible world. The body continues through prarabdha karma like an arrow released, but the enlightened one is indifferent.",
+      "narrative_role": "The Aftermath -- how the awakened person relates to the continuing world.",
+      "emotional_arc": "Freedom from concern about the body's fate",
+      "key_concepts": [
+        "drishya-upeksha",
+        "prarabdha-sutra",
+        "deha-udaseenata"
+      ],
+      "connection_to_next": "The fruits of self-knowledge are enumerated.",
+      "connection_to_previous": "Self-contemplation (section 62) was the final practice; indifference is its natural result.",
+      "modern_parallel": "Like someone so absorbed in creating a masterpiece that they forget about the weather outside."
+    },
+    {
+      "section_number": 64,
+      "title": "The Fruit of Self-Knowledge",
+      "title_hindi": "आत्मज्ञानका फल",
+      "title_meaning": "The title teaches that self-knowledge is not barren understanding but bears a tangible fruit: unshakeability. The greatest proof of realization is not ecstasy but equanimity -- the liberated person is not disturbed even by prarabdha-generated suffering. This fruit is the test of genuine knowledge.",
+      "title_sanskrit_significance": "Atma-jnana = self-knowledge, phala = fruit. In Vedantic tradition, every practice and knowledge has its phala (result). The phala of atma-jnana is not a heavenly reward but the immediate, experiential result of knowing oneself: freedom from being disturbed by any experience whatsoever.",
+      "title_as_instruction": "Measure your progress not by peak experiences but by your equanimity in difficulty. Can you remain undisturbed when life strikes? Not through suppression but through genuine recognition that what you are cannot be harmed. That is the fruit.",
+      "verse_range": [
+        526,
+        533
+      ],
+      "verse_count": 8,
+      "summary": "The greatest fruit: not being disturbed by prarabdha-generated suffering. The jivanmukta experiences circumstances but is not shaken. Not suppression but the natural result of knowing oneself as the unchanging witness.",
+      "narrative_role": "The Fruit is Shown -- the teaching proves its worth.",
+      "emotional_arc": "Serene confidence, unshakeability",
+      "key_concepts": [
+        "atma-jnana-phala",
+        "avichalitva",
+        "jivanmukta"
+      ],
+      "connection_to_next": "The guru paints a comprehensive portrait of the jivanmukta.",
+      "connection_to_previous": "Disregard for the visible (section 63) was the practice; unshakeability is the measurable fruit.",
+      "modern_parallel": "Like the difference between someone who believes they are calm and someone who has been tested by life's worst and remained centered."
+    },
+    {
+      "section_number": 65,
+      "title": "Marks of the Liberated-While-Alive",
+      "title_hindi": "जीवन्मुक्तके लक्षण",
+      "title_meaning": "The title paints the portrait of the fully realized human being -- not as a distant ideal but as a set of recognizable characteristics. By naming the 'marks' (lakshana), the guru gives the seeker a mirror: you can measure yourself against the description and see how far you have come.",
+      "title_sanskrit_significance": "Jivanmukta = liberated while alive (jiva = individual being, mukta = freed). Lakshana = characteristics/marks. The jivanmukta is the Vedantic ideal: not liberation after death but freedom while still embodied. The lakshanas include: absence of ego, absorption in Brahman, equal vision, freedom from desire, and utter indifference to praise and blame.",
+      "title_as_instruction": "Study the marks of the jivanmukta not as an impossible ideal but as your own latent nature. Are you free from ego-assertion? Do you see equality everywhere? Are you indifferent to praise and blame? Where you fall short, there is your work.",
+      "verse_range": [
+        534,
+        557
+      ],
+      "verse_count": 24,
+      "summary": "A comprehensive portrait: no ego arising; absorption in Brahman; desire-free knowledge; equanimity; equal vision; indifference to praise and blame; no 'I' or 'mine'; complete freedom from bondage.",
+      "narrative_role": "The Portrait -- the complete picture of liberation embodied.",
+      "emotional_arc": "Aspiration, longing, recognition that these qualities are latent within",
+      "key_concepts": [
+        "jivanmukta-lakshana",
+        "ahamkara-abhava",
+        "sama-darshana",
+        "udaseenata"
+      ],
+      "connection_to_next": "The question of prarabdha karma is addressed.",
+      "connection_to_previous": "The fruit of knowledge was named (section 64); now the person embodying it is fully described.",
+      "modern_parallel": "Like a job description for a fully self-actualized human being."
+    },
+    {
+      "section_number": 66,
+      "title": "The Question of Prarabdha Karma",
+      "title_hindi": "प्रारब्ध-विचार",
+      "title_meaning": "The title addresses the most common objection to liberation: if the enlightened person still has a body that suffers, how are they free? The question of prarabdha karma is not a technicality but an existential paradox that must be resolved for the teaching to be complete.",
+      "title_sanskrit_significance": "Prarabdha = karma that has already begun bearing fruit (pra = forth, arabdha = begun). Vichara = investigation/inquiry. Prarabdha is the arrow already released -- it must run its course. But the title uses vichara (investigation), implying that prarabdha itself must be examined: does it belong to the Self, or only to the body?",
+      "title_as_instruction": "If you are liberated but your body still suffers, do not be confused. The body's suffering belongs to the body, not to you. You were never born, so you have no karma. Prarabdha is a concession to those who still see bodies -- not a statement about the Self.",
+      "verse_range": [
+        558,
+        568
+      ],
+      "verse_count": 11,
+      "summary": "Does prarabdha continue for the enlightened? The guru addresses this: prarabdha belongs to the body, not the Self. The Self was never born, so how can it have prarabdha? Scripture mentions prarabdha only from the conventional standpoint.",
+      "narrative_role": "Resolving the Paradox -- liberation coexisting with apparent suffering.",
+      "emotional_arc": "Intellectual clarity about a paradox that haunts every seeker",
+      "key_concepts": [
+        "prarabdha-vichara",
+        "deha-dharma vs atma-dharma",
+        "paramarthika vs vyavaharika"
+      ],
+      "connection_to_next": "The guru delivers the ultimate negation: there is no multiplicity.",
+      "connection_to_previous": "The jivanmukta was described (section 65); now the apparent anomaly of prarabdha is explained.",
+      "modern_parallel": "Like asking: 'If I know the movie is not real, why do I still flinch?' The body has its momentum, but the knower is undisturbed."
+    },
+    {
+      "section_number": 67,
+      "title": "Negation of Multiplicity",
+      "title_hindi": "नानात्व-निषेध",
+      "title_meaning": "The title delivers the ultimate philosophical conclusion: there is no multiplicity. Period. What appears as many is actually one. This is not a belief to be adopted but the direct seeing that results from the entire teaching. The negation of multiplicity is the seal on non-dual realization.",
+      "title_sanskrit_significance": "Nanatva = multiplicity/manyness (from nana, 'various/many'). Nishedha = negation/prohibition. The Chandogya Upanishad declares: 'Ekam eva advitiyam' (One only, without a second). Nanatva-nishedha is the final negation -- after negating the body, senses, mind, and ego, the guru now negates the very category of 'many.'",
+      "title_as_instruction": "Look at the world and see: there are not many things. There is one reality appearing as many, the way one ocean appears as many waves. This is not poetry -- it is the most precise description of reality possible.",
+      "verse_range": [
+        569,
+        573
+      ],
+      "verse_count": 5,
+      "summary": "The ultimate conclusion: there is no multiplicity whatsoever. The world is Brahman alone. Consciousness appears divided by bodies but remains undivided.",
+      "narrative_role": "The Final Philosophical Statement -- all duality dissolved.",
+      "emotional_arc": "Absolute stillness, the mind resting in non-dual awareness",
+      "key_concepts": [
+        "nanatva-nishedha",
+        "ekam-eva-advitiyam",
+        "brahma-satyam"
+      ],
+      "connection_to_next": "The guru gives the final instruction for Self-experience.",
+      "connection_to_previous": "Prarabdha was resolved (section 66); now even the last duality is erased.",
+      "modern_parallel": "Like the final scene of a mystery where all the characters were the same person all along."
+    },
+    {
+      "section_number": 68,
+      "title": "Teaching of Self-Experience",
+      "title_hindi": "आत्मानुभवका उपदेश",
+      "title_meaning": "The title names the guru's final gift: not more concepts but a direct transmission aimed at triggering the actual experience of Self. The word 'upadesha' (teaching/pointing) combined with 'anubhava' (experience) means: everything now is oriented toward the lived taste of truth, not its intellectual map.",
+      "title_sanskrit_significance": "Atma = Self, anubhava = direct experience (anu = after/following, bhava = being/becoming), upadesha = teaching/instruction. Atma-anubhava is the goal of the entire text: not knowledge ABOUT the Self but knowledge AS the Self -- consciousness recognizing its own nature directly, without mediation.",
+      "title_as_instruction": "This is your final instruction: through samadhi with a steady mind, realize the infinite Self directly. Not more reading, not more analysis -- direct seeing. You have all the understanding you need. Now: experience it.",
+      "verse_range": [
+        574,
+        579
+      ],
+      "verse_count": 6,
+      "summary": "The guru's final instruction: through samadhi with a steady mind, realize the infinite Self directly. Negate the phenomenal world. The guru gives the disciple the final push toward direct experience.",
+      "narrative_role": "The Final Push -- the guru has given everything. Now the disciple must leap.",
+      "emotional_arc": "The threshold moment -- standing at the edge of the infinite",
+      "key_concepts": [
+        "atma-anubhava",
+        "samadhi",
+        "prapancha-badha",
+        "nirvikalpa"
+      ],
+      "connection_to_next": "The disciple awakens.",
+      "connection_to_previous": "Multiplicity was negated (section 67); now the guru's final words propel the disciple into direct experience.",
+      "modern_parallel": "Like a skydiving instructor at the door of the plane: 'You have trained for this. Now -- jump.'"
+    },
+    {
+      "section_number": 69,
+      "title": "The Disciple's Awakening",
+      "title_hindi": "बोधोपलब्धि",
+      "title_meaning": "The title names the climax of the entire text: the disciple WAKES UP. Bodha (awakening) combined with upalabdhi (attainment) means not that something new is gained but that something always present is finally recognized. The entire 580-verse journey was for this one moment of recognition.",
+      "title_sanskrit_significance": "Bodha = awakening/knowledge (from budh, 'to awaken/know' -- the same root as 'Buddha'). Upalabdhi = attainment/realization. Bodha-upalabdhi is not acquiring something absent but recognizing something present -- like finding your glasses on your own head. The Self was never absent; only recognition was absent.",
+      "title_as_instruction": "Know that awakening is not becoming something new but recognizing what you have always been. The search ends not with discovery but with recognition. You have been looking for yourself with yourself. The seeker IS the sought.",
+      "verse_range": [
+        480,
+        520
+      ],
+      "verse_count": 41,
+      "summary": "THE CLIMAX. The disciple enters nirvikalpa samadhi, realizes the Self, and emerges transformed. He speaks in ecstasy: 'I am Brahman! Where has this world gone? I see only the Self everywhere!' He sings the praises of his guru.",
+      "narrative_role": "The Breakthrough -- the dramatic climax of the entire text.",
+      "emotional_arc": "Ecstasy, wonder, infinite gratitude, the overwhelming recognition of what was always present",
+      "key_concepts": [
+        "bodha",
+        "nirvikalpa-samadhi-phala",
+        "aham-brahma-asmi (lived)",
+        "guru-kripa",
+        "ananda-sagara"
+      ],
+      "connection_to_next": "The guru gives the concluding teaching.",
+      "connection_to_previous": "The guru's final instruction (section 68) was the catalyst; the awakening is the result.",
+      "modern_parallel": "Like the moment an amnesiac remembers who they are -- not learning something new but recognizing what was always true."
+    },
+    {
+      "section_number": 70,
+      "title": "Conclusion of the Teaching",
+      "title_hindi": "उपदेशका उपसंहार",
+      "title_meaning": "The title names the denouement: the teaching is complete, and the guru delivers his final words -- not adding more knowledge but sealing and stabilizing what has been realized. The conclusion of the teaching is not an endpoint but a launching pad for living the truth.",
+      "title_sanskrit_significance": "Upadesha = teaching/instruction, upasanhara = conclusion/drawing together (upa-sam-hara = gathering together/summarizing). Upasanhara in Sanskrit literary tradition is not merely 'ending' but the act of gathering all threads into a unified conclusion -- like a musical coda that resolves all themes.",
+      "title_as_instruction": "When the teaching is complete, do not seek more teaching. Abide in what has been revealed. The guru's final words are: rest in non-dual bliss-consciousness and be at peace. Let the conclusion be complete.",
+      "verse_range": [
+        521,
+        575
+      ],
+      "verse_count": 55,
+      "summary": "The guru confirms the disciple's realization. The liberated one is like the ocean -- rivers flow in without disturbance. Like an actor who plays roles without losing identity. 'Abide in non-dual bliss-consciousness and rest in supreme peace.'",
+      "narrative_role": "The Denouement -- confirming, consolidating, and blessing.",
+      "emotional_arc": "Deep peace, gratitude beyond words, the stillness of completion",
+      "key_concepts": [
+        "jivanmukta-charitra",
+        "samudra-analogy",
+        "bala-lila analogy",
+        "nata analogy",
+        "parama-shanti"
+      ],
+      "connection_to_next": "The formal farewell begins.",
+      "connection_to_previous": "The disciple's awakening (section 69) was the climax; the guru's conclusion stabilizes it.",
+      "modern_parallel": "Like the final conversation between mentor and student who has become a master -- not teaching but confirming and celebrating."
+    },
+    {
+      "section_number": 71,
+      "title": "The Disciple's Farewell",
+      "title_hindi": "शिष्यकी विदाई",
+      "title_meaning": "The title names one of the most poignant moments in all spiritual literature: the student who arrived desperate and broken now leaves luminous and free. The farewell teaches that the guru-student relationship, however sacred, must end -- the student must walk alone, carrying the teaching within.",
+      "title_sanskrit_significance": "Shishya = disciple, vidai = farewell/departure. In Vedantic tradition, the disciple's departure is as sacred as the arrival. The teacher who holds onto students has failed; the teacher who sends them into the world as equals has succeeded. The farewell is the final teaching: you are now your own guru.",
+      "title_as_instruction": "When the teaching is complete, let go of the teacher. Not with ingratitude but with the recognition that what the teacher pointed to is now alive within you. Walk alone. You are no longer a student -- you are That which was being taught.",
+      "verse_range": [
+        576,
+        576
+      ],
+      "verse_count": 1,
+      "summary": "The guru sends the liberated disciple into the world. The one who was desperate is now free, calm, luminous. The student leaves as an equal.",
+      "narrative_role": "The Departure -- the student leaves carrying the teaching within.",
+      "emotional_arc": "Bittersweet joy, the fullness of completion",
+      "key_concepts": [
+        "vidai",
+        "guru-shishya-sampurna"
+      ],
+      "connection_to_next": "The formal appendix of the text.",
+      "connection_to_previous": "The teaching was completed (section 70); the relationship reaches its natural conclusion.",
+      "modern_parallel": "Like graduation day -- the student leaves the institution that transformed them."
+    },
+    {
+      "section_number": 72,
+      "title": "The Fourfold Prerequisites of the Text",
+      "title_hindi": "अनुबन्ध-चतुष्टय",
+      "title_meaning": "The title reveals the text's own self-awareness: it formally identifies its audience, subject, method, and purpose. This teaches that sacred texts are not random outpourings but precisely engineered instruments with specific targets and goals.",
+      "title_sanskrit_significance": "Anubandha = prerequisite/connection, chatushtaya = fourfold. The four anubandhas are: adhikari (qualified student -- the mumukshu), vishaya (subject matter -- atma-jnana), sambandha (relationship -- that between text and seeker), and prayojana (purpose -- easy attainment of self-knowledge). This formal apparatus places the Vivekachudamani within the scholarly Vedantic tradition.",
+      "title_as_instruction": "Understand what this text was designed to do: it is for the sincere seeker of liberation; its subject is self-knowledge; its method is systematic discrimination; and its purpose is your freedom. If you are the right reader, this text was written for you.",
+      "verse_range": [
+        577,
+        578
+      ],
+      "verse_count": 2,
+      "summary": "The four anubandhas: the qualified student is the mumukshu; the subject is atma-jnana; the relation is nirupya-nirupaka; the purpose is easy attainment of self-knowledge.",
+      "narrative_role": "The Colophon -- formal scholarly conclusion.",
+      "emotional_arc": "Formal completion, satisfaction of perfect structure",
+      "key_concepts": [
+        "anubandha-chatushtaya",
+        "adhikari",
+        "vishaya",
+        "sambandha",
+        "prayojana"
+      ],
+      "connection_to_next": "The final verses of praise.",
+      "connection_to_previous": "The narrative is complete (section 71); now the text identifies itself within tradition.",
+      "modern_parallel": "Like the 'about this book' section at the end."
+    },
+    {
+      "section_number": 73,
+      "title": "Praise of the Text",
+      "title_hindi": "ग्रन्थ-प्रशंसा",
+      "title_meaning": "The title completes the sacred circle: the text that began with invocation ends with praise. This teaches that wisdom is not merely consumed but honored. The Vivekachudamani is not a manual to be discarded after use but a living transmission to be revered and shared.",
+      "title_sanskrit_significance": "Grantha = text/book (from granth, 'to tie/bind together'). Prashansa = praise/commendation. The text praises itself not from ego but as an instrument of liberation -- the way a doctor might commend a medicine to those who need it. The word chudamani (crest-jewel) in the title declares this text the crown jewel of discriminative wisdom.",
+      "title_as_instruction": "Honor what has been received. This text is not information but transmission -- a living bridge from Shankara's realization to yours. Share it with those who are ready. And know that the crest-jewel of discrimination is not the book -- it is the awakened awareness within you.",
+      "verse_range": [
+        579,
+        580
+      ],
+      "verse_count": 2,
+      "summary": "The final verses praise the Vivekachudamani as the Crest-Jewel of Discrimination and commend it to seekers. The text closes as it opened -- with reverence.",
+      "narrative_role": "The Closing Blessing -- the text blesses its readers.",
+      "emotional_arc": "Reverence, gratitude, the sacred circle completes",
+      "key_concepts": [
+        "grantha-prashansa",
+        "viveka-chudamani"
+      ],
+      "connection_to_next": null,
+      "connection_to_previous": "The formal apparatus (section 72) is complete; the text offers its final blessing, mirroring section 1's invocation.",
+      "modern_parallel": "Like the final frame of a film: 'Dedicated to all who seek the truth.' The circle is complete."
+    }
+  ]
+}

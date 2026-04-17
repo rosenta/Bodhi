@@ -1,0 +1,371 @@
+{
+  "name": "Bodhi: Content Review Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "review-content",
+        "authentication": "headerAuth",
+        "options": {
+          "responseMode": "onReceived"
+        }
+      },
+      "id": "webhook-review",
+      "name": "Webhook: Review Request",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 200],
+      "webhookId": "bodhi-content-review"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/content_pieces?select=*,verse:verses(sanskrit,english_translation,theme)&id=eq.{{ $json.body?.content_piece_id || $json.content_piece_id }}&limit=1",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "apikey", "value": "={{ $env.SUPABASE_ANON_KEY }}" },
+            { "name": "Authorization", "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "fetch-content",
+      "name": "Fetch Content Piece",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 100]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\nconst piece = Array.isArray(response) ? response[0] : response;\n\nreturn [{\n  json: {\n    id: piece.id,\n    content_type: piece.content_type,\n    content: typeof piece.content === 'string' ? piece.content : JSON.stringify(piece.content),\n    verse_id: piece.verse_id,\n    sanskrit: piece.verse?.sanskrit || '',\n    english_translation: piece.verse?.english_translation || '',\n    theme: piece.verse?.theme || ''\n  }\n}];"
+      },
+      "id": "prepare-review",
+      "name": "Prepare for Review",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [470, 100]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are the brand guardian for Project Bodhi.\nYou review content for brand voice compliance.\nCRITICAL: Output ONLY valid JSON."
+            },
+            {
+              "role": "user",
+              "content": "=Review this {{ $json.content_type }} content against Project Bodhi's brand voice:\n\nBrand Voice Guidelines:\n- Direct and punchy (not preachy or flowery)\n- Modern references that deepen the teaching (not forced)\n- Respectful of original Sanskrit text depth\n- Accessible to ages 20-40, spiritual-curious\n- No spiritual jargon unless immediately explained\n- Every piece should make someone pause and think\n\nContent to review:\n{{ $json.content }}\n\nCheck:\n1. Does it match our brand voice? (YES/NO + specific issues)\n2. Is there any preachy or condescending tone?\n3. Are modern references natural or forced?\n4. Would someone aged 25 share this? Why or why not?\n5. Is it too long, too short, or just right for {{ $json.content_type }}?\n\nOutput as JSON: { \"voice_pass\": bool, \"issues\": [\"...\"], \"suggestions\": [\"...\"], \"shareability\": \"high/medium/low\" }"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 2000,
+          "temperature": 0.3
+        }
+      },
+      "id": "brand-voice-check",
+      "name": "Claude: Brand Voice Check",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [690, -50],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are a Sanskrit scholar and Vedanta specialist.\nVerify accuracy of spiritual content.\nCRITICAL: Output ONLY valid JSON."
+            },
+            {
+              "role": "user",
+              "content": "=Verify the Sanskrit accuracy of this content:\n\nContent:\n{{ $json.content }}\n\nOriginal verse:\nSanskrit: {{ $json.sanskrit }}\nStandard translation: {{ $json.english_translation }}\nTheme: {{ $json.theme }}\n\nCheck:\n1. Is the Sanskrit quoted correctly (no typos, correct diacritics)?\n2. Does the interpretation faithfully represent the original meaning?\n3. Are there any misattributions or context errors?\n4. Is the philosophical position consistent with Advaita Vedanta / Yoga Darshan?\n\nOutput as JSON: { \"accuracy_pass\": bool, \"errors\": [\"...\"], \"notes\": [\"...\"] }"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 1500,
+          "temperature": 0.2
+        }
+      },
+      "id": "sanskrit-check",
+      "name": "Claude: Sanskrit Accuracy",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [690, 100],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are a content quality rater for a spiritual wisdom brand.\nRate content on specific criteria.\nBe strict but fair. A 7 is good. An 8 is great. A 9 is exceptional.\nCRITICAL: Output ONLY valid JSON."
+            },
+            {
+              "role": "user",
+              "content": "=Rate this {{ $json.content_type }} on a scale of 1-10:\n\n{{ $json.content }}\n\nCriteria (2 points each):\n- Insight depth: Does it make you think? [0-2]\n- Emotional resonance: Does it make you feel? [0-2]\n- Shareability: Would someone forward this? [0-2]\n- Clarity: Is it immediately understandable? [0-2]\n- Actionability: Is there something to DO? [0-2]\n\nOutput as JSON:\n{\n  \"total_score\": N,\n  \"breakdown\": { \"insight\": N, \"emotion\": N, \"shareability\": N, \"clarity\": N, \"actionability\": N },\n  \"feedback\": \"2-3 sentence honest assessment\",\n  \"suggested_improvements\": [\"improvement 1\", \"improvement 2\"]\n}"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 1500,
+          "temperature": 0.3
+        }
+      },
+      "id": "quality-score",
+      "name": "Claude: Quality Score",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [690, 250],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Combine all three review results\nconst content = $('Prepare for Review').first().json;\nconst voiceRaw = $('Claude: Brand Voice Check').first().json;\nconst sanskritRaw = $('Claude: Sanskrit Accuracy').first().json;\nconst qualityRaw = $('Claude: Quality Score').first().json;\n\nfunction parseClaudeJSON(raw) {\n  const text = raw.text || raw.message?.content?.[0]?.text || JSON.stringify(raw);\n  const cleaned = text.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  return JSON.parse(cleaned);\n}\n\nconst voice = parseClaudeJSON(voiceRaw);\nconst sanskrit = parseClaudeJSON(sanskritRaw);\nconst quality = parseClaudeJSON(qualityRaw);\n\nconst totalScore = quality.total_score;\nconst passesAllChecks = voice.voice_pass && sanskrit.accuracy_pass && totalScore >= 7;\n\nreturn [{\n  json: {\n    content_piece_id: content.id,\n    content_type: content.content_type,\n    verse_id: content.verse_id,\n    brand_voice: voice,\n    sanskrit_accuracy: sanskrit,\n    quality: quality,\n    total_score: totalScore,\n    decision: passesAllChecks ? 'approved' : 'in_review',\n    reviewed_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "combine-reviews",
+      "name": "Combine Review Results",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [940, 100]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "score-check",
+              "leftValue": "={{ $json.decision }}",
+              "rightValue": "approved",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "decision-gate",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1160, 100]
+    },
+    {
+      "parameters": {
+        "method": "PATCH",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/content_pieces?id=eq.{{ $json.content_piece_id }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "apikey", "value": "={{ $env.SUPABASE_ANON_KEY }}" },
+            { "name": "Authorization", "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" },
+            { "name": "Prefer", "value": "return=minimal" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"status\": \"approved\", \"review_score\": {{ $json.total_score }}, \"reviewed_at\": \"{{ $json.reviewed_at }}\" }",
+        "options": {}
+      },
+      "id": "approve-content",
+      "name": "Approve: Update Status",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1380, -50]
+    },
+    {
+      "parameters": {
+        "method": "PATCH",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/content_pieces?id=eq.{{ $json.content_piece_id }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "apikey", "value": "={{ $env.SUPABASE_ANON_KEY }}" },
+            { "name": "Authorization", "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" },
+            { "name": "Prefer", "value": "return=minimal" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"status\": \"in_review\", \"review_score\": {{ $json.total_score }}, \"review_notes\": {{ JSON.stringify($json.quality.feedback) }}, \"reviewed_at\": \"{{ $json.reviewed_at }}\" }",
+        "options": {}
+      },
+      "id": "flag-for-review",
+      "name": "Flag: Needs Human Review",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1380, 250]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"content\": \"**Content Review: APPROVED** (Score: {{ $json.total_score }}/10)\\n\\nType: {{ $json.content_type }}\\nVerse: #{{ $json.verse_id }}\\nBrand voice: PASS\\nSanskrit accuracy: PASS\\n\\nMoving to publishing queue.\"\n}",
+        "options": {}
+      },
+      "id": "notify-approved",
+      "name": "Notify: Approved",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1600, -50]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"content\": \"**Content Review: NEEDS REVIEW** (Score: {{ $json.total_score }}/10)\\n\\nType: {{ $json.content_type }}\\nVerse: #{{ $json.verse_id }}\\n\\nIssues:\\n{{ $json.brand_voice.voice_pass ? '' : '- Brand voice: ' + $json.brand_voice.issues.join(', ') + '\\n' }}{{ $json.sanskrit_accuracy.accuracy_pass ? '' : '- Sanskrit: ' + $json.sanskrit_accuracy.errors.join(', ') + '\\n' }}\\nFeedback: {{ $json.quality.feedback }}\\n\\nImprovements: {{ $json.quality.suggested_improvements.join('; ') }}\\n\\nPlease review in dashboard.\"\n}",
+        "options": {}
+      },
+      "id": "notify-flagged",
+      "name": "Notify: Flagged for Review",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1600, 250]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [{ "node": "Fetch Content Piece", "type": "main", "index": 0 }]
+      ]
+    },
+    "Webhook: Review Request": {
+      "main": [
+        [{ "node": "Fetch Content Piece", "type": "main", "index": 0 }]
+      ]
+    },
+    "Fetch Content Piece": {
+      "main": [
+        [{ "node": "Prepare for Review", "type": "main", "index": 0 }]
+      ]
+    },
+    "Prepare for Review": {
+      "main": [
+        [
+          { "node": "Claude: Brand Voice Check", "type": "main", "index": 0 },
+          { "node": "Claude: Sanskrit Accuracy", "type": "main", "index": 0 },
+          { "node": "Claude: Quality Score", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Claude: Brand Voice Check": {
+      "main": [
+        [{ "node": "Combine Review Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude: Sanskrit Accuracy": {
+      "main": [
+        [{ "node": "Combine Review Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude: Quality Score": {
+      "main": [
+        [{ "node": "Combine Review Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Combine Review Results": {
+      "main": [
+        [{ "node": "Approved?", "type": "main", "index": 0 }]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [{ "node": "Approve: Update Status", "type": "main", "index": 0 }],
+        [{ "node": "Flag: Needs Human Review", "type": "main", "index": 0 }]
+      ]
+    },
+    "Approve: Update Status": {
+      "main": [
+        [{ "node": "Notify: Approved", "type": "main", "index": 0 }]
+      ]
+    },
+    "Flag: Needs Human Review": {
+      "main": [
+        [{ "node": "Notify: Flagged for Review", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Kolkata",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "review" },
+    { "name": "quality" },
+    { "name": "bodhi" }
+  ],
+  "meta": {
+    "instanceId": "bodhi-project",
+    "templateCredsSetupCompleted": false
+  }
+}

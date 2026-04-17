@@ -1,0 +1,457 @@
+{
+  "name": "Bodhi: Daily Verse Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 5 * * *"
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger",
+      "name": "Daily 5AM Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/daily_verse?select=*,verse:verses(*)&date=eq.{{ $now.format('yyyy-MM-dd') }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.SUPABASE_ANON_KEY }}"
+            },
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "fetch-verse",
+      "name": "Fetch Today's Verse",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [220, 0],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract verse data from Supabase response\nconst response = $input.first().json;\nconst row = Array.isArray(response) ? response[0] : response;\nconst verse = row.verse || row;\n\nreturn [{\n  json: {\n    verse_id: verse.id || row.verse_id,\n    verse_number: verse.verse_number,\n    text_id: verse.text_id,\n    sanskrit: verse.sanskrit,\n    english_translation: verse.english_translation,\n    modern_interpretation: verse.modern_interpretation || '',\n    reel_hook: verse.reel_hook || '',\n    practice_prompt: verse.practice_prompt || '',\n    theme: verse.theme || '',\n    date: $now.format('yyyy-MM-dd'),\n    day_of_week: $now.format('EEEE')\n  }\n}];"
+      },
+      "id": "parse-verse",
+      "name": "Parse Verse Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are a content strategist for Project Bodhi, a spiritual wisdom brand.\nYou create content that bridges ancient Sanskrit philosophy with modern life.\n\nYour voice is:\n- Direct and punchy (not preachy or flowery)\n- Uses modern references (phones, algorithms, Netflix, hustle culture)\n- Respects the depth of the original teaching\n- Accessible to ages 20-40, spiritual-curious but not necessarily religious\n\nCRITICAL: Output ONLY valid JSON. No markdown code fences. No explanation outside the JSON."
+            },
+            {
+              "role": "user",
+              "content": "=Given this verse:\n- Number: {{ $json.verse_number }}\n- Text: {{ $json.text_id }}\n- Sanskrit: {{ $json.sanskrit }}\n- Translation: {{ $json.english_translation }}\n- Interpretation: {{ $json.modern_interpretation }}\n- Hook: {{ $json.reel_hook }}\n- Practice: {{ $json.practice_prompt }}\n- Theme: {{ $json.theme }}\n- Date: {{ $json.date }}\n- Day: {{ $json.day_of_week }}\n\nGenerate ALL of these content types as a single JSON object:\n\n1. \"quote_card\": { \"front_text\": \"<Sanskrit + English, max 3 lines>\", \"back_text\": \"<Modern interpretation, 2-3 sentences>\", \"hashtags\": [\"#vedanta\", \"#...\"] }\n\n2. \"carousel\": { \"slides\": [{\"headline\": \"\", \"body\": \"\", \"visual_cue\": \"\"}] (10 slides), \"caption\": \"\", \"hashtags\": [] }\n\n3. \"reel_script\": { \"hook\": \"<pattern-interrupt opening line>\", \"body_segments\": [{\"text\": \"\", \"duration_s\": 5, \"visual\": \"\"}], \"cta\": \"\", \"total_duration_s\": 45 }\n\n4. \"blog_post\": { \"title\": \"\", \"meta_description\": \"<155 chars>\", \"body_markdown\": \"<500-800 words, SEO-optimized>\", \"word_count\": N }\n\n5. \"email_snippet\": { \"subject_line\": \"\", \"preview_text\": \"<90 chars>\", \"body_html\": \"<newsletter paragraph>\" }\n\n6. \"podcast_script\": { \"intro\": \"\", \"body\": \"\", \"reflection_pause\": \"<guided silence prompt>\", \"outro\": \"\", \"total_duration_min\": 4 }"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 8000,
+          "temperature": 0.7
+        }
+      },
+      "id": "claude-generate",
+      "name": "Claude: Generate All Content",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [660, 0],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse Claude's JSON response into separate content items\nconst claudeOutput = $input.first().json;\nlet content;\n\ntry {\n  // Handle different response shapes from the Anthropic node\n  const text = claudeOutput.text || claudeOutput.message?.content?.[0]?.text || JSON.stringify(claudeOutput);\n  // Strip markdown code fences if present\n  const cleaned = text.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  content = JSON.parse(cleaned);\n} catch (e) {\n  throw new Error(`Failed to parse Claude response: ${e.message}`);\n}\n\nconst verse = $('Parse Verse Data').first().json;\n\nconst contentTypes = [\n  'quote_card', 'carousel', 'reel_script',\n  'blog_post', 'email_snippet', 'podcast_script'\n];\n\nreturn contentTypes.map(type => ({\n  json: {\n    content_type: type,\n    verse_id: verse.verse_id,\n    verse_number: verse.verse_number,\n    content: content[type] || null,\n    status: 'draft',\n    generated_at: new Date().toISOString(),\n    date: verse.date\n  }\n}));"
+      },
+      "id": "parse-content",
+      "name": "Parse Content Variants",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "content_pieces",
+        "fieldsUi": {
+          "fieldValues": [
+            { "fieldName": "content_type", "fieldValue": "={{ $json.content_type }}" },
+            { "fieldName": "verse_id", "fieldValue": "={{ $json.verse_id }}" },
+            { "fieldName": "content", "fieldValue": "={{ JSON.stringify($json.content) }}" },
+            { "fieldName": "status", "fieldValue": "={{ $json.status }}" },
+            { "fieldName": "generated_at", "fieldValue": "={{ $json.generated_at }}" }
+          ]
+        }
+      },
+      "id": "save-to-supabase",
+      "name": "Save Content to Supabase",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [1100, 0],
+      "credentials": {
+        "supabaseApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "filter-audio",
+              "leftValue": "={{ $json.content_type }}",
+              "rightValue": "podcast_script",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "filter-for-audio",
+      "name": "Is Podcast Script?",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [1320, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.elevenlabs.io/v1/text-to-speech/{{ $env.ELEVENLABS_VOICE_ID }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "xi-api-key",
+              "value": "={{ $env.ELEVENLABS_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $json.content.intro + ' ' + $json.content.body + ' ' + $json.content.reflection_pause + ' ' + $json.content.outro }}"
+            },
+            {
+              "name": "model_id",
+              "value": "eleven_multilingual_v2"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "id": "elevenlabs-tts",
+      "name": "ElevenLabs: Generate Audio",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1540, 200],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "filter-quote",
+              "leftValue": "={{ $json.content_type }}",
+              "rightValue": "quote_card",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "filter-for-visual",
+      "name": "Is Quote Card?",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [1320, -200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.canva.com/rest/v1/autofills",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"brand_template_id\": \"{{ $env.CANVA_QUOTE_TEMPLATE_ID }}\",\n  \"data\": {\n    \"sanskrit_text\": {{ JSON.stringify($json.content.front_text) }},\n    \"translation\": {{ JSON.stringify($json.content.back_text) }}\n  }\n}",
+        "options": {}
+      },
+      "id": "canva-visual",
+      "name": "Canva: Generate Quote Card",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1540, -200],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "bucketName": "bodhi-assets",
+        "fileName": "={{ $now.format('yyyy/MM/dd') }}/{{ $json.content_type }}.{{ $json.extension || 'json' }}",
+        "binaryPropertyName": "data"
+      },
+      "id": "upload-r2",
+      "name": "Upload to R2",
+      "type": "n8n-nodes-base.s3",
+      "typeVersion": 1,
+      "position": [1760, 0],
+      "credentials": {
+        "s3": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Cloudflare R2"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 5,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "filter-blog",
+              "leftValue": "={{ $json.content_type }}",
+              "rightValue": "blog_post",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "filter-for-blog",
+      "name": "Is Blog Post?",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [1980, -100]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.WEBSITE_API_URL }}/api/publish",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"title\": {{ JSON.stringify($json.content.title) }},\n  \"body\": {{ JSON.stringify($json.content.body_markdown) }},\n  \"meta_description\": {{ JSON.stringify($json.content.meta_description) }},\n  \"verse_id\": {{ $json.verse_id }},\n  \"published_at\": \"{{ $now.toISO() }}\"\n}",
+        "options": {}
+      },
+      "id": "publish-blog",
+      "name": "Publish Blog to Website",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2200, -100],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://app.publer.io/api/v1/posts",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"posts\": [\n    {\n      \"social_account_ids\": [\"{{ $env.PUBLER_IG_ACCOUNT_ID }}\"],\n      \"text\": {{ JSON.stringify($('Parse Content Variants').first().json.content.front_text + '\\n\\n' + $('Parse Content Variants').first().json.content.back_text) }},\n      \"scheduled_at\": \"{{ $now.set({ hour: 8, minute: 0 }).toISO() }}\",\n      \"media_type\": \"image\"\n    },\n    {\n      \"social_account_ids\": [\"{{ $env.PUBLER_TWITTER_ACCOUNT_ID }}\"],\n      \"text\": {{ JSON.stringify($('Parse Content Variants').first().json.content.front_text) }},\n      \"scheduled_at\": \"{{ $now.set({ hour: 10, minute: 0 }).toISO() }}\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "schedule-social",
+      "name": "Schedule Social Posts (Publer)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2200, 100],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"content\": \"**Daily Pipeline Complete** ({{ $now.format('yyyy-MM-dd') }})\\n\\nVerse: #{{ $('Parse Verse Data').first().json.verse_number }}\\nContent types generated: 6\\nStatus: All drafts saved to Supabase\\n\\nReview at: {{ $env.WEBSITE_API_URL }}/admin/review\"\n}",
+        "options": {}
+      },
+      "id": "notify-team",
+      "name": "Notify Team (Discord)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2420, 0]
+    }
+  ],
+  "connections": {
+    "Daily 5AM Trigger": {
+      "main": [
+        [{ "node": "Fetch Today's Verse", "type": "main", "index": 0 }]
+      ]
+    },
+    "Fetch Today's Verse": {
+      "main": [
+        [{ "node": "Parse Verse Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Verse Data": {
+      "main": [
+        [{ "node": "Claude: Generate All Content", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude: Generate All Content": {
+      "main": [
+        [{ "node": "Parse Content Variants", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Content Variants": {
+      "main": [
+        [
+          { "node": "Save Content to Supabase", "type": "main", "index": 0 },
+          { "node": "Is Podcast Script?", "type": "main", "index": 0 },
+          { "node": "Is Quote Card?", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Save Content to Supabase": {
+      "main": [
+        [
+          { "node": "Is Blog Post?", "type": "main", "index": 0 },
+          { "node": "Schedule Social Posts (Publer)", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Is Podcast Script?": {
+      "main": [
+        [{ "node": "ElevenLabs: Generate Audio", "type": "main", "index": 0 }]
+      ]
+    },
+    "ElevenLabs: Generate Audio": {
+      "main": [
+        [{ "node": "Upload to R2", "type": "main", "index": 0 }]
+      ]
+    },
+    "Is Quote Card?": {
+      "main": [
+        [{ "node": "Canva: Generate Quote Card", "type": "main", "index": 0 }]
+      ]
+    },
+    "Canva: Generate Quote Card": {
+      "main": [
+        [{ "node": "Upload to R2", "type": "main", "index": 0 }]
+      ]
+    },
+    "Is Blog Post?": {
+      "main": [
+        [{ "node": "Publish Blog to Website", "type": "main", "index": 0 }]
+      ]
+    },
+    "Publish Blog to Website": {
+      "main": [
+        [{ "node": "Notify Team (Discord)", "type": "main", "index": 0 }]
+      ]
+    },
+    "Schedule Social Posts (Publer)": {
+      "main": [
+        [{ "node": "Notify Team (Discord)", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Kolkata",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "saveManualExecutions": true,
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    { "name": "daily" },
+    { "name": "content-generation" },
+    { "name": "bodhi" }
+  ],
+  "meta": {
+    "instanceId": "bodhi-project",
+    "templateCredsSetupCompleted": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 23,
+  "title": "You're Not Bad at Meditation. You're Doing the Wrong Step.",
+  "source_text": "Yoga Darshan",
+  "verse_reference": "Sutra 3.2",
+  "duration": "50 seconds",
+  "hook": "Meditation isn't the thing you think it is. It's the step AFTER the thing you think it is. No wonder you're struggling.",
+  "script": [
+    {
+      "time": "0-3s",
+      "visual": "Person sitting cross-legged on a meditation cushion, eyes scrunched shut, brow furrowed. Timer shows 2:14. Cut to face.",
+      "voiceover": "You sit down to meditate. Two minutes in, you're thinking about lunch. You think you failed. You didn't. You just named the wrong thing 'meditation.'",
+      "text_overlay": "You didn't fail. You mislabeled the step."
+    },
+    {
+      "time": "3-14s",
+      "visual": "Three text cards slide across the screen: DHARANA — DHYANA — SAMADHI. The middle one pulses.",
+      "voiceover": "Patanjali stacks three things. Dharana — concentration. Dhyana — meditation. Samadhi — absorption. Each one is built on the one before. And here is the joke: what you are calling 'meditation'... is almost always just dharana. And dharana is supposed to be hard.",
+      "text_overlay": "Dharana → Dhyana → Samadhi"
+    },
+    {
+      "time": "14-28s",
+      "visual": "Visual metaphor: a person lifting weights, dropping them, picking them up again. Then intercut: another person sitting and continuously pulling attention back to their breath.",
+      "voiceover": "Dharana is the rep. You pick a single object — the breath, a mantra, a candle — you focus, your mind runs, you pull it back. Focus. Run. Pull back. Focus. Run. Pull back. That is not a meditation fail. That is a dharana workout. Sutra 3.2 describes dhyana — actual meditation — as pratyaya-ekatanata. The unbroken flow. When you have done enough reps of pulling the mind back that it just... stays.",
+      "text_overlay": "DHYANA = pratyaya-ekatanata = unbroken flow"
+    },
+    {
+      "time": "28-42s",
+      "visual": "Water pouring from a jug. First in chunky bursts — splash, splash, splash. Then, slowly, it becomes a continuous, silent stream.",
+      "voiceover": "Patanjali's image for it: water poured from one vessel to another. At first it splashes out in chunks — that is dharana, your attention in dropouts. Eventually it becomes a single unbroken stream. No gaps. That unbroken stream — that is dhyana. You do not force it. You earn it. Through a lot of splashing.",
+      "text_overlay": "Dharana is splashing. Dhyana is the stream."
+    },
+    {
+      "time": "42-46s",
+      "visual": "Person's meditation timer, now at 08:32. They look calm, not because the mind is quiet, but because they stopped expecting it to be.",
+      "voiceover": "Stop grading yourself on dhyana. You are doing dharana. That is the actual work.",
+      "text_overlay": "You're not bad at meditation. You're early."
+    },
+    {
+      "time": "46-50s",
+      "visual": "End card.",
+      "voiceover": "Next session — count the pull-backs instead of judging the wandering. Tell me the number.",
+      "text_overlay": "Tomorrow: count your pull-backs."
+    }
+  ],
+  "cta": "Next time you sit — count how many times you pull your mind back. Don't judge it. That number IS the practice. Drop your count.",
+  "caption": "You sit down to meditate. Two minutes in, you're thinking about a work email. You conclude: I'm bad at this.\n\nYou are not bad at this. You are confusing two different things.\n\nSutra 3.2: तत्र प्रत्ययैकतानता ध्यानम्\ntatra pratyaya-ekatanata dhyanam\n\n\"Dhyana is the unbroken flow of cognition toward the object.\"\n\nPatanjali stacks three stages:\n\n1. DHARANA — concentration. Picking one object. Pulling the mind back every time it wanders. This is the rep.\n2. DHYANA — meditation. The unbroken flow. When you have done enough pull-backs that the mind just... stays.\n3. SAMADHI — absorption. The knower and the known dissolve into each other.\n\nWhat you are calling 'meditation' is almost always dharana. And dharana is SUPPOSED to be hard. Every pull-back is the rep. If your mind wanders 73 times in 10 minutes, you did 73 reps. That is not failure. That is the workout.\n\nPatanjali's image: water poured from one vessel to another. At first it splashes out in chunks. Eventually, a single unbroken stream. You earn the stream through the splashing.\n\nStop grading yourself on dhyana. You are doing dharana. That is the actual work.\n\n#yogasutras #patanjali #dharana #dhyana #meditation #mindfulness #yogaphilosophy #consciousness #ancientwisdom #yogadarshan #meditationtips #focus #attention #samadhi #innerwork",
+  "music_suggestion": "Intermittent, chunky piano notes that represent the 'splashes' of dharana. Gradually the gaps close until it becomes a continuous ambient drone — the stream — for the final 15 seconds."
+}

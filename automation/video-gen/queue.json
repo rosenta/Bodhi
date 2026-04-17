@@ -1,0 +1,31 @@
+{
+  "rendered": [
+    {"reel": "reel-027-story-the-kneel", "duration_s": null, "size_bytes": null, "rendered_at": "2026-04-18T00:00:00Z", "note": "demo render from pipeline bootstrap"}
+  ],
+  "failed": [],
+  "pending": [
+    "reel-011-every-my-is-a-lie",
+    "reel-012-corpse-in-the-mirror",
+    "reel-013-turn-on-the-light",
+    "reel-014-the-duckweed-problem",
+    "reel-015-same-wind-same-mind",
+    "reel-016-freedom-is-a-chain-reaction",
+    "reel-017-the-one-who-never-changed",
+    "reel-018-the-3am-questions",
+    "reel-019-yoga-four-attitudes",
+    "reel-020-yoga-crystal-mind",
+    "reel-021-yoga-future-suffering",
+    "reel-022-yoga-pratipaksha",
+    "reel-023-yoga-dhyana",
+    "reel-024-yoga-powers-trap",
+    "reel-025-yoga-karma-colorless",
+    "reel-026-yoga-kaivalya",
+    "reel-028-story-the-unrehearsed-answer",
+    "reel-029-story-the-flinch",
+    "reel-030-story-the-ropes-that-were-never-snakes",
+    "reel-031-story-the-third-hour",
+    "reel-032-story-the-fifth-room"
+  ],
+  "last_cycle": null,
+  "cycles_completed": 0
+}

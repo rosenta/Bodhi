@@ -1,0 +1,218 @@
+{
+  "name": "Bodhi: Lesson to Social Adapter",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "new-lesson",
+        "authentication": "headerAuth",
+        "options": {
+          "responseMode": "onReceived",
+          "responseData": "allEntries"
+        }
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook: New Lesson",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "bodhi-lesson-adapter"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/verses?id=eq.{{ $json.body.verse_id }}&select=*",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.SUPABASE_ANON_KEY }}"
+            },
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "fetch-verse-data",
+      "name": "Fetch Verse Data",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Combine webhook body with verse data\nconst webhook = $('Webhook: New Lesson').first().json.body;\nconst verse = $input.first().json;\nconst verseData = Array.isArray(verse) ? verse[0] : verse;\n\nreturn [{\n  json: {\n    lesson_file: webhook.lesson_file,\n    lesson_content: webhook.lesson_content || '',\n    title: webhook.title,\n    verse_id: webhook.verse_id,\n    verse_number: verseData.verse_number,\n    sanskrit: verseData.sanskrit,\n    english_translation: verseData.english_translation,\n    theme: verseData.theme\n  }\n}];"
+      },
+      "id": "merge-data",
+      "name": "Merge Lesson + Verse",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are a social media content strategist for Project Bodhi, a spiritual wisdom brand.\nYour voice is direct, punchy, modern, and respectful of the original Sanskrit teachings.\nCRITICAL: Output ONLY valid JSON. No markdown code fences."
+            },
+            {
+              "role": "user",
+              "content": "=Given this lesson:\n\nTitle: {{ $json.title }}\nVerse: {{ $json.verse_number }} ({{ $json.theme }})\nSanskrit: {{ $json.sanskrit }}\nTranslation: {{ $json.english_translation }}\n\nLesson content:\n{{ $json.lesson_content }}\n\n---\n\nExtract and create three social media adaptations:\n\n1. \"quote_card\": The single most powerful sentence from this lesson.\n   { \"text\": \"<the quote>\", \"attribution\": \"Vivekachudamani, Verse {{ $json.verse_number }}\" }\n\n2. \"reel_script\": A 30-45 second reel script.\n   { \"hook\": \"<pattern-interrupt opening, under 10 words>\", \"segments\": [{\"text\": \"...\", \"duration_s\": 5, \"visual\": \"description of what viewer sees\"}], \"cta\": \"<call to action>\", \"total_duration_s\": 40 }\n\n3. \"twitter_thread\": A 4-6 tweet thread that unpacks the lesson.\n   { \"tweets\": [\"1/ ...\", \"2/ ...\", \"3/ ...\", \"4/ ...\"] }\n\nOutput as a single JSON object with keys: quote_card, reel_script, twitter_thread"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 4000,
+          "temperature": 0.7
+        }
+      },
+      "id": "claude-extract",
+      "name": "Claude: Extract Social Content",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [660, 0],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse Claude response and create separate items for each content type\nconst claudeOutput = $input.first().json;\nlet content;\n\ntry {\n  const text = claudeOutput.text || claudeOutput.message?.content?.[0]?.text || JSON.stringify(claudeOutput);\n  const cleaned = text.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  content = JSON.parse(cleaned);\n} catch (e) {\n  throw new Error(`Failed to parse Claude response: ${e.message}`);\n}\n\nconst lesson = $('Merge Lesson + Verse').first().json;\n\nreturn [\n  {\n    json: {\n      type: 'quote_card',\n      verse_id: lesson.verse_id,\n      verse_number: lesson.verse_number,\n      content: content.quote_card,\n      source_lesson: lesson.lesson_file\n    }\n  },\n  {\n    json: {\n      type: 'reel_script',\n      verse_id: lesson.verse_id,\n      verse_number: lesson.verse_number,\n      content: content.reel_script,\n      source_lesson: lesson.lesson_file\n    }\n  },\n  {\n    json: {\n      type: 'twitter_thread',\n      verse_id: lesson.verse_id,\n      verse_number: lesson.verse_number,\n      content: content.twitter_thread,\n      source_lesson: lesson.lesson_file\n    }\n  }\n];"
+      },
+      "id": "parse-social",
+      "name": "Parse Social Content",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "content_pieces",
+        "fieldsUi": {
+          "fieldValues": [
+            { "fieldName": "content_type", "fieldValue": "={{ $json.type }}" },
+            { "fieldName": "verse_id", "fieldValue": "={{ $json.verse_id }}" },
+            { "fieldName": "content", "fieldValue": "={{ JSON.stringify($json.content) }}" },
+            { "fieldName": "status", "fieldValue": "draft" },
+            { "fieldName": "source", "fieldValue": "={{ $json.source_lesson }}" },
+            { "fieldName": "generated_at", "fieldValue": "={{ $now.toISO() }}" }
+          ]
+        }
+      },
+      "id": "save-social-content",
+      "name": "Save to Supabase",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [1100, 0],
+      "credentials": {
+        "supabaseApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Generate CMO-LOG entry\nconst items = $input.all();\nconst lesson = $('Merge Lesson + Verse').first().json;\nconst now = new Date().toISOString();\n\nconst logEntry = `\\n## ${now.split('T')[0]} - Social Adaptation\\n\\n` +\n  `- **Source**: ${lesson.lesson_file}\\n` +\n  `- **Verse**: #${lesson.verse_number} (${lesson.theme})\\n` +\n  `- **Generated**: quote_card, reel_script, twitter_thread\\n` +\n  `- **Status**: draft (awaiting review)\\n` +\n  `- **Timestamp**: ${now}\\n`;\n\nreturn [{ json: { log_entry: logEntry } }];"
+      },
+      "id": "generate-log",
+      "name": "Generate CMO-LOG Entry",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1320, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"content\": \"**New Social Content Generated**\\n\\nLesson: {{ $('Merge Lesson + Verse').first().json.title }}\\nVerse: #{{ $('Merge Lesson + Verse').first().json.verse_number }}\\n\\nGenerated:\\n- Quote card\\n- Reel script ({{ $('Parse Social Content').all()[1].json.content.total_duration_s }}s)\\n- Twitter thread ({{ $('Parse Social Content').all()[2].json.content.tweets.length }} tweets)\\n\\nStatus: Drafts saved. Review in dashboard.\"\n}",
+        "options": {}
+      },
+      "id": "notify-lesson",
+      "name": "Notify Team",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1540, 0]
+    }
+  ],
+  "connections": {
+    "Webhook: New Lesson": {
+      "main": [
+        [{ "node": "Fetch Verse Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Fetch Verse Data": {
+      "main": [
+        [{ "node": "Merge Lesson + Verse", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge Lesson + Verse": {
+      "main": [
+        [{ "node": "Claude: Extract Social Content", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude: Extract Social Content": {
+      "main": [
+        [{ "node": "Parse Social Content", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Social Content": {
+      "main": [
+        [{ "node": "Save to Supabase", "type": "main", "index": 0 }]
+      ]
+    },
+    "Save to Supabase": {
+      "main": [
+        [{ "node": "Generate CMO-LOG Entry", "type": "main", "index": 0 }]
+      ]
+    },
+    "Generate CMO-LOG Entry": {
+      "main": [
+        [{ "node": "Notify Team", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Kolkata",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "lesson-adapter" },
+    { "name": "social-media" },
+    { "name": "bodhi" }
+  ],
+  "meta": {
+    "instanceId": "bodhi-project",
+    "templateCredsSetupCompleted": false
+  }
+}

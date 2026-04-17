@@ -1,0 +1,322 @@
+{
+  "name": "Bodhi: Weekly Analytics Report",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1"
+            }
+          ]
+        }
+      },
+      "id": "weekly-trigger",
+      "name": "Monday 9AM Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.facebook.com/v21.0/{{ $env.IG_BUSINESS_ACCOUNT_ID }}/insights",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "metric", "value": "impressions,reach,profile_views,follower_count" },
+            { "name": "period", "value": "day" },
+            { "name": "since", "value": "={{ Math.floor(($now.toMillis() - 7 * 24 * 60 * 60 * 1000) / 1000) }}" },
+            { "name": "until", "value": "={{ Math.floor($now.toMillis() / 1000) }}" },
+            { "name": "access_token", "value": "={{ $env.IG_ACCESS_TOKEN }}" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "ig-insights",
+      "name": "Instagram Insights",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, -200],
+      "continueOnFail": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://youtubeanalytics.googleapis.com/v2/reports",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "ids", "value": "channel==MINE" },
+            { "name": "startDate", "value": "={{ $now.minus({ days: 7 }).format('yyyy-MM-dd') }}" },
+            { "name": "endDate", "value": "={{ $now.minus({ days: 1 }).format('yyyy-MM-dd') }}" },
+            { "name": "metrics", "value": "views,estimatedMinutesWatched,averageViewDuration,subscribersGained,likes" },
+            { "name": "dimensions", "value": "video" },
+            { "name": "sort", "value": "-views" },
+            { "name": "maxResults", "value": "20" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "yt-analytics",
+      "name": "YouTube Analytics",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 0],
+      "continueOnFail": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.PLAUSIBLE_URL || 'https://plausible.io' }}/api/v1/stats/aggregate",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "site_id", "value": "={{ $env.WEBSITE_DOMAIN || 'projectbodhi.com' }}" },
+            { "name": "period", "value": "7d" },
+            { "name": "metrics", "value": "visitors,pageviews,bounce_rate,visit_duration" }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.PLAUSIBLE_API_KEY }}" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "website-analytics",
+      "name": "Website Analytics (Plausible)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 200],
+      "continueOnFail": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.SUPABASE_URL }}/rest/v1/content_performance?select=*,content_piece:content_pieces(content_type,verse_id)&recorded_at=gte.{{ $now.minus({ days: 7 }).format('yyyy-MM-dd') }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "apikey", "value": "={{ $env.SUPABASE_ANON_KEY }}" },
+            { "name": "Authorization", "value": "=Bearer {{ $env.SUPABASE_SERVICE_ROLE_KEY }}" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "supabase-performance",
+      "name": "Content Performance (Supabase)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [250, 400],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Merge all analytics data into a single report input\nconst ig = $('Instagram Insights').first().json;\nconst yt = $('YouTube Analytics').first().json;\nconst web = $('Website Analytics (Plausible)').first().json;\nconst perf = $('Content Performance (Supabase)').first().json;\n\nreturn [{\n  json: {\n    instagram: ig,\n    youtube: yt,\n    website: web,\n    content_performance: perf,\n    week_ending: $now.format('yyyy-MM-dd'),\n    week_starting: $now.minus({ days: 7 }).format('yyyy-MM-dd')\n  }\n}];"
+      },
+      "id": "merge-analytics",
+      "name": "Merge All Analytics",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 100]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-sonnet-4-20250514",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are the CMO analyst for Project Bodhi, a spiritual wisdom brand.\nYou analyze content performance data and provide actionable weekly strategy recommendations.\nBe data-driven, specific, and practical. No fluff.\nCRITICAL: Output ONLY valid JSON."
+            },
+            {
+              "role": "user",
+              "content": "=Analyze this week's performance data for Project Bodhi:\n\nWeek: {{ $json.week_starting }} to {{ $json.week_ending }}\n\nInstagram Insights:\n{{ JSON.stringify($json.instagram, null, 2) }}\n\nYouTube Analytics:\n{{ JSON.stringify($json.youtube, null, 2) }}\n\nWebsite Analytics:\n{{ JSON.stringify($json.website, null, 2) }}\n\nContent Performance (per piece):\n{{ JSON.stringify($json.content_performance, null, 2) }}\n\n---\n\nProvide a JSON report with these keys:\n\n1. \"summary\": 3-sentence executive summary\n2. \"top_performers\": [{ \"content_type\": \"\", \"verse_id\": N, \"metric\": \"\", \"value\": N, \"why_it_worked\": \"\" }] (top 3)\n3. \"underperformers\": [{ \"content_type\": \"\", \"verse_id\": N, \"issue\": \"\" }] (bottom 3)\n4. \"theme_analysis\": { \"best_themes\": [], \"worst_themes\": [], \"insight\": \"\" }\n5. \"platform_ranking\": [{ \"platform\": \"\", \"engagement_rate\": N, \"trend\": \"up/down/flat\" }]\n6. \"next_week_recommendations\": {\n     \"verse_themes\": [\"theme1\", \"theme2\", \"theme3\"],\n     \"content_focus\": [\"format1\", \"format2\"],\n     \"experiment\": \"one specific A/B test to run\",\n     \"avoid\": \"what to stop doing\"\n   }\n7. \"ab_test_results\": { \"tested\": \"\", \"winner\": \"\", \"margin\": \"\" } or null"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 4000,
+          "temperature": 0.5
+        }
+      },
+      "id": "claude-analyze",
+      "name": "Claude: Analyze Performance",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [720, 100],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse Claude's analysis and format as markdown report\nconst claudeOutput = $input.first().json;\nlet analysis;\n\ntry {\n  const text = claudeOutput.text || claudeOutput.message?.content?.[0]?.text || JSON.stringify(claudeOutput);\n  const cleaned = text.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  analysis = JSON.parse(cleaned);\n} catch (e) {\n  throw new Error(`Failed to parse Claude analysis: ${e.message}`);\n}\n\nconst weekData = $('Merge All Analytics').first().json;\n\nconst report = `# Weekly Performance Report\\n` +\n  `## ${weekData.week_starting} to ${weekData.week_ending}\\n\\n` +\n  `### Summary\\n${analysis.summary}\\n\\n` +\n  `### Top Performers\\n` +\n  analysis.top_performers.map((p, i) => \n    `${i+1}. **${p.content_type}** (Verse #${p.verse_id}) - ${p.metric}: ${p.value}\\n   Why: ${p.why_it_worked}`\n  ).join('\\n') + '\\n\\n' +\n  `### Underperformers\\n` +\n  analysis.underperformers.map((p, i) => \n    `${i+1}. **${p.content_type}** (Verse #${p.verse_id}) - Issue: ${p.issue}`\n  ).join('\\n') + '\\n\\n' +\n  `### Theme Analysis\\n` +\n  `Best themes: ${analysis.theme_analysis.best_themes.join(', ')}\\n` +\n  `Worst themes: ${analysis.theme_analysis.worst_themes.join(', ')}\\n` +\n  `Insight: ${analysis.theme_analysis.insight}\\n\\n` +\n  `### Next Week Recommendations\\n` +\n  `- **Verse themes**: ${analysis.next_week_recommendations.verse_themes.join(', ')}\\n` +\n  `- **Content focus**: ${analysis.next_week_recommendations.content_focus.join(', ')}\\n` +\n  `- **Experiment**: ${analysis.next_week_recommendations.experiment}\\n` +\n  `- **Avoid**: ${analysis.next_week_recommendations.avoid}\\n`;\n\nreturn [{\n  json: {\n    report_markdown: report,\n    analysis_json: analysis,\n    week_ending: weekData.week_ending\n  }\n}];"
+      },
+      "id": "format-report",
+      "name": "Format Report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [940, 100]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "tableId": "weekly_reports",
+        "fieldsUi": {
+          "fieldValues": [
+            { "fieldName": "week_ending", "fieldValue": "={{ $json.week_ending }}" },
+            { "fieldName": "report_markdown", "fieldValue": "={{ $json.report_markdown }}" },
+            { "fieldName": "analysis_json", "fieldValue": "={{ JSON.stringify($json.analysis_json) }}" },
+            { "fieldName": "created_at", "fieldValue": "={{ $now.toISO() }}" }
+          ]
+        }
+      },
+      "id": "save-report",
+      "name": "Save Report to Supabase",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [1160, 0],
+      "credentials": {
+        "supabaseApi": {
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"content\": \"**Weekly Analytics Report** ({{ $json.week_ending }})\\n\\n{{ $json.report_markdown.substring(0, 1900) }}\\n\\nFull report saved to Supabase.\"\n}",
+        "options": {}
+      },
+      "id": "notify-analytics",
+      "name": "Send Report to Discord",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1160, 200]
+    }
+  ],
+  "connections": {
+    "Monday 9AM Trigger": {
+      "main": [
+        [
+          { "node": "Instagram Insights", "type": "main", "index": 0 },
+          { "node": "YouTube Analytics", "type": "main", "index": 0 },
+          { "node": "Website Analytics (Plausible)", "type": "main", "index": 0 },
+          { "node": "Content Performance (Supabase)", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Instagram Insights": {
+      "main": [
+        [{ "node": "Merge All Analytics", "type": "main", "index": 0 }]
+      ]
+    },
+    "YouTube Analytics": {
+      "main": [
+        [{ "node": "Merge All Analytics", "type": "main", "index": 0 }]
+      ]
+    },
+    "Website Analytics (Plausible)": {
+      "main": [
+        [{ "node": "Merge All Analytics", "type": "main", "index": 0 }]
+      ]
+    },
+    "Content Performance (Supabase)": {
+      "main": [
+        [{ "node": "Merge All Analytics", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge All Analytics": {
+      "main": [
+        [{ "node": "Claude: Analyze Performance", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude: Analyze Performance": {
+      "main": [
+        [{ "node": "Format Report", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format Report": {
+      "main": [
+        [
+          { "node": "Save Report to Supabase", "type": "main", "index": 0 },
+          { "node": "Send Report to Discord", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Kolkata",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "analytics" },
+    { "name": "weekly" },
+    { "name": "bodhi" }
+  ],
+  "meta": {
+    "instanceId": "bodhi-project",
+    "templateCredsSetupCompleted": false
+  }
+}

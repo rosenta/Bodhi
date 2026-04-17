@@ -1,0 +1,57 @@
+{
+  "id": 27,
+  "title": "The Kneel",
+  "source_text": "Vivekachudamani — Narrative Series",
+  "story_reference": "Based on story-001-the-arrival.md, scene: the man kneeling at the river before the Guru opens his eyes",
+  "verse_reference": "Verse 2 (rarity of human birth)",
+  "duration": "60 seconds",
+  "hook": "A man who had won everything knelt at the edge of a river. He could not name what he had lost.",
+  "script": [
+    {
+      "time": "0-6s",
+      "visual": "Extreme slow push-in on a man's hands, dirt under the fingernails, a wedding ring catching morning light. Mist rising off a green river. No face yet.",
+      "voiceover": "The man who knelt at the edge of the river had won everything.",
+      "text_overlay": ""
+    },
+    {
+      "time": "6-15s",
+      "visual": "Jump cut montage, each held 1 second: a magazine cover with his name, a corner office window at dusk, a child's drawing on a fridge, a wife asleep, a ceiling at 3 a.m. No sound but a single low cello note.",
+      "voiceover": "Top of his class. Six hundred employees. A house strangers photographed from the street. A calendar booked three months deep.",
+      "text_overlay": ""
+    },
+    {
+      "time": "15-24s",
+      "visual": "Return to the riverbank. Wide shot. The man kneeling, small against the water. His shoulders shake once. Stops. Holds still. Birds we cannot name call from the canopy.",
+      "voiceover": "And a hollowness behind the ribs that no achievement could fill. It had started as a whisper. Over the years it had grown teeth.",
+      "text_overlay": ""
+    },
+    {
+      "time": "24-34s",
+      "visual": "Slow pan to the Guru, seated on a flat stone. Absolutely still. Eyes closed. A leaf falls and lands on his shoulder. He does not move. The light shifts.",
+      "voiceover": "At the other end of the clearing, an old man sat on a stone. Eyes closed. Still as the stone. A leaf fell on his shoulder. He did not move.",
+      "text_overlay": ""
+    },
+    {
+      "time": "34-45s",
+      "visual": "Back to the kneeling man. His breath visible in the cold air. He looks up for the first time. Tears, quiet. Not performed.",
+      "voiceover": "The man had flown across an ocean. Walked two days along a river. He had not told his office. He had not told himself.",
+      "text_overlay": ""
+    },
+    {
+      "time": "45-54s",
+      "visual": "Close on the man's face. He whispers something. We do not hear it. The river keeps moving. A bird calls once.",
+      "voiceover": "Among all beings, human birth is rare. Rarer still, the one who wants to know what he is. Rarer than that, the one who kneels.",
+      "text_overlay": ""
+    },
+    {
+      "time": "54-60s",
+      "visual": "Hold on the river. Black text on bottom third, white serif.",
+      "voiceover": "",
+      "text_overlay": "manuṣyatvam"
+    }
+  ],
+  "cta": "New series. Six scenes from an ancient dialogue. The first one begins here.",
+  "caption": "He had won everything. He could not name what he had lost.\n\nScene one of a six-part narrative series based on the opening of the Vivekachudamani — a 1,200-year-old text in which a disciple arrives at a forest ashram and does not know what he is.\n\nThe rarity is not human birth. The rarity is the kneel.\n\nmanuṣyatvam",
+  "music_suggestion": "A single sustained cello note, unresolved. No percussion. Under the montage, one low piano note every four seconds, like a pulse. Fade to only river and birds at 45s. No music at all for the final image.",
+  "casting_notes": "Two characters: The Seeker (mid-30s to early-40s, exhausted, well-dressed but rumpled — expensive watch on a man who has not slept) and The Guru (older, completely still, minimal movement — his stillness is the performance). Or pure voiceover over landscape B-roll: river at dawn, mist, a kneeling figure shot from behind, an old man's hands on a stone. Zero temple iconography."
+}

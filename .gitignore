@@ -1,0 +1,62 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Credentials — NEVER commit
+.git-credentials
+*.pat
+*.token
+secrets.json
+
+# Video-gen heavy artifacts (keep scripts + docs + small samples; skip large binaries and model caches)
+automation/video-gen/cache/
+automation/video-gen/_build/
+automation/video-gen/samples/hindi-voice/_build/
+*.safetensors
+*.ckpt
+
+# ML model caches (user-level, shouldn't be in repo anyway but guard)
+.cache/huggingface/
+
+# Large generated media — keep the pipeline, not its outputs
+automation/video-gen/output/*.mp4
+automation/video-gen/samples/motion/*.mp4
+
+# But DO keep a README in those dirs so path exists
+!automation/video-gen/output/.gitkeep
+!automation/video-gen/samples/motion/.gitkeep

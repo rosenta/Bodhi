@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/* ============================================
+   PROJECT BODHI — Design System Tokens
+   ============================================ */
+
+:root {
+  /* Dark Mode (Primary) */
+  --bg-primary: #0A0A0F;
+  --bg-secondary: #12121A;
+  --bg-card: #1A1A25;
+  --bg-card-hover: #22222F;
+  --bg-surface: #141420;
+  --text-primary: #E8E6E0;
+  --text-secondary: #9A9690;
+  --text-tertiary: #6A6660;
+  --accent-gold: #C9A55A;
+  --accent-gold-muted: rgba(201, 165, 90, 0.15);
+  --accent-saffron: #E67E22;
+  --accent-warm: #D4A574;
+  --accent-cream: #F5E6C8;
+  --border: rgba(201, 165, 90, 0.12);
+  --border-strong: rgba(201, 165, 90, 0.25);
+  --overlay: rgba(10, 10, 15, 0.85);
+
+  --gradient-gold: linear-gradient(135deg, #C9A55A, #E67E22);
+  --gradient-hero: radial-gradient(ellipse at center, rgba(201, 165, 90, 0.06) 0%, transparent 70%);
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-bg-surface: var(--bg-surface);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-gold-muted: var(--accent-gold-muted);
+  --color-accent-saffron: var(--accent-saffron);
+  --color-accent-warm: var(--accent-warm);
+  --color-accent-cream: var(--accent-cream);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sanskrit text styling */
+.sanskrit {
+  font-family: var(--font-devanagari);
+  color: var(--accent-warm);
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+
+/* Serif text for translations */
+.serif {
+  font-family: var(--font-serif);
+}
+
+/* Gold accent text */
+.gold {
+  color: var(--accent-gold);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(201, 165, 90, 0.3);
+  color: var(--text-primary);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 165, 90, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 165, 90, 0.4);
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes lineGrow {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+/* Staggered animation delays */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.4s; }
+.delay-4 { animation-delay: 0.6s; }
+.delay-5 { animation-delay: 0.8s; }
+.delay-6 { animation-delay: 1.0s; }
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-in {
+    animation: none;
+    opacity: 1;
+  }
+}
