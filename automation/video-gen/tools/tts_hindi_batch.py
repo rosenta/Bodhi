@@ -72,6 +72,12 @@ import torch  # noqa: E402
 import transformers  # noqa: E402
 from transformers import AutoTokenizer, VitsModel  # noqa: E402
 
+# Local module: phonetic transliteration of English loanwords to Devanagari.
+# Must run before tokenization because MMS-TTS-Hindi's tokenizer silently
+# drops Roman characters.
+sys.path.insert(0, str(Path(__file__).parent))
+from roman_to_devanagari import transliterate_for_tts  # noqa: E402
+
 transformers.logging.set_verbosity_error()
 
 TARGET_SR = 22_050
@@ -231,13 +237,22 @@ def synth_chunk(
     noise_scale: float,
     noise_scale_duration: float,
     seed: int,
+    transliterate: bool = True,
+    verbose: bool = False,
 ) -> np.ndarray:
     """Synthesize a single chunk; returns empty array if the chunk is all non-Devanagari."""
     torch.manual_seed(seed)
     model.speaking_rate = speaking_rate
     model.noise_scale = noise_scale
     model.noise_scale_duration = noise_scale_duration
-    inputs = tokenizer(text, return_tensors="pt")
+    if transliterate:
+        translit_text = transliterate_for_tts(text)
+        if verbose and translit_text != text:
+            print(f"    [xlit] {text!r} -> {translit_text!r}", flush=True)
+        text_for_tokenizer = translit_text
+    else:
+        text_for_tokenizer = text
+    inputs = tokenizer(text_for_tokenizer, return_tensors="pt")
     # MMS-TTS-Hindi tokenizer drops all non-Devanagari characters. If the chunk
     # contains only ASCII (e.g. "bank balance।"), token count drops to zero and
     # the model raises a dtype error. Skip such chunks cleanly.
@@ -267,6 +282,8 @@ def synth_item(
     speaking_rate: float = 0.9,
     noise_scale_pair: tuple[float, float] = (0.55, 0.72),
     noise_scale_duration: float = 0.88,
+    transliterate: bool = True,
+    verbose: bool = False,
 ) -> np.ndarray:
     """Render a full item with the v2-winner ensemble + chunked recipe."""
     chunks = split_sentences(text)
@@ -281,6 +298,8 @@ def synth_item(
             noise_scale=noise_scale_pair[0],
             noise_scale_duration=noise_scale_duration,
             seed=11 + i,
+            transliterate=transliterate,
+            verbose=verbose,
         )
         b = synth_chunk(
             model,
@@ -291,6 +310,8 @@ def synth_item(
             noise_scale=noise_scale_pair[1],
             noise_scale_duration=noise_scale_duration,
             seed=101 + i,
+            transliterate=transliterate,
+            verbose=False,  # already logged on the first pass
         )
         if a.size == 0 or b.size == 0:
             # Chunk had no Devanagari characters after tokenization; preserve
@@ -395,16 +416,25 @@ def process_item(
     tokenizer: AutoTokenizer,
     device: torch.device,
     sr: int,
+    *,
+    transliterate: bool = True,
+    verbose: bool = False,
 ) -> Result:
     started = time.time()
     try:
-        wav = synth_item(model, tokenizer, device, sr, item.text)
+        wav = synth_item(
+            model, tokenizer, device, sr, item.text,
+            transliterate=transliterate, verbose=verbose,
+        )
     except Exception as exc:
         if device.type != "cpu":
             print(f"[warn] {device.type} synthesis failed for {item.key}: {exc}; falling back to CPU", flush=True)
             try:
                 model.to("cpu")
-                wav = synth_item(model, tokenizer, torch.device("cpu"), sr, item.text)
+                wav = synth_item(
+                    model, tokenizer, torch.device("cpu"), sr, item.text,
+                    transliterate=transliterate, verbose=verbose,
+                )
                 model.to(device)  # restore original device for next item
             except Exception as exc2:  # pragma: no cover - defensive
                 return Result(
@@ -519,6 +549,18 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default=Path("automation/video-gen/logs/tts-wave1.log"),
         help="Per-item log file (appended)",
     )
+    p.add_argument(
+        "--no-transliterate",
+        action="store_true",
+        help="Disable Roman->Devanagari transliteration of English loanwords."
+        " MMS-TTS-Hindi's tokenizer silently drops Roman characters, so leaving"
+        " this on is almost always correct. Provided as an escape hatch.",
+    )
+    p.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Log original vs. transliterated text per chunk during synthesis.",
+    )
     return p
 
 
@@ -537,9 +579,13 @@ def main(argv: Iterable[str] | None = None) -> int:
 
     results: list[Result] = []
     total_start = time.time()
+    transliterate = not args.no_transliterate
     for i, item in enumerate(items, 1):
         print(f"\n[{i}/{len(items)}] key={item.key} chars={len(item.text)}", flush=True)
-        r = process_item(item, args.out_dir, args.wav_cache, model, tokenizer, device, sr)
+        r = process_item(
+            item, args.out_dir, args.wav_cache, model, tokenizer, device, sr,
+            transliterate=transliterate, verbose=args.verbose,
+        )
         log_result(args.log, args.source, r)
         results.append(r)
         if r.status == "ok":
