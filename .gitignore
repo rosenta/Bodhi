@@ -66,3 +66,4 @@ automation/video-gen/samples/motion/*.mp4
 automation/video-gen/samples/voice/kokoro-models/
 automation/video-gen/samples/voice/piper-voices/
 .claude/scheduled_tasks.lock
+.netlify/
