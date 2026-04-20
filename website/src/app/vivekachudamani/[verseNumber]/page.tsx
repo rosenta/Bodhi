@@ -7,6 +7,7 @@ import {
   truncateText,
 } from "@/lib/structure";
 import { PracticeCard } from "@/components/PracticeCard";
+import { HindiExplainer } from "@/components/HindiExplainer";
 import { Footer } from "@/components/Footer";
 import { notFound } from "next/navigation";
 
@@ -136,6 +137,14 @@ export default async function VersePage({ params }: PageProps) {
           <PracticeCard practice={verse.practicePrompt} />
         </div>
       </section>
+
+      {/* Hindi Explainer — renders nothing when Hindi fields are absent */}
+      <HindiExplainer
+        meaning={verse.hindiMeaning}
+        explanation={verse.hindiExplanation}
+        example={verse.hindiExample}
+        audioSrc={`/audio/vivekachudamani/${verse.verseNumber}.mp3`}
+      />
 
       {/* Section Context — "You are HERE in the journey" */}
       {section && (

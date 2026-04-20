@@ -5,6 +5,8 @@ export interface Verse {
   readonly transliteration?: string;
   readonly englishTranslation: string;
   readonly hindiMeaning?: string;
+  readonly hindiExplanation?: string;
+  readonly hindiExample?: string;
   readonly modernInterpretation: string;
   readonly theme: string;
   readonly reelHook: string;
@@ -51,6 +53,9 @@ export interface RawVerse {
   readonly modern_interpretation: string;
   readonly reel_hook: string;
   readonly practice_prompt: string;
+  readonly hindi_meaning?: string;
+  readonly hindi_explanation?: string;
+  readonly hindi_example?: string;
 }
 
 /** Raw shape of a sutra inside the padas array in sutras.json */
@@ -62,6 +67,8 @@ export interface RawSutra {
   readonly transliteration: string;
   readonly english_translation: string;
   readonly hindi_meaning: string;
+  readonly hindi_explanation?: string;
+  readonly hindi_example?: string;
   readonly theme: string;
   readonly practical_application: string;
   readonly tags: readonly string[];

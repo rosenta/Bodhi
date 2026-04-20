@@ -7,6 +7,7 @@ import {
   truncateText,
 } from "@/lib/structure";
 import { PracticeCard } from "@/components/PracticeCard";
+import { HindiExplainer } from "@/components/HindiExplainer";
 import { Footer } from "@/components/Footer";
 import { notFound } from "next/navigation";
 
@@ -146,20 +147,6 @@ export default async function SutraPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Hindi Meaning */}
-      {sutra.hindiMeaning && (
-        <section className="px-6 py-12">
-          <div className="mx-auto max-w-[650px]">
-            <p className="animate-fade-up text-xs font-medium uppercase tracking-[0.2em] text-accent-gold">
-              Hindi Meaning
-            </p>
-            <p className="animate-fade-up delay-1 mt-6 font-devanagari text-base leading-[2] text-text-secondary">
-              {sutra.hindiMeaning}
-            </p>
-          </div>
-        </section>
-      )}
-
       {/* Practical Application */}
       {sutra.practicalApplication && (
         <section className="px-6 py-12">
@@ -182,6 +169,14 @@ export default async function SutraPage({ params }: PageProps) {
           </div>
         </section>
       )}
+
+      {/* Hindi Explainer — renders nothing when Hindi fields are absent */}
+      <HindiExplainer
+        meaning={sutra.hindiMeaning}
+        explanation={sutra.hindiExplanation}
+        example={sutra.hindiExample}
+        audioSrc={`/audio/yoga-sutras/${sutra.sutraNumber}.mp3`}
+      />
 
       {/* Section Context — "You are HERE in the journey" */}
       {section && (

@@ -17,10 +17,17 @@
           "sanskrit": "अथ योगानुशासनम्",
           "transliteration": "atha yogānuśāsanam",
           "english_translation": "Now begins the authoritative instruction on Yoga.",
-          "hindi_meaning": "अब परम्परागत योगविषयक शास्त्र का आरम्भ करते हैं।",
+          "hindi_meaning": "अब योग की शिक्षा शुरू होती है.",
           "theme": "Introduction to Yoga",
           "practical_application": "Recognize that yoga is a disciplined practice passed down through tradition. Begin your study with humility and readiness.",
-          "tags": ["introduction", "discipline", "tradition", "beginning"]
+          "tags": [
+            "introduction",
+            "discipline",
+            "tradition",
+            "beginning"
+          ],
+          "hindi_explanation": "'अब' — ये एक छोटा-सा शब्द बहुत कुछ कहता है. मतलब — तूने बाक़ी सब try कर लिया है. पैसा, रिश्ते, अनुभव, travel, therapy — और कुछ अंदर अभी भी खोखला है. तब जाकर 'अब' आता है. Patanjali बोल रहा है — जब तू ready है, तब ये शुरू होगा. पहले नहीं. ये course नहीं है जो तू Udemy पर sign up कर ले. ये तब शुरू होता है जब बाक़ी सब नाकाम हो चुका है.",
+          "hindi_example": "Friday रात 11 बज गए. party से लौटा है, iPhone में 14 unread WhatsApp, कल का board meeting, पिछले हफ़्ते का promotion — सब मिल गया. फिर भी छत को घूर रहा है, और कुछ अंदर बोल रहा है 'is this it?' यही वो 'अब' है Patanjali का. यहाँ से योग शुरू होता है — जब तू मान लेता है कि बाहर कुछ नहीं मिलेगा."
         },
         {
           "pada": 1,
@@ -29,10 +36,18 @@
           "sanskrit": "योगश्चित्तवृत्तिनिरोधः",
           "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
           "english_translation": "Yoga is the cessation of the modifications of the mind.",
-          "hindi_meaning": "चित्त की वृत्तियों का निरोध (सर्वथा रुक जाना) ही योग है।",
+          "hindi_meaning": "मन में जो लगातार लहरें उठती रहती हैं — विचारों की, feelings की, यादों की — उनका पूरी तरह रुक जाना ही योग है.",
           "theme": "Definition of Yoga",
           "practical_application": "Practice stilling the constant chatter of the mind through meditation, breath work, and mindful awareness throughout the day.",
-          "tags": ["definition", "chitta", "vritti", "nirodha", "mind-control"]
+          "tags": [
+            "definition",
+            "chitta",
+            "vritti",
+            "nirodha",
+            "mind-control"
+          ],
+          "hindi_explanation": "हर second तेरे दिमाग़ में 50 tabs खुले हैं. 'kal का meeting.' 'वो message reply नहीं किया.' 'बच्चे का result कब आएगा.' 'lunch में क्या खाऊँ.' ये सब वृत्ति है — मन की लहरें. योग का मतलब headstand नहीं है. योग का मतलब है — ये लहरें रुक जाएँ. एक पल को. पानी शांत हो — तो नीचे तक दिख जाता है. मन शांत हो — तो तू दिख जाता है. Patanjali ने पूरी किताब की पहली परिभाषा यहीं दे दी है.",
+          "hindi_example": "आज office में एक काम कर — अगले 10 minute, बस एक email पर focus कर. सिर्फ़ एक. notification OFF. दूसरी tab OFF. अंदर से आवाज़ आएगी — 'Slack check कर लूँ.' 'coffee ले आऊँ.' 'LinkedIn एक बार.' हर आवाज़ एक वृत्ति है. उसे notice कर, और email पर वापस आ. ये 10 minute असली योग है — mat पर नहीं, chair पर."
         },
         {
           "pada": 1,
@@ -44,7 +59,13 @@
           "hindi_meaning": "उस समय द्रष्टा (आत्मा) की अपने स्वरूप में स्थिति हो जाती है।",
           "theme": "True Nature of the Self",
           "practical_application": "When the mind is still, you experience your true self beyond thoughts and emotions. Cultivate moments of inner silence to glimpse this reality.",
-          "tags": ["self-realization", "svarupa", "drashta", "witness", "awareness"]
+          "tags": [
+            "self-realization",
+            "svarupa",
+            "drashta",
+            "witness",
+            "awareness"
+          ]
         },
         {
           "pada": 1,
@@ -56,7 +77,12 @@
           "hindi_meaning": "दूसरे समय में द्रष्टा की वृत्ति के सदृश स्वरूप होता है अर्थात् वह चित्तवृत्ति के अनुरूप अपना स्वरूप समझता रहता है।",
           "theme": "Misidentification",
           "practical_application": "Notice when you identify completely with your thoughts, emotions, or roles. That identification is the root of suffering.",
-          "tags": ["identification", "vritti", "misidentification", "ignorance"]
+          "tags": [
+            "identification",
+            "vritti",
+            "misidentification",
+            "ignorance"
+          ]
         },
         {
           "pada": 1,
@@ -68,7 +94,13 @@
           "hindi_meaning": "ये चित्तवृत्तियाँ पाँच प्रकार की होती हैं तथा क्लिष्ट (क्लेशकारक) और अक्लिष्ट (क्लेशरहित) दो भेदों वाली होती हैं।",
           "theme": "Classification of Mental Modifications",
           "practical_application": "Learn to categorize your mental activities. Observe which thoughts cause suffering and which support your growth.",
-          "tags": ["vritti", "klishta", "aklishta", "classification", "mental-modifications"]
+          "tags": [
+            "vritti",
+            "klishta",
+            "aklishta",
+            "classification",
+            "mental-modifications"
+          ]
         },
         {
           "pada": 1,
@@ -80,7 +112,14 @@
           "hindi_meaning": "प्रमाण, विपर्यय, विकल्प, निद्रा और स्मृति — ये पाँच वृत्तियाँ हैं।",
           "theme": "Five Types of Vrittis",
           "practical_application": "Throughout your day, notice which of these five mental patterns is active. This awareness itself begins the process of mastery.",
-          "tags": ["pramana", "viparyaya", "vikalpa", "nidra", "smriti", "five-vrittis"]
+          "tags": [
+            "pramana",
+            "viparyaya",
+            "vikalpa",
+            "nidra",
+            "smriti",
+            "five-vrittis"
+          ]
         },
         {
           "pada": 1,
@@ -92,7 +131,13 @@
           "hindi_meaning": "प्रत्यक्ष, अनुमान और आगम — ये तीन प्रमाण हैं।",
           "theme": "Sources of Valid Knowledge",
           "practical_application": "Validate your understanding through direct experience, logical reasoning, and wisdom teachings. Do not rely on any single source alone.",
-          "tags": ["pramana", "pratyaksha", "anumana", "agama", "valid-knowledge"]
+          "tags": [
+            "pramana",
+            "pratyaksha",
+            "anumana",
+            "agama",
+            "valid-knowledge"
+          ]
         },
         {
           "pada": 1,
@@ -104,7 +149,12 @@
           "hindi_meaning": "जो उस वस्तु के स्वरूप में प्रतिष्ठित नहीं है ऐसा मिथ्या ज्ञान विपर्यय है।",
           "theme": "Wrong Knowledge",
           "practical_application": "Question your assumptions regularly. What you believe to be true may be a misperception, like mistaking a rope for a snake.",
-          "tags": ["viparyaya", "mithya-jnana", "false-knowledge", "delusion"]
+          "tags": [
+            "viparyaya",
+            "mithya-jnana",
+            "false-knowledge",
+            "delusion"
+          ]
         },
         {
           "pada": 1,
@@ -116,7 +166,12 @@
           "hindi_meaning": "जो ज्ञान शब्दजनित ज्ञान के साथ-साथ होने वाला है किन्तु वस्तुशून्य है, वह विकल्प है।",
           "theme": "Imagination/Fantasy",
           "practical_application": "Notice how much of your mental world is built on words and concepts with no real substance. Let go of fantasies and abstract rumination.",
-          "tags": ["vikalpa", "imagination", "fantasy", "verbal-knowledge"]
+          "tags": [
+            "vikalpa",
+            "imagination",
+            "fantasy",
+            "verbal-knowledge"
+          ]
         },
         {
           "pada": 1,
@@ -128,7 +183,13 @@
           "hindi_meaning": "अभावरूप प्रत्यय का आलम्बन लेने वाली वृत्ति निद्रा है।",
           "theme": "Sleep",
           "practical_application": "Observe the quality of your sleep and the transitions into and out of it. Even sleep is a state of consciousness that can be understood.",
-          "tags": ["nidra", "sleep", "vritti", "abhava", "unconscious"]
+          "tags": [
+            "nidra",
+            "sleep",
+            "vritti",
+            "abhava",
+            "unconscious"
+          ]
         },
         {
           "pada": 1,
@@ -140,7 +201,12 @@
           "hindi_meaning": "अनुभव किये हुए विषय का न भूलना (मन में बने रहना) स्मृति है।",
           "theme": "Memory",
           "practical_application": "Be mindful of how memories color your present experience. Practice being present rather than living in replays of the past.",
-          "tags": ["smriti", "memory", "experience", "retention"]
+          "tags": [
+            "smriti",
+            "memory",
+            "experience",
+            "retention"
+          ]
         },
         {
           "pada": 1,
@@ -152,7 +218,13 @@
           "hindi_meaning": "अभ्यास और वैराग्य से उन वृत्तियों का निरोध होता है।",
           "theme": "Practice and Detachment",
           "practical_application": "Combine consistent daily practice with letting go of attachment to outcomes. These two together form the complete path.",
-          "tags": ["abhyasa", "vairagya", "practice", "detachment", "nirodha"]
+          "tags": [
+            "abhyasa",
+            "vairagya",
+            "practice",
+            "detachment",
+            "nirodha"
+          ]
         },
         {
           "pada": 1,
@@ -164,7 +236,12 @@
           "hindi_meaning": "उनमें से चित्त की स्थिरता के लिए किया जाने वाला यत्न अभ्यास है।",
           "theme": "Definition of Practice",
           "practical_application": "Commit to a regular routine of meditation or mindfulness. The key is steady, sustained effort over time.",
-          "tags": ["abhyasa", "practice", "effort", "steadiness"]
+          "tags": [
+            "abhyasa",
+            "practice",
+            "effort",
+            "steadiness"
+          ]
         },
         {
           "pada": 1,
@@ -176,7 +253,13 @@
           "hindi_meaning": "वह अभ्यास बहुत काल तक निरन्तर श्रद्धापूर्वक सेवन किया जाने पर दृढ़भूमि वाला होता है।",
           "theme": "Establishing Practice",
           "practical_application": "Be patient with your practice. True transformation requires long-term dedication, regularity, and genuine respect for the process.",
-          "tags": ["abhyasa", "dedication", "consistency", "long-term", "persistence"]
+          "tags": [
+            "abhyasa",
+            "dedication",
+            "consistency",
+            "long-term",
+            "persistence"
+          ]
         },
         {
           "pada": 1,
@@ -188,7 +271,13 @@
           "hindi_meaning": "देखे और सुने हुए विषयों में तृष्णा से रहित होने के ज्ञान का नाम वशीकार-वैराग्य है।",
           "theme": "Non-Attachment",
           "practical_application": "Cultivate freedom from craving both for material things you see and for promised pleasures described by others or in media.",
-          "tags": ["vairagya", "detachment", "craving", "freedom", "vashikara"]
+          "tags": [
+            "vairagya",
+            "detachment",
+            "craving",
+            "freedom",
+            "vashikara"
+          ]
         },
         {
           "pada": 1,
@@ -200,7 +289,13 @@
           "hindi_meaning": "पुरुष (आत्मा) के ज्ञान से गुणों में भी वैतृष्ण्य (पूर्ण अनासक्ति) हो जाना — यह पर-वैराग्य है।",
           "theme": "Supreme Non-Attachment",
           "practical_application": "As self-knowledge deepens, even the subtlest attractions of nature lose their grip. Aspire to this ultimate freedom beyond all qualities.",
-          "tags": ["para-vairagya", "purusha-khyati", "gunas", "supreme-detachment", "self-knowledge"]
+          "tags": [
+            "para-vairagya",
+            "purusha-khyati",
+            "gunas",
+            "supreme-detachment",
+            "self-knowledge"
+          ]
         },
         {
           "pada": 1,
@@ -212,7 +307,14 @@
           "hindi_meaning": "वितर्क, विचार, आनन्द और अस्मिता — इन रूपों के अनुगत होने से सम्प्रज्ञात (समाधि) होती है।",
           "theme": "Samprajnata Samadhi",
           "practical_application": "In deep meditation, notice the progressive stages: first thoughts settle, then subtler reflection, then bliss, then pure existence alone remains.",
-          "tags": ["samprajnata", "samadhi", "vitarka", "vichara", "ananda", "asmita"]
+          "tags": [
+            "samprajnata",
+            "samadhi",
+            "vitarka",
+            "vichara",
+            "ananda",
+            "asmita"
+          ]
         },
         {
           "pada": 1,
@@ -224,7 +326,13 @@
           "hindi_meaning": "निवृत्ति-प्रत्यय के अभ्यासपूर्वक होने वाला, जिसमें केवल संस्कार शेष रहते हैं, वह अन्य (असम्प्रज्ञात) समाधि है।",
           "theme": "Asamprajnata Samadhi",
           "practical_application": "Beyond all cognitive experience lies the deepest samadhi where only subtle impressions remain. This is the gateway to complete liberation.",
-          "tags": ["asamprajnata", "samadhi", "nirbija", "samskara", "cessation"]
+          "tags": [
+            "asamprajnata",
+            "samadhi",
+            "nirbija",
+            "samskara",
+            "cessation"
+          ]
         },
         {
           "pada": 1,
@@ -236,7 +344,12 @@
           "hindi_meaning": "विदेह और प्रकृतिलय पुरुषों की समाधि का कारण भव (जन्म) है, साधन-समुदाय नहीं।",
           "theme": "Natural States of Absorption",
           "practical_application": "Do not confuse natural psychic states or temporary absorption with true liberation. Genuine yoga requires conscious practice and discrimination.",
-          "tags": ["videha", "prakriti-laya", "bhava", "incomplete-liberation"]
+          "tags": [
+            "videha",
+            "prakriti-laya",
+            "bhava",
+            "incomplete-liberation"
+          ]
         },
         {
           "pada": 1,
@@ -248,7 +361,14 @@
           "hindi_meaning": "दूसरे (साधक) पुरुषों की समाधि श्रद्धा, वीर्य, स्मृति, समाधि और प्रज्ञा के पूर्वक होती है।",
           "theme": "Means to Samadhi",
           "practical_application": "Cultivate faith in the path, energetic commitment, mindful awareness, focused concentration, and discriminative wisdom as the progressive steps.",
-          "tags": ["shraddha", "virya", "smriti", "samadhi", "prajna", "means"]
+          "tags": [
+            "shraddha",
+            "virya",
+            "smriti",
+            "samadhi",
+            "prajna",
+            "means"
+          ]
         },
         {
           "pada": 1,
@@ -260,7 +380,12 @@
           "hindi_meaning": "तीव्र संवेग (उत्साह) वालों की समाधि शीघ्र सिद्ध होती है।",
           "theme": "Intensity of Practice",
           "practical_application": "The more wholeheartedly you commit to your practice, the faster you will progress. Tepid effort yields tepid results.",
-          "tags": ["intensity", "earnestness", "speed", "dedication"]
+          "tags": [
+            "intensity",
+            "earnestness",
+            "speed",
+            "dedication"
+          ]
         },
         {
           "pada": 1,
@@ -272,7 +397,13 @@
           "hindi_meaning": "मृदु, मध्य और अधिमात्र होने से उसमें भी विशेष (भेद) है।",
           "theme": "Degrees of Practice",
           "practical_application": "Honestly assess the intensity of your practice. Gentle practice yields slow results; moderate practice brings moderate results; intense practice brings rapid progress.",
-          "tags": ["mridu", "madhya", "adhimatra", "degrees", "intensity"]
+          "tags": [
+            "mridu",
+            "madhya",
+            "adhimatra",
+            "degrees",
+            "intensity"
+          ]
         },
         {
           "pada": 1,
@@ -284,7 +415,13 @@
           "hindi_meaning": "ईश्वर की शरणागति से भी (समाधि सिद्ध होती है)।",
           "theme": "Surrender to God",
           "practical_application": "Complete surrender to a higher power is an alternative and powerful path. Release the ego's need for control and trust in divine grace.",
-          "tags": ["ishvara-pranidhana", "surrender", "devotion", "god", "bhakti"]
+          "tags": [
+            "ishvara-pranidhana",
+            "surrender",
+            "devotion",
+            "god",
+            "bhakti"
+          ]
         },
         {
           "pada": 1,
@@ -296,7 +433,14 @@
           "hindi_meaning": "क्लेश, कर्म, विपाक और आशय से अपरामृष्ट (अछूता) पुरुषविशेष ईश्वर है।",
           "theme": "Nature of God",
           "practical_application": "Contemplate a consciousness free from suffering, karma, and conditioning. This ideal inspires your own journey toward inner freedom.",
-          "tags": ["ishvara", "god", "purusha-vishesha", "klesha", "karma", "freedom"]
+          "tags": [
+            "ishvara",
+            "god",
+            "purusha-vishesha",
+            "klesha",
+            "karma",
+            "freedom"
+          ]
         },
         {
           "pada": 1,
@@ -308,7 +452,12 @@
           "hindi_meaning": "उस ईश्वर में सर्वज्ञता का बीज निरतिशय (सर्वोत्कृष्ट) है।",
           "theme": "Omniscience of God",
           "practical_application": "Recognize that the source of all knowledge exists. Approach learning with humility, knowing that infinite wisdom lies beyond the individual mind.",
-          "tags": ["ishvara", "omniscience", "sarvajna", "supreme-knowledge"]
+          "tags": [
+            "ishvara",
+            "omniscience",
+            "sarvajna",
+            "supreme-knowledge"
+          ]
         },
         {
           "pada": 1,
@@ -320,7 +469,13 @@
           "hindi_meaning": "वह ईश्वर काल से अनवच्छिन्न होने के कारण पूर्वजों का भी गुरु है।",
           "theme": "The Eternal Teacher",
           "practical_application": "The ultimate source of guidance is timeless. Connect with that eternal wisdom through meditation and inner listening.",
-          "tags": ["ishvara", "guru", "eternal", "timeless", "teacher"]
+          "tags": [
+            "ishvara",
+            "guru",
+            "eternal",
+            "timeless",
+            "teacher"
+          ]
         },
         {
           "pada": 1,
@@ -332,7 +487,13 @@
           "hindi_meaning": "उस ईश्वर का वाचक (नाम) प्रणव (ओम्) है।",
           "theme": "Om - The Sacred Sound",
           "practical_application": "Practice chanting or meditating on Om. This primordial sound is the most direct way to connect with the divine presence.",
-          "tags": ["pranava", "om", "ishvara", "mantra", "sacred-sound"]
+          "tags": [
+            "pranava",
+            "om",
+            "ishvara",
+            "mantra",
+            "sacred-sound"
+          ]
         },
         {
           "pada": 1,
@@ -344,7 +505,13 @@
           "hindi_meaning": "उस प्रणव का जप और उसके अर्थ की भावना करनी चाहिए।",
           "theme": "Japa and Contemplation",
           "practical_application": "Do not merely repeat mantras mechanically. Combine repetition with deep contemplation of the meaning behind the sacred syllable.",
-          "tags": ["japa", "pranava", "om", "meditation", "contemplation"]
+          "tags": [
+            "japa",
+            "pranava",
+            "om",
+            "meditation",
+            "contemplation"
+          ]
         },
         {
           "pada": 1,
@@ -356,7 +523,13 @@
           "hindi_meaning": "उससे अन्तर्मुखी चेतना का अधिगम (ज्ञान) और अन्तरायों (विघ्नों) का अभाव होता है।",
           "theme": "Fruits of Om Practice",
           "practical_application": "Regular practice of japa removes mental obstacles and turns awareness inward, revealing your deeper nature.",
-          "tags": ["pratyak-chetana", "antaraya", "obstacles", "inner-awareness", "om"]
+          "tags": [
+            "pratyak-chetana",
+            "antaraya",
+            "obstacles",
+            "inner-awareness",
+            "om"
+          ]
         },
         {
           "pada": 1,
@@ -368,7 +541,17 @@
           "hindi_meaning": "व्याधि, स्त्यान, संशय, प्रमाद, आलस्य, अविरति, भ्रान्तिदर्शन, अलब्धभूमिकत्व और अनवस्थितत्व — ये चित्त के विक्षेप हैं; ये ही अन्तराय हैं।",
           "theme": "Nine Obstacles",
           "practical_application": "Identify which of these nine obstacles is currently strongest in your life and address it directly through appropriate counter-measures.",
-          "tags": ["antaraya", "obstacles", "vyadhi", "styana", "samshaya", "pramada", "alasya", "avirati", "bhranti-darshana"]
+          "tags": [
+            "antaraya",
+            "obstacles",
+            "vyadhi",
+            "styana",
+            "samshaya",
+            "pramada",
+            "alasya",
+            "avirati",
+            "bhranti-darshana"
+          ]
         },
         {
           "pada": 1,
@@ -380,7 +563,14 @@
           "hindi_meaning": "दुःख, दौर्मनस्य (निराशा), अङ्गमेजयत्व (शरीर का काँपना), श्वास-प्रश्वास — ये विक्षेप के साथ होने वाले लक्षण हैं।",
           "theme": "Symptoms of Distraction",
           "practical_application": "When you notice physical agitation, emotional despair, or irregular breathing, recognize these as signs of mental disturbance and apply calming techniques.",
-          "tags": ["symptoms", "duhkha", "daurmanasya", "trembling", "breathing", "distraction"]
+          "tags": [
+            "symptoms",
+            "duhkha",
+            "daurmanasya",
+            "trembling",
+            "breathing",
+            "distraction"
+          ]
         },
         {
           "pada": 1,
@@ -392,7 +582,13 @@
           "hindi_meaning": "उन विक्षेपों के प्रतिषेध (निवारण) के लिए एक तत्त्व का अभ्यास करना चाहिए।",
           "theme": "One-Pointed Focus",
           "practical_application": "Choose one meditation object and stick with it. Scattered practice on many techniques is less effective than devoted focus on one.",
-          "tags": ["eka-tattva", "single-focus", "concentration", "remedy", "obstacles"]
+          "tags": [
+            "eka-tattva",
+            "single-focus",
+            "concentration",
+            "remedy",
+            "obstacles"
+          ]
         },
         {
           "pada": 1,
@@ -401,10 +597,19 @@
           "sanskrit": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम्",
           "transliteration": "maitrī-karuṇā-muditopekṣāṇāṁ sukha-duḥkha-puṇyāpuṇya-viṣayāṇāṁ bhāvanātaś citta-prasādanam",
           "english_translation": "By cultivating friendliness toward the happy, compassion toward the suffering, joy toward the virtuous, and equanimity toward the non-virtuous, the mind becomes serene.",
-          "hindi_meaning": "सुखी लोगों में मैत्री, दुःखी लोगों में करुणा, पुण्यात्माओं में मुदिता (प्रसन्नता) और पापियों में उपेक्षा की भावना से चित्त प्रसन्न होता है।",
+          "hindi_meaning": "सुखी लोगों के लिए दिल में दोस्ती, दुःखी लोगों के लिए करुणा, अच्छे काम करने वालों के लिए ख़ुशी, और ग़लत काम करने वालों के लिए उपेक्षा — ये चार भाव रखने से मन शांत होता है.",
           "theme": "Four Attitudes (Brahma Viharas)",
           "practical_application": "Practice these four attitudes in daily interactions: be happy for others' joy, compassionate toward suffering, appreciative of good people, and equanimous toward wrongdoers.",
-          "tags": ["maitri", "karuna", "mudita", "upeksha", "brahma-vihara", "chitta-prasadana"]
+          "tags": [
+            "maitri",
+            "karuna",
+            "mudita",
+            "upeksha",
+            "brahma-vihara",
+            "chitta-prasadana"
+          ],
+          "hindi_explanation": "ये formula है रोज़मर्रा के लिए. दोस्त की Ferrari की photo आई — jealousy नहीं, उसके लिए ख़ुशी. मतलब मैत्री. कोई sad दिख रहा है — उसका मज़ाक़ नहीं, दिल से करुणा. कोई अच्छा काम कर रहा है — उसे copy करने की race नहीं, appreciation. और जो ज़हर फैला रहा है — उस पर गुस्सा नहीं, दूरी. बस. ये चार switches हैं. दिन भर तेरे relationships और feed तुझे इनमें से किसी न किसी में डालते रहेंगे. Patanjali बोल रहा है — सही switch चुन, मन अपने आप साफ़ हो जाएगा.",
+          "hindi_example": "सुबह Instagram खोला. college का junior Series A raise कर चुका है. पहला reaction — पेट में गाँठ. रुक. ये जलन है — ग़लत switch. सही switch है 'मैत्री' — उसके लिए genuinely ख़ुश हो. मुश्किल है? बिल्कुल. पर दो हफ़्ते try कर. हर ऐसे moment में consciously switch बदल. एक महीने में notice करेगा — scroll करना कम थकाऊ हो गया है."
         },
         {
           "pada": 1,
@@ -416,7 +621,13 @@
           "hindi_meaning": "प्राण के प्रच्छर्दन (बाहर छोड़ने) और विधारण (रोकने) से भी (चित्त स्थिर होता है)।",
           "theme": "Pranayama for Mental Calm",
           "practical_application": "Use slow, deliberate exhaling and breath retention as immediate tools to calm an agitated mind.",
-          "tags": ["pranayama", "breath", "exhalation", "retention", "calming"]
+          "tags": [
+            "pranayama",
+            "breath",
+            "exhalation",
+            "retention",
+            "calming"
+          ]
         },
         {
           "pada": 1,
@@ -428,7 +639,13 @@
           "hindi_meaning": "विषयवती (दिव्य) प्रवृत्ति उत्पन्न होने पर भी मन को स्थिर करने में हेतु बन जाती है।",
           "theme": "Higher Perception",
           "practical_application": "Focus deeply on a single sensory experience — a subtle smell, sound, or light — to anchor the mind and develop concentration.",
-          "tags": ["vishayavati", "pravritti", "higher-perception", "concentration", "senses"]
+          "tags": [
+            "vishayavati",
+            "pravritti",
+            "higher-perception",
+            "concentration",
+            "senses"
+          ]
         },
         {
           "pada": 1,
@@ -440,7 +657,13 @@
           "hindi_meaning": "विशोका (शोकरहित) ज्योतिष्मती (प्रकाशमयी) वृत्ति भी मन को स्थिर करने वाली होती है।",
           "theme": "Inner Light Meditation",
           "practical_application": "Meditate on the luminous, sorrowless light within the heart. This inner radiance dissolves grief and brings deep peace.",
-          "tags": ["vishoka", "jyotishmati", "inner-light", "sorrowless", "meditation"]
+          "tags": [
+            "vishoka",
+            "jyotishmati",
+            "inner-light",
+            "sorrowless",
+            "meditation"
+          ]
         },
         {
           "pada": 1,
@@ -452,7 +675,13 @@
           "hindi_meaning": "वीतराग (आसक्तिरहित) पुरुष को विषय करने वाला चित्त भी स्थिर हो जाता है।",
           "theme": "Contemplating the Desireless",
           "practical_application": "Contemplate the qualities of enlightened beings who are free from attachment. Their example can elevate and steady your own mind.",
-          "tags": ["vita-raga", "desireless", "contemplation", "role-model", "attachment-free"]
+          "tags": [
+            "vita-raga",
+            "desireless",
+            "contemplation",
+            "role-model",
+            "attachment-free"
+          ]
         },
         {
           "pada": 1,
@@ -464,7 +693,13 @@
           "hindi_meaning": "स्वप्न और निद्रा के ज्ञान का आलम्बन लेने से भी (चित्त स्थिर होता है)।",
           "theme": "Dream and Sleep Contemplation",
           "practical_application": "Pay attention to insights from dreams and the peace of deep sleep. These states reveal aspects of consciousness beyond the waking mind.",
-          "tags": ["svapna", "nidra", "dream", "sleep", "consciousness"]
+          "tags": [
+            "svapna",
+            "nidra",
+            "dream",
+            "sleep",
+            "consciousness"
+          ]
         },
         {
           "pada": 1,
@@ -476,7 +711,13 @@
           "hindi_meaning": "अपनी रुचि के अनुसार किसी भी इष्ट विषय के ध्यान से भी (चित्त स्थिर होता है)।",
           "theme": "Freedom of Meditation Object",
           "practical_application": "Choose a meditation object that naturally draws your attention and devotion. The path that suits your temperament is most effective.",
-          "tags": ["yathabhimata", "personal-choice", "meditation", "flexibility", "ishta"]
+          "tags": [
+            "yathabhimata",
+            "personal-choice",
+            "meditation",
+            "flexibility",
+            "ishta"
+          ]
         },
         {
           "pada": 1,
@@ -488,7 +729,13 @@
           "hindi_meaning": "उस (अभ्यासी) का वशीकार (अधिकार) परमाणु से लेकर परम-महत्त्व (सबसे बड़ी वस्तु) तक होता है।",
           "theme": "Mastery of Mind",
           "practical_application": "A trained mind can focus on the tiniest detail or expand to contemplate the vastness of existence. Practice both micro and macro awareness.",
-          "tags": ["vashikara", "mastery", "paramanu", "infinity", "concentration"]
+          "tags": [
+            "vashikara",
+            "mastery",
+            "paramanu",
+            "infinity",
+            "concentration"
+          ]
         },
         {
           "pada": 1,
@@ -500,7 +747,14 @@
           "hindi_meaning": "क्षीणवृत्ति वाले चित्त की ग्रहीता, ग्रहण और ग्राह्य में तत्स्थ-तदञ्जनता (उसमें स्थित होकर उसके रूप हो जाना) — निर्मल मणि के सदृश — समापत्ति है।",
           "theme": "Samapatti (Absorption)",
           "practical_application": "In deep concentration, the distinction between you, the act of knowing, and the object dissolves. Cultivate this crystal-clear absorption.",
-          "tags": ["samapatti", "absorption", "crystal", "grahita", "grahana", "grahya"]
+          "tags": [
+            "samapatti",
+            "absorption",
+            "crystal",
+            "grahita",
+            "grahana",
+            "grahya"
+          ]
         },
         {
           "pada": 1,
@@ -512,7 +766,14 @@
           "hindi_meaning": "उनमें शब्द, अर्थ और ज्ञान के विकल्पों से संकीर्ण (मिश्रित) समापत्ति सवितर्का है।",
           "theme": "Savitarka Samapatti",
           "practical_application": "In early stages of deep focus, words, meanings, and concepts still intermingle. Notice this mixture without forcing it away.",
-          "tags": ["savitarka", "samapatti", "sabda", "artha", "jnana", "conceptual"]
+          "tags": [
+            "savitarka",
+            "samapatti",
+            "sabda",
+            "artha",
+            "jnana",
+            "conceptual"
+          ]
         },
         {
           "pada": 1,
@@ -524,7 +785,13 @@
           "hindi_meaning": "स्मृति की परिशुद्धि होने पर, जब अपने स्वरूप से शून्य-सी होकर अर्थमात्र प्रकाशित होती है, वह निर्वितर्का (समापत्ति) है।",
           "theme": "Nirvitarka Samapatti",
           "practical_application": "As meditation deepens, conceptual labels drop away and pure direct experience of the object remains. Allow this natural unfolding.",
-          "tags": ["nirvitarka", "samapatti", "smriti", "purification", "direct-experience"]
+          "tags": [
+            "nirvitarka",
+            "samapatti",
+            "smriti",
+            "purification",
+            "direct-experience"
+          ]
         },
         {
           "pada": 1,
@@ -536,7 +803,13 @@
           "hindi_meaning": "इसी प्रकार सूक्ष्म विषय वाली सविचारा और निर्विचारा (समापत्ति) भी व्याख्यात हो गई।",
           "theme": "Savichara and Nirvichara",
           "practical_application": "Apply the same progression to subtler objects of meditation. First contemplation with reflection, then pure awareness of the subtle essence.",
-          "tags": ["savichara", "nirvichara", "subtle", "samapatti", "progression"]
+          "tags": [
+            "savichara",
+            "nirvichara",
+            "subtle",
+            "samapatti",
+            "progression"
+          ]
         },
         {
           "pada": 1,
@@ -548,7 +821,13 @@
           "hindi_meaning": "सूक्ष्म विषयत्व अलिङ्ग (प्रकृति) तक जाकर समाप्त होता है।",
           "theme": "Subtlety of Objects",
           "practical_application": "Understand that meditation can penetrate to the most fundamental level of nature itself. There is always a subtler layer to explore.",
-          "tags": ["sukshma", "alinga", "prakriti", "subtle-objects", "unmanifest"]
+          "tags": [
+            "sukshma",
+            "alinga",
+            "prakriti",
+            "subtle-objects",
+            "unmanifest"
+          ]
         },
         {
           "pada": 1,
@@ -560,7 +839,13 @@
           "hindi_meaning": "वे ही (उपर्युक्त समापत्तियाँ) सबीज समाधि हैं।",
           "theme": "Sabija Samadhi",
           "practical_application": "All forms of absorption with an object are samadhi with seed. They are profound but not yet the final state of liberation.",
-          "tags": ["sabija", "samadhi", "seed", "samapatti", "stages"]
+          "tags": [
+            "sabija",
+            "samadhi",
+            "seed",
+            "samapatti",
+            "stages"
+          ]
         },
         {
           "pada": 1,
@@ -572,7 +857,13 @@
           "hindi_meaning": "निर्विचार (समापत्ति) की निर्मलता होने पर आध्यात्मिक प्रसाद (आत्मप्रकाश) होता है।",
           "theme": "Spiritual Clarity",
           "practical_application": "As your deepest meditation becomes clear and steady, a natural spiritual radiance and inner peace will dawn spontaneously.",
-          "tags": ["nirvichara", "vaisharadya", "adhyatma-prasada", "clarity", "inner-light"]
+          "tags": [
+            "nirvichara",
+            "vaisharadya",
+            "adhyatma-prasada",
+            "clarity",
+            "inner-light"
+          ]
         },
         {
           "pada": 1,
@@ -584,7 +875,13 @@
           "hindi_meaning": "उसमें ऋतम्भरा (सत्यधारिणी) प्रज्ञा होती है।",
           "theme": "Truth-Bearing Wisdom",
           "practical_application": "In the deepest states of meditation, the insights that arise carry absolute truth. Trust the wisdom that emerges from genuine stillness.",
-          "tags": ["ritambhara", "prajna", "truth", "wisdom", "insight"]
+          "tags": [
+            "ritambhara",
+            "prajna",
+            "truth",
+            "wisdom",
+            "insight"
+          ]
         },
         {
           "pada": 1,
@@ -596,7 +893,13 @@
           "hindi_meaning": "यह प्रज्ञा श्रुत (शास्त्र) और अनुमान से होने वाली प्रज्ञाओं से भिन्न विषय वाली है, क्योंकि यह विशेषार्थ वाली है।",
           "theme": "Direct Knowledge vs Indirect",
           "practical_application": "Experiential wisdom from deep meditation surpasses book learning and logical reasoning. Seek direct experience, not just intellectual understanding.",
-          "tags": ["prajna", "shruta", "anumana", "direct-knowledge", "experience"]
+          "tags": [
+            "prajna",
+            "shruta",
+            "anumana",
+            "direct-knowledge",
+            "experience"
+          ]
         },
         {
           "pada": 1,
@@ -608,7 +911,13 @@
           "hindi_meaning": "उस (ऋतम्भरा प्रज्ञा) से जो संस्कार उत्पन्न होता है, वह अन्य संस्कारों को रोकने वाला होता है।",
           "theme": "Transformative Impressions",
           "practical_application": "The deepest meditative insights create powerful new patterns that override old negative conditioning. Keep deepening your practice.",
-          "tags": ["samskara", "pratibandhi", "transformation", "impressions", "wisdom"]
+          "tags": [
+            "samskara",
+            "pratibandhi",
+            "transformation",
+            "impressions",
+            "wisdom"
+          ]
         },
         {
           "pada": 1,
@@ -620,7 +929,14 @@
           "hindi_meaning": "उसका भी निरोध हो जाने पर सर्व (वृत्तियों) के निरोध से निर्बीज समाधि होती है।",
           "theme": "Nirbija Samadhi",
           "practical_application": "The ultimate state transcends even spiritual impressions. True liberation is the complete cessation of all mental seeds, a state beyond all conditions.",
-          "tags": ["nirbija", "samadhi", "seedless", "nirodha", "liberation", "kaivalya"]
+          "tags": [
+            "nirbija",
+            "samadhi",
+            "seedless",
+            "nirodha",
+            "liberation",
+            "kaivalya"
+          ]
         }
       ]
     },
@@ -641,7 +957,13 @@
           "hindi_meaning": "तप, स्वाध्याय और ईश्वरप्रणिधान — ये क्रियायोग हैं।",
           "theme": "Kriya Yoga",
           "practical_application": "Integrate these three in daily life: disciplined effort, self-reflection through study, and humble surrender to a higher purpose.",
-          "tags": ["kriya-yoga", "tapas", "svadhyaya", "ishvara-pranidhana", "practice"]
+          "tags": [
+            "kriya-yoga",
+            "tapas",
+            "svadhyaya",
+            "ishvara-pranidhana",
+            "practice"
+          ]
         },
         {
           "pada": 2,
@@ -653,7 +975,13 @@
           "hindi_meaning": "समाधि की भावना (सिद्धि) के लिए और क्लेशों को तनू (क्षीण) करने के लिए (क्रियायोग का अनुष्ठान करना चाहिए)।",
           "theme": "Purpose of Kriya Yoga",
           "practical_application": "Understand that disciplined practice serves two purposes: it weakens mental afflictions and prepares the ground for deep absorption.",
-          "tags": ["kriya-yoga", "samadhi", "klesha", "thinning", "purpose"]
+          "tags": [
+            "kriya-yoga",
+            "samadhi",
+            "klesha",
+            "thinning",
+            "purpose"
+          ]
         },
         {
           "pada": 2,
@@ -662,10 +990,19 @@
           "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
           "transliteration": "avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ",
           "english_translation": "The afflictions are ignorance, egoism, attachment, aversion, and clinging to life.",
-          "hindi_meaning": "अविद्या, अस्मिता, राग, द्वेष और अभिनिवेश — ये पाँच क्लेश हैं।",
+          "hindi_meaning": "पाँच चीज़ें हैं जो दुःख की असली जड़ हैं — अविद्या (ख़ुद को न जानना), अस्मिता (ego), राग (किसी चीज़ से attachment), द्वेष (नापसंदगी), और अभिनिवेश (मरने का डर, जीने की ज़िद).",
           "theme": "Five Kleshas (Afflictions)",
           "practical_application": "Learn to recognize these five poisons in your own mind. Awareness of them is the first step toward freedom from suffering.",
-          "tags": ["klesha", "avidya", "asmita", "raga", "dvesha", "abhinivesha"]
+          "tags": [
+            "klesha",
+            "avidya",
+            "asmita",
+            "raga",
+            "dvesha",
+            "abhinivesha"
+          ],
+          "hindi_explanation": "तेरा हर stress इन पाँच में से किसी न किसी से आता है. सुबह boss ने comment किया — अस्मिता hurt. दोस्त की Ferrari देखी — राग. उस colleague को देखकर मूड ख़राब — द्वेष. health report थोड़ी अजीब आई — अभिनिवेश का डर. और इन सबके नीचे — अविद्या, यानी तू नहीं जानता तू कौन है, इसलिए हर छोटी चीज़ पर identity डगमगा जाती है. Patanjali इन्हें क्लेश बोलते हैं — ज़हर. जब तक इनको पहचानेगा नहीं, हर trigger पर react करता रहेगा.",
+          "hindi_example": "आज एक काम कर. रात को sleep से पहले, दिन के तीन बुरे moments याद कर. हर एक को tag कर — कौन सा क्लेश था? WhatsApp पर बहन से झगड़ा — अस्मिता. Ferrari वाली post देखी — राग. वो new joinee की promotion सुनी — द्वेष. बस tagging. कुछ fix मत कर. एक हफ़्ता ये करेगा — pattern ख़ुद दिखेगा. और pattern दिखना ही आधा इलाज है."
         },
         {
           "pada": 2,
@@ -677,7 +1014,15 @@
           "hindi_meaning": "अविद्या आगे के (शेष चार) क्लेशों की क्षेत्र (भूमि) है, चाहे वे प्रसुप्त, तनु, विच्छिन्न या उदार अवस्था में हों।",
           "theme": "Avidya as Root",
           "practical_application": "Address ignorance first, as it is the breeding ground for all other afflictions. Self-knowledge dissolves the root of suffering.",
-          "tags": ["avidya", "klesha", "prasupta", "tanu", "vicchinna", "udara", "root-cause"]
+          "tags": [
+            "avidya",
+            "klesha",
+            "prasupta",
+            "tanu",
+            "vicchinna",
+            "udara",
+            "root-cause"
+          ]
         },
         {
           "pada": 2,
@@ -689,7 +1034,15 @@
           "hindi_meaning": "अनित्य, अशुचि, दुःख और अनात्म में नित्य, शुचि, सुख और आत्म की ख्याति (प्रतीति) अविद्या है।",
           "theme": "Definition of Avidya",
           "practical_application": "Examine your core assumptions. Where do you mistake the temporary for lasting, the impure for pure, suffering for happiness, or the false self for the true Self?",
-          "tags": ["avidya", "ignorance", "anitya", "ashuchi", "duhkha", "anatma", "misperception"]
+          "tags": [
+            "avidya",
+            "ignorance",
+            "anitya",
+            "ashuchi",
+            "duhkha",
+            "anatma",
+            "misperception"
+          ]
         },
         {
           "pada": 2,
@@ -701,7 +1054,14 @@
           "hindi_meaning": "दृक् (द्रष्टा) और दर्शन (बुद्धि) शक्तियों की एकात्मता जैसी प्रतीति अस्मिता है।",
           "theme": "Egoism (Asmita)",
           "practical_application": "Notice when you confuse pure awareness with the thinking mind. You are not your thoughts, intellect, or personality.",
-          "tags": ["asmita", "ego", "identification", "drig", "darshana", "seer-seen"]
+          "tags": [
+            "asmita",
+            "ego",
+            "identification",
+            "drig",
+            "darshana",
+            "seer-seen"
+          ]
         },
         {
           "pada": 2,
@@ -713,7 +1073,13 @@
           "hindi_meaning": "सुख की प्रतीति के साथ-साथ रहने वाला राग है।",
           "theme": "Attachment (Raga)",
           "practical_application": "Observe how pleasure creates craving for repetition. Enjoy experiences without grasping for more of the same.",
-          "tags": ["raga", "attachment", "sukha", "pleasure", "craving"]
+          "tags": [
+            "raga",
+            "attachment",
+            "sukha",
+            "pleasure",
+            "craving"
+          ]
         },
         {
           "pada": 2,
@@ -725,7 +1091,13 @@
           "hindi_meaning": "दुःख की प्रतीति के साथ-साथ रहने वाला द्वेष है।",
           "theme": "Aversion (Dvesha)",
           "practical_application": "Notice your automatic push-back against unpleasant experiences. Practice equanimity rather than reflexive avoidance.",
-          "tags": ["dvesha", "aversion", "duhkha", "pain", "resistance"]
+          "tags": [
+            "dvesha",
+            "aversion",
+            "duhkha",
+            "pain",
+            "resistance"
+          ]
         },
         {
           "pada": 2,
@@ -737,7 +1109,13 @@
           "hindi_meaning": "अपने स्वरस (प्रवाह) से चलने वाला, विद्वान में भी उसी प्रकार बढ़ा हुआ अभिनिवेश (मृत्यु-भय) है।",
           "theme": "Fear of Death (Abhinivesha)",
           "practical_application": "Even learned people fear death. Acknowledge this deep-rooted instinct and work to transcend it through meditation on the eternal nature of the Self.",
-          "tags": ["abhinivesha", "fear-of-death", "survival-instinct", "clinging", "deep-rooted"]
+          "tags": [
+            "abhinivesha",
+            "fear-of-death",
+            "survival-instinct",
+            "clinging",
+            "deep-rooted"
+          ]
         },
         {
           "pada": 2,
@@ -749,7 +1127,13 @@
           "hindi_meaning": "वे सूक्ष्म (क्लेश) प्रतिप्रसव (अपने कारण में विलीन होने) से हेय (त्याज्य) हैं।",
           "theme": "Overcoming Subtle Kleshas",
           "practical_application": "Dissolve subtle mental patterns by tracing them back to their source through deep meditation, rather than fighting them on the surface.",
-          "tags": ["klesha", "pratiprasava", "subtle", "dissolution", "involution"]
+          "tags": [
+            "klesha",
+            "pratiprasava",
+            "subtle",
+            "dissolution",
+            "involution"
+          ]
         },
         {
           "pada": 2,
@@ -761,7 +1145,13 @@
           "hindi_meaning": "उन (क्लेशों) की वृत्तियाँ ध्यान से हेय (नष्ट करने योग्य) हैं।",
           "theme": "Meditation Removes Active Kleshas",
           "practical_application": "When kleshas manifest as active thoughts and emotions, apply meditation to dissolve them. Regular practice weakens their grip.",
-          "tags": ["dhyana", "klesha", "vritti", "meditation", "active-afflictions"]
+          "tags": [
+            "dhyana",
+            "klesha",
+            "vritti",
+            "meditation",
+            "active-afflictions"
+          ]
         },
         {
           "pada": 2,
@@ -773,7 +1163,14 @@
           "hindi_meaning": "क्लेशमूल कर्माशय दृष्ट (इस जन्म) और अदृष्ट (अगले जन्मों) में वेदनीय (भोगने योग्य) है।",
           "theme": "Karma Reservoir",
           "practical_application": "Understand that every afflicted action creates consequences. Purify your motivations at the root to stop generating new karmic seeds.",
-          "tags": ["klesha", "karma", "karmashaya", "rebirth", "vedaniya", "consequence"]
+          "tags": [
+            "klesha",
+            "karma",
+            "karmashaya",
+            "rebirth",
+            "vedaniya",
+            "consequence"
+          ]
         },
         {
           "pada": 2,
@@ -785,7 +1182,15 @@
           "hindi_meaning": "मूल (क्लेश) के रहते हुए उसका विपाक (फल) जाति, आयु और भोग के रूप में होता है।",
           "theme": "Fruition of Karma",
           "practical_application": "Your current life circumstances reflect past karmic seeds. Transform future outcomes by uprooting the afflictions now.",
-          "tags": ["karma", "vipaka", "jati", "ayus", "bhoga", "birth", "lifespan"]
+          "tags": [
+            "karma",
+            "vipaka",
+            "jati",
+            "ayus",
+            "bhoga",
+            "birth",
+            "lifespan"
+          ]
         },
         {
           "pada": 2,
@@ -797,7 +1202,15 @@
           "hindi_meaning": "वे पुण्य-अपुण्य-हेतु होने से आह्लाद (सुख) और परिताप (दुःख) फल वाले होते हैं।",
           "theme": "Fruits of Virtue and Vice",
           "practical_application": "Virtuous actions lead to joy, non-virtuous ones to suffering. Align your actions with dharma for a happier life.",
-          "tags": ["punya", "apunya", "hlada", "paritapa", "virtue", "vice", "karma-phala"]
+          "tags": [
+            "punya",
+            "apunya",
+            "hlada",
+            "paritapa",
+            "virtue",
+            "vice",
+            "karma-phala"
+          ]
         },
         {
           "pada": 2,
@@ -809,7 +1222,15 @@
           "hindi_meaning": "परिणाम, ताप, संस्कार तथा गुणवृत्तियों के विरोध के कारण विवेकी के लिए सब कुछ दुःख ही है।",
           "theme": "Universal Suffering for the Wise",
           "practical_application": "Develop viveka (discrimination) to see through the illusion of lasting pleasure. This realization is not pessimism but the foundation for genuine freedom.",
-          "tags": ["duhkha", "parinama", "tapa", "samskara", "guna", "viveka", "suffering"]
+          "tags": [
+            "duhkha",
+            "parinama",
+            "tapa",
+            "samskara",
+            "guna",
+            "viveka",
+            "suffering"
+          ]
         },
         {
           "pada": 2,
@@ -818,10 +1239,18 @@
           "sanskrit": "हेयं दुःखमनागतम्",
           "transliteration": "heyaṁ duḥkham anāgatam",
           "english_translation": "The suffering that has not yet come is to be avoided.",
-          "hindi_meaning": "जो दुःख अभी आया नहीं है, वह हेय (त्यागने योग्य) है।",
+          "hindi_meaning": "जो दुःख अभी आया नहीं है — सिर्फ़ उसी से बचा जा सकता है. जो हो चुका, जो अभी हो रहा — वो भुगतना है. लेकिन आगे का टाला जा सकता है.",
           "theme": "Prevention of Future Suffering",
           "practical_application": "You cannot change the past, but you can prevent future suffering through wise action and spiritual practice now.",
-          "tags": ["heya", "duhkha", "anagata", "prevention", "future-suffering"]
+          "tags": [
+            "heya",
+            "duhkha",
+            "anagata",
+            "prevention",
+            "future-suffering"
+          ],
+          "hindi_explanation": "ये sutra छोटा है पर killer है. past का दुःख — हो गया. बदल नहीं सकते. अभी का दुःख — चल रहा है, भुगतो. पर future का दुःख? वो अभी बन रहा है — तेरे आज के decisions से. आज की बेइमानी, आज का shortcut, आज का overeating, आज का वो झूठ जो तूने relationship में बोला — ये सब कल का दुःख gestate कर रहे हैं. Patanjali बोल रहे हैं — सिर्फ़ इतना कर सकते हो, इतना ज़रूर कर. अभी देख, क्या बो रहा है.",
+          "hindi_example": "आज रात 11 बजे तू तीसरी बार Zomato खोलने वाला है. रुक. एक second. पूछ — 'ये order आज रात का एक छोटा pleasure है, पर कल सुबह का sluggish feeling, परसों का bloating, छह महीने बाद की health report — ये सब मैं अभी बो रहा हूँ?' अगर हाँ — phone रख दे. ये sutra यही सिखा रहा है. future का दुःख आज की एक choice से बनता है."
         },
         {
           "pada": 2,
@@ -833,7 +1262,13 @@
           "hindi_meaning": "द्रष्टा और दृश्य का संयोग हेय (दुःख) का हेतु (कारण) है।",
           "theme": "Cause of Suffering",
           "practical_application": "Suffering arises from confusing pure consciousness with its objects. Practice separating the witness from what is witnessed.",
-          "tags": ["drashta", "drishya", "samyoga", "heya-hetu", "cause-of-suffering"]
+          "tags": [
+            "drashta",
+            "drishya",
+            "samyoga",
+            "heya-hetu",
+            "cause-of-suffering"
+          ]
         },
         {
           "pada": 2,
@@ -845,7 +1280,15 @@
           "hindi_meaning": "प्रकाश, क्रिया और स्थिति स्वभाव वाला, भूत और इन्द्रिय स्वरूप, भोग और अपवर्ग (मोक्ष) के लिए दृश्य है।",
           "theme": "Nature of the Seen",
           "practical_application": "The material world exists for two purposes: to provide experience and to facilitate liberation. Use worldly experience as a stepping stone to freedom.",
-          "tags": ["drishya", "prakriti", "sattva", "rajas", "tamas", "bhoga", "apavarga"]
+          "tags": [
+            "drishya",
+            "prakriti",
+            "sattva",
+            "rajas",
+            "tamas",
+            "bhoga",
+            "apavarga"
+          ]
         },
         {
           "pada": 2,
@@ -857,7 +1300,14 @@
           "hindi_meaning": "विशेष, अविशेष, लिङ्गमात्र और अलिङ्ग — ये गुणों के पर्व (स्तर) हैं।",
           "theme": "Stages of Prakriti",
           "practical_application": "Understand that nature manifests in layers from gross to subtle. Meditation progresses through these same layers inward.",
-          "tags": ["guna", "vishesha", "avishesha", "linga-matra", "alinga", "prakriti-evolution"]
+          "tags": [
+            "guna",
+            "vishesha",
+            "avishesha",
+            "linga-matra",
+            "alinga",
+            "prakriti-evolution"
+          ]
         },
         {
           "pada": 2,
@@ -869,7 +1319,14 @@
           "hindi_meaning": "द्रष्टा केवल दृशिमात्र (चेतनमात्र) है, शुद्ध होते हुए भी बुद्धि की वृत्तियों के अनुसार देखने वाला प्रतीत होता है।",
           "theme": "Nature of the Seer",
           "practical_application": "You are pure awareness observing through the lens of the mind. Remember this distinction in daily life to maintain inner freedom.",
-          "tags": ["drashta", "drishi", "shuddha", "pratyaya", "pure-consciousness", "witness"]
+          "tags": [
+            "drashta",
+            "drishi",
+            "shuddha",
+            "pratyaya",
+            "pure-consciousness",
+            "witness"
+          ]
         },
         {
           "pada": 2,
@@ -881,7 +1338,13 @@
           "hindi_meaning": "उस (द्रष्टा) के अर्थ (लिए) ही दृश्य की सत्ता है।",
           "theme": "Purpose of the Seen",
           "practical_application": "The entire world of experience exists to serve your awakening. View every life situation as an opportunity for self-knowledge.",
-          "tags": ["drishya", "drashta", "purpose", "evolution", "self-knowledge"]
+          "tags": [
+            "drishya",
+            "drashta",
+            "purpose",
+            "evolution",
+            "self-knowledge"
+          ]
         },
         {
           "pada": 2,
@@ -893,7 +1356,13 @@
           "hindi_meaning": "कृतार्थ (मुक्त) पुरुष के लिए दृश्य नष्ट हो जाने पर भी अन्य पुरुषों के लिए साधारण होने से अनष्ट है।",
           "theme": "Persistence of the World",
           "practical_application": "Liberation is an individual attainment. The world continues for those who still need it for their evolution.",
-          "tags": ["kritartha", "liberation", "drishya", "persistence", "individual-liberation"]
+          "tags": [
+            "kritartha",
+            "liberation",
+            "drishya",
+            "persistence",
+            "individual-liberation"
+          ]
         },
         {
           "pada": 2,
@@ -905,7 +1374,14 @@
           "hindi_meaning": "स्व (दृश्य) और स्वामी (द्रष्टा) शक्तियों के स्वरूप की उपलब्धि (ज्ञान) का हेतु संयोग है।",
           "theme": "Purpose of Conjunction",
           "practical_application": "The interaction between consciousness and matter serves self-knowledge. Use your worldly experiences as mirrors for self-discovery.",
-          "tags": ["samyoga", "sva", "svami", "svarupa", "upalabdhi", "conjunction"]
+          "tags": [
+            "samyoga",
+            "sva",
+            "svami",
+            "svarupa",
+            "upalabdhi",
+            "conjunction"
+          ]
         },
         {
           "pada": 2,
@@ -917,7 +1393,13 @@
           "hindi_meaning": "उस (संयोग) का हेतु (कारण) अविद्या है।",
           "theme": "Avidya as Root Cause",
           "practical_application": "All suffering ultimately traces back to ignorance of your true nature. Make self-knowledge your highest priority.",
-          "tags": ["avidya", "hetu", "cause", "samyoga", "ignorance"]
+          "tags": [
+            "avidya",
+            "hetu",
+            "cause",
+            "samyoga",
+            "ignorance"
+          ]
         },
         {
           "pada": 2,
@@ -929,7 +1411,13 @@
           "hindi_meaning": "उस (अविद्या) का अभाव होने पर संयोग का अभाव हो जाता है — यही हान है, यही द्रष्टा का कैवल्य है।",
           "theme": "Liberation Through Knowledge",
           "practical_application": "When ignorance is completely removed, the false identification dissolves and the Self rests in its own nature. This is the goal.",
-          "tags": ["kaivalya", "hana", "avidya", "samyoga-abhava", "liberation"]
+          "tags": [
+            "kaivalya",
+            "hana",
+            "avidya",
+            "samyoga-abhava",
+            "liberation"
+          ]
         },
         {
           "pada": 2,
@@ -941,7 +1429,13 @@
           "hindi_meaning": "निश्चल और निर्मल विवेकख्याति हान (दुःख-निवृत्ति) का उपाय है।",
           "theme": "Discriminative Knowledge",
           "practical_application": "Cultivate constant discrimination between the eternal Self and the changing world. This unbroken awareness is the direct path to freedom.",
-          "tags": ["viveka-khyati", "discrimination", "hanopaya", "unbroken", "liberation-means"]
+          "tags": [
+            "viveka-khyati",
+            "discrimination",
+            "hanopaya",
+            "unbroken",
+            "liberation-means"
+          ]
         },
         {
           "pada": 2,
@@ -953,7 +1447,13 @@
           "hindi_meaning": "उस (विवेकी पुरुष) की प्रज्ञा सात प्रकार की प्रान्तभूमि वाली होती है।",
           "theme": "Seven Stages of Wisdom",
           "practical_application": "Spiritual progress unfolds in stages. Be patient and recognize that each stage of wisdom builds upon the previous one.",
-          "tags": ["prajna", "saptadha", "seven-stages", "wisdom", "progressive"]
+          "tags": [
+            "prajna",
+            "saptadha",
+            "seven-stages",
+            "wisdom",
+            "progressive"
+          ]
         },
         {
           "pada": 2,
@@ -965,7 +1465,13 @@
           "hindi_meaning": "योग के अङ्गों के अनुष्ठान से अशुद्धि का क्षय होने पर ज्ञान का प्रकाश विवेकख्याति तक दीप्त होता है।",
           "theme": "Eight Limbs Introduction",
           "practical_application": "Practice all eight limbs of yoga systematically. As impurities diminish, the light of wisdom naturally increases.",
-          "tags": ["ashtanga", "yoganga", "ashuddhi-kshaya", "jnana-dipti", "viveka-khyati"]
+          "tags": [
+            "ashtanga",
+            "yoganga",
+            "ashuddhi-kshaya",
+            "jnana-dipti",
+            "viveka-khyati"
+          ]
         },
         {
           "pada": 2,
@@ -977,7 +1483,17 @@
           "hindi_meaning": "यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि — ये आठ अङ्ग हैं।",
           "theme": "Eight Limbs of Yoga",
           "practical_application": "Integrate all eight limbs into your life: ethical conduct, personal discipline, posture, breath control, sense withdrawal, concentration, meditation, and absorption.",
-          "tags": ["ashtanga", "yama", "niyama", "asana", "pranayama", "pratyahara", "dharana", "dhyana", "samadhi"]
+          "tags": [
+            "ashtanga",
+            "yama",
+            "niyama",
+            "asana",
+            "pranayama",
+            "pratyahara",
+            "dharana",
+            "dhyana",
+            "samadhi"
+          ]
         },
         {
           "pada": 2,
@@ -989,7 +1505,15 @@
           "hindi_meaning": "अहिंसा, सत्य, अस्तेय, ब्रह्मचर्य और अपरिग्रह — ये पाँच यम हैं।",
           "theme": "Five Yamas",
           "practical_application": "Practice these five universal ethical principles in thought, word, and deed as the foundation of all spiritual growth.",
-          "tags": ["yama", "ahimsa", "satya", "asteya", "brahmacharya", "aparigraha", "ethics"]
+          "tags": [
+            "yama",
+            "ahimsa",
+            "satya",
+            "asteya",
+            "brahmacharya",
+            "aparigraha",
+            "ethics"
+          ]
         },
         {
           "pada": 2,
@@ -1001,7 +1525,13 @@
           "hindi_meaning": "जाति, देश, काल और समय से अनवच्छिन्न (अप्रतिबन्ध) होने पर ये सार्वभौम (सबके लिए समान) महाव्रत हैं।",
           "theme": "The Great Vow",
           "practical_application": "Apply ethical principles universally without exceptions or rationalizations. True ethics know no situational compromise.",
-          "tags": ["maha-vrata", "universal", "yama", "unconditional", "ethics"]
+          "tags": [
+            "maha-vrata",
+            "universal",
+            "yama",
+            "unconditional",
+            "ethics"
+          ]
         },
         {
           "pada": 2,
@@ -1013,7 +1543,14 @@
           "hindi_meaning": "शौच, सन्तोष, तप, स्वाध्याय और ईश्वरप्रणिधान — ये नियम हैं।",
           "theme": "Five Niyamas",
           "practical_application": "Cultivate personal cleanliness, contentment, self-discipline, reflective study, and devotion as daily observances.",
-          "tags": ["niyama", "shaucha", "santosha", "tapas", "svadhyaya", "ishvara-pranidhana"]
+          "tags": [
+            "niyama",
+            "shaucha",
+            "santosha",
+            "tapas",
+            "svadhyaya",
+            "ishvara-pranidhana"
+          ]
         },
         {
           "pada": 2,
@@ -1025,7 +1562,13 @@
           "hindi_meaning": "विपरीत (अयोग्य) विचारों द्वारा बाधा होने पर प्रतिपक्ष (विपरीत) भावना करनी चाहिए।",
           "theme": "Cultivating the Opposite",
           "practical_application": "When anger arises, cultivate compassion. When greed appears, practice generosity. Always counter negative patterns with their positive opposites.",
-          "tags": ["pratipaksha-bhavana", "opposite", "vitarka", "negative-thoughts", "remedy"]
+          "tags": [
+            "pratipaksha-bhavana",
+            "opposite",
+            "vitarka",
+            "negative-thoughts",
+            "remedy"
+          ]
         },
         {
           "pada": 2,
@@ -1037,7 +1580,14 @@
           "hindi_meaning": "हिंसा आदि वितर्क चाहे स्वयं किए, कराए या अनुमोदित हों, लोभ-क्रोध-मोह से पूर्वक हों, मृदु-मध्य-अधिमात्र हों — इनका फल दुःख और अज्ञान अनन्त है; अतः प्रतिपक्ष भावना करनी चाहिए।",
           "theme": "Detailed Pratipaksha Bhavana",
           "practical_application": "Reflect deeply on the consequences of harmful actions at all levels. This reflection naturally motivates ethical behavior and mental purity.",
-          "tags": ["pratipaksha-bhavana", "himsa", "lobha", "krodha", "moha", "consequences"]
+          "tags": [
+            "pratipaksha-bhavana",
+            "himsa",
+            "lobha",
+            "krodha",
+            "moha",
+            "consequences"
+          ]
         },
         {
           "pada": 2,
@@ -1049,7 +1599,13 @@
           "hindi_meaning": "अहिंसा में प्रतिष्ठा होने पर उसके सान्निध्य में (सभी प्राणियों का) वैर-त्याग हो जाता है।",
           "theme": "Power of Non-Violence",
           "practical_application": "Cultivate such deep non-violence that even hostile beings feel peace in your presence. This transforms your environment.",
-          "tags": ["ahimsa", "non-violence", "vaira-tyaga", "peace", "siddhi"]
+          "tags": [
+            "ahimsa",
+            "non-violence",
+            "vaira-tyaga",
+            "peace",
+            "siddhi"
+          ]
         },
         {
           "pada": 2,
@@ -1061,7 +1617,13 @@
           "hindi_meaning": "सत्य में प्रतिष्ठा होने पर क्रिया और फल का आश्रयत्व (वश में होना) प्राप्त होता है।",
           "theme": "Power of Truth",
           "practical_application": "Commit to absolute truthfulness. When your word becomes truth itself, your speech gains the power to manifest reality.",
-          "tags": ["satya", "truthfulness", "kriya-phala", "power-of-speech", "siddhi"]
+          "tags": [
+            "satya",
+            "truthfulness",
+            "kriya-phala",
+            "power-of-speech",
+            "siddhi"
+          ]
         },
         {
           "pada": 2,
@@ -1073,7 +1635,13 @@
           "hindi_meaning": "अस्तेय में प्रतिष्ठा होने पर सब रत्न (सम्पत्तियाँ) उपस्थित हो जाते हैं।",
           "theme": "Power of Non-Stealing",
           "practical_application": "When you stop wanting what belongs to others, abundance naturally flows to you. Trust in life's provision and stop grasping.",
-          "tags": ["asteya", "non-stealing", "ratna", "abundance", "siddhi"]
+          "tags": [
+            "asteya",
+            "non-stealing",
+            "ratna",
+            "abundance",
+            "siddhi"
+          ]
         },
         {
           "pada": 2,
@@ -1085,7 +1653,14 @@
           "hindi_meaning": "ब्रह्मचर्य में प्रतिष्ठा होने पर वीर्य (शक्ति) का लाभ होता है।",
           "theme": "Power of Continence",
           "practical_application": "Conserve your vital energy through self-discipline. This energy then becomes available for spiritual pursuits and creative endeavors.",
-          "tags": ["brahmacharya", "continence", "virya", "vitality", "energy", "siddhi"]
+          "tags": [
+            "brahmacharya",
+            "continence",
+            "virya",
+            "vitality",
+            "energy",
+            "siddhi"
+          ]
         },
         {
           "pada": 2,
@@ -1097,7 +1672,13 @@
           "hindi_meaning": "अपरिग्रह में स्थिरता होने पर जन्म का कथन्ता (कैसे और क्यों) का सम्बोध (ज्ञान) होता है।",
           "theme": "Power of Non-Possessiveness",
           "practical_application": "Release attachment to possessions and accumulation. This frees the mind to access deeper wisdom about the nature of existence.",
-          "tags": ["aparigraha", "non-possessiveness", "janma", "past-lives", "siddhi"]
+          "tags": [
+            "aparigraha",
+            "non-possessiveness",
+            "janma",
+            "past-lives",
+            "siddhi"
+          ]
         },
         {
           "pada": 2,
@@ -1109,7 +1690,13 @@
           "hindi_meaning": "शौच (शुचिता) से अपने अङ्गों में जुगुप्सा (वैराग्य) और दूसरों के साथ असंसर्ग (अनासक्ति) होती है।",
           "theme": "Fruit of Purity",
           "practical_application": "Physical and mental cleanliness naturally reduces attachment to the body and unhealthy social entanglements.",
-          "tags": ["shaucha", "purity", "vairagya", "body", "detachment"]
+          "tags": [
+            "shaucha",
+            "purity",
+            "vairagya",
+            "body",
+            "detachment"
+          ]
         },
         {
           "pada": 2,
@@ -1121,7 +1708,14 @@
           "hindi_meaning": "तथा सत्त्वशुद्धि, सौमनस्य (प्रसन्नता), एकाग्रता, इन्द्रियजय और आत्मदर्शन की योग्यता प्राप्त होती है।",
           "theme": "Further Fruits of Purity",
           "practical_application": "Inner purity leads to a cascade of benefits: mental clarity, cheerfulness, focus, sensory mastery, and readiness to know the Self.",
-          "tags": ["shaucha", "sattva-shuddhi", "saumanasya", "ekagrata", "indriya-jaya", "atma-darshana"]
+          "tags": [
+            "shaucha",
+            "sattva-shuddhi",
+            "saumanasya",
+            "ekagrata",
+            "indriya-jaya",
+            "atma-darshana"
+          ]
         },
         {
           "pada": 2,
@@ -1133,7 +1727,13 @@
           "hindi_meaning": "सन्तोष से अनुत्तम (सर्वोत्तम) सुख की प्राप्ति होती है।",
           "theme": "Fruit of Contentment",
           "practical_application": "Practice gratitude and contentment with what you have. This simple shift of attitude brings the greatest happiness available.",
-          "tags": ["santosha", "contentment", "happiness", "sukha", "gratitude"]
+          "tags": [
+            "santosha",
+            "contentment",
+            "happiness",
+            "sukha",
+            "gratitude"
+          ]
         },
         {
           "pada": 2,
@@ -1145,7 +1745,13 @@
           "hindi_meaning": "तप से अशुद्धि का क्षय होने पर काय (शरीर) और इन्द्रियों की सिद्धि होती है।",
           "theme": "Fruit of Austerity",
           "practical_application": "Voluntary self-discipline purifies the body and mind, making them fit instruments for higher practice and perception.",
-          "tags": ["tapas", "austerity", "kaya-siddhi", "indriya-siddhi", "purification"]
+          "tags": [
+            "tapas",
+            "austerity",
+            "kaya-siddhi",
+            "indriya-siddhi",
+            "purification"
+          ]
         },
         {
           "pada": 2,
@@ -1157,7 +1763,13 @@
           "hindi_meaning": "स्वाध्याय से इष्टदेवता का सम्प्रयोग (साक्षात्कार) होता है।",
           "theme": "Fruit of Self-Study",
           "practical_application": "Regular study of sacred texts and self-reflection opens the channel to receive guidance from your chosen form of the divine.",
-          "tags": ["svadhyaya", "self-study", "ishta-devata", "communion", "sacred-texts"]
+          "tags": [
+            "svadhyaya",
+            "self-study",
+            "ishta-devata",
+            "communion",
+            "sacred-texts"
+          ]
         },
         {
           "pada": 2,
@@ -1169,7 +1781,12 @@
           "hindi_meaning": "ईश्वरप्रणिधान से समाधि की सिद्धि होती है।",
           "theme": "Fruit of Surrender to God",
           "practical_application": "Complete surrender to the divine makes the attainment of samadhi natural and effortless. Let go and let God.",
-          "tags": ["ishvara-pranidhana", "samadhi-siddhi", "surrender", "devotion"]
+          "tags": [
+            "ishvara-pranidhana",
+            "samadhi-siddhi",
+            "surrender",
+            "devotion"
+          ]
         },
         {
           "pada": 2,
@@ -1181,7 +1798,14 @@
           "hindi_meaning": "स्थिर और सुखपूर्वक बैठना आसन है।",
           "theme": "Asana",
           "practical_application": "Find a seated position that is both stable and comfortable for meditation. The purpose of asana is to support inner practice, not to show off flexibility.",
-          "tags": ["asana", "sthira", "sukha", "posture", "stability", "comfort"]
+          "tags": [
+            "asana",
+            "sthira",
+            "sukha",
+            "posture",
+            "stability",
+            "comfort"
+          ]
         },
         {
           "pada": 2,
@@ -1193,7 +1817,13 @@
           "hindi_meaning": "प्रयत्न की शिथिलता और अनन्त में समापत्ति (ध्यान) से (आसन सिद्ध होता है)।",
           "theme": "Perfecting Asana",
           "practical_application": "Release excessive effort in your posture and let your mind expand into boundlessness. Ease and spaciousness perfect your seat.",
-          "tags": ["asana", "prayatna-shaithilya", "ananta", "relaxation", "effortlessness"]
+          "tags": [
+            "asana",
+            "prayatna-shaithilya",
+            "ananta",
+            "relaxation",
+            "effortlessness"
+          ]
         },
         {
           "pada": 2,
@@ -1205,7 +1835,13 @@
           "hindi_meaning": "उससे (आसनसिद्धि से) द्वन्द्वों (सुख-दुःख आदि) का अभिघात (आक्रमण) नहीं होता।",
           "theme": "Freedom from Duality",
           "practical_application": "When your seat is truly steady, external conditions like heat-cold, pleasure-pain no longer shake your equanimity.",
-          "tags": ["dvandva", "pairs-of-opposites", "equanimity", "asana-siddhi", "stability"]
+          "tags": [
+            "dvandva",
+            "pairs-of-opposites",
+            "equanimity",
+            "asana-siddhi",
+            "stability"
+          ]
         },
         {
           "pada": 2,
@@ -1217,7 +1853,13 @@
           "hindi_meaning": "उस (आसन) के सिद्ध होने पर श्वास-प्रश्वास की गति का विच्छेद (नियमन) प्राणायाम है।",
           "theme": "Pranayama",
           "practical_application": "Only when posture is stable should you practice breath regulation. Pranayama bridges the physical and mental dimensions of yoga.",
-          "tags": ["pranayama", "shvasa", "prashvasa", "breath-regulation", "asana-prerequisite"]
+          "tags": [
+            "pranayama",
+            "shvasa",
+            "prashvasa",
+            "breath-regulation",
+            "asana-prerequisite"
+          ]
         },
         {
           "pada": 2,
@@ -1229,7 +1871,15 @@
           "hindi_meaning": "बाह्य (रेचक), आभ्यन्तर (पूरक) और स्तम्भ (कुम्भक) वृत्ति; देश, काल और संख्या से परिदृष्ट (नियमित) होकर दीर्घ और सूक्ष्म हो जाता है।",
           "theme": "Types of Pranayama",
           "practical_application": "Practice the three phases of breath gradually, refining them in duration, location, and count until the breath becomes long and subtle.",
-          "tags": ["pranayama", "rechaka", "puraka", "kumbhaka", "desha", "kala", "sankhya"]
+          "tags": [
+            "pranayama",
+            "rechaka",
+            "puraka",
+            "kumbhaka",
+            "desha",
+            "kala",
+            "sankhya"
+          ]
         },
         {
           "pada": 2,
@@ -1241,7 +1891,13 @@
           "hindi_meaning": "बाह्य और आभ्यन्तर विषय को अतिक्रमण करने वाला चतुर्थ (प्राणायाम) है।",
           "theme": "Fourth Pranayama",
           "practical_application": "Beyond the three conscious phases, there is a fourth spontaneous cessation of breath that arises in deep meditation. Allow it to happen naturally.",
-          "tags": ["pranayama", "chaturtha", "fourth", "kevala-kumbhaka", "transcendent"]
+          "tags": [
+            "pranayama",
+            "chaturtha",
+            "fourth",
+            "kevala-kumbhaka",
+            "transcendent"
+          ]
         },
         {
           "pada": 2,
@@ -1253,7 +1909,14 @@
           "hindi_meaning": "उससे प्रकाश (ज्ञान) के आवरण का क्षय होता है।",
           "theme": "Removal of Ignorance",
           "practical_application": "Regular pranayama practice removes the veil over your inner light. The clarity that emerges supports deeper meditation.",
-          "tags": ["pranayama", "prakasha", "avarana", "kshaya", "inner-light", "purification"]
+          "tags": [
+            "pranayama",
+            "prakasha",
+            "avarana",
+            "kshaya",
+            "inner-light",
+            "purification"
+          ]
         },
         {
           "pada": 2,
@@ -1265,7 +1928,13 @@
           "hindi_meaning": "तथा धारणाओं में मन की योग्यता हो जाती है।",
           "theme": "Readiness for Dharana",
           "practical_application": "Pranayama prepares the mind for focused concentration. Without breath mastery, the mind remains too restless for true dharana.",
-          "tags": ["dharana", "yogyata", "manas", "pranayama-fruit", "concentration-readiness"]
+          "tags": [
+            "dharana",
+            "yogyata",
+            "manas",
+            "pranayama-fruit",
+            "concentration-readiness"
+          ]
         },
         {
           "pada": 2,
@@ -1277,7 +1946,13 @@
           "hindi_meaning": "अपने-अपने विषयों से सम्बन्ध न होने पर इन्द्रियों का चित्त के स्वरूप का अनुकार (अनुसरण) प्रत्याहार है।",
           "theme": "Pratyahara (Sense Withdrawal)",
           "practical_application": "Practice withdrawing your attention from external stimuli. When the senses follow the mind inward, deeper meditation becomes possible.",
-          "tags": ["pratyahara", "indriya", "withdrawal", "sense-control", "interiorization"]
+          "tags": [
+            "pratyahara",
+            "indriya",
+            "withdrawal",
+            "sense-control",
+            "interiorization"
+          ]
         },
         {
           "pada": 2,
@@ -1289,7 +1964,13 @@
           "hindi_meaning": "उससे इन्द्रियों की परम वश्यता (पूर्ण अधीनता) हो जाती है।",
           "theme": "Mastery of Senses",
           "practical_application": "Through pratyahara, the senses come fully under your command. You choose what to attend to rather than being pulled by every stimulus.",
-          "tags": ["pratyahara", "indriya-jaya", "mastery", "sense-control", "freedom"]
+          "tags": [
+            "pratyahara",
+            "indriya-jaya",
+            "mastery",
+            "sense-control",
+            "freedom"
+          ]
         }
       ]
     },
@@ -1310,7 +1991,13 @@
           "hindi_meaning": "चित्त को एक देश (स्थान) में बाँधना धारणा है।",
           "theme": "Dharana (Concentration)",
           "practical_application": "Choose a single point of focus — the breath, a mantra, or a visual point — and train your mind to stay fixed on it.",
-          "tags": ["dharana", "concentration", "desha-bandha", "chitta", "focus"]
+          "tags": [
+            "dharana",
+            "concentration",
+            "desha-bandha",
+            "chitta",
+            "focus"
+          ]
         },
         {
           "pada": 3,
@@ -1322,7 +2009,13 @@
           "hindi_meaning": "उसमें (धारणा के स्थान में) प्रत्यय (ज्ञान) की एकतानता (निरन्तर प्रवाह) ध्यान है।",
           "theme": "Dhyana (Meditation)",
           "practical_application": "When concentration becomes effortless and continuous, without interruption by other thoughts, that unbroken flow is true meditation.",
-          "tags": ["dhyana", "meditation", "pratyaya", "ekatanata", "continuous-flow"]
+          "tags": [
+            "dhyana",
+            "meditation",
+            "pratyaya",
+            "ekatanata",
+            "continuous-flow"
+          ]
         },
         {
           "pada": 3,
@@ -1334,7 +2027,13 @@
           "hindi_meaning": "वही (ध्यान) जब अर्थमात्र प्रकाशित हो और अपने स्वरूप से शून्य-सा हो जाय — वह समाधि है।",
           "theme": "Samadhi (Absorption)",
           "practical_application": "In the deepest meditation, self-awareness dissolves and only the essence of the object remains. This is the pinnacle of yogic practice.",
-          "tags": ["samadhi", "absorption", "artha-matra", "svarupa-shunya", "dissolution"]
+          "tags": [
+            "samadhi",
+            "absorption",
+            "artha-matra",
+            "svarupa-shunya",
+            "dissolution"
+          ]
         },
         {
           "pada": 3,
@@ -1346,7 +2045,13 @@
           "hindi_meaning": "तीनों (धारणा, ध्यान, समाधि) का किसी एक विषय में एक साथ होना संयम है।",
           "theme": "Samyama",
           "practical_application": "Master the art of samyama — complete concentration, meditation, and absorption on a single point — as the key to all yogic powers and insights.",
-          "tags": ["samyama", "dharana", "dhyana", "samadhi", "three-together"]
+          "tags": [
+            "samyama",
+            "dharana",
+            "dhyana",
+            "samadhi",
+            "three-together"
+          ]
         },
         {
           "pada": 3,
@@ -1358,7 +2063,13 @@
           "hindi_meaning": "उस (संयम) पर विजय होने से प्रज्ञा का आलोक (प्रकाश) होता है।",
           "theme": "Light of Wisdom",
           "practical_application": "Through perfecting samyama, direct intuitive knowledge illuminates whatever you focus upon.",
-          "tags": ["samyama", "prajna", "aloka", "wisdom", "mastery"]
+          "tags": [
+            "samyama",
+            "prajna",
+            "aloka",
+            "wisdom",
+            "mastery"
+          ]
         },
         {
           "pada": 3,
@@ -1370,7 +2081,13 @@
           "hindi_meaning": "उसका (संयम का) भूमियों (स्तरों) में विनियोग (प्रयोग) होता है।",
           "theme": "Progressive Application",
           "practical_application": "Apply samyama progressively, moving from gross to subtle objects. Master each level before proceeding to the next.",
-          "tags": ["samyama", "bhumi", "stages", "progressive", "viniyoga"]
+          "tags": [
+            "samyama",
+            "bhumi",
+            "stages",
+            "progressive",
+            "viniyoga"
+          ]
         },
         {
           "pada": 3,
@@ -1382,7 +2099,13 @@
           "hindi_meaning": "ये तीन (धारणा, ध्यान, समाधि) पूर्व के (पाँच अङ्गों की) अपेक्षा अन्तरंग (आन्तरिक) हैं।",
           "theme": "Inner Limbs",
           "practical_application": "Recognize that concentration, meditation, and absorption are the innermost practices. The outer five limbs prepare you for these three.",
-          "tags": ["antaranga", "inner-limbs", "dharana", "dhyana", "samadhi"]
+          "tags": [
+            "antaranga",
+            "inner-limbs",
+            "dharana",
+            "dhyana",
+            "samadhi"
+          ]
         },
         {
           "pada": 3,
@@ -1394,7 +2117,13 @@
           "hindi_meaning": "वे (तीन) भी निर्बीज (समाधि) की अपेक्षा बहिरंग हैं।",
           "theme": "Relative Nature of Inner Limbs",
           "practical_application": "Even the highest meditative absorptions with an object are external to the ultimate seedless state. Never stop aspiring to the highest.",
-          "tags": ["bahiranga", "nirbija", "relative", "transcendence", "ultimate"]
+          "tags": [
+            "bahiranga",
+            "nirbija",
+            "relative",
+            "transcendence",
+            "ultimate"
+          ]
         },
         {
           "pada": 3,
@@ -1406,7 +2135,13 @@
           "hindi_meaning": "व्युत्थान और निरोध संस्कारों का अभिभव (दबना) और प्रादुर्भाव (प्रकट होना) — निरोध-क्षण में चित्त का अन्वय निरोध-परिणाम है।",
           "theme": "Transformation of Suppression",
           "practical_application": "Observe how the mind transitions between active and suppressed states. Understanding this transformation is key to mastering mental stillness.",
-          "tags": ["nirodha-parinama", "vyutthana", "samskara", "transformation", "suppression"]
+          "tags": [
+            "nirodha-parinama",
+            "vyutthana",
+            "samskara",
+            "transformation",
+            "suppression"
+          ]
         },
         {
           "pada": 3,
@@ -1418,7 +2153,13 @@
           "hindi_meaning": "उसकी प्रशान्त (शान्तिपूर्ण) वाहिता (प्रवाह) संस्कार से होती है।",
           "theme": "Peaceful Flow",
           "practical_application": "With consistent practice, the gaps between thoughts lengthen and the mind flows peacefully. Each moment of stillness strengthens the next.",
-          "tags": ["prashanta-vahita", "samskara", "peaceful-flow", "practice", "tranquility"]
+          "tags": [
+            "prashanta-vahita",
+            "samskara",
+            "peaceful-flow",
+            "practice",
+            "tranquility"
+          ]
         },
         {
           "pada": 3,
@@ -1430,7 +2171,13 @@
           "hindi_meaning": "सर्वार्थता (विक्षिप्तता) का क्षय और एकाग्रता का उदय — चित्त का समाधि-परिणाम है।",
           "theme": "Samadhi Transformation",
           "practical_application": "Notice the shift from scattered attention to focused concentration. This transition is itself a profound transformation of consciousness.",
-          "tags": ["samadhi-parinama", "ekagrata", "sarvarthata", "transformation", "focus"]
+          "tags": [
+            "samadhi-parinama",
+            "ekagrata",
+            "sarvarthata",
+            "transformation",
+            "focus"
+          ]
         },
         {
           "pada": 3,
@@ -1442,7 +2189,13 @@
           "hindi_meaning": "फिर शान्त और उदित प्रत्ययों के तुल्य (समान) होने पर चित्त का एकाग्रता-परिणाम होता है।",
           "theme": "One-Pointed Transformation",
           "practical_application": "When the quality of attention remains uniform moment to moment, the mind has achieved true one-pointedness. Cultivate this steady evenness.",
-          "tags": ["ekagrata-parinama", "shanta", "udita", "tulya", "one-pointedness"]
+          "tags": [
+            "ekagrata-parinama",
+            "shanta",
+            "udita",
+            "tulya",
+            "one-pointedness"
+          ]
         },
         {
           "pada": 3,
@@ -1454,7 +2207,14 @@
           "hindi_meaning": "इससे भूत और इन्द्रियों में धर्म, लक्षण और अवस्था परिणाम व्याख्यात (समझाये गये) हैं।",
           "theme": "Universal Transformation",
           "practical_application": "The principles of transformation apply to everything in nature. Understanding change in your mind helps you understand change everywhere.",
-          "tags": ["parinama", "dharma", "lakshana", "avastha", "bhuta", "indriya"]
+          "tags": [
+            "parinama",
+            "dharma",
+            "lakshana",
+            "avastha",
+            "bhuta",
+            "indriya"
+          ]
         },
         {
           "pada": 3,
@@ -1466,7 +2226,14 @@
           "hindi_meaning": "शान्त (अतीत), उदित (वर्तमान) और अव्यपदेश्य (भविष्य) धर्मों का अनुपात करने वाला धर्मी है।",
           "theme": "The Substratum",
           "practical_application": "Recognize the unchanging essence beneath all changing qualities. This principle applies to understanding both material objects and your own nature.",
-          "tags": ["dharmi", "dharma", "shanta", "udita", "avyapadeshya", "substratum"]
+          "tags": [
+            "dharmi",
+            "dharma",
+            "shanta",
+            "udita",
+            "avyapadeshya",
+            "substratum"
+          ]
         },
         {
           "pada": 3,
@@ -1478,7 +2245,13 @@
           "hindi_meaning": "क्रम की भिन्नता परिणाम की भिन्नता में हेतु (कारण) है।",
           "theme": "Sequence and Transformation",
           "practical_application": "Different sequences of practice lead to different results. Be intentional about the order and progression of your spiritual practices.",
-          "tags": ["krama", "parinama", "sequence", "cause", "transformation"]
+          "tags": [
+            "krama",
+            "parinama",
+            "sequence",
+            "cause",
+            "transformation"
+          ]
         },
         {
           "pada": 3,
@@ -1490,7 +2263,13 @@
           "hindi_meaning": "तीन परिणामों पर संयम करने से अतीत और अनागत (भूत और भविष्य) का ज्ञान होता है।",
           "theme": "Knowledge of Past and Future",
           "practical_application": "Deep understanding of how things change reveals their history and trajectory. Apply this insight to understand patterns in your own life.",
-          "tags": ["samyama", "parinama-traya", "atita", "anagata", "past-future-knowledge"]
+          "tags": [
+            "samyama",
+            "parinama-traya",
+            "atita",
+            "anagata",
+            "past-future-knowledge"
+          ]
         },
         {
           "pada": 3,
@@ -1502,7 +2281,14 @@
           "hindi_meaning": "शब्द, अर्थ और प्रत्यय के अन्योन्य अध्यास (मिश्रण) से सङ्कर होता है; उनके प्रविभाग (विभेद) पर संयम से सर्व भूतों की ध्वनि का ज्ञान होता है।",
           "theme": "Understanding All Languages",
           "practical_application": "Learn to distinguish between words, their meanings, and the concepts they evoke. This clarity deepens communication and intuitive understanding.",
-          "tags": ["samyama", "shabda", "artha", "pratyaya", "bhuta-ruta", "language"]
+          "tags": [
+            "samyama",
+            "shabda",
+            "artha",
+            "pratyaya",
+            "bhuta-ruta",
+            "language"
+          ]
         },
         {
           "pada": 3,
@@ -1514,7 +2300,13 @@
           "hindi_meaning": "संस्कारों के साक्षात्कार से पूर्वजन्म का ज्ञान होता है।",
           "theme": "Knowledge of Past Lives",
           "practical_application": "Deep meditation can reveal the imprints that shape your current tendencies. Understanding their origin helps release their hold on you.",
-          "tags": ["samskara", "sakshatkarana", "purva-jati", "past-lives", "impressions"]
+          "tags": [
+            "samskara",
+            "sakshatkarana",
+            "purva-jati",
+            "past-lives",
+            "impressions"
+          ]
         },
         {
           "pada": 3,
@@ -1526,7 +2318,13 @@
           "hindi_meaning": "प्रत्यय (विचार) पर (संयम करने से) दूसरे के चित्त का ज्ञान होता है।",
           "theme": "Mind Reading",
           "practical_application": "Develop deep empathy and intuition to understand others' thoughts and feelings. This begins with attentive listening and presence.",
-          "tags": ["samyama", "para-chitta", "mind-reading", "telepathy", "empathy"]
+          "tags": [
+            "samyama",
+            "para-chitta",
+            "mind-reading",
+            "telepathy",
+            "empathy"
+          ]
         },
         {
           "pada": 3,
@@ -1538,7 +2336,13 @@
           "hindi_meaning": "परन्तु उस (विचार) के आलम्बन (विषय-वस्तु) का ज्ञान नहीं होता, क्योंकि वह (संयम का) विषय नहीं होता।",
           "theme": "Limitation of Mind Reading",
           "practical_application": "Understanding others' mental state does not mean knowing the full context of their thoughts. Maintain humility about the limits of intuitive perception.",
-          "tags": ["limitation", "para-chitta", "alambana", "context", "humility"]
+          "tags": [
+            "limitation",
+            "para-chitta",
+            "alambana",
+            "context",
+            "humility"
+          ]
         },
         {
           "pada": 3,
@@ -1550,7 +2354,13 @@
           "hindi_meaning": "काय (शरीर) के रूप पर संयम करने से उसकी ग्राह्य शक्ति का स्तम्भ होने पर, चक्षु के प्रकाश से सम्प्रयोग न होने पर, अन्तर्धान (अदृश्य होना) सिद्ध होता है।",
           "theme": "Invisibility",
           "practical_application": "This describes the yogic power of becoming unperceivable. In daily life, practice cultivating subtlety and the ability to be fully present yet unobtrusive.",
-          "tags": ["samyama", "kaya-rupa", "antardhana", "invisibility", "siddhi"]
+          "tags": [
+            "samyama",
+            "kaya-rupa",
+            "antardhana",
+            "invisibility",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1562,7 +2372,14 @@
           "hindi_meaning": "कर्म सोपक्रम (शीघ्रफलदायी) और निरुपक्रम (विलम्बफलदायी) दो प्रकार का है; उसपर संयम से या अरिष्टों (शकुनों) से अपरान्त (मृत्यु) का ज्ञान होता है।",
           "theme": "Knowledge of Death",
           "practical_application": "Understanding the nature of karma helps you recognize life's signs and prepare wisely. Live each day with awareness of impermanence.",
-          "tags": ["karma", "sopakrama", "nirupakrama", "aparanta", "death", "arishta"]
+          "tags": [
+            "karma",
+            "sopakrama",
+            "nirupakrama",
+            "aparanta",
+            "death",
+            "arishta"
+          ]
         },
         {
           "pada": 3,
@@ -1574,7 +2391,13 @@
           "hindi_meaning": "मैत्री आदि (गुणों) पर (संयम करने से) उनकी बल (शक्तियाँ) प्राप्त होती हैं।",
           "theme": "Powers of Virtues",
           "practical_application": "Deeply meditate on qualities like friendliness, compassion, and joy to strengthen them within yourself and radiate them powerfully.",
-          "tags": ["samyama", "maitri", "bala", "virtues", "strength"]
+          "tags": [
+            "samyama",
+            "maitri",
+            "bala",
+            "virtues",
+            "strength"
+          ]
         },
         {
           "pada": 3,
@@ -1586,7 +2409,13 @@
           "hindi_meaning": "बलों पर (संयम करने से) हस्ति (हाथी) के बल आदि प्राप्त होते हैं।",
           "theme": "Physical Powers",
           "practical_application": "Focused concentration on strength itself reveals untapped reserves of power. The mind's potential to enhance physical capacity is vast.",
-          "tags": ["samyama", "bala", "hasti-bala", "strength", "siddhi"]
+          "tags": [
+            "samyama",
+            "bala",
+            "hasti-bala",
+            "strength",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1598,7 +2427,13 @@
           "hindi_meaning": "प्रवृत्ति (दिव्य) आलोक (प्रकाश) के न्यास (प्रयोग) से सूक्ष्म, व्यवहित (ढके हुए) और विप्रकृष्ट (दूर) का ज्ञान होता है।",
           "theme": "Clairvoyance",
           "practical_application": "Develop the inner light of perception through deep practice. This heightened awareness reveals what is normally hidden from ordinary senses.",
-          "tags": ["samyama", "pravritti-aloka", "sukshma", "clairvoyance", "hidden-knowledge"]
+          "tags": [
+            "samyama",
+            "pravritti-aloka",
+            "sukshma",
+            "clairvoyance",
+            "hidden-knowledge"
+          ]
         },
         {
           "pada": 3,
@@ -1610,7 +2445,13 @@
           "hindi_meaning": "सूर्य पर संयम करने से भुवनों (लोकों) का ज्ञान होता है।",
           "theme": "Knowledge of Worlds",
           "practical_application": "Contemplate the source of light and energy to gain cosmic perspective. Understanding the macrocosm illuminates your place in the universe.",
-          "tags": ["samyama", "surya", "bhuvana", "cosmic-knowledge", "worlds"]
+          "tags": [
+            "samyama",
+            "surya",
+            "bhuvana",
+            "cosmic-knowledge",
+            "worlds"
+          ]
         },
         {
           "pada": 3,
@@ -1622,7 +2463,13 @@
           "hindi_meaning": "चन्द्रमा पर (संयम करने से) तारा-व्यूह (तारों की व्यवस्था) का ज्ञान होता है।",
           "theme": "Astronomical Knowledge",
           "practical_application": "Meditate on celestial bodies to develop understanding of cosmic order and your relationship with the greater universe.",
-          "tags": ["samyama", "chandra", "tara", "astronomy", "stars"]
+          "tags": [
+            "samyama",
+            "chandra",
+            "tara",
+            "astronomy",
+            "stars"
+          ]
         },
         {
           "pada": 3,
@@ -1634,7 +2481,13 @@
           "hindi_meaning": "ध्रुव (तारे) पर (संयम करने से) उनकी गति का ज्ञान होता है।",
           "theme": "Knowledge of Stellar Motion",
           "practical_application": "Focus on what is fixed and stable to understand what moves. In life, anchor yourself to unchanging principles to navigate constant change.",
-          "tags": ["samyama", "dhruva", "pole-star", "gati", "movement"]
+          "tags": [
+            "samyama",
+            "dhruva",
+            "pole-star",
+            "gati",
+            "movement"
+          ]
         },
         {
           "pada": 3,
@@ -1646,7 +2499,13 @@
           "hindi_meaning": "नाभि-चक्र पर (संयम करने से) काय (शरीर) की व्यवस्था का ज्ञान होता है।",
           "theme": "Body Knowledge",
           "practical_application": "Meditate on the navel center to develop intuitive understanding of your body's systems, health, and inner workings.",
-          "tags": ["samyama", "nabhi-chakra", "kaya-vyuha", "body-knowledge", "anatomy"]
+          "tags": [
+            "samyama",
+            "nabhi-chakra",
+            "kaya-vyuha",
+            "body-knowledge",
+            "anatomy"
+          ]
         },
         {
           "pada": 3,
@@ -1658,7 +2517,14 @@
           "hindi_meaning": "कण्ठकूप (गले के गड्ढे) पर (संयम करने से) क्षुधा और पिपासा (भूख-प्यास) की निवृत्ति होती है।",
           "theme": "Mastery of Hunger and Thirst",
           "practical_application": "Practice awareness at the throat center to develop mastery over physical needs. This demonstrates the mind's power over the body.",
-          "tags": ["samyama", "kantha-kupa", "kshut", "pipasa", "hunger", "thirst"]
+          "tags": [
+            "samyama",
+            "kantha-kupa",
+            "kshut",
+            "pipasa",
+            "hunger",
+            "thirst"
+          ]
         },
         {
           "pada": 3,
@@ -1670,7 +2536,13 @@
           "hindi_meaning": "कूर्म-नाडी पर (संयम करने से) स्थैर्य (अचलता) सिद्ध होती है।",
           "theme": "Physical Steadiness",
           "practical_application": "Focus on the subtle energy channel below the throat to achieve physical and mental stillness, essential for deep meditation.",
-          "tags": ["samyama", "kurma-nadi", "sthairya", "steadiness", "stability"]
+          "tags": [
+            "samyama",
+            "kurma-nadi",
+            "sthairya",
+            "steadiness",
+            "stability"
+          ]
         },
         {
           "pada": 3,
@@ -1682,7 +2554,13 @@
           "hindi_meaning": "मूर्ध (सिर) के ज्योतिष (प्रकाश) पर (संयम करने से) सिद्धों का दर्शन होता है।",
           "theme": "Vision of Siddhas",
           "practical_application": "Meditate on the crown center to open yourself to higher guidance and the presence of enlightened beings.",
-          "tags": ["samyama", "murdha-jyotis", "siddha", "darshana", "crown-center"]
+          "tags": [
+            "samyama",
+            "murdha-jyotis",
+            "siddha",
+            "darshana",
+            "crown-center"
+          ]
         },
         {
           "pada": 3,
@@ -1694,7 +2572,13 @@
           "hindi_meaning": "प्रातिभ (सहज ज्ञान) से अथवा सब कुछ (ज्ञात हो जाता है)।",
           "theme": "Intuitive Knowledge",
           "practical_application": "Cultivate natural intuition through purity of mind. Spontaneous insight can reveal everything without systematic samyama.",
-          "tags": ["pratibha", "intuition", "sarva-jnana", "spontaneous", "insight"]
+          "tags": [
+            "pratibha",
+            "intuition",
+            "sarva-jnana",
+            "spontaneous",
+            "insight"
+          ]
         },
         {
           "pada": 3,
@@ -1706,7 +2590,13 @@
           "hindi_meaning": "हृदय पर (संयम करने से) चित्त का संवित् (ज्ञान) होता है।",
           "theme": "Knowledge of the Mind",
           "practical_application": "Meditate on the heart center for deep self-understanding. The heart is the seat of true self-knowledge in yogic tradition.",
-          "tags": ["samyama", "hridaya", "chitta-samvit", "heart", "self-knowledge"]
+          "tags": [
+            "samyama",
+            "hridaya",
+            "chitta-samvit",
+            "heart",
+            "self-knowledge"
+          ]
         },
         {
           "pada": 3,
@@ -1718,7 +2608,14 @@
           "hindi_meaning": "सत्त्व और पुरुष अत्यन्त असंकीर्ण (भिन्न) हैं; उनके प्रत्यय में अविशेष (अभेद) भोग है; परार्थत्व (पराधीनता) से स्वार्थ पर संयम करने से पुरुष-ज्ञान होता है।",
           "theme": "Knowledge of the Self",
           "practical_application": "Distinguish between pure consciousness and the mind that reflects it. This discrimination is the key to knowing your true Self.",
-          "tags": ["samyama", "sattva", "purusha", "viveka", "bhoga", "purusha-jnana"]
+          "tags": [
+            "samyama",
+            "sattva",
+            "purusha",
+            "viveka",
+            "bhoga",
+            "purusha-jnana"
+          ]
         },
         {
           "pada": 3,
@@ -1730,7 +2627,13 @@
           "hindi_meaning": "उससे प्रातिभ (सहज), श्रावण (दिव्य श्रवण), वेदना (दिव्य स्पर्श), आदर्श (दिव्य दृष्टि), आस्वाद (दिव्य रस) और वार्ता (दिव्य गन्ध) उत्पन्न होते हैं।",
           "theme": "Supernatural Senses",
           "practical_application": "As discrimination deepens, all senses become refined and transcendent. Do not seek these powers; let them arise naturally from practice.",
-          "tags": ["pratibha", "divya-shravana", "divya-sparsha", "divya-drishti", "supernatural-senses"]
+          "tags": [
+            "pratibha",
+            "divya-shravana",
+            "divya-sparsha",
+            "divya-drishti",
+            "supernatural-senses"
+          ]
         },
         {
           "pada": 3,
@@ -1742,7 +2645,14 @@
           "hindi_meaning": "ये (सिद्धियाँ) समाधि में उपसर्ग (विघ्न) हैं, किन्तु व्युत्थान (सांसारिक) अवस्था में सिद्धियाँ हैं।",
           "theme": "Siddhis as Obstacles",
           "practical_application": "Do not become attached to psychic powers. They are distractions from the ultimate goal. Stay focused on liberation, not abilities.",
-          "tags": ["siddhi", "upasarga", "obstacle", "samadhi", "vyutthana", "warning"]
+          "tags": [
+            "siddhi",
+            "upasarga",
+            "obstacle",
+            "samadhi",
+            "vyutthana",
+            "warning"
+          ]
         },
         {
           "pada": 3,
@@ -1754,7 +2664,13 @@
           "hindi_meaning": "बन्ध-कारण (बाँधने के कारण) की शिथिलता और प्रचार (मार्ग) के संवेदन से चित्त का पर-शरीर में प्रवेश होता है।",
           "theme": "Entering Another Body",
           "practical_application": "Understanding what binds consciousness to the body opens possibilities for expanded awareness. In practice, focus on loosening attachments.",
-          "tags": ["bandha-karana", "para-sharira", "avesha", "consciousness-transfer", "siddhi"]
+          "tags": [
+            "bandha-karana",
+            "para-sharira",
+            "avesha",
+            "consciousness-transfer",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1766,7 +2682,14 @@
           "hindi_meaning": "उदान-वायु पर विजय प्राप्त करने से जल, पंक (कीचड़), कण्टक (काँटों) आदि में असंग (लिप्त न होना) और उत्क्रान्ति (ऊर्ध्वगमन) होती है।",
           "theme": "Mastery of Udana",
           "practical_application": "Develop the upward-moving energy through practice. In daily life, this translates to buoyancy, lightness, and the ability to rise above difficulties.",
-          "tags": ["udana", "jaya", "levitation", "utkranti", "prana", "siddhi"]
+          "tags": [
+            "udana",
+            "jaya",
+            "levitation",
+            "utkranti",
+            "prana",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1778,7 +2701,14 @@
           "hindi_meaning": "समान-वायु पर विजय से ज्वलन (दीप्ति/तेज) प्राप्त होता है।",
           "theme": "Mastery of Samana",
           "practical_application": "Balance the digestive fire and equalizing energy through pranayama. Good digestion and radiant health follow from samana mastery.",
-          "tags": ["samana", "jaya", "jvalana", "radiance", "prana", "siddhi"]
+          "tags": [
+            "samana",
+            "jaya",
+            "jvalana",
+            "radiance",
+            "prana",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1790,7 +2720,14 @@
           "hindi_meaning": "श्रोत्र (कान) और आकाश के सम्बन्ध पर संयम करने से दिव्य श्रोत्र (दिव्य श्रवण-शक्ति) प्राप्त होती है।",
           "theme": "Divine Hearing",
           "practical_application": "Listen deeply to the silence within and around you. As inner listening deepens, subtler dimensions of sound become accessible.",
-          "tags": ["samyama", "shrotra", "akasha", "divya-shrotra", "divine-hearing", "siddhi"]
+          "tags": [
+            "samyama",
+            "shrotra",
+            "akasha",
+            "divya-shrotra",
+            "divine-hearing",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1802,7 +2739,14 @@
           "hindi_meaning": "काय (शरीर) और आकाश के सम्बन्ध पर संयम तथा लघु तूल (रूई) की समापत्ति से आकाश-गमन (आकाश में चलना) सिद्ध होता है।",
           "theme": "Traversing Space",
           "practical_application": "Contemplate the spacious nature of the body and its connection to vast space. In practice, this cultivates lightness and freedom from physical limitation.",
-          "tags": ["samyama", "kaya", "akasha", "laghu-tula", "akasha-gamana", "siddhi"]
+          "tags": [
+            "samyama",
+            "kaya",
+            "akasha",
+            "laghu-tula",
+            "akasha-gamana",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1814,7 +2758,13 @@
           "hindi_meaning": "बाह्य अकल्पित (वास्तविक) वृत्ति महाविदेहा है; उससे प्रकाश के आवरण का क्षय होता है।",
           "theme": "Great Bodiless State",
           "practical_application": "Transcend identification with the body through genuine out-of-body awareness. This removes the veil of ignorance over inner light.",
-          "tags": ["maha-videha", "akalpita", "prakasha-avarana", "bodiless", "siddhi"]
+          "tags": [
+            "maha-videha",
+            "akalpita",
+            "prakasha-avarana",
+            "bodiless",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1826,7 +2776,14 @@
           "hindi_meaning": "स्थूल, स्वरूप, सूक्ष्म, अन्वय (सम्बन्ध) और अर्थवत्त्व (प्रयोजन) पर संयम करने से भूत-जय (तत्त्वों पर विजय) होती है।",
           "theme": "Mastery of Elements",
           "practical_application": "Study the elements at every level — from gross physical to their subtle essence and purpose. Deep understanding leads to mastery.",
-          "tags": ["samyama", "bhuta-jaya", "sthula", "sukshma", "elements", "mastery"]
+          "tags": [
+            "samyama",
+            "bhuta-jaya",
+            "sthula",
+            "sukshma",
+            "elements",
+            "mastery"
+          ]
         },
         {
           "pada": 3,
@@ -1838,7 +2795,13 @@
           "hindi_meaning": "उससे अणिमा आदि (सिद्धियों) का प्रादुर्भाव, काय-सम्पत् (शारीरिक पूर्णता) और तत्-धर्मों से अनभिघात (अबाधित रहना) होता है।",
           "theme": "Eight Siddhis",
           "practical_application": "These eight classical powers arise from elemental mastery. While extraordinary, remember they are stepping stones, not the destination.",
-          "tags": ["anima", "ashta-siddhi", "kaya-sampat", "elemental-mastery", "powers"]
+          "tags": [
+            "anima",
+            "ashta-siddhi",
+            "kaya-sampat",
+            "elemental-mastery",
+            "powers"
+          ]
         },
         {
           "pada": 3,
@@ -1850,7 +2813,14 @@
           "hindi_meaning": "रूप, लावण्य (सौन्दर्य), बल और वज्र-संहननत्व (दृढ़ता) — ये काय-सम्पत् (शारीरिक सम्पदा) हैं।",
           "theme": "Bodily Perfection",
           "practical_application": "A perfected body radiates beauty, grace, strength, and resilience. These qualities naturally develop through dedicated yogic practice.",
-          "tags": ["kaya-sampat", "rupa", "lavanya", "bala", "vajra", "bodily-perfection"]
+          "tags": [
+            "kaya-sampat",
+            "rupa",
+            "lavanya",
+            "bala",
+            "vajra",
+            "bodily-perfection"
+          ]
         },
         {
           "pada": 3,
@@ -1862,7 +2832,13 @@
           "hindi_meaning": "ग्रहण, स्वरूप, अस्मिता, अन्वय और अर्थवत्त्व पर संयम करने से इन्द्रिय-जय (इन्द्रियों पर विजय) होती है।",
           "theme": "Mastery of Senses",
           "practical_application": "Examine the process of perception at every level — the act, the nature, the ego, the connection, and the purpose — to gain complete sensory mastery.",
-          "tags": ["samyama", "indriya-jaya", "grahana", "asmita", "sense-mastery"]
+          "tags": [
+            "samyama",
+            "indriya-jaya",
+            "grahana",
+            "asmita",
+            "sense-mastery"
+          ]
         },
         {
           "pada": 3,
@@ -1874,7 +2850,13 @@
           "hindi_meaning": "उससे मनोजवित्व (मन की गति), विकरणभाव (इन्द्रियों के बिना कार्य) और प्रधान-जय (प्रकृति पर विजय) होती है।",
           "theme": "Transcendent Powers",
           "practical_application": "As sensory mastery deepens, consciousness operates beyond physical limitations. These represent the pinnacle of psychic development.",
-          "tags": ["mano-javitva", "vikarana-bhava", "pradhana-jaya", "transcendent", "siddhi"]
+          "tags": [
+            "mano-javitva",
+            "vikarana-bhava",
+            "pradhana-jaya",
+            "transcendent",
+            "siddhi"
+          ]
         },
         {
           "pada": 3,
@@ -1886,7 +2868,13 @@
           "hindi_meaning": "सत्त्व और पुरुष के अन्यताख्यातिमात्र (केवल विवेक-ज्ञान) से सर्वभावाधिष्ठातृत्व (सबके ऊपर आधिपत्य) और सर्वज्ञातृत्व (सर्वज्ञता) होती है।",
           "theme": "Omniscience",
           "practical_application": "The ultimate discrimination between consciousness and nature grants mastery over all existence and all knowledge. This is viveka at its peak.",
-          "tags": ["sattva-purusha", "anyata-khyati", "omniscience", "sarva-jnatritva", "viveka"]
+          "tags": [
+            "sattva-purusha",
+            "anyata-khyati",
+            "omniscience",
+            "sarva-jnatritva",
+            "viveka"
+          ]
         },
         {
           "pada": 3,
@@ -1898,7 +2886,13 @@
           "hindi_meaning": "उसमें (सर्वज्ञता में) भी वैराग्य होने से दोष-बीज का क्षय होने पर कैवल्य (मोक्ष) होता है।",
           "theme": "Kaivalya Through Supreme Detachment",
           "practical_application": "Even the highest attainments must be released. True liberation comes only when you let go of everything, including spiritual powers and knowledge.",
-          "tags": ["vairagya", "dosha-bija", "kaivalya", "liberation", "supreme-detachment"]
+          "tags": [
+            "vairagya",
+            "dosha-bija",
+            "kaivalya",
+            "liberation",
+            "supreme-detachment"
+          ]
         },
         {
           "pada": 3,
@@ -1910,7 +2904,14 @@
           "hindi_meaning": "स्थानी (देवों) के उपनिमन्त्रण (आमन्त्रण) पर सङ्ग (आसक्ति) और स्मय (अभिमान) नहीं करना चाहिए, क्योंकि पुनः अनिष्ट प्रसंग होता है।",
           "theme": "Warning Against Pride",
           "practical_application": "Even when you receive extraordinary recognition or temptation from higher realms, maintain humility. Attachment to status or praise leads to downfall.",
-          "tags": ["sthani", "upanimantrana", "sanga", "smaya", "humility", "warning"]
+          "tags": [
+            "sthani",
+            "upanimantrana",
+            "sanga",
+            "smaya",
+            "humility",
+            "warning"
+          ]
         },
         {
           "pada": 3,
@@ -1922,7 +2923,14 @@
           "hindi_meaning": "क्षण और उसके क्रम पर संयम करने से विवेकजन्य ज्ञान उत्पन्न होता है।",
           "theme": "Discriminative Knowledge from Time",
           "practical_application": "Meditate deeply on the nature of each moment and the flow of time. This reveals the truth of impermanence and leads to liberating discrimination.",
-          "tags": ["samyama", "kshana", "krama", "viveka-ja-jnana", "time", "discrimination"]
+          "tags": [
+            "samyama",
+            "kshana",
+            "krama",
+            "viveka-ja-jnana",
+            "time",
+            "discrimination"
+          ]
         },
         {
           "pada": 3,
@@ -1934,7 +2942,14 @@
           "hindi_meaning": "जाति, लक्षण और देश से अन्यता (भेद) का अवच्छेद (निर्णय) न होने पर भी दो तुल्य (समान) वस्तुओं में उससे प्रतिपत्ति (भेद-ज्ञान) होती है।",
           "theme": "Ultimate Discrimination",
           "practical_application": "Viveka-born knowledge enables you to perceive unique distinctions even between seemingly identical things. This is the height of perceptual clarity.",
-          "tags": ["viveka", "jati", "lakshana", "desha", "discrimination", "identical"]
+          "tags": [
+            "viveka",
+            "jati",
+            "lakshana",
+            "desha",
+            "discrimination",
+            "identical"
+          ]
         },
         {
           "pada": 3,
@@ -1946,7 +2961,13 @@
           "hindi_meaning": "तारक (उद्धार करने वाला), सर्वविषय, सर्वथाविषय और अक्रम — ऐसा विवेकजन्य ज्ञान है।",
           "theme": "Liberating Knowledge",
           "practical_application": "This all-encompassing, instantaneous wisdom liberates from all bondage. It is the fruit of the entire yogic path and transcends sequential understanding.",
-          "tags": ["taraka", "viveka-ja-jnana", "sarva-vishaya", "akrama", "liberation"]
+          "tags": [
+            "taraka",
+            "viveka-ja-jnana",
+            "sarva-vishaya",
+            "akrama",
+            "liberation"
+          ]
         },
         {
           "pada": 3,
@@ -1958,7 +2979,14 @@
           "hindi_meaning": "सत्त्व और पुरुष के शुद्धि की समानता होने पर कैवल्य (मोक्ष) होता है।",
           "theme": "Kaivalya - Liberation",
           "practical_application": "When the mind becomes as pure as consciousness itself, liberation is achieved. Purify the mind through practice until no separation remains.",
-          "tags": ["kaivalya", "sattva", "purusha", "shuddhi-samya", "liberation", "equality"]
+          "tags": [
+            "kaivalya",
+            "sattva",
+            "purusha",
+            "shuddhi-samya",
+            "liberation",
+            "equality"
+          ]
         }
       ]
     },
@@ -1979,7 +3007,15 @@
           "hindi_meaning": "जन्म, औषधि, मन्त्र, तप और समाधि से सिद्धियाँ उत्पन्न होती हैं।",
           "theme": "Sources of Powers",
           "practical_application": "Powers can come from various sources, but only those from samadhi are spiritually transformative. Prioritize meditation over shortcuts.",
-          "tags": ["siddhi", "janma", "aushadhi", "mantra", "tapas", "samadhi", "sources"]
+          "tags": [
+            "siddhi",
+            "janma",
+            "aushadhi",
+            "mantra",
+            "tapas",
+            "samadhi",
+            "sources"
+          ]
         },
         {
           "pada": 4,
@@ -1991,7 +3027,13 @@
           "hindi_meaning": "एक जाति से दूसरी जाति में परिणाम (रूपान्तर) प्रकृति के आपूर (प्रवाह) से होता है।",
           "theme": "Transformation of Nature",
           "practical_application": "Fundamental transformation happens through the natural flow of prakriti. Work with nature's tendencies rather than against them for lasting change.",
-          "tags": ["jati-antara", "parinama", "prakriti", "apura", "transformation"]
+          "tags": [
+            "jati-antara",
+            "parinama",
+            "prakriti",
+            "apura",
+            "transformation"
+          ]
         },
         {
           "pada": 4,
@@ -2003,7 +3045,14 @@
           "hindi_meaning": "निमित्त (कारण) प्रकृतियों का प्रयोजक (चालक) नहीं है; वरण (बाधा) का भेद (हटाना) ही करता है, जैसे किसान (पानी की रुकावट दूर करता है)।",
           "theme": "Removing Obstacles",
           "practical_application": "You cannot force growth; you can only remove obstacles. Like a farmer who opens channels for water, clear the blocks and let nature do the rest.",
-          "tags": ["nimitta", "prakriti", "varana-bheda", "kshetrika", "obstacles", "farmer"]
+          "tags": [
+            "nimitta",
+            "prakriti",
+            "varana-bheda",
+            "kshetrika",
+            "obstacles",
+            "farmer"
+          ]
         },
         {
           "pada": 4,
@@ -2015,7 +3064,13 @@
           "hindi_meaning": "निर्माण (निर्मित) चित्त केवल अस्मिता से उत्पन्न होते हैं।",
           "theme": "Created Minds",
           "practical_application": "The ego creates multiple mental frameworks. Recognize that all constructed identities arise from the basic sense of 'I am.'",
-          "tags": ["nirmana-chitta", "asmita", "ego", "created-minds", "identity"]
+          "tags": [
+            "nirmana-chitta",
+            "asmita",
+            "ego",
+            "created-minds",
+            "identity"
+          ]
         },
         {
           "pada": 4,
@@ -2027,7 +3082,13 @@
           "hindi_meaning": "अनेक (निर्मित चित्तों) की प्रवृत्ति के भेद में प्रयोजक (चालक) चित्त एक है।",
           "theme": "One Mind Directs Many",
           "practical_application": "Among your many mental states and sub-personalities, there is one core consciousness directing all. Identify with that central awareness.",
-          "tags": ["chitta", "eka", "aneka", "prayojaka", "directing-mind"]
+          "tags": [
+            "chitta",
+            "eka",
+            "aneka",
+            "prayojaka",
+            "directing-mind"
+          ]
         },
         {
           "pada": 4,
@@ -2039,7 +3100,13 @@
           "hindi_meaning": "उनमें ध्यान से उत्पन्न (चित्त) आशय-रहित (कर्मसंस्कार से मुक्त) होता है।",
           "theme": "Meditation-Born Mind",
           "practical_application": "The mind refined by meditation does not create new karmic seeds. This is why meditation is the highest sadhana for liberation.",
-          "tags": ["dhyana", "anashaya", "karma-free", "meditation", "purification"]
+          "tags": [
+            "dhyana",
+            "anashaya",
+            "karma-free",
+            "meditation",
+            "purification"
+          ]
         },
         {
           "pada": 4,
@@ -2051,7 +3118,13 @@
           "hindi_meaning": "योगी का कर्म अशुक्ल-अकृष्ण (न सफ़ेद न काला) है; अन्यों के लिए तीन प्रकार का होता है।",
           "theme": "Karma of the Yogi",
           "practical_application": "As you advance in yoga, your actions become free from the dualities of good and bad karma. Act from pure awareness rather than desire or aversion.",
-          "tags": ["karma", "ashukla-akrishna", "yogi", "trividha", "beyond-duality"]
+          "tags": [
+            "karma",
+            "ashukla-akrishna",
+            "yogi",
+            "trividha",
+            "beyond-duality"
+          ]
         },
         {
           "pada": 4,
@@ -2063,7 +3136,13 @@
           "hindi_meaning": "उनसे उस विपाक के अनुगुण (अनुकूल) वासनाओं की ही अभिव्यक्ति होती है।",
           "theme": "Manifestation of Vasanas",
           "practical_application": "Only those tendencies manifest that match current karmic conditions. Understand that not all latent patterns are active at once.",
-          "tags": ["vasana", "vipaka", "abhivyakti", "karma", "latent-impressions"]
+          "tags": [
+            "vasana",
+            "vipaka",
+            "abhivyakti",
+            "karma",
+            "latent-impressions"
+          ]
         },
         {
           "pada": 4,
@@ -2075,7 +3154,14 @@
           "hindi_meaning": "जाति, देश और काल से व्यवहित (पृथक्) होने पर भी स्मृति और संस्कार के एकरूपत्व से आनन्तर्य (निरन्तरता) बनी रहती है।",
           "theme": "Continuity of Impressions",
           "practical_application": "Deep patterns persist across vast spans of time and circumstance. Recognize that your strongest tendencies have deep roots and require sustained effort to transform.",
-          "tags": ["jati", "desha", "kala", "smriti", "samskara", "continuity"]
+          "tags": [
+            "jati",
+            "desha",
+            "kala",
+            "smriti",
+            "samskara",
+            "continuity"
+          ]
         },
         {
           "pada": 4,
@@ -2087,7 +3173,13 @@
           "hindi_meaning": "उन (वासनाओं) का अनादित्व है, क्योंकि आशीः (जीवनेच्छा) नित्य है।",
           "theme": "Beginningless Vasanas",
           "practical_application": "The desire to exist is primordial and without beginning. Understanding this deep-rooted nature of desire helps you work with it more skillfully.",
-          "tags": ["vasana", "anaditva", "ashish", "beginningless", "desire-to-live"]
+          "tags": [
+            "vasana",
+            "anaditva",
+            "ashish",
+            "beginningless",
+            "desire-to-live"
+          ]
         },
         {
           "pada": 4,
@@ -2099,7 +3191,14 @@
           "hindi_meaning": "हेतु, फल, आश्रय और आलम्बन से संगृहीत होने के कारण, इनके अभाव में उन (वासनाओं) का अभाव होता है।",
           "theme": "Dissolution of Vasanas",
           "practical_application": "To dissolve habitual patterns, remove their causes, supports, and objects of attachment. When the conditions disappear, the habit dissolves.",
-          "tags": ["vasana", "hetu", "phala", "ashraya", "alambana", "dissolution"]
+          "tags": [
+            "vasana",
+            "hetu",
+            "phala",
+            "ashraya",
+            "alambana",
+            "dissolution"
+          ]
         },
         {
           "pada": 4,
@@ -2111,7 +3210,14 @@
           "hindi_meaning": "अतीत और अनागत स्वरूप से विद्यमान हैं; धर्मों के अध्व (काल-मार्ग) के भेद से (भिन्नता है)।",
           "theme": "Existence of Past and Future",
           "practical_application": "Past and future are not nonexistent; they exist in potential form. Understanding this helps you relate wisely to memory and anticipation.",
-          "tags": ["atita", "anagata", "svarupa", "adhva-bheda", "dharma", "time"]
+          "tags": [
+            "atita",
+            "anagata",
+            "svarupa",
+            "adhva-bheda",
+            "dharma",
+            "time"
+          ]
         },
         {
           "pada": 4,
@@ -2123,7 +3229,13 @@
           "hindi_meaning": "वे (धर्म) व्यक्त या सूक्ष्म होते हैं और गुणात्मक (गुण-स्वरूप) हैं।",
           "theme": "Nature of Properties",
           "practical_application": "All phenomena, whether visible or hidden, are expressions of the three gunas. Understanding this simplifies your view of the entire manifest world.",
-          "tags": ["vyakta", "sukshma", "guna", "atman", "properties"]
+          "tags": [
+            "vyakta",
+            "sukshma",
+            "guna",
+            "atman",
+            "properties"
+          ]
         },
         {
           "pada": 4,
@@ -2135,7 +3247,13 @@
           "hindi_meaning": "परिणाम के एकत्व (एक ही रूप में बदलना) से वस्तु की तत्त्वता (सत्यता) है।",
           "theme": "Reality of Objects",
           "practical_application": "Each object is real because it represents a unique configuration of the gunas. Respect the reality of the world while understanding its deeper nature.",
-          "tags": ["parinama", "ekatva", "vastu-tattva", "reality", "gunas"]
+          "tags": [
+            "parinama",
+            "ekatva",
+            "vastu-tattva",
+            "reality",
+            "gunas"
+          ]
         },
         {
           "pada": 4,
@@ -2147,7 +3265,13 @@
           "hindi_meaning": "वस्तु की समानता में चित्त के भेद से उन दोनों का मार्ग विभक्त (पृथक्) है।",
           "theme": "Mind and Object Are Separate",
           "practical_application": "Different people perceive the same reality differently. Your experience is filtered through your mind. Purify the mind for clearer perception.",
-          "tags": ["vastu", "chitta-bheda", "perception", "subjectivity", "separate-paths"]
+          "tags": [
+            "vastu",
+            "chitta-bheda",
+            "perception",
+            "subjectivity",
+            "separate-paths"
+          ]
         },
         {
           "pada": 4,
@@ -2159,7 +3283,13 @@
           "hindi_meaning": "वस्तु एक चित्त पर निर्भर नहीं है; यदि होती तो जब वह चित्त उसे न जानता तब वह क्या होती?",
           "theme": "Objective Reality",
           "practical_application": "The world exists independently of your perception of it. This refutes solipsism and grounds you in a shared, objective reality.",
-          "tags": ["vastu", "chitta", "objective-reality", "independent", "existence"]
+          "tags": [
+            "vastu",
+            "chitta",
+            "objective-reality",
+            "independent",
+            "existence"
+          ]
         },
         {
           "pada": 4,
@@ -2171,7 +3301,14 @@
           "hindi_meaning": "उस (वस्तु) के उपराग (प्रभाव) की अपेक्षा से चित्त के लिए वस्तु ज्ञात या अज्ञात होती है।",
           "theme": "Coloring of the Mind",
           "practical_application": "You only know what your mind attends to. Expand your awareness to perceive more of reality, and purify the mind to perceive more clearly.",
-          "tags": ["uparaga", "chitta", "jnata", "ajnata", "coloring", "perception"]
+          "tags": [
+            "uparaga",
+            "chitta",
+            "jnata",
+            "ajnata",
+            "coloring",
+            "perception"
+          ]
         },
         {
           "pada": 4,
@@ -2183,7 +3320,14 @@
           "hindi_meaning": "चित्तवृत्तियाँ सदा उसके प्रभु पुरुष को ज्ञात रहती हैं, क्योंकि पुरुष अपरिणामी (अपरिवर्तनशील) है।",
           "theme": "Unchanging Witness",
           "practical_application": "Pure consciousness witnesses all mental activity without itself being affected. Identify with this unchanging witness rather than with passing thoughts.",
-          "tags": ["purusha", "chitta-vritti", "aparinamitva", "unchanging", "witness", "awareness"]
+          "tags": [
+            "purusha",
+            "chitta-vritti",
+            "aparinamitva",
+            "unchanging",
+            "witness",
+            "awareness"
+          ]
         },
         {
           "pada": 4,
@@ -2195,7 +3339,13 @@
           "hindi_meaning": "वह (चित्त) स्वाभास (स्वप्रकाश) नहीं है, क्योंकि वह दृश्य (देखा जाने वाला) है।",
           "theme": "Mind Is Not Self-Luminous",
           "practical_application": "The mind is an instrument, not the source of awareness. It is lit by consciousness, just as the moon is lit by the sun.",
-          "tags": ["chitta", "svabhasa", "drishyatva", "not-self-luminous", "reflected-light"]
+          "tags": [
+            "chitta",
+            "svabhasa",
+            "drishyatva",
+            "not-self-luminous",
+            "reflected-light"
+          ]
         },
         {
           "pada": 4,
@@ -2207,7 +3357,13 @@
           "hindi_meaning": "एक समय में दोनों (स्वयं और विषय) का अवधारण (ग्रहण) नहीं हो सकता।",
           "theme": "Limitation of Mind",
           "practical_application": "The mind can focus on only one thing at a time. This limitation proves it is not pure consciousness. True awareness transcends this limitation.",
-          "tags": ["eka-samaya", "ubhaya", "anavadhāraṇa", "limitation", "mind"]
+          "tags": [
+            "eka-samaya",
+            "ubhaya",
+            "anavadhāraṇa",
+            "limitation",
+            "mind"
+          ]
         },
         {
           "pada": 4,
@@ -2219,7 +3375,13 @@
           "hindi_meaning": "यदि एक चित्त दूसरे चित्त से दृश्य हो तो बुद्धि की बुद्धि का अतिप्रसंग (अनन्त श्रृंखला) और स्मृति-संकर (स्मृतियों का मिश्रण) हो जायगा।",
           "theme": "Infinite Regress Argument",
           "practical_application": "There must be one unchanging awareness behind all mental activity. Logical analysis confirms the existence of a witnessing consciousness beyond the mind.",
-          "tags": ["chitta-antara", "buddhi", "atiprasanga", "infinite-regress", "smriti-sankara"]
+          "tags": [
+            "chitta-antara",
+            "buddhi",
+            "atiprasanga",
+            "infinite-regress",
+            "smriti-sankara"
+          ]
         },
         {
           "pada": 4,
@@ -2231,7 +3393,13 @@
           "hindi_meaning": "चिति (चेतन-शक्ति) की अप्रतिसंक्रमा (अपरिवर्तनशीलता) से तदाकारापत्ति (उसके आकार को धारण करना) होने पर स्वबुद्धि-संवेदन (अपनी बुद्धि का ज्ञान) होता है।",
           "theme": "Self-Knowledge",
           "practical_application": "Pure consciousness does not change but appears to take on the form of whatever it illumines. Recognize this principle to understand how self-awareness works.",
-          "tags": ["chiti", "apratisankrama", "tadakara", "sva-buddhi", "self-knowledge"]
+          "tags": [
+            "chiti",
+            "apratisankrama",
+            "tadakara",
+            "sva-buddhi",
+            "self-knowledge"
+          ]
         },
         {
           "pada": 4,
@@ -2243,7 +3411,14 @@
           "hindi_meaning": "द्रष्टा और दृश्य दोनों से उपरक्त (रंगा हुआ) चित्त सर्वार्थ (सब कुछ समझने वाला) होता है।",
           "theme": "Mind as Bridge",
           "practical_application": "The mind serves as a bridge between consciousness and the world. Its unique position allows it to reflect both, making complete understanding possible.",
-          "tags": ["chitta", "drashta", "drishya", "uparakta", "sarvartha", "bridge"]
+          "tags": [
+            "chitta",
+            "drashta",
+            "drishya",
+            "uparakta",
+            "sarvartha",
+            "bridge"
+          ]
         },
         {
           "pada": 4,
@@ -2255,7 +3430,14 @@
           "hindi_meaning": "वह (चित्त) असंख्य वासनाओं से चित्रित (विविध) होने पर भी परार्थ (पुरुष के लिए) है, क्योंकि संहत्यकारी (मिलकर कार्य करने वाला) है।",
           "theme": "Mind Serves the Self",
           "practical_application": "Despite its complexity, the mind exists to serve your liberation. Use it as a tool for awakening rather than being enslaved by its patterns.",
-          "tags": ["chitta", "vasana", "parartha", "sanhatya-karitva", "service", "purusha"]
+          "tags": [
+            "chitta",
+            "vasana",
+            "parartha",
+            "sanhatya-karitva",
+            "service",
+            "purusha"
+          ]
         },
         {
           "pada": 4,
@@ -2267,7 +3449,13 @@
           "hindi_meaning": "विशेष (आत्मा और चित्त का भेद) देखने वाले की आत्मभावभावना (अहंभावना) की निवृत्ति हो जाती है।",
           "theme": "End of Self-Contemplation",
           "practical_application": "When you truly see the difference between the Self and the mind, the seeking itself drops away. There is nothing more to figure out.",
-          "tags": ["vishesha-darshi", "atma-bhava", "bhavana", "nivritti", "discrimination"]
+          "tags": [
+            "vishesha-darshi",
+            "atma-bhava",
+            "bhavana",
+            "nivritti",
+            "discrimination"
+          ]
         },
         {
           "pada": 4,
@@ -2279,7 +3467,13 @@
           "hindi_meaning": "तब विवेक की ओर झुका हुआ, कैवल्य की ओर गतिमान चित्त होता है।",
           "theme": "Mind Gravitating to Freedom",
           "practical_application": "At an advanced stage, the mind naturally flows toward discrimination and freedom. Trust this momentum and do not create obstacles.",
-          "tags": ["viveka-nimna", "kaivalya", "pragbhara", "chitta", "natural-flow"]
+          "tags": [
+            "viveka-nimna",
+            "kaivalya",
+            "pragbhara",
+            "chitta",
+            "natural-flow"
+          ]
         },
         {
           "pada": 4,
@@ -2291,7 +3485,13 @@
           "hindi_meaning": "उसके छिद्रों (अन्तरालों) में संस्कारों से अन्य प्रत्यय (विचार) उत्पन्न होते हैं।",
           "theme": "Residual Disturbances",
           "practical_application": "Even near liberation, old patterns can resurface in moments of inattention. Remain vigilant until all impressions are fully dissolved.",
-          "tags": ["chidra", "pratyaya-antara", "samskara", "residual", "vigilance"]
+          "tags": [
+            "chidra",
+            "pratyaya-antara",
+            "samskara",
+            "residual",
+            "vigilance"
+          ]
         },
         {
           "pada": 4,
@@ -2303,7 +3503,13 @@
           "hindi_meaning": "इनका हान (नाश) क्लेशों के समान (पूर्वोक्त विधि से) कहा गया है।",
           "theme": "Removal of Residual Impressions",
           "practical_application": "Apply the same methods used to remove afflictions: discrimination, meditation, and detachment. The approach is consistent throughout the path.",
-          "tags": ["hana", "klesha", "samskara", "removal", "same-method"]
+          "tags": [
+            "hana",
+            "klesha",
+            "samskara",
+            "removal",
+            "same-method"
+          ]
         },
         {
           "pada": 4,
@@ -2315,7 +3521,14 @@
           "hindi_meaning": "प्रसंख्यान (सर्वोच्च ज्ञान) में भी अकुसीद (निस्पृह) रहने वाले को सर्वथा विवेकख्याति से धर्ममेघ समाधि प्राप्त होती है।",
           "theme": "Dharma Megha Samadhi",
           "practical_application": "When even the desire for the highest knowledge is surrendered, the Cloud of Virtue rains down supreme grace. Let go of all seeking, even spiritual seeking.",
-          "tags": ["dharma-megha", "samadhi", "prasankhyana", "akusida", "viveka-khyati", "cloud-of-virtue"]
+          "tags": [
+            "dharma-megha",
+            "samadhi",
+            "prasankhyana",
+            "akusida",
+            "viveka-khyati",
+            "cloud-of-virtue"
+          ]
         },
         {
           "pada": 4,
@@ -2327,7 +3540,13 @@
           "hindi_meaning": "उससे क्लेश और कर्म की निवृत्ति होती है।",
           "theme": "End of Afflictions and Karma",
           "practical_application": "In the state of dharma megha samadhi, all afflictions and karmic consequences come to an end. This is the beginning of absolute freedom.",
-          "tags": ["klesha-nivritti", "karma-nivritti", "cessation", "dharma-megha", "liberation"]
+          "tags": [
+            "klesha-nivritti",
+            "karma-nivritti",
+            "cessation",
+            "dharma-megha",
+            "liberation"
+          ]
         },
         {
           "pada": 4,
@@ -2339,7 +3558,14 @@
           "hindi_meaning": "तब सर्व आवरण और मल से रहित ज्ञान की अनन्तता से ज्ञेय (जानने योग्य) अल्प (कम) रह जाता है।",
           "theme": "Infinite Knowledge",
           "practical_application": "When all mental impurities are removed, knowledge becomes infinite. What seemed like a vast unknown becomes trivially small in the light of pure awareness.",
-          "tags": ["sarva-avarana", "mala", "jnana", "anantya", "jneya", "infinite-knowledge"]
+          "tags": [
+            "sarva-avarana",
+            "mala",
+            "jnana",
+            "anantya",
+            "jneya",
+            "infinite-knowledge"
+          ]
         },
         {
           "pada": 4,
@@ -2351,7 +3577,13 @@
           "hindi_meaning": "तब कृतार्थ (कार्य पूरा कर चुके) गुणों के परिणाम-क्रम की समाप्ति हो जाती है।",
           "theme": "End of Evolution",
           "practical_application": "When the gunas have served their purpose of liberating the soul, the cycle of change ceases for that individual. Nature's work is done.",
-          "tags": ["kritartha", "guna", "parinama-krama", "samapti", "end-of-evolution"]
+          "tags": [
+            "kritartha",
+            "guna",
+            "parinama-krama",
+            "samapti",
+            "end-of-evolution"
+          ]
         },
         {
           "pada": 4,
@@ -2363,7 +3595,14 @@
           "hindi_meaning": "क्षण-प्रतियोगी (क्षण के विपरीत), परिणाम के अपरान्त (अन्त) में निर्ग्राह्य (ग्रहण करने योग्य) क्रम है।",
           "theme": "Nature of Sequence",
           "practical_application": "Time and sequence are understood only at their conclusion. From the vantage point of liberation, the entire series of transformations is seen as one.",
-          "tags": ["kshana", "pratiyogi", "parinama", "aparanta", "krama", "time"]
+          "tags": [
+            "kshana",
+            "pratiyogi",
+            "parinama",
+            "aparanta",
+            "krama",
+            "time"
+          ]
         },
         {
           "pada": 4,
@@ -2375,7 +3614,15 @@
           "hindi_meaning": "पुरुषार्थ-शून्य गुणों का प्रतिप्रसव (अपने कारण में लीन होना) ही कैवल्य है, अथवा चिति-शक्ति (चेतन-शक्ति) की स्वरूपप्रतिष्ठा (अपने स्वरूप में स्थिति) कैवल्य है।",
           "theme": "Kaivalya - Absolute Liberation",
           "practical_application": "Liberation is the gunas returning to their source and consciousness resting in its own nature. This is the final goal: you are free, whole, and complete as pure awareness.",
-          "tags": ["kaivalya", "purushartha-shunya", "pratiprasava", "svarupa-pratishtha", "chiti-shakti", "liberation", "final"]
+          "tags": [
+            "kaivalya",
+            "purushartha-shunya",
+            "pratiprasava",
+            "svarupa-pratishtha",
+            "chiti-shakti",
+            "liberation",
+            "final"
+          ]
         }
       ]
     }

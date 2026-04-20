@@ -23,6 +23,9 @@ function toVerse(raw: RawVerse): Verse {
     theme: raw.theme,
     reelHook: raw.reel_hook,
     practicePrompt: raw.practice_prompt,
+    hindiMeaning: raw.hindi_meaning,
+    hindiExplanation: raw.hindi_explanation,
+    hindiExample: raw.hindi_example,
   };
 }
 
@@ -43,6 +46,8 @@ function toSutra(raw: RawSutra): Sutra {
     transliteration: raw.transliteration,
     englishTranslation: raw.english_translation,
     hindiMeaning: raw.hindi_meaning,
+    hindiExplanation: raw.hindi_explanation,
+    hindiExample: raw.hindi_example,
     theme: raw.theme,
     practicalApplication: raw.practical_application,
     practicePrompt: raw.practical_application,
