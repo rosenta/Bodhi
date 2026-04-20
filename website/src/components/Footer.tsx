@@ -36,6 +36,18 @@ export function Footer() {
             <p className="mt-1 font-serif text-sm italic text-text-tertiary">
               Built with reverence
             </p>
+            <p className="mt-3 text-[11px] uppercase tracking-[0.15em] text-text-tertiary">
+              A{" "}
+              <a
+                href="https://rosenta.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-gold hover:underline"
+              >
+                Rosenta Tech Sphere
+              </a>
+              {" "}project
+            </p>
           </div>
         </div>
       </div>
