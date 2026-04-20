@@ -24,21 +24,42 @@ const notoDevanagari = Noto_Sans_Devanagari({
   display: "swap",
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bodhi.app";
+
 export const metadata: Metadata = {
-  title: "Bodhi — Ancient Verses, Modern Clarity",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Bodhi — Ancient Verses, Modern Clarity",
+    template: "%s | Bodhi",
+  },
   description:
-    "Explore the Vivekachudamani and Yoga Sutras — 775 verses of transformative wisdom, beautifully presented for the modern seeker.",
+    "Ancient wisdom from the Vivekachudamani and Yoga Darshan — lessons, stories, and practices for modern life.",
   keywords: [
     "Vivekachudamani",
     "Yoga Sutras",
     "Advaita Vedanta",
+    "Shankaracharya",
     "Patanjali",
-    "Adi Shankaracharya",
-    "Sanskrit",
+    "Indian philosophy",
     "self-inquiry",
-    "meditation",
-    "non-duality",
   ],
+  openGraph: {
+    type: "website",
+    siteName: "Bodhi",
+    locale: "en_US",
+    url: SITE_URL,
+    title: "Bodhi — Ancient Verses, Modern Clarity",
+    description:
+      "Ancient wisdom from the Vivekachudamani and Yoga Darshan — lessons, stories, and practices for modern life.",
+    images: ["/og-default.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bodhi — Ancient Verses, Modern Clarity",
+    description:
+      "Ancient wisdom from the Vivekachudamani and Yoga Darshan — lessons, stories, and practices for modern life.",
+    images: ["/og-default.png"],
+  },
 };
 
 export default function RootLayout({

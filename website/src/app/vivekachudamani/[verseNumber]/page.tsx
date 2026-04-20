@@ -28,12 +28,36 @@ export async function generateMetadata({
   const verse = getVerseByNumber(Number(verseNumber));
 
   if (!verse) {
-    return { title: "Verse Not Found — Bodhi" };
+    return { title: "Verse Not Found" };
   }
 
+  const snippet = verse.modernInterpretation.slice(0, 50).trim();
+  const title = `Verse ${verse.verseNumber} — ${snippet}`;
+  const description =
+    verse.modernInterpretation.length > 155
+      ? `${verse.modernInterpretation.slice(0, 152).trim()}...`
+      : verse.modernInterpretation;
+  const canonical = `/vivekachudamani/${verse.verseNumber}`;
+
   return {
-    title: `Verse ${verse.verseNumber} — Vivekachudamani — Bodhi`,
-    description: verse.englishTranslation,
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      url: canonical,
+      images: ["/og-default.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/og-default.png"],
+    },
   };
 }
 

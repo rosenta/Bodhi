@@ -28,12 +28,41 @@ export async function generateMetadata({
   const sutra = getSutraByNumber(sutraNumber);
 
   if (!sutra) {
-    return { title: "Sutra Not Found — Bodhi" };
+    return { title: "Sutra Not Found" };
   }
 
+  const snippet = (sutra.practicalApplication ?? sutra.englishTranslation)
+    .slice(0, 50)
+    .trim();
+  const title = `Sutra ${sutra.sutraNumber} — ${snippet}`;
+  const descSource = `${sutra.englishTranslation} — ${
+    sutra.practicalApplication ?? ""
+  }`.trim();
+  const description =
+    descSource.length > 155
+      ? `${descSource.slice(0, 152).trim()}...`
+      : descSource;
+  const canonical = `/yoga-sutras/${sutra.sutraNumber}`;
+
   return {
-    title: `Sutra ${sutra.sutraNumber} — Yoga Darshan — Bodhi`,
-    description: sutra.englishTranslation,
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      url: canonical,
+      images: ["/og-default.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/og-default.png"],
+    },
   };
 }
 

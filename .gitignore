@@ -60,3 +60,9 @@ automation/video-gen/samples/motion/*.mp4
 # But DO keep a README in those dirs so path exists
 !automation/video-gen/output/.gitkeep
 !automation/video-gen/samples/motion/.gitkeep
+
+# ML model weights — large, downloadable, never in git
+*.onnx
+automation/video-gen/samples/voice/kokoro-models/
+automation/video-gen/samples/voice/piper-voices/
+.claude/scheduled_tasks.lock
