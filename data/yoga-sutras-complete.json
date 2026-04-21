@@ -56,7 +56,7 @@
           "sanskrit": "तदा द्रष्टुः स्वरूपेऽवस्थानम्",
           "transliteration": "tadā draṣṭuḥ svarūpe'vasthānam",
           "english_translation": "Then the Seer abides in its own true nature.",
-          "hindi_meaning": "उस समय द्रष्टा (आत्मा) की अपने स्वरूप में स्थिति हो जाती है।",
+          "hindi_meaning": "जब मन की लहरें रुकती हैं, तब द्रष्टा — यानी जो हमेशा से देख रहा है — अपने असली रूप में बस जाता है.",
           "theme": "True Nature of the Self",
           "practical_application": "When the mind is still, you experience your true self beyond thoughts and emotions. Cultivate moments of inner silence to glimpse this reality.",
           "tags": [
@@ -65,7 +65,9 @@
             "drashta",
             "witness",
             "awareness"
-          ]
+          ],
+          "hindi_explanation": "तेरे अंदर दो चीज़ें हैं. एक है मन — जो हर second कुछ न कुछ सोच रहा है. दूसरा है वो जो इस सोच को देख रहा है. आम तौर पर तू सोच के साथ बह जाता है — 'मैं angry हूँ', 'मैं sad हूँ'. पर जब लहरें रुकती हैं, तब पता चलता है — तू लहर नहीं था, तू पानी था. सोच नहीं था, देखने वाला था. यही तेरा असली रूप है. Patanjali 1.2 में बोले — लहरें रुकें. 1.3 में बोल रहे हैं — तब जो बचता है, वो तू है.",
+          "hindi_example": "आज एक छोटा experiment कर. कोई upsetting notification आई — boss का terse Slack message. पहला reaction — पेट में गाँठ, दिमाग़ में defence. अब एक second रुक. पूछ — 'ये गाँठ कौन feel कर रहा है?' जवाब नहीं चाहिए. बस सवाल. उस एक second में — वो जो feel कर रहा है और वो जो देख रहा है — अलग हो जाते हैं. यही 1.3 का taste है. पूरा नहीं, पर शुरुआत."
         },
         {
           "pada": 1,
@@ -74,7 +76,7 @@
           "sanskrit": "वृत्तिसारूप्यमितरत्र",
           "transliteration": "vṛtti-sārūpyam itaratra",
           "english_translation": "At other times, the Seer identifies with the modifications of the mind.",
-          "hindi_meaning": "दूसरे समय में द्रष्टा की वृत्ति के सदृश स्वरूप होता है अर्थात् वह चित्तवृत्ति के अनुरूप अपना स्वरूप समझता रहता है।",
+          "hindi_meaning": "बाक़ी वक़्त — यानी जब लहरें नहीं रुकतीं — द्रष्टा अपने को लहरों जैसा ही समझता रहता है.",
           "theme": "Misidentification",
           "practical_application": "Notice when you identify completely with your thoughts, emotions, or roles. That identification is the root of suffering.",
           "tags": [
@@ -82,7 +84,9 @@
             "vritti",
             "misidentification",
             "ignorance"
-          ]
+          ],
+          "hindi_explanation": "ये पिछले sutra का उल्टा है. 1.3 में — तू खुद में बस जाता है. 1.4 में — तू खुद को एक thought समझ लेता है. एक sad thought आई — तू बोला 'मैं sad हूँ'. एक angry thought आई — 'मैं angry हूँ'. ग़लत. sad thought तेरे अंदर आई, तू sad नहीं है. Patanjali इसी confusion को पूरी किताब में undo करने वाले हैं. पहला step — ये confusion है, ये notice कर.",
+          "hindi_example": "Instagram scroll कर रहा है. एक reel में कोई Goa vacation दिखा रहा है — अंदर बोला 'मैं fail हूँ, सब move on कर रहे हैं'. रुक. एक fail-feeling आई — तू fail नहीं हो गया. लहर और पानी अलग हैं. अगली बार जब ये चोट लगे — बस इतना बोल 'एक thought आई है'. 'मैं fail हूँ' नहीं. 'एक fail-thought है' — और वो भी आ-जा रही है. यही 1.4 को reverse करना है."
         },
         {
           "pada": 1,
@@ -215,7 +219,7 @@
           "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः",
           "transliteration": "abhyāsa-vairāgyābhyāṁ tan-nirodhaḥ",
           "english_translation": "The cessation of mental modifications is achieved through practice and non-attachment.",
-          "hindi_meaning": "अभ्यास और वैराग्य से उन वृत्तियों का निरोध होता है।",
+          "hindi_meaning": "मन की इन लहरों को रोकने के दो ही रास्ते हैं — अभ्यास (लगातार practice) और वैराग्य (चीज़ों से खिंचाव छोड़ना). दोनों साथ.",
           "theme": "Practice and Detachment",
           "practical_application": "Combine consistent daily practice with letting go of attachment to outcomes. These two together form the complete path.",
           "tags": [
@@ -224,7 +228,9 @@
             "practice",
             "detachment",
             "nirodha"
-          ]
+          ],
+          "hindi_explanation": "Patanjali पूरी किताब की सबसे practical बात यहाँ दे रहे हैं. मन को control करने के एक हज़ार tricks नहीं हैं. सिर्फ़ दो. अभ्यास — यानी रोज़ बैठ, रोज़ कर, बिना नतीजे की चिंता के. और वैराग्य — यानी जो मिला उससे चिपक मत, जो नहीं मिला उसके पीछे पागल मत हो. ये दोनों एक bird के दो पंख हैं. एक से उड़ नहीं सकता. सिर्फ़ अभ्यास — robot बन जाएगा. सिर्फ़ वैराग्य — lazy cynic बन जाएगा.",
+          "hindi_example": "सुबह 6 बजे की meditation अभ्यास है — रोज़ बैठ, Monday भी, Sunday भी, hangover के बाद भी. वैराग्य ये है कि bangalore वाले दोस्त को promotion मिला — WhatsApp में genuine 'congrats' bhej, और फिर अपने काम पर वापस. खिंचाव नहीं. दोनों एक साथ चाहिए. office जा, 100% दे — अभ्यास. promotion मिले तो celebrate, न मिले तो ठीक है — वैराग्य. दो पंख."
         },
         {
           "pada": 1,
@@ -250,7 +256,7 @@
           "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
           "transliteration": "sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍha-bhūmiḥ",
           "english_translation": "That practice becomes firmly grounded when continued for a long time, without interruption, and with devotion.",
-          "hindi_meaning": "वह अभ्यास बहुत काल तक निरन्तर श्रद्धापूर्वक सेवन किया जाने पर दृढ़भूमि वाला होता है।",
+          "hindi_meaning": "वो अभ्यास तभी मज़बूत ज़मीन पर खड़ा होता है जब लंबे वक़्त तक, बिना टूटे, और पूरी श्रद्धा से किया जाए.",
           "theme": "Establishing Practice",
           "practical_application": "Be patient with your practice. True transformation requires long-term dedication, regularity, and genuine respect for the process.",
           "tags": [
@@ -259,7 +265,9 @@
             "consistency",
             "long-term",
             "persistence"
-          ]
+          ],
+          "hindi_explanation": "तीन शर्तें हैं. एक — लंबा time. हफ़्ते नहीं, साल. दो — बिना गैप. Monday-Tuesday-Wednesday, फिर Thursday छोड़ा — पूरा reset हो गया. तीन — श्रद्धा, मतलब casually नहीं. जैसे bank में EMI कटती है — automatically, बिना मूड देखे. आज-कल के gym memberships ऐसे ही मरते हैं. January में josh, February में बहाने, March में छूट गया. Patanjali बोल रहे हैं — जिस दिन तू 30-second shortcut ढूँढना बंद करेगा, उस दिन असली practice शुरू होगी.",
+          "hindi_example": "दो साल से हर सुबह 6:15 बजे तू 15 minute बैठता है. कभी-कभी दो-तीन minute में ही उठ जाता है, कभी अच्छा लगता है. पर बैठता रोज़ है. कोई result नहीं दिख रहा, किसी को बताया भी नहीं. फिर एक Tuesday — office में कोई senior अचानक cutting remark मारता है. पहले तू एक घंटे boil करता. आज — दो minute irritated, फिर चला गया. यही दो साल का असली dividend है. silent compound interest."
         },
         {
           "pada": 1,
@@ -304,7 +312,7 @@
           "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्सम्प्रज्ञातः",
           "transliteration": "vitarka-vicārānandāsmitā-rūpānugamāt samprajñātaḥ",
           "english_translation": "Samprajnata samadhi is accompanied by reasoning, reflection, bliss, and a sense of pure being.",
-          "hindi_meaning": "वितर्क, विचार, आनन्द और अस्मिता — इन रूपों के अनुगत होने से सम्प्रज्ञात (समाधि) होती है।",
+          "hindi_meaning": "Samprajnata समाधि — यानी जिसमें चेतना अभी object के साथ है — चार stages से होकर जाती है: vitarka (सीधा सोचना), vichara (subtle reflection), ananda (अंदर की ख़ुशी), और asmita (बस 'मैं हूँ' का feel).",
           "theme": "Samprajnata Samadhi",
           "practical_application": "In deep meditation, notice the progressive stages: first thoughts settle, then subtler reflection, then bliss, then pure existence alone remains.",
           "tags": [
@@ -314,7 +322,9 @@
             "vichara",
             "ananda",
             "asmita"
-          ]
+          ],
+          "hindi_explanation": "समाधि कोई एक चीज़ नहीं है — layers हैं. पहले तू किसी चीज़ पर mind रखता है — एक मूर्ति, एक mantra, एक breath. शुरू में सोच चलती है — 'ये कैसा दिख रहा है', 'क्या मतलब है' — ये vitarka. फिर subtle होता है, सूक्ष्म वजह और nature समझ में आती है — vichara. फिर एक अजीब-सी शांति की ख़ुशी आती है — ananda. फिर बस एक feel बचता है — 'मैं हूँ' — asmita. Patanjali mapping कर रहे हैं कि अंदर जाते-जाते stations ऐसे आते हैं.",
+          "hindi_example": "इसे rough modern form में सोच — तू किसी problem पर deep focus में है. पहले analytical सोच — 'X है, Y है'. फिर subtle insight — 'असल में ये Z से जुड़ा है'. फिर एक quiet satisfaction — 'ठीक है, हल निकल रहा है'. फिर बस एक calm alertness — कोई सोच नहीं, बस तू और काम. ये समाधि नहीं है पर इसका शहरी echo है. असली version में object meditation का होता है, पर ladder का shape same है."
         },
         {
           "pada": 1,
@@ -358,7 +368,7 @@
           "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
           "transliteration": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
           "english_translation": "For others, samadhi is preceded by faith, energy, memory, concentration, and wisdom.",
-          "hindi_meaning": "दूसरे (साधक) पुरुषों की समाधि श्रद्धा, वीर्य, स्मृति, समाधि और प्रज्ञा के पूर्वक होती है।",
+          "hindi_meaning": "बाक़ी लोगों के लिए — यानी जो सीधे वैराग्य से नहीं पहुँच सकते — समाधि पाँच steps पर टिकती है: श्रद्धा, वीर्य (energy), स्मृति (याद), समाधि, और प्रज्ञा (समझ).",
           "theme": "Means to Samadhi",
           "practical_application": "Cultivate faith in the path, energetic commitment, mindful awareness, focused concentration, and discriminative wisdom as the progressive steps.",
           "tags": [
@@ -368,7 +378,9 @@
             "samadhi",
             "prajna",
             "means"
-          ]
+          ],
+          "hindi_explanation": "ज़्यादातर लोग एक झटके में नहीं पहुँचेंगे. उनके लिए Patanjali ladder बता रहे हैं. पहले श्रद्धा — मतलब एक basic trust कि ये रास्ता real है. बिना इसके energy नहीं आएगी. फिर वीर्य — जुट जाना, daily effort. फिर स्मृति — यानी जो सीखा उसे hold करना, भूलना नहीं. फिर समाधि — focus की capacity. फिर प्रज्ञा — असली समझ. एक के बाद एक. नीचे वाला missing है तो ऊपर वाला नहीं आएगा.",
+          "hindi_example": "कोई दोस्त fitness में transform हुआ. तूने पूछा 'कैसे?' उसने बोला — पहले मैंने mann मे trust बनाया कि ये काम करेगा (श्रद्धा). फिर रोज़ 5 बजे उठा (वीर्य). फिर जो coach ने सिखाया हर rep में याद रखा (स्मृति). फिर workout में पूरा घुसा, phone नहीं (समाधि). एक साल में body खुद बताने लगी क्या चाहिए (प्रज्ञा). यही सीढ़ी है. spiritual भी same है."
         },
         {
           "pada": 1,
@@ -412,7 +424,7 @@
           "sanskrit": "ईश्वरप्रणिधानाद्वा",
           "transliteration": "īśvara-praṇidhānād vā",
           "english_translation": "Or, samadhi is attained through devotion and surrender to God.",
-          "hindi_meaning": "ईश्वर की शरणागति से भी (समाधि सिद्ध होती है)।",
+          "hindi_meaning": "या फिर — ईश्वर के प्रति समर्पण से भी समाधि मिल जाती है.",
           "theme": "Surrender to God",
           "practical_application": "Complete surrender to a higher power is an alternative and powerful path. Release the ego's need for control and trust in divine grace.",
           "tags": [
@@ -421,7 +433,9 @@
             "devotion",
             "god",
             "bhakti"
-          ]
+          ],
+          "hindi_explanation": "Patanjali दो रास्ते बता चुके हैं — अभ्यास-वैराग्य (1.12), और ये पाँच steps (1.20). अब एक तीसरा रास्ता — सीधा surrender. मतलब कि 'मैं सब control नहीं कर सकता' — ये मान ले. अपनी हर थकी cosmos को Ishvara के पास रख दे. ये religious बात नहीं है ज़रूरी — इसका practical मतलब है कि ego का कुछ हिस्सा नीचे रख. जो mere control freak है उसके लिए ये सबसे कठिन रास्ता है, और सबसे ज़रूरी भी.",
+          "hindi_example": "तेरी माँ की report आने वाली है, अगले हफ़्ते. तू दो रात से नहीं सोया — Google, WhatsApp forwards, worst case scenarios. रुक. एक रात बस इतना कर — बिस्तर पर लेट, और अंदर कह 'जो होगा, handle कर लूँगा, पर अभी मैं ये बोझ छोड़ रहा हूँ'. नाम जो भी दे — Ishvara, universe, life. उस एक रात की नींद अलग आएगी. यही surrender की झलक है. पूरा नहीं, पर यही दरवाज़ा है."
         },
         {
           "pada": 1,
@@ -579,7 +593,7 @@
           "sanskrit": "तत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
           "transliteration": "tat-pratiṣedhārtham eka-tattvābhyāsaḥ",
           "english_translation": "To prevent these obstacles, one should practice concentration on a single principle.",
-          "hindi_meaning": "उन विक्षेपों के प्रतिषेध (निवारण) के लिए एक तत्त्व का अभ्यास करना चाहिए।",
+          "hindi_meaning": "इन विक्षेपों — distractions — को रोकने के लिए एक ही तत्त्व पर mind टिकाने का अभ्यास करना चाहिए.",
           "theme": "One-Pointed Focus",
           "practical_application": "Choose one meditation object and stick with it. Scattered practice on many techniques is less effective than devoted focus on one.",
           "tags": [
@@ -588,7 +602,9 @@
             "concentration",
             "remedy",
             "obstacles"
-          ]
+          ],
+          "hindi_explanation": "पिछले sutras में Patanjali ने बताया कि distractions क्या हैं — बीमारी, आलस, doubt, फ़ालतू जोश, बीच में ड्रॉप करना, misperception. इन सबका इलाज एक है — एक चीज़ पकड़, उस पर रुक. mind को buffet नहीं, एक thali दे. सुबह एक breath. दोपहर एक mantra. रात एक candle. कोई भी object — पर एक. ये सीधी बात है पर आज के zamane में सबसे मुश्किल — क्योंकि हर app का काम ही तेरा attention तोड़ना है.",
+          "hindi_example": "Sunday सुबह तूने सोचा 'आज काम पकड़ूँगा'. पहले coffee. Coffee के साथ Instagram. एक Reel. फिर WhatsApp. एक group में debate. फिर YouTube एक video. 11 बज गए, कुछ नहीं हुआ. ये विक्षेप है. अब एक तत्त्व चुन — एक task. phone दूसरे कमरे. 90 minute सिर्फ़ वो. जब mind भागे — वापस ला. एक बार. दो बार. पचास बार. Patanjali का eka-tattva का सीधा modern version."
         },
         {
           "pada": 1,
@@ -618,7 +634,7 @@
           "sanskrit": "प्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
           "transliteration": "pracchardana-vidhāraṇābhyāṁ vā prāṇasya",
           "english_translation": "Or, mental calmness is attained through the regulation of exhalation and retention of breath.",
-          "hindi_meaning": "प्राण के प्रच्छर्दन (बाहर छोड़ने) और विधारण (रोकने) से भी (चित्त स्थिर होता है)।",
+          "hindi_meaning": "या फिर — साँस को बाहर छोड़कर, और थोड़ी देर रोककर — इस abhyas से भी मन स्थिर होता है.",
           "theme": "Pranayama for Mental Calm",
           "practical_application": "Use slow, deliberate exhaling and breath retention as immediate tools to calm an agitated mind.",
           "tags": [
@@ -627,7 +643,9 @@
             "exhalation",
             "retention",
             "calming"
-          ]
+          ],
+          "hindi_explanation": "Patanjali बार-बार options दे रहे हैं क्योंकि हर mind अलग है. किसी के लिए mantra, किसी के लिए surrender, और यहाँ — साँस. वजह simple है. mind और breath जुड़े हैं. गुस्से में साँस shallow, fast. शांति में साँस गहरी, धीमी. तू mind को सीधे touch नहीं कर सकता — पर साँस को touch कर सकता है. खासकर exhale — लंबा, पूरा, और अंत में एक pause. ये signal जाता है nervous system को — 'सब safe है'. mind फिर खुद settle होता है.",
+          "hindi_example": "दोपहर 3 बजे एक tough call के बाद hands काँप रहे हैं. chair पर बैठ. नाक से धीरे साँस बाहर छोड़ — जितना लंबा हो सके. फिर एक-दो second पूरा खाली रह — कोई साँस नहीं. फिर natural inhale. ये cycle 4-5 बार. दो minute भी नहीं लगते. hands रुक जाएँगे. ये 1.34 है. phone नहीं, app नहीं, बस exhale और pause."
         },
         {
           "pada": 1,
@@ -744,7 +762,7 @@
           "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
           "transliteration": "kṣīṇa-vṛtter abhijātasyeva maṇer grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā samāpattiḥ",
           "english_translation": "When the mental modifications are weakened, the mind, like a transparent crystal, takes on the color of the knower, the knowing, and the known — this is called samapatti (absorption).",
-          "hindi_meaning": "क्षीणवृत्ति वाले चित्त की ग्रहीता, ग्रहण और ग्राह्य में तत्स्थ-तदञ्जनता (उसमें स्थित होकर उसके रूप हो जाना) — निर्मल मणि के सदृश — समापत्ति है।",
+          "hindi_meaning": "जब मन की लहरें बहुत कम हो जाती हैं, तब mind एक साफ़ crystal की तरह हो जाता है — जिसके सामने जो चीज़ आती है, उसी का रंग ले लेता है. देखने वाला, देखने की process, और देखी जा रही चीज़ — तीनों में mind उसी का रूप हो जाता है. यही समापत्ति है.",
           "theme": "Samapatti (Absorption)",
           "practical_application": "In deep concentration, the distinction between you, the act of knowing, and the object dissolves. Cultivate this crystal-clear absorption.",
           "tags": [
@@ -754,7 +772,9 @@
             "grahita",
             "grahana",
             "grahya"
-          ]
+          ],
+          "hindi_explanation": "साफ़ crystal table पर रखो. लाल कपड़े के पास — crystal लाल लगेगा. नीले के पास — नीला. crystal का खुद का कोई रंग नहीं होता जब वो साफ़ हो. mind ऐसा ही है जब लहरें शांत हों. अभी तेरे mind पर इतनी पुरानी छापें हैं कि जो चीज़ सामने आती है, तू उसे अपने रंग से देख लेता है. पर साफ़ mind — वो object को वैसा ही देखता है जैसा वो है. ये समापत्ति का पहला लक्षण है — mind का object में मिल जाना, distortion के बिना.",
+          "hindi_example": "सोच — तू किसी नए colleague से मिला. अगर mind bias से भरा है, तू उसके बारे में पहले 30 second में 10 conclusions निकाल लेगा — LinkedIn देखा, accent notice किया, पूरी story बना ली. साफ़ crystal-mind वाला बस सुनेगा. सामने वाला जो है — वही दिखेगा. अपनी पुरानी film उस पर project नहीं होगी. यही रोज़मर्रा का samapatti का taste है — बाक़ी meditation में object पर होता है."
         },
         {
           "pada": 1,
@@ -763,7 +783,7 @@
           "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः सङ्कीर्णा सवितर्का समापत्तिः",
           "transliteration": "tatra śabdārtha-jñāna-vikalpaiḥ saṅkīrṇā savitarkā samāpattiḥ",
           "english_translation": "Savitarka samapatti is the absorption mixed with verbal and conceptual knowledge of the object.",
-          "hindi_meaning": "उनमें शब्द, अर्थ और ज्ञान के विकल्पों से संकीर्ण (मिश्रित) समापत्ति सवितर्का है।",
+          "hindi_meaning": "उस समापत्ति में — जब object के साथ उसका नाम, उसका मतलब, और उसका ज्ञान — तीनों मिले-जुले हों — उसे सवितर्का समापत्ति बोलते हैं.",
           "theme": "Savitarka Samapatti",
           "practical_application": "In early stages of deep focus, words, meanings, and concepts still intermingle. Notice this mixture without forcing it away.",
           "tags": [
@@ -773,7 +793,9 @@
             "artha",
             "jnana",
             "conceptual"
-          ]
+          ],
+          "hindi_explanation": "सवितर्का का मतलब है — 'vitarka के साथ', यानी अभी भी शब्द और सोच घुसे हैं. माने तू जब किसी चीज़ पर focus करता है, तो उसका नाम साथ में आता है, उसका मतलब साथ में आता है, और तेरी उसके बारे में समझ साथ में आती है. ये तीनों एक साथ घूमते हैं. ये पहली stage है, अभी पूरी shuddhi नहीं हुई. यहाँ thought अभी है, पर focused है. एक गुलाब पर meditate कर रहे हो — 'गुलाब' शब्द भी है, गुलाब का मतलब भी है, गुलाब के बारे में जो पढ़ा-देखा है वो भी है. सब blend.",
+          "hindi_example": "Japa कर रहा है — 'राम-राम-राम'. अभी 'राम' शब्द भी है, राम का मतलब भी है तेरे अंदर, और राम के बारे में जो कहानियाँ सुनी हैं वो भी हैं. ये तीनों साथ चल रहे हैं. यही savitarka है. ये पहला step है — शब्द अभी टूटा नहीं है. Patanjali अगले sutra (1.43) में बताएँगे कि जब ये तीनों अलग हो जाते हैं, क्या होता है. अभी बस इतना — focus है पर mixed है."
         },
         {
           "pada": 1,
@@ -782,7 +804,7 @@
           "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
           "transliteration": "smṛti-pariśuddhau svarūpa-śūnyevārtha-mātra-nirbhāsā nirvitarkā",
           "english_translation": "When memory is purified and the mind shines forth as the object alone, devoid of its own form, it is nirvitarka samapatti.",
-          "hindi_meaning": "स्मृति की परिशुद्धि होने पर, जब अपने स्वरूप से शून्य-सी होकर अर्थमात्र प्रकाशित होती है, वह निर्वितर्का (समापत्ति) है।",
+          "hindi_meaning": "जब memory पूरी तरह साफ़ हो जाती है और mind अपना form छोड़कर सिर्फ़ object का ही प्रकाश बन जाता है — वही निर्वितर्का समापत्ति है.",
           "theme": "Nirvitarka Samapatti",
           "practical_application": "As meditation deepens, conceptual labels drop away and pure direct experience of the object remains. Allow this natural unfolding.",
           "tags": [
@@ -791,7 +813,9 @@
             "smriti",
             "purification",
             "direct-experience"
-          ]
+          ],
+          "hindi_explanation": "1.42 की अगली stage. पहले शब्द, मतलब, और ज्ञान सब मिले थे. अब memory — यानी पुरानी associations — साफ़ हो गईं. अब सिर्फ़ object है, शब्द नहीं. सिर्फ़ गुलाब है — 'गुलाब' नाम नहीं. सीधा experience, बिना language की layer के. ये बहुत rare moment है. ज़्यादातर वक़्त हम चीज़ों को नाम से मिलते हैं, directly नहीं. जब नाम हटता है, चीज़ पहली बार दिखती है. baby जैसे देखती है — बिना category के.",
+          "hindi_example": "कभी hue है — sunset देख रहा है, और दो second के लिए कोई सोच नहीं — न 'कितना सुंदर है', न 'photo लूँ', न 'कल बताऊँगा'. बस रंग और तू. और उन दो second में 'तू' भी slightly dissolve. ये rough civilian glimpse है. real nirvitarka meditation में steady होता है, seconds नहीं — लंबा. पर taste same है — नाम की दीवार गिरना. इसे 1.42-1.51 का सबसे technical zone माना जाता है, rough modern analogy ही दे पा रहा हूँ."
         },
         {
           "pada": 1,
@@ -926,7 +950,7 @@
           "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
           "transliteration": "tasyāpi nirodhe sarva-nirodhān nirbījaḥ samādhiḥ",
           "english_translation": "When even that impression is suppressed, with the suppression of all modifications, seedless (nirbija) samadhi is attained.",
-          "hindi_meaning": "उसका भी निरोध हो जाने पर सर्व (वृत्तियों) के निरोध से निर्बीज समाधि होती है।",
+          "hindi_meaning": "जब उस आख़िरी छाप का भी निरोध हो जाता है, तब सब कुछ थम जाता है — यही निर्बीज (बिना बीज वाली) समाधि है.",
           "theme": "Nirbija Samadhi",
           "practical_application": "The ultimate state transcends even spiritual impressions. True liberation is the complete cessation of all mental seeds, a state beyond all conditions.",
           "tags": [
@@ -936,7 +960,9 @@
             "nirodha",
             "liberation",
             "kaivalya"
-          ]
+          ],
+          "hindi_explanation": "ये पूरी किताब के Samadhi Pada का आख़िरी sutra है. Patanjali layer by layer उठे हैं. पहले लहरें. फिर सूक्ष्म लहरें. फिर object वाली समाधि. फिर object भी छूटी, पर एक छाप बची कि 'मैं शांत हूँ'. अब वो छाप भी गई. कोई बीज नहीं बचा जिससे नई लहर उगे. ये end station है. यहाँ कोई दिशा नहीं, कोई subject-object नहीं, कोई 'मैंने पाया' नहीं. बस है. ये किताबी description है — experience से कोई और बताए. rough पहचान — जब जानने वाला भी घुल जाए.",
+          "hindi_example": "इसका रोज़मर्रा का example ईमानदारी से मिलना मुश्किल है — क्योंकि ये लगभग हर दुनियावी चीज़ के पार है. पर closest hint — deep dreamless sleep. उसमें 'तू' नहीं है, 'कुछ हो रहा है' ये feeling भी नहीं है. पर सुबह तू refreshed उठता है. मतलब कुछ था. नींद unconscious है, निर्बीज समाधि conscious. फिर भी — 'कुछ नहीं' का एक taste नींद देती है. इससे आगे केवल direct experience बताता है."
         }
       ]
     },
@@ -954,7 +980,7 @@
           "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः",
           "transliteration": "tapaḥ-svādhyāyeśvara-praṇidhānāni kriyā-yogaḥ",
           "english_translation": "Austerity, self-study, and surrender to God constitute Kriya Yoga.",
-          "hindi_meaning": "तप, स्वाध्याय और ईश्वरप्रणिधान — ये क्रियायोग हैं।",
+          "hindi_meaning": "तप (अनुशासन), स्वाध्याय (खुद का अध्ययन), और ईश्वर-प्रणिधान (समर्पण) — ये तीन मिलकर क्रिया-योग हैं.",
           "theme": "Kriya Yoga",
           "practical_application": "Integrate these three in daily life: disciplined effort, self-reflection through study, and humble surrender to a higher purpose.",
           "tags": [
@@ -963,7 +989,9 @@
             "svadhyaya",
             "ishvara-pranidhana",
             "practice"
-          ]
+          ],
+          "hindi_explanation": "Patanjali Sadhana Pada का पहला sutra है. पूरी practice का foundation. तीन चीज़ें — तप मतलब कुछ मुश्किल काम जो तू रोज़ पकड़ता है, आराम छोड़कर. स्वाध्याय मतलब खुद को पढ़ना — diary, reflection, किताबें जो mirror दिखाएँ. ईश्वर-प्रणिधान मतलब — हर काम का result अपने पास नहीं रखना, छोड़ देना. तीनों एक साथ ज़रूरी हैं. सिर्फ़ तप — rigid हो जाएगा. सिर्फ़ स्वाध्याय — सोच में अटक जाएगा. सिर्फ़ surrender — lazy bhakti हो जाएगी.",
+          "hindi_example": "तेरी रोज़ की practice ऐसी दिख सकती है. सुबह 5:30 — cold shower और 20 minute silent बैठना (तप). रात 10:30 — 10 minute journal, आज क्या trigger हुआ, क्यों, कौन सा klesha था (स्वाध्याय). सोने से पहले एक line — 'जो होगा, ठीक है' (ईश्वर-प्रणिधान). तीनों मिलकर 45 minute. ये क्रिया-योग है, असली काम — meeting से पहले और meeting के बाद."
         },
         {
           "pada": 2,
@@ -1051,7 +1079,7 @@
           "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
           "transliteration": "dṛg-darśana-śaktyor ekātmatevāsmitā",
           "english_translation": "Egoism is the identification of the Seer with the instrument of seeing.",
-          "hindi_meaning": "दृक् (द्रष्टा) और दर्शन (बुद्धि) शक्तियों की एकात्मता जैसी प्रतीति अस्मिता है।",
+          "hindi_meaning": "जो देखने वाला है (पुरुष) और जिससे वो देखता है (बुद्धि, mind) — दोनों को एक समझ लेना, यही अस्मिता है.",
           "theme": "Egoism (Asmita)",
           "practical_application": "Notice when you confuse pure awareness with the thinking mind. You are not your thoughts, intellect, or personality.",
           "tags": [
@@ -1061,7 +1089,9 @@
             "drig",
             "darshana",
             "seer-seen"
-          ]
+          ],
+          "hindi_explanation": "अस्मिता यानी ego, पर ego का thick definition. तेरे अंदर एक देखने वाला है, और एक instrument है जिससे वो देखता है — mind, intellect, memory. असली तू है देखने वाला. पर हर वक़्त तू instrument को ही खुद समझ लेता है. तेरा sharp brain कुछ solve कर गया — तू बोला 'मैं smart हूँ'. तेरा brain fog है एक दिन — तू बोला 'मैं dumb हूँ'. दोनों ग़लत. brain tool है, तू tool नहीं है. अस्मिता यही confusion है — हथौड़ी को 'मैं' समझ लेना.",
+          "hindi_example": "आज office में presentation नहीं चली. boss ने public में बोला 'ये depth नहीं है'. तू तीन दिन तक down है. रुक और देख — क्या hurt हुआ? एक skill की critique थी — 'आज का deck weak था'. पर तूने उसे convert कर दिया 'मैं weak हूँ'. skill तू नहीं है. skill एक tool है जिसे तू use करता है. ये अलगाव — tool और तू — करना अस्मिता से निकलना है. easier said than done, पर यहीं से शुरू."
         },
         {
           "pada": 2,
@@ -1219,7 +1249,7 @@
           "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
           "transliteration": "pariṇāma-tāpa-saṁskāra-duḥkhair guṇa-vṛtti-virodhāc ca duḥkham eva sarvaṁ vivekinaḥ",
           "english_translation": "To the discerning one, everything is indeed suffering, due to the pain of change, anxiety, and latent impressions, and the conflict among the gunas.",
-          "hindi_meaning": "परिणाम, ताप, संस्कार तथा गुणवृत्तियों के विरोध के कारण विवेकी के लिए सब कुछ दुःख ही है।",
+          "hindi_meaning": "बदलाव का दर्द, अंदर की बेचैनी, पुरानी छापें, और अंदर की गुणों की आपसी खींचातानी — इन सबकी वजह से समझदार को हर चीज़ में आख़िर में दुःख ही दिखता है.",
           "theme": "Universal Suffering for the Wise",
           "practical_application": "Develop viveka (discrimination) to see through the illusion of lasting pleasure. This realization is not pessimism but the foundation for genuine freedom.",
           "tags": [
@@ -1230,7 +1260,9 @@
             "guna",
             "viveka",
             "suffering"
-          ]
+          ],
+          "hindi_explanation": "ये sutra cynical नहीं है, sharp है. Patanjali बोल रहे हैं — जिसको थोड़ी भी समझ आ गई है, वो देख लेता है कि कोई भी pleasure permanent नहीं. चार reasons. एक — parinama, सब बदलता है, जो आज ख़ुश कर रहा है कल नहीं. दो — tapa, पाने के बाद खोने का डर. तीन — samskara, हर experience एक छाप छोड़ जाता है जो आगे trigger बनेगी. चार — गुणों की अंदर की खींचातानी, mind कभी settle नहीं होता. ये pessimism नहीं, realism है. इसी realization से असली vairagya उगता है.",
+          "hindi_example": "तू 6 साल से promotion के पीछे भाग रहा था. आख़िर मिला. salary double. पहले दो हफ़्ते ख़ुशी. फिर — नया boss demanding, नए peers politics, नए responsibilities की चिंता. और अंदर एक नया target बनना शुरू — Director level. जो promotion सुख था, वो अब starting point है नए दुःख का. Patanjali यही बोल रहे हैं. सुख टिकता नहीं. पीछा बदलता नहीं. जब ये दिखे — तब असली सवाल शुरू होते हैं."
         },
         {
           "pada": 2,
@@ -1462,7 +1494,7 @@
           "sanskrit": "योगाङ्गानुष्ठानादशुद्धिक्षये ज्ञानदीप्तिराविवेकख्यातेः",
           "transliteration": "yogāṅgānuṣṭhānād aśuddhi-kṣaye jñāna-dīptir ā viveka-khyāteḥ",
           "english_translation": "Through the practice of the limbs of Yoga, as impurities are destroyed, the light of knowledge shines forth to discriminative wisdom.",
-          "hindi_meaning": "योग के अङ्गों के अनुष्ठान से अशुद्धि का क्षय होने पर ज्ञान का प्रकाश विवेकख्याति तक दीप्त होता है।",
+          "hindi_meaning": "योग के आठ अंगों का लगातार अनुष्ठान करने से — अंदर की गंदगी घटती है, और ज्ञान का प्रकाश बढ़ता जाता है — विवेक की चमक तक.",
           "theme": "Eight Limbs Introduction",
           "practical_application": "Practice all eight limbs of yoga systematically. As impurities diminish, the light of wisdom naturally increases.",
           "tags": [
@@ -1471,7 +1503,9 @@
             "ashuddhi-kshaya",
             "jnana-dipti",
             "viveka-khyati"
-          ]
+          ],
+          "hindi_explanation": "Patanjali यहाँ एक beautiful process बता रहे हैं. आठ limbs — yama से समाधि तक — करते जा. promise क्या है? कि हर limb अंदर की एक layer साफ़ करता है. जैसे lamp का chimney — जब गंदा हो, light धुँधली. साफ़ करो — light वैसी ही है, पर अब पूरी दिखती है. practice light नहीं बनाती, वो पहले से अंदर है. practice सिर्फ़ obstacles हटाती है. आख़िर में विवेक — यानी असली और नक़ली में फ़र्क़ करने की clarity.",
+          "hindi_example": "तूने 6 महीने से yama में एक — satya — पकड़ा है. छोटे झूठ पकड़ने शुरू किए. फिर niyama में santosha — comparison थोड़ा कम हुआ. फिर asana, regular बैठना. फिर breath. हर layer पर mind थोड़ा साफ़ होता गया. और एक दिन — कोई पुराना trigger आया, पर तेरा response अलग. पहले reactive, अब pause. ये light बढ़ रही है. कोई miracle नहीं, बस chimney साफ़ हो रहा है."
         },
         {
           "pada": 2,
@@ -1480,7 +1514,7 @@
           "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
           "transliteration": "yama-niyamāsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv aṅgāni",
           "english_translation": "The eight limbs of Yoga are: yama, niyama, asana, pranayama, pratyahara, dharana, dhyana, and samadhi.",
-          "hindi_meaning": "यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि — ये आठ अङ्ग हैं।",
+          "hindi_meaning": "यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि — ये योग के आठ अंग हैं.",
           "theme": "Eight Limbs of Yoga",
           "practical_application": "Integrate all eight limbs into your life: ethical conduct, personal discipline, posture, breath control, sense withdrawal, concentration, meditation, and absorption.",
           "tags": [
@@ -1493,7 +1527,9 @@
             "dharana",
             "dhyana",
             "samadhi"
-          ]
+          ],
+          "hindi_explanation": "ये किताब का skeleton है. आठ limbs. पहले दो — yama और niyama — ethical foundation, कैसे जिएँ. फिर asana — body. फिर pranayama — breath. फिर pratyahara — senses को अंदर खींचना. फिर dharana — concentration. फिर dhyana — meditation का flow. फिर समाधि — absorption. seq मायने रखती है. आम ग़लती है कि लोग सीधे dhyana से शुरू करते हैं — पर yama-niyama के बिना वो सिर्फ़ breathing exercise है. ये ladder है, एक rung छोड़कर ऊपर नहीं पहुँच सकते.",
+          "hindi_example": "एक दोस्त 10 दिन Vipassana से आया. दो हफ़्ते बहुत शांत. तीसरे हफ़्ते office में traffic में वही चीख-पुकार. क्यों? क्योंकि retreat पर dhyana part किया, yama-niyama पर daily काम नहीं हुआ. असली sequence है — रोज़ झूठ कम बोल (satya, yama), रोज़ संतोष (niyama), रोज़ बैठना सीख (asana), साँस (pranayama). तब dhyana टिकता है. सीधे समाधि app नहीं है."
         },
         {
           "pada": 2,
@@ -1559,7 +1595,7 @@
           "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
           "transliteration": "vitarka-bādhane pratipakṣa-bhāvanam",
           "english_translation": "When disturbed by negative thoughts, one should cultivate the opposite.",
-          "hindi_meaning": "विपरीत (अयोग्य) विचारों द्वारा बाधा होने पर प्रतिपक्ष (विपरीत) भावना करनी चाहिए।",
+          "hindi_meaning": "जब उलटे (negative) विचार mann को तंग करें, तो उनके विपरीत विचार — pratipaksha — जानबूझकर उगाने चाहिए.",
           "theme": "Cultivating the Opposite",
           "practical_application": "When anger arises, cultivate compassion. When greed appears, practice generosity. Always counter negative patterns with their positive opposites.",
           "tags": [
@@ -1568,7 +1604,9 @@
             "vitarka",
             "negative-thoughts",
             "remedy"
-          ]
+          ],
+          "hindi_explanation": "ये technique है, theory नहीं. रात को mind में एक ज़हरीला thought आया — 'वो मुझे पसंद नहीं करता, वो मुझे ख़त्म कर देगा'. Patanjali बोल रहे हैं — इससे लड़ मत, इसे दबा भी मत, बस उलटा बो. consciously उस आदमी के लिए एक अच्छी बात याद कर, एक moment जब उसने help की थी. ये pretend नहीं है — ये balancing है. mind एक garden है, और जो negative seed अभी पड़ा, उसके साथ एक counter-seed डाल. दोनों उगेंगे, पर अब mind biased नहीं है एक तरफ़. धीरे-धीरे negative की जड़ कमज़ोर होगी.",
+          "hindi_example": "रात 1 बजे, सोने से पहले, mind में वो cousin आता है जिसने Diwali पर insult किया था. गुस्सा उमड़ा. सोच रहा है 'वो selfish है, मैंने इतना किया था उसके लिए'. रुक. pratipaksha-bhavana. consciously एक moment याद कर जब उसने कुछ अच्छा किया — 7 साल पहले तेरे fever में रात भर जागा था. ये भी सच है. दोनों रख. गुस्सा पूरा नहीं जाएगा, पर 50% गिरेगा. नींद बेहतर आएगी. ये ancient CBT है."
         },
         {
           "pada": 2,
@@ -1596,7 +1634,7 @@
           "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
           "transliteration": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
           "english_translation": "When non-violence is firmly established, hostility ceases in the presence of that one.",
-          "hindi_meaning": "अहिंसा में प्रतिष्ठा होने पर उसके सान्निध्य में (सभी प्राणियों का) वैर-त्याग हो जाता है।",
+          "hindi_meaning": "जब अहिंसा अंदर पक्की हो जाती है, तो उसके साथ के आस-पास दुश्मनी अपने-आप छूट जाती है.",
           "theme": "Power of Non-Violence",
           "practical_application": "Cultivate such deep non-violence that even hostile beings feel peace in your presence. This transforms your environment.",
           "tags": [
@@ -1605,7 +1643,9 @@
             "vaira-tyaga",
             "peace",
             "siddhi"
-          ]
+          ],
+          "hindi_explanation": "ये मुश्किल दावा है पर practical है. अहिंसा सिर्फ़ 'मारना नहीं' नहीं है — कठोर शब्द, sarcasm, दूसरे को minimise करना — ये सब सूक्ष्म हिंसा है. जब तू सालों तक इनको छोड़ता जाता है, तो एक वक़्त आता है कि तेरी presence ही अलग feel होने लगती है. लोग तेरे पास आकर soften हो जाते हैं. दुश्मन भी. इसका मतलब magic नहीं — मतलब है कि अगर तू हमेशा threat नहीं है, तो दूसरे की defences भी drop होती हैं. ये siddhi है, पर cause-effect clean है.",
+          "hindi_example": "तेरे office में एक colleague है जो हमेशा sharp comments मारती थी तुझ पर. तूने दो साल तक सीख ली कि वापस नहीं मारना है — reply polite, काम निभाना, gossip में नहीं जाना, behind the back कुछ नहीं कहना. पहले छह महीने — वो और आक्रामक. फिर धीरे-धीरे neutral. फिर एक दिन वो खुद आई — 'तुम्हारी patience मुझे seekh रही है'. ये film moment नहीं है — patterns टूटते हैं जब एक तरफ़ से fuel ख़त्म हो जाता है."
         },
         {
           "pada": 2,
@@ -1724,7 +1764,7 @@
           "sanskrit": "सन्तोषादनुत्तमसुखलाभः",
           "transliteration": "santoṣād anuttama-sukha-lābhaḥ",
           "english_translation": "From contentment, unsurpassed happiness is gained.",
-          "hindi_meaning": "सन्तोष से अनुत्तम (सर्वोत्तम) सुख की प्राप्ति होती है।",
+          "hindi_meaning": "संतोष — यानी जो है उसमें ठीक रहना — इससे वो ख़ुशी मिलती है जिसके आगे कोई ख़ुशी नहीं होती.",
           "theme": "Fruit of Contentment",
           "practical_application": "Practice gratitude and contentment with what you have. This simple shift of attitude brings the greatest happiness available.",
           "tags": [
@@ -1733,7 +1773,9 @@
             "happiness",
             "sukha",
             "gratitude"
-          ]
+          ],
+          "hindi_explanation": "Patanjali बहुत sharp बात कर रहे हैं. ज़्यादातर ख़ुशियाँ conditional हैं — ये मिले तो ख़ुश, वो मिले तो ख़ुश. हर condition पूरी होने का intrinsic catch है — अगली condition पैदा हो जाती है. संतोष इस loop को तोड़ता है. जो है, ठीक है — यहाँ से शुरू कर. ये resignation नहीं है, काम मत कर नहीं बोल रहे. काम कर, पर tie मत हो result से. जब ये settle हो जाता है, तो एक ख़ुशी आती है जो किसी condition पर नहीं टिकी. इसलिए 'अनुत्तम' — जिसके ऊपर कुछ नहीं.",
+          "hindi_example": "तू और तेरा college friend — उसने 4 crore का flat ले लिया Bandra में, तूने अभी 1BHK rent में है. Instagram पर उसकी housewarming देखी. पहला punch — 'मैं पीछे हूँ'. रुक. तेरी 1BHK में तेरी health ठीक है, बिस्तर पर एक किताब है जो तुझे पसंद है, rent manageable है. ये पाँच सच हैं. उसके 4 crore में भी उसकी अपनी pressures होंगी. जो है, उसको पहले देख. वहाँ एक छोटी ख़ुशी है जो comparisons के बाहर है. यही संतोष की पहली झलक है."
         },
         {
           "pada": 2,
@@ -1795,7 +1837,7 @@
           "sanskrit": "स्थिरसुखमासनम्",
           "transliteration": "sthira-sukham āsanam",
           "english_translation": "Posture should be steady and comfortable.",
-          "hindi_meaning": "स्थिर और सुखपूर्वक बैठना आसन है।",
+          "hindi_meaning": "आसन वही है जो स्थिर हो और सुखद हो — दोनों एक साथ.",
           "theme": "Asana",
           "practical_application": "Find a seated position that is both stable and comfortable for meditation. The purpose of asana is to support inner practice, not to show off flexibility.",
           "tags": [
@@ -1805,7 +1847,9 @@
             "posture",
             "stability",
             "comfort"
-          ]
+          ],
+          "hindi_explanation": "आज के zamane में 'yoga asana' मतलब Instagram पर advanced poses — head stand, one-arm plank. Patanjali की definition इससे हज़ारों साल पुरानी है और बिल्कुल अलग. दो criteria. एक — स्थिर, यानी बिना हिले बैठ सकें. दो — सुखद, यानी कोई दर्द नहीं, कोई strain नहीं. original context में asana मतलब meditation के लिए बैठने का तरीक़ा. अगर तू 20 minute comfortable नहीं बैठ सकता, pranayama/dharana/dhyana नहीं आएँगे. इसलिए ये step छोटा नहीं है.",
+          "hindi_example": "आज सुबह 10 minute बैठने की कोशिश की. पहले crosslegged floor पर — 4 minute में घुटना दर्द. फिर chair पर — back झुकी, neck तनी. रुक. experiment कर — cushion ऊँचा रख, back seedhi पर आराम से, कंधे drop, jaw loose. 10 minute आराम से. कल फिर. Patanjali यही बोल रहे हैं. impressive pose नहीं चाहिए — एक ऐसी position चाहिए जो तुझे भूल जाए, ताकि mind पर काम कर सके."
         },
         {
           "pada": 2,
@@ -1814,7 +1858,7 @@
           "sanskrit": "प्रयत्नशैथिल्यानन्तसमापत्तिभ्याम्",
           "transliteration": "prayatna-śaithilyānanta-samāpattibhyām",
           "english_translation": "Asana is perfected by relaxation of effort and meditation on the infinite.",
-          "hindi_meaning": "प्रयत्न की शिथिलता और अनन्त में समापत्ति (ध्यान) से (आसन सिद्ध होता है)।",
+          "hindi_meaning": "आसन तब सिद्ध होता है जब effort ढीला हो और mind अनंत में घुल जाए.",
           "theme": "Perfecting Asana",
           "practical_application": "Release excessive effort in your posture and let your mind expand into boundlessness. Ease and spaciousness perfect your seat.",
           "tags": [
@@ -1823,7 +1867,9 @@
             "ananta",
             "relaxation",
             "effortlessness"
-          ]
+          ],
+          "hindi_explanation": "ये अगला step है. 2.46 में basic था — स्थिर और सुखद. 2.47 में refinement. दो moves. एक — prayatna-shaithilya, effort को ढीला कर. शुरू में muscles tight होती हैं, तू 'hold' कर रहा है. धीरे-धीरे सीख कि gravity तुझे बैठा रही है, तू नहीं. दो — अनंत में mind रख. क्षितिज, आकाश, sea — कोई open endless चीज़. जब mind अनंत पर जाता है, body अपना टेंशन छोड़ती है. body और mind loop में हैं — कोई भी ढीला हो, दूसरा follow करता है.",
+          "hindi_example": "पाँचवें हफ़्ते तू रोज़ बैठ रहा है. कंधे अभी भी थोड़े ऊँचे रहते हैं — तू hold कर रहा है unconsciously. एक दिन try कर — बैठते ही, mind को खुले समुंदर पर रख, क्षितिज की line imagine कर. उसके साथ कंधे drop. साँस automatic deepen. effort 40% कम, steadiness 40% ज़्यादा. ये contradiction नहीं है — यही 2.47 है."
         },
         {
           "pada": 2,
@@ -1850,7 +1896,7 @@
           "sanskrit": "तस्मिन्सति श्वासप्रश्वासयोर्गतिविच्छेदः प्राणायामः",
           "transliteration": "tasmin sati śvāsa-praśvāsayor gati-vicchedaḥ prāṇāyāmaḥ",
           "english_translation": "When the posture is steady, pranayama is the regulation of the incoming and outgoing breath.",
-          "hindi_meaning": "उस (आसन) के सिद्ध होने पर श्वास-प्रश्वास की गति का विच्छेद (नियमन) प्राणायाम है।",
+          "hindi_meaning": "जब आसन sthir हो जाए, तब साँस-प्रश्वास की जो natural गति है — उसको सोचकर break करना, यही प्राणायाम है.",
           "theme": "Pranayama",
           "practical_application": "Only when posture is stable should you practice breath regulation. Pranayama bridges the physical and mental dimensions of yoga.",
           "tags": [
@@ -1859,7 +1905,9 @@
             "prashvasa",
             "breath-regulation",
             "asana-prerequisite"
-          ]
+          ],
+          "hindi_explanation": "Patanjali ने एक sequence रखी है. पहले asana, फिर pranayama. क्यों? क्योंकि अगर तू बैठ नहीं सकता, साँस पर काम नहीं होगा. अब definition sharp है — 'gati-vichchheda'. साँस automatic चलती है — inhale, exhale, inhale. pranayama इस automatic pattern में conscious break डालना है. कहाँ? inhale के बाद, exhale के बाद, बीच में. modern pranayama techniques — anulom-vilom, bhastrika, kapal-bhati — सब इसी principle के variations हैं. core idea — automaticity को तोड़ो, awareness डालो.",
+          "hindi_example": "office के एक tough call के बाद — 3 बजे. chair पर बैठ, spine seedha (asana से). अब — natural inhale. ऊपर पूरी साँस आने के बाद, एक second रुक. exhale पूरी बाहर. बाहर एक-दो second रुक. फिर inhale. यही gati-vichchheda है — natural flow में conscious pauses. पाँच rounds. nervous system reset हो जाता है. ये 2.49 का सबसे simplest entry है."
         },
         {
           "pada": 2,
@@ -1906,7 +1954,7 @@
           "sanskrit": "ततः क्षीयते प्रकाशावरणम्",
           "transliteration": "tataḥ kṣīyate prakāśāvaraṇam",
           "english_translation": "From that, the covering over the inner light is destroyed.",
-          "hindi_meaning": "उससे प्रकाश (ज्ञान) के आवरण का क्षय होता है।",
+          "hindi_meaning": "प्राणायाम से — जो अंदर के प्रकाश पर पड़ा हुआ ढक्कन है — वो घटता जाता है.",
           "theme": "Removal of Ignorance",
           "practical_application": "Regular pranayama practice removes the veil over your inner light. The clarity that emerges supports deeper meditation.",
           "tags": [
@@ -1916,7 +1964,9 @@
             "kshaya",
             "inner-light",
             "purification"
-          ]
+          ],
+          "hindi_explanation": "metaphor simple है. अंदर एक lamp है. उस पर सालों की धूल, film, soot. light वैसी की वैसी है — पर बाहर धुँधली दिखती है. pranayama क्या करता है? इस covering को पतला करता है. हर conscious breath एक हल्का सा wipe है. Patanjali promise कर रहे हैं — ये mechanical नहीं है, ये काम करता है. क्यों? क्योंकि breath और prana जुड़े हैं, prana और mind जुड़े हैं, mind और perception जुड़े हैं. breath पर एक handle है जिससे तू इस पूरी chain को touch कर सकता है.",
+          "hindi_example": "छह महीने regular pranayama का एक observation — सुबह office जाते वक़्त जो traffic की चिढ़ आती थी, वो slightly कम है. ये बड़ी spiritual realization नहीं है. पर ये covering का पतला होना है. पहले एक thick layer थी — reaction instant, automatic. अब एक thin gap है — reaction से पहले एक micro-second. उस gap में choice possible है. ये 2.52 का daily proof है — कोई light show नहीं, बस एक पतला gap."
         },
         {
           "pada": 2,
