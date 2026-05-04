@@ -11,6 +11,11 @@ export interface Story {
   readonly theme: string;
   readonly mood: string;
   readonly content: string;
+  readonly hindi?: {
+    readonly title: string;
+    readonly setting: string;
+    readonly content: string;
+  };
 }
 
 const STORIES_DIR = join(process.cwd(), "..", "content", "stories");
@@ -44,6 +49,20 @@ function parseFrontmatter(raw: string): {
   return { meta, content: match[2].trim() };
 }
 
+function readHindiSidecar(slug: string): Story["hindi"] {
+  try {
+    const raw = readFileSync(join(STORIES_DIR, `${slug}.hi.md`), "utf-8");
+    const { meta, content } = parseFrontmatter(raw);
+    return {
+      title: meta.title || "",
+      setting: meta.setting || "",
+      content,
+    };
+  } catch {
+    return undefined;
+  }
+}
+
 function fileToStory(filename: string): Story {
   const raw = readFileSync(join(STORIES_DIR, filename), "utf-8");
   const { meta, content } = parseFrontmatter(raw);
@@ -64,12 +83,15 @@ function fileToStory(filename: string): Story {
     theme: meta.theme || "",
     mood: meta.mood || "",
     content,
+    hindi: readHindiSidecar(slug),
   };
 }
 
 export function getAllStories(): readonly Story[] {
   try {
-    const files = readdirSync(STORIES_DIR).filter((f) => f.endsWith(".md"));
+    const files = readdirSync(STORIES_DIR).filter(
+      (f) => f.endsWith(".md") && !f.endsWith(".hi.md")
+    );
     return files.map(fileToStory).sort((a, b) => a.story - b.story);
   } catch {
     return [];

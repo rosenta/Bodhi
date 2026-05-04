@@ -10,65 +10,67 @@ mood: "Yearning, exhaustion, fragile hope"
 
 # The Arrival
 
-The man who knelt at the edge of the river had won everything.
+The man who knelt at the edge of the river had won everything, and he had come here to lose it.
 
-He had graduated at the top of his class. He had built a company that six hundred people depended on. He had a wife who was kind, children who were healthy, a house that strangers photographed from the street. His name appeared in magazines. His calendar was booked three months in advance. By every measure the world offered, he was complete.
+He was forty-one. Top of his class once. A company of six hundred under his name. A wife who was still kind to him, a daughter who still laughed in his presence, a house strangers photographed from the sidewalk. His calendar was booked three months out. By every measure the world bothered to keep, he was full.
 
-And yet.
+The trouble was that he wasn't.
 
-There was a hollowness behind his ribs that no achievement could fill. It had started as a whisper -- a faint wrongness, like wearing someone else's clothes. Over the years it had grown louder. He would sit in board meetings and watch his own mouth move, forming words about revenue projections, and think: *Who is speaking? Who is this man?* At night, after the house went quiet and his wife's breathing settled into its slow rhythm, he would lie awake and stare at the ceiling, and the question would press against his chest like a stone.
+It had begun small. A wrongness, somewhere under the ribs. The feeling of wearing a coat cut for someone else. In meetings he would watch his own mouth making the necessary shapes around the necessary numbers, and a small voice behind his eyes would ask, mildly, as if about a stranger: *who is that?* At night, when the house settled and his wife's breath found its sleeping rhythm, the voice would get louder. It would sit on his chest like a cat that refused to be shooed.
 
-*What is all of this for?*
+*What is this all for?*
 
-He had tried everything. Therapy. Meditation apps. A silent retreat in the mountains where he had sat cross-legged for ten days and felt nothing but his knees screaming. He had read the philosophers, the psychologists, the poets. He had optimized his sleep, his diet, his morning routine. Each fix held for a week, maybe two, before the hollowness returned -- larger now, as if it had been fed by his attempts to fill it.
+He had tried the standard medicines. Therapy. An app that chimed at him to breathe. A silent retreat in the mountains where for ten days he sat on a cushion and listened mostly to his own knees. Philosophers. Psychologists. Poets with good publicists. He optimized his sleep and his diet and the first eleven minutes of his morning. Each fix held for a week. Then the hollowness would come back, bigger than before, as if it had been feeding on his attempts to starve it.
 
-The breaking point came on a Tuesday. He was eating lunch at his desk, scrolling through emails, when a notification appeared: his college roommate had died. Heart attack. Forty-three years old. He put down his fork and stared at the screen, and something inside him cracked open -- not grief, exactly, but a terrible clarity. He thought: *I have been given something impossibly rare, and I am wasting it.*
+What broke him was a Tuesday and a small push notification. His college roommate. Heart attack. Forty-three. He was at his desk with a fork halfway to his mouth and the world simply went flat. Not grief, not yet. Something colder and more useful: *I have been given something rare, and I am spending it on nothing.*
 
-*Among living beings, human birth is rare; rarer still is the desire for knowledge; rarer than that is discrimination between Self and not-Self.* The verse had come to him from somewhere deep -- perhaps from a book his grandmother had pressed into his hands years ago, a slim volume with a cracked spine. He had never opened it. Now its words echoed in him like a bell struck in an empty room.
+*Among living beings, human birth is rare; rarer still is the desire for knowledge; rarer than that, the discrimination between the Self and the not-Self.*
 
-He sold nothing. He quit nothing. He simply told his wife he needed to go, and she looked at him with eyes that said she had been waiting for him to say it. He flew across an ocean. He took a bus to a town that was not on any map his phone recognized. He walked for two days along a river, following directions given by a farmer who pointed upstream and said, "The old one lives where the mangoes grow."
+The words came from nowhere he could name — a slim book with a cracked spine his grandmother had pressed into his hands a decade ago, which he had never opened, which had been waiting on a shelf like a door. The verse rang in him now the way a bell rings in an empty room: once, and for a long time after.
 
-And now he knelt.
+He sold nothing. He quit nothing. He simply told his wife he had to go. She looked at him with the steady, unsurprised eyes of a woman who had been waiting years for this sentence. He flew across an ocean. He took a bus to a town his phone could not locate. He walked two days along a river, following a farmer's raised arm. *Upstream. The old one lives where the mangoes grow.*
 
-The ashram was not what he had imagined. No marble halls. No incense. Just a clearing beneath ancient trees, a small hut with a thatched roof, and a fire pit where embers still glowed from the morning offering. The river moved beside it in a slow green braid. Birds he could not name called from the canopy.
+And now: the river, and the kneeling.
 
-The Guru was sitting on a flat stone near the water, eyes closed, so still he might have been carved from the same rock. He was old -- how old, the man could not tell. His hair was white and his skin was dark and deeply lined, and there was something about his stillness that made the air around him feel thick and clean, the way the world feels after rain.
+The ashram was nothing he had pictured. No marble. No incense. A clearing under old trees. A hut with a thatched roof going soft at one corner. A fire pit where morning embers still worked at their slow red arithmetic. The river ran past it in a green braid. Somewhere in the canopy a bird kept asking a question he couldn't answer.
 
-The man waited. Minutes passed. The river spoke. A leaf fell and landed on the Guru's shoulder and he did not move.
+The Guru sat on a flat stone by the water. Eyes closed. So still he could have been part of the stone. He was old — the disciple couldn't say how old. White hair. Dark skin, finely lined like a map folded and refolded. There was something in his stillness that made the air feel scrubbed, the way air feels after rain.
+
+A leaf fell and landed on the old man's shoulder. He did not move.
 
 Then the eyes opened.
 
-They were not what the man expected. He had expected warmth, maybe, or that vacant gentleness he had seen in the eyes of wellness influencers. These eyes were different. They were clear and sharp and absolutely unafraid, and they looked at him the way a surgeon looks at an X-ray -- not with judgment, but with a precision that saw through skin and muscle to the bone beneath.
+They were not what the disciple had braced for. Not the soft-focus gentleness of wellness posters. These eyes were clean and sharp and entirely without fear. They looked at him the way a surgeon looks at an X-ray — no judgment, only a precision that went past skin and muscle to whatever lay under the bone.
 
-"You have come a long way," the Guru said. His voice was quiet, unhurried, as if time were a river he had stepped out of.
+"You have come a long way," the Guru said. The voice was unhurried, as if time were a river he had already stepped out of.
 
 "I have."
 
 "Why?"
 
-The man opened his mouth to give the speech he had rehearsed on the plane -- about meaning, about purpose, about the emptiness that success could not touch. But the words dissolved before they reached his tongue. Instead, what came out was rawer and truer than anything he had planned.
+The disciple had rehearsed a speech on the plane. Something about meaning. About purpose. About the way success fails to touch the thing inside you that keeps asking. The speech dissolved on his tongue. What came out was rougher and smaller and truer.
 
-"I don't know what I am," he said. "I don't know what binds me. I don't know how it started. I don't know how to be free." His voice cracked. "I don't know the difference between what is real and what I have been pretending. I have spent my whole life building something, and I cannot tell if any of it is mine."
+"I don't know what I am. I don't know what binds me, or when it started, or how to be free of it." His voice went thin. "I can't tell the difference between what is real and what I've been pretending. I have spent my whole life building something, and I cannot tell if any of it is mine."
 
-*What is bondage? How did it arise? How does it persist? How can one be free? What is the not-Self? What is the Supreme Self? And how does one discriminate between them?*
+*What is bondage? How did it arise? How does it persist? How can one be free? What is the not-Self? What is the Supreme Self? How does one tell them apart?*
 
-The questions of the disciple in the ancient text -- he did not know he was quoting them. They came from a place older than memory.
+The questions of the disciple in the ancient text. He did not know he was quoting. The words came up from some place older than his memory of himself.
 
-The Guru looked at him for a long time. The river moved. The embers crackled.
+The Guru looked at him a long time. The river moved. The embers clicked.
 
-Then the old man did something the disciple did not expect. He smiled -- not a comforting smile, not a pitying one, but the smile of someone who recognizes a guest they have been expecting.
+Then the old man smiled. It was not a comforting smile, and not a pitying one. It was the smile of a host who recognizes, on the doorstep, the guest he has been expecting since morning.
 
 "Good," the Guru said. "You have brought the only thing worth bringing."
 
-"What is that?"
+"What."
 
-"The willingness to not know."
+"The willingness not to know."
 
-The Guru stood, slowly, and gestured toward the hut. "Come. Sit. You are not the first to arrive here broken, and the path that those before you walked still exists." He paused at the doorway and looked back, and for a moment his eyes held something infinite -- a depth that made the man's chest ache with a recognition he could not name.
+The old man stood, slowly, and turned toward the hut. "Come. Sit. You are not the first to arrive here broken. The path those before you walked is still here." At the doorway he paused and looked back, and for one held instant his eyes held something the disciple could not meet — a depth that made his chest ache with a recognition he had no language for.
 
-"But I will warn you," the Guru said. "What you are looking for will cost you everything you think you are."
+"I will warn you," the Guru said. "What you are looking for will cost you everything you think you are."
 
-The man who had won everything looked at the Guru, and at the small hut, and at the river running green and ancient beside them. He thought of his corner office, his tailored shirts, the name on the building.
+The man who had won everything looked at the old man, and at the small hut, and at the river running green and ancient past them both. He thought of the corner office. The tailored shirts. The name on the building.
 
 "I know," he said.
 
