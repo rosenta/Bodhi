@@ -1,0 +1,84 @@
+{
+  "rendered": [
+    {
+      "story": "story-001-the-arrival",
+      "version": "v4",
+      "path": "blender/renders/story-001/v4.png",
+      "public_path": "website/public/illustrations/story-001-the-arrival.png",
+      "rendered_at": "2026-05-03",
+      "qa_results": {
+        "figure_on_visible_bank": "PASS — foreground reads as earth/ground; figure stands on solid bank",
+        "river_as_bounded_band": "PASS — water visible as a mid-frame band only (Y=5–15), not a flooded plain",
+        "river_not_flooding_foreground": "PASS — v3 regression fixed; no reflections under figure/trees in foreground",
+        "figure_dark_silhouette_25_35pct": "PASS — dark form preserved from v2/v3, no regression",
+        "dawn_sky_atmosphere": "PASS — warm peach-rose haze, AgX look preserved",
+        "trees_hut_on_far_bank": "PASS — trees and hut visible beyond water on far bank",
+        "v3_wins_not_regressed": "PASS — river still visible; camera/figure/atmosphere unchanged"
+      },
+      "qa_notes": "River reads as a bounded body of water with visible near bank. Figure on solid ground in foreground, reflective river band in mid-frame, far bank with trees/hut beyond. Correct composition.",
+      "promoted_to_public": true
+    },
+    {
+      "story": "story-001-the-arrival",
+      "version": "v5",
+      "path": "blender/renders/story-001/v5.png",
+      "public_path": "website/public/illustrations/story-001-the-arrival.png",
+      "rendered_at": "2026-05-03",
+      "qa_results": {
+        "figure_not_snowman": "PASS at render time — CC0 GLB imported, reads as human form",
+        "figure_on_visible_bank": "PASS",
+        "river_as_bounded_band": "PASS",
+        "dawn_sky_atmosphere": "PASS",
+        "trees_hut_on_far_bank": "PASS"
+      },
+      "qa_notes": "DEMOTED after user review. The Three.js Soldier asset reads as a standing zombie/militant figure with arms outstretched — wrong mood entirely for a contemplative devotee. Asset-fit failure: the Soldier's rifle-stance silhouette cannot be overcome by bone rotation. v6 supersedes v5.",
+      "promoted_to_public": false,
+      "demoted_reason": "Asset-fit failure: Three.js Soldier reads as militant/zombie, not contemplative. Banned for devotional scenes."
+    },
+    {
+      "story": "story-001-the-arrival",
+      "version": "v6",
+      "path": "blender/renders/story-001/v6.png",
+      "public_path": "website/public/illustrations/story-001-the-arrival.png",
+      "rendered_at": "2026-05-03",
+      "qa_results": {
+        "figure_still_not_zombie": "PASS — cone torso + sphere head + legs block reads as a still, seated/kneeling dark figure",
+        "figure_small_and_bowed": "PASS — figure occupies ~25-28% frame height; head slightly forward; compact seated posture",
+        "one_readable_shape": "PASS — cone+head silhouette reads as single unified human shape, no competing limbs",
+        "figure_on_visible_bank": "PASS — v4 bank preserved; figure on solid ground",
+        "river_as_bounded_band": "PASS — river band still visible in mid-frame",
+        "dawn_sky_atmosphere": "PASS — warm peach-rose haze, AgX look preserved",
+        "trees_hut_on_far_bank": "PASS — visible beyond river on far bank",
+        "v4_wins_not_regressed": "PASS — all v4 environmental elements unchanged"
+      },
+      "qa_notes": "Cone torso (wide shoulders, narrows to neck) + small sphere head (r=0.14) + flat legs block. The tapered-cone torso eliminates the snowman problem: wide base (shoulders) narrowing to a small sphere (head) is the classic seated human silhouette. No arms = no zombie. Figure reads as a still, small, contemplative dark shape at the riverbank at dawn. PROMOTED to public path.",
+      "promoted_to_public": true,
+      "figure_approach": "Primitive-built: cone torso + sphere head + legs block. No imported assets.",
+      "permanent_rule_added": "Three.js Soldier BANNED for contemplative scenes. Asset-fit QA rule added to cto-media.md."
+    }
+  ],
+  "failed": [],
+  "pending": [
+    "story-002-the-rope-and-the-snake",
+    "story-003-peeling-the-onion",
+    "story-004-the-question-that-broke-everything",
+    "story-005-spring-returns",
+    "story-006-the-five-rooms",
+    "story-007-the-wife-at-the-threshold"
+  ],
+  "in_progress": [],
+  "archive_paths": {
+    "story-001-v1": "blender/renders/story-001/v1.png",
+    "story-001-v2": "blender/renders/story-001/v2.png",
+    "story-001-v3": "blender/renders/story-001/v3.png",
+    "story-001-v4": "blender/renders/story-001/v4.png",
+    "story-001-v5": "blender/renders/story-001/v5.png",
+    "story-001-v6": "blender/renders/story-001/v6.png"
+  },
+  "gates": {
+    "user_approved_v1_of_story_001": false,
+    "note": "v6 promoted to public path. Cone torso figure replaces Soldier GLB (v5 demoted — asset-fit failure). Pending user sign-off to unlock stories 002-007 batch render."
+  },
+  "last_cycle": "2026-05-03",
+  "cycles_completed": 6
+}
